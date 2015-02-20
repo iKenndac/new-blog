@@ -1,0 +1,22 @@
+---
+title: Home
+---
+<% sorted_articles.each_with_index do |post, index| %>
+
+<% if index == 0 %>
+<section id="one">
+<% else %>
+<section>
+<% end %>
+	<div class="container">
+		<header class="major">
+			<h4><%= get_pretty_date(post) %></h4>
+			<h2><%= link_to post[:title], post.path %></h2>
+		</header>
+		<article>
+			<%= get_post_start(post) %>
+		</article>
+	</div>
+</section>
+
+<% end %>

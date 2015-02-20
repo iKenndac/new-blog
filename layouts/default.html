@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<!--
+  Read Only by HTML5 UP
+  html5up.net | @n33co
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+  <head>
+    <title>Daniel Kennett - <%= @item[:title] %></title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <link rel="stylesheet" href="/styles/skel.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1680px)" href="/styles/style-xlarge.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1280px)" href="/styles/style-large.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="/styles/style-medium.css" />
+    <link rel="stylesheet" media="screen and (max-width: 736px)" href="/styles/style-small.css" />
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="/styles/style-xsmall.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+
+    <% if @item[:extra_stylesheets]
+        @item[:extra_stylesheets].each do |css|
+    %>
+        <link rel="stylesheet" type="text/css" href="/styles/<%= css %>">
+    <%  end
+      end 
+      if @item[:scripts]
+        @item[:scripts].each do |js|
+    %>
+        <script src="/scripts/<%= js %>"></script>
+    <%  end
+      end  %>
+  </head>
+  <body>
+    <div id="wrapper">
+
+      <!-- Header -->
+        <section id="header" class="skel-layers-fixed">
+          <header>
+            <span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+            <h1 id="logo"><a href="/">Daniel Kennett</a></h1>
+            <p>Cocoa developer, Lego builder, model railway owner.</p>
+          </header>
+          <nav id="nav">
+            <ul>
+              <% 
+                items = items_with_tag('in_menu')
+                items.each do |item|
+              %>
+                <li><a href="<%= item.path %>"><%= item[:title] %></a></li>
+              <% end %>
+            </ul>
+          </nav>
+          <footer>
+            <p>I'm <em>iKenndac</em> on most services you'd care to mention.</p>
+            <ul class="icons">
+              <li><a href="http://twitter.com/iKenndac" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+              <li><a href="http://github.com/iKenndac" class="icon fa-github"><span class="label">Github</span></a></li>
+              <li><a href="http://stackoverflow.com/users/29005/ikenndac" class="icon fa-stack-overflow"><span class="label">Stack Overflow</span></a></li>
+              <li><a href="http://500px.com/iKenndac" class="icon fa-camera"><span class="label">500px</span></a></li>
+            </ul>
+          </footer>
+        </section>
+
+      <!-- Main -->
+        <div id="main">
+          <%= yield %>
+        </div>
+
+      <!-- Footer -->
+        <section id="footer">
+          <div class="container">
+            <ul class="copyright">
+              <li>&copy; Daniel Kennett. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            </ul>
+          </div>
+        </section>
+
+    </div>
+  </body>
+</html>
