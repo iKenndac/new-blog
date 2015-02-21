@@ -41,17 +41,17 @@ Now to the fun part. The web page is a simple PHP page that takes in the numbers
 
 This is the page when first visited:
 
-<img src="http://ikennd.ac/pictures/for_posts/2009/05/alanas-birthday-adventure.png" />
+<img src="/pictures/for_posts/2009/05/alanas-birthday-adventure.png" />
 {:.center}
 
 When you enter all of the numbers correctly, the page changes to this:
 
-<img src="http://ikennd.ac/pictures/for_posts/2009/05/alanas-birthday-adventure-2.png" />
+<img src="/pictures/for_posts/2009/05/alanas-birthday-adventure-2.png" />
 {:.center}
 
 Now it's time to make and hide the cards. The five clues inside the house were hidden inside drawers and scanners and things just so they weren't stumbled upon while looking for another clue. However, once outside you don't want to spend ages searching through the wrong bush so the cards were fairly open once you figured out the previous clue and got to the right place. Two of the clues were fairly close together in our village of Clifton, and two others were in the Chicksands woods nearby. 
 
-<img src="http://ikennd.ac/pictures/for_posts/2009/05/clues.png" />
+<img src="/pictures/for_posts/2009/05/clues.png" />
 {:.center}
 
 <p style="text-align:center;">Above: The location of the clues outside our house.</p>
@@ -60,17 +60,17 @@ Now it's time to make and hide the cards. The five clues inside the house were h
 
 So, on Tuesday morning I wake up, make excuses about having to to work on her birthday and screech out of the house. Instead of going to work, I'm driving around mid Bedfordshire attaching clues to things hoping my girlfriend doesn't catch up with me.
 
-<img src="http://ikennd.ac/pictures/for_posts/2009/05/duckpond.jpg" />
+<img src="/pictures/for_posts/2009/05/duckpond.jpg" />
 {:.center}
 
-<img src="http://ikennd.ac/pictures/for_posts/2009/05/chicksands.jpg" />
+<img src="/pictures/for_posts/2009/05/chicksands.jpg" />
 {:.center}
 
 <strong>Debrief</strong>
 
 In short, the mission was a success. After worrying that the cards would go missing, or my girlfriend wouldn't be able to solve the clues, or that the Waterstones wouldn't give her the Reader, everything went off without a hitch. She did get stuck on a couple of the clues, but a helpful nudge via text message got her back on track. It took her between two and three hours to complete the puzzle - which is a good amount of time, I think. Too fast and it's almost not worth the effort, but too long and it gets boring. 
 
-<img src="http://ikennd.ac/pictures/for_posts/2009/05/cards.jpg" />
+<img src="/pictures/for_posts/2009/05/cards.jpg" />
 {:.center}
 
 I was worried that it was a stupid idea at first, but everyone I told (including the staff at Waterstone's) thought it was a wonderful idea, and I have to admit I'd really enjoy having something like this done for me. Of course, if you're less of a nerd than me (highly likely), you can do it without custom web scripts and GPS co-ordinates. I thought about leaving them out myself, but couldn't resist an excuse to code a fun little web page. 

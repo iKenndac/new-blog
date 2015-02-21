@@ -10,7 +10,7 @@ categories:
 - A Nerd Outdoors
 ---
 
-A while ago, I [publicly announced](http://ikennd.ac/blog/2012/03/public-shaming-the-only-way/) that I was going to get my ass into gear and get fit enough to go snowboarding next winter. I'm happy to say that after ten weeks (*ish*), I'm now stronger, fitter, much better at recovering after tough hill climbs on my bike and… exactly that same weight as before. Perhaps celebrating a bike ride with a steak each time isn't the right approach.
+A while ago, I [publicly announced](/blog/2012/03/public-shaming-the-only-way/) that I was going to get my ass into gear and get fit enough to go snowboarding next winter. I'm happy to say that after ten weeks (*ish*), I'm now stronger, fitter, much better at recovering after tough hill climbs on my bike and… exactly that same weight as before. Perhaps celebrating a bike ride with a steak each time isn't the right approach.
 
 This wasn't the original plan — I was going to get a FitBit and use the Personal Trainer feature to slowly build up the amount of walking and exercise I do to improve fitness. I did get a FitBit and while I really enjoy having it, my use for it now is simply to motivate me to walk where before I might take the lift or an escalator.
 
@@ -18,7 +18,7 @@ What's happened is that a side-note in my original blog post ("*…as well as tr
 
 ## Tips: Cycling For Fun ##
 
-[<img src="http://ikennd.ac/pictures/cycling/cycling-wide.jpg" />](http://500px.com/photo/7714503)
+[<img src="/pictures/cycling/cycling-wide.jpg" />](http://500px.com/photo/7714503)
 {:.center}
 
 ### Bike ###
@@ -33,7 +33,7 @@ Try to match your bike to your terrain as much as you can. Or, rather — match 
 
 * Make sure your bike is properly set up for your size and weight, including tyre pressures, suspension setup, etc.
 
-* Find a *good* local bike shop to help you, and you'll be rewarded in spades. See my [recent story](http://ikennd.ac/blog/2012/05/the-bike-shop-the-birthday-and-the-averted-disaster/) about my fiancée's birthday for a good example.
+* Find a *good* local bike shop to help you, and you'll be rewarded in spades. See my [recent story](/blog/2012/05/the-bike-shop-the-birthday-and-the-averted-disaster/) about my fiancée's birthday for a good example.
 
 * Most importantly: **DO NOT BABY YOUR BIKE**. Good bikes are *rewarding* when they take a pounding, get stupidly muddy and wet, etc. Plus, "So, I made it all the way to the bottom of the trail only to have my brakes not work right away because they were so covered in mud — I was squeezing so hard on the brakes that when the pads cleaned the discs they locked and I went right over the handlebars!" is a *much* more awesome story than "I went slowly, but at least my bike was clean!"
 
@@ -95,7 +95,7 @@ I'm [iKenndac](http://www.strava.com/athletes/ikenndac/) on Strava if you sign u
 
 ### Maps ###
 
-I've already written [at length](http://ikennd.ac/blog/2012/04/high-tech-meets-low-tech-gps/) about the advantages of having decent maps for hiking/cycling, but one more use has cropped up: Quite often I'll be cycling along and see a path disappearing off into a forest and I'll think "That looks fun, I wonder where that goes?". Now I make a mental note of where it starts, and once I get home I can look on the map and see if I can fit it into my next ride.
+I've already written [at length](/blog/2012/04/high-tech-meets-low-tech-gps/) about the advantages of having decent maps for hiking/cycling, but one more use has cropped up: Quite often I'll be cycling along and see a path disappearing off into a forest and I'll think "That looks fun, I wonder where that goes?". Now I make a mental note of where it starts, and once I get home I can look on the map and see if I can fit it into my next ride.
 
 This has already come up trumps — one of my favourite sections of trail in the area was found with this method. The entrance to it is a tiny, root-covered path with a "No horses" sign on it, but it opens out to a fantastically fun, fast, and sweeping section of trail that you can see me on a bit further up the page.
 

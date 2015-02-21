@@ -17,19 +17,19 @@ From Monday 7th to Friday 11th August, 2006 I attended Apple's WWDC, which is a 
 
 As always, click pictures for bigger versions.
 
-<center><a href="http://ikennd.ac/pictures/wwdc/conf/IMG_0929_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/conf/IMG_0929.jpg"/></a></center>
+<center><a href="/pictures/wwdc/conf/IMG_0929_big.jpg"><img src="/pictures/wwdc/conf/IMG_0929.jpg"/></a></center>
 
-<center><a href="http://ikennd.ac/pictures/wwdc/conf/IMG_0918_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/conf/IMG_0918.jpg"/></a></center>
+<center><a href="/pictures/wwdc/conf/IMG_0918_big.jpg"><img src="/pictures/wwdc/conf/IMG_0918.jpg"/></a></center>
 
 This is my first WWDC, so I wasn't quite sure what to expect... but I was (pleasantly) surprised with what I got. The atmosphere is very open - you're encouraged to talk and interact with other attendees, and the lobby areas are laid out to reflect this. 
 
-<center><a href="http://ikennd.ac/pictures/wwdc/conf/IMG_0935_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/conf/IMG_0935.jpg"/></a></center>
+<center><a href="/pictures/wwdc/conf/IMG_0935_big.jpg"><img src="/pictures/wwdc/conf/IMG_0935.jpg"/></a></center>
 
 You're also fed and watered all day - you get breakfast, a hot lunch and a hot dinner every day. During the day when it isn't mealtime, there's snacks and drinks for you to take at your leisure. 
 
 There's three types of events to attend WWDC - sessions, labs and community events - and so many of each you've got no chance of attending them all. 
 
-<center><a href="http://ikennd.ac/pictures/wwdc/conf/IMG_0927_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/conf/IMG_0927.jpg"/></a></center>
+<center><a href="/pictures/wwdc/conf/IMG_0927_big.jpg"><img src="/pictures/wwdc/conf/IMG_0927.jpg"/></a></center>
 
 Sessions are normally presentations given about a particular subject. There are also a few "hands on" sessions, which let you follow along with what's happening on your own computer, and "feedback forums" let you talk back to the developers of a particular part of the system and give them opinions, requests, etc. 
 
@@ -37,26 +37,26 @@ Labs are open rooms full of computers where you can go and work on your code. In
 
 Community events are a little bit different. The two on-site I attended were the Apple Design Awards and Stump the Experts, both held in Presidio.
 
-<center><a href="http://ikennd.ac/pictures/wwdc/conf/IMG_0938_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/conf/IMG_0938.jpg"/></a></center>
+<center><a href="/pictures/wwdc/conf/IMG_0938_big.jpg"><img src="/pictures/wwdc/conf/IMG_0938.jpg"/></a></center>
 
 The Design Awards are awarded to the best Mac OS X programs in various categories. Unfortunately, I couldn't enter my program this year since it didn't meet the entry requirements (it isn't <a href="http://www.apple.com/universal/">Universal</a> yet) but I hope to enter it (them?) next year.
 
-<center><a href="http://ikennd.ac/pictures/wwdc/conf/IMG_0923_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/conf/IMG_0923.jpg"/></a></center>
+<center><a href="/pictures/wwdc/conf/IMG_0923_big.jpg"><img src="/pictures/wwdc/conf/IMG_0923.jpg"/></a></center>
 
 Stump the Experts is a little more... informal. 15 or so Apple engineers - old and new - gather on stage and fight with the audience with the most nerdy Mac trivia imaginable. We ask them questions, they ask them back and we battle it out. I didn't take part since I'm a rookie, but I did learn how the phone numbers of certain Apple engineers ended up on the Mac OS Classic install discs, which non-CPU Apple product can speak the names of it's developers with the press of a single button, and so on. It was a hilarious hour and a half, and the 'experts' only won because they're dirty cheaters!
 
-<center><a href="http://ikennd.ac/pictures/wwdc/conf/IMG_0946_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/conf/IMG_0946.jpg"/></a></center>
+<center><a href="/pictures/wwdc/conf/IMG_0946_big.jpg"><img src="/pictures/wwdc/conf/IMG_0946.jpg"/></a></center>
 
 The third community event I attended was the Apple Campus bash, which was held at Apple's headquarters in Cupertino. We were all herded onto buses for the 40 minute drive over there. The campus is pretty impressive! The photo below shows the inside of the main building's lobby.
 
-<center><a href="http://ikennd.ac/pictures/wwdc/conf/IMG_0950_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/conf/IMG_0950.jpg"/></a></center> 
+<center><a href="/pictures/wwdc/conf/IMG_0950_big.jpg"><img src="/pictures/wwdc/conf/IMG_0950.jpg"/></a></center> 
 
 This year, the entertainment was essentially an open-air rave, which we didn't stay at for long!
 
-<center><a href="http://ikennd.ac/pictures/wwdc/conf/IMG_0960_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/conf/IMG_0960.jpg"/></a></center>
+<center><a href="/pictures/wwdc/conf/IMG_0960_big.jpg"><img src="/pictures/wwdc/conf/IMG_0960.jpg"/></a></center>
 
 <b>Random Tidbits</b>
 
 Whilst wandering through WWDC, I stumbled across some pretty good advice:
 
-<center><a href="http://ikennd.ac/pictures/wwdc/conf/IMG_0933_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/conf/IMG_0933.jpg"/></a></center>
+<center><a href="/pictures/wwdc/conf/IMG_0933_big.jpg"><img src="/pictures/wwdc/conf/IMG_0933.jpg"/></a></center>

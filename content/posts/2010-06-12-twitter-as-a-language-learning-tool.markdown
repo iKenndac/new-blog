@@ -10,7 +10,7 @@ wordpress_id: '562'
 categories:
 - Sweden
 ---
-<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://ikennd.ac/pictures/for_posts/2010/06/swedish_twitter_header_2.jpg" border="0" alt="Swedish!" width="540" height="216" /></p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="/pictures/for_posts/2010/06/swedish_twitter_header_2.jpg" border="0" alt="Swedish!" width="540" height="216" /></p>
 <p>If you <a href="https://twitter.com/iKenndac">follow me on Twitter</a>, it's no surprise to you that I'm moving to Sweden in a few months (if not, um… surprise!). I can't really go to live in another country without at least <em>trying</em> to learn the language, so my girlfriend and I are doing just that — we attend weekly Swedish lessons.</p>
 <p>Now, I've already tried to learn a language — French. I learned it at school and my mother is French, and although when I was a kid I hated French and didn't want to learn it (something I now regret greatly), I seem to know a lot of words. However, what I can't do is properly form sentences. I'm a step above the <a href="http://translate.google.com/#fr|en|Avez-vous%20un%20tasse%20de%20thé%3F">AVEY VOU UN CUP OF TEA?</a> level, but the French grammar more or less eludes me.</p>
 <p>This worries me somewhat, as I'll be needing to use this on a day-to-day basis. We're doing well in the Swedish lessons, but an hour + homework a week isn't a lot of time or exposure to the language, and there's only so much you can learn by going through textbooks on your own. I really need to be learning the language <em>I</em> use on a day-to-day basis. However, I'm a programmer so I don't get much translatable language there, and it's not really practical to translate longer things like emails.</p>
@@ -37,9 +37,9 @@ categories:
 <p>Jag tillbringade mer tid med skissbok än min kod redaktör här veckan.</p>
 </blockquote>
 <p>5. Write down new words alongside their English equivalent underneath. This will eventually form a great reference to look back on and practice with.</p>
-<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://ikennd.ac/pictures/for_posts/2010/06/swedish_twitter_header.jpg" border="0" alt="Swedish!" width="540" height="158" /></p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="/pictures/for_posts/2010/06/swedish_twitter_header.jpg" border="0" alt="Swedish!" width="540" height="158" /></p>
 <p>Above is the result — half a page's work for a single tweet. However, the repetition of writing the tweet essentially three times makes the language stick in your head much more than translating it on the computer does — even if you do the same amount of work — I find typing disconnects you from the language too much to stick.</p>
-<p><img style="float: right; margin-left:20px; border: 1px solid gray;" src="http://ikennd.ac/pictures/for_posts/2010/06/swedish-sms.png" border="0" alt="Swedish SMS" width="240" height="400" /></p>
+<p><img style="float: right; margin-left:20px; border: 1px solid gray;" src="/pictures/for_posts/2010/06/swedish-sms.png" border="0" alt="Swedish SMS" width="240" height="400" /></p>
 <h3>So Far...</h3>
 <p>I've only been doing this for a few days, but it's already having a positive effect on my Swedish. The downside is that it now takes ten minutes to write a tweet rather than a few seconds, and it can be quite hard to do when I want to tweet from out and about.</p>
 <h3>Other Communication?</h3>

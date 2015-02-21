@@ -9,7 +9,7 @@ categories:
 - Programming-Work
 ---
 
-In my [continued](http://ikennd.ac/blog/2014/08/nslocalizedstring/) [quest](http://ikennd.ac/blog/2014/08/nslocalizedstring-part-2/) to banish as many string literals as I possibly can from my project, I wrote a little tool to generate a header file containing string constants for the names of all the images in my `.xcassets` bundle. 
+In my [continued](/blog/2014/08/nslocalizedstring/) [quest](/blog/2014/08/nslocalizedstring-part-2/) to banish as many string literals as I possibly can from my project, I wrote a little tool to generate a header file containing string constants for the names of all the images in my `.xcassets` bundle. 
 
 This means you get compile-time checking of two things — you misspelling the image name, and images being named incorrectly.
 

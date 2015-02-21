@@ -11,4 +11,4 @@ wordpress_id: '81'
 
 Just went out cycling in the rain. Artist's impression:
 
-<div align="center"><a href='http://ikennd.ac/pictures/for_posts/2008/03/wet_bikes.jpg' title='Wet Bikes'><img src='http://ikennd.ac/pictures/for_posts/2008/03/wet_bikes.jpg' alt='Wet Bikes' /></a></div>
+<div align="center"><a href='/pictures/for_posts/2008/03/wet_bikes.jpg' title='Wet Bikes'><img src='/pictures/for_posts/2008/03/wet_bikes.jpg' alt='Wet Bikes' /></a></div>

@@ -28,7 +28,7 @@ This seemed like a good idea to start with, but it's actually fairly terrible. F
 
 ## A Fresh Start ##
 
-After my previous [post](http://ikennd.ac/blog/2012/12/the-educated-fanboy-aperture-vs-lightroom/) discussing Adobe Lightroom, not *three weeks ago*, basically concluded that I prefer Aperture, well, I've decided to slug it out a bit longer with Lightroom and do a long-term test.
+After my previous [post](/blog/2012/12/the-educated-fanboy-aperture-vs-lightroom/) discussing Adobe Lightroom, not *three weeks ago*, basically concluded that I prefer Aperture, well, I've decided to slug it out a bit longer with Lightroom and do a long-term test.
 
 On January 1st 2013, after waking up in the afternoon and noting that 2013 was in no was different to 2012, I launched Lightroom and pressed the "New Catalog" button. Starting then, I'd be using Lightroom for all of my photography work instead of Aperture, something I wasn't sure would be a smart idea considering I didn't actually like the program all that much. (I've since come to like Lightroom much more, but that's for another post).
 
@@ -78,7 +78,7 @@ Location, in my opinion, is one of the most important pieces of metadata a photo
 
 I already geolocate my photos in two ways — if I was out and about snapping away I'll manually geolocate as best as I can when I return. Even if I find a year-old picture on some motorway in Germany, I'll geolocate it to **Germany** and be done with it. 
 
-If I'm going on a photo walk — that is, a walk or similar with an express intent to take photos along the way - I'll bring my [bike's GPS](http://ikennd.ac/blog/2012/04/high-tech-meets-low-tech-gps/) with me. It's a Garmin Montana, and I specifically chose that rather expensive model because the battery lasts up to 16 hours. I can switch it on, throw it in my backpack and when I get home I have a trace of where I've been all day. Both Aperture and Lightroom contain tools to link this trace to your photos, automatically and accurately geotagging the day's photos in an instant.
+If I'm going on a photo walk — that is, a walk or similar with an express intent to take photos along the way - I'll bring my [bike's GPS](/blog/2012/04/high-tech-meets-low-tech-gps/) with me. It's a Garmin Montana, and I specifically chose that rather expensive model because the battery lasts up to 16 hours. I can switch it on, throw it in my backpack and when I get home I have a trace of where I've been all day. Both Aperture and Lightroom contain tools to link this trace to your photos, automatically and accurately geotagging the day's photos in an instant.
 
 ### What is in the photo? ###
 
@@ -98,7 +98,7 @@ Sometimes, I want to find some pictures I know were taken at night, or in the sn
 
 ## Browsing ##
 
-Sometimes, rather than searching for specific photos, I want to browse through all of the photos I took at, for example, WWDC 2012. In addition, I often keep a photo reference of progress on various projects such as my [railway](http://ikennd.ac/blog/2012/10/winter-project-model-railway/) or [robotic monster truck](http://ikennd.ac/blog/2011/10/where-the-hell-is-my-self-driving-car/).
+Sometimes, rather than searching for specific photos, I want to browse through all of the photos I took at, for example, WWDC 2012. In addition, I often keep a photo reference of progress on various projects such as my [railway](/blog/2012/10/winter-project-model-railway/) or [robotic monster truck](/blog/2011/10/where-the-hell-is-my-self-driving-car/).
 
 To allow this, I'll continue to organise my photos by year, but rather than vague top-level folders I'll stick with three: **Projects**, **Events & Trips** and **Photography**, the latter reserved for photos where the sole point of taking the photo was to make a beautiful photo.
 

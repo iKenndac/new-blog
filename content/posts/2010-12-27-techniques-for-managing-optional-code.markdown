@@ -33,7 +33,7 @@ My technique moves all of the application's self-updating UI into a
 separate nib file, which is controlled by my helper class, a subclass of
 `NSViewController`:
 
-<img src="http://ikennd.ac/pictures/for_posts/2010/12/SparkleHelperXib.png" />
+<img src="/pictures/for_posts/2010/12/SparkleHelperXib.png" />
 {:.center .no-border}
 
 As for the helper class, allow me to present the *simplest sample code ever:*
@@ -96,7 +96,7 @@ of effort if you ever have to do this more than once.
 
 ### Example 2: Supporting Multiple OS Versions Using Bundles
 
-<img src="http://ikennd.ac/pictures/for_posts/2010/12/ClarusTargets.png" />
+<img src="/pictures/for_posts/2010/12/ClarusTargets.png" />
 {:.right .no-border} 
 
 We've all had it. A new operating system version comes out, and we'd
@@ -135,7 +135,7 @@ spewing stuff into the user's console is bad (I'm looking at you,
 Steam), you might like to put minimum/maximum OS versions in the
 bundle's Info.plist and check them before attempting to load.
 
-<img src="http://ikennd.ac/pictures/for_posts/2010/12/KNPluginMinimumSystemVersion2.png" />
+<img src="/pictures/for_posts/2010/12/KNPluginMinimumSystemVersion2.png" />
 {:.center .no-border}
 
 In code, this can then be used as needed. For example, Clarus attempts
@@ -143,7 +143,7 @@ to load all the embedded bundles present, and maintains a list of these
 internally. When a piece of code, it can do a simple check and alter the
 UI as needed:
 
-<img src="http://ikennd.ac/pictures/for_posts/2010/12/ClarusPluginManager.png" />
+<img src="/pictures/for_posts/2010/12/ClarusPluginManager.png" />
 {:.center .no-border}
 
 ### Conclusion

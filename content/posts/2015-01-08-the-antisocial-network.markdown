@@ -20,7 +20,7 @@ Starting on a positive note, I enjoy that 99% of my friends are on Facebook sinc
 organising events super easy. Their Messenger app isn't that bad either.
 
 However, my Facebook timeline is absolute trash. I wrote about it a little in my
-[Mental Health](http://ikennd.ac/blog/2014/09/mental-health/) post last year, and it's summed
+[Mental Health](/blog/2014/09/mental-health/) post last year, and it's summed
 up beautifully in the short (~2:30) film
 [What's on your mind?](https://www.youtube.com/watch?v=QxVZYiJKl1Y), but the lives I'm seeing in
 tiny, out of context snippets through my Facebook timeline are completely false. Hell, I'm guilty

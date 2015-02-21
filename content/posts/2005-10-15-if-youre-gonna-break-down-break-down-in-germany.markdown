@@ -25,17 +25,17 @@ The cat needed replacing. No parts in stock. Eeek! What about the rest of our tr
 
 So they pushed their showroom 8 into the workshop: 
 
-<center><img src="http://ikennd.ac/pictures/breakdown/push.jpg"/></center>
+<center><img src="/pictures/breakdown/push.jpg"/></center>
 
 ... and swapped the cat from their only showroom model on to mine!:
 
-<center><img src="http://ikennd.ac/pictures/breakdown/jacks.jpg"/></center>
+<center><img src="/pictures/breakdown/jacks.jpg"/></center>
 
 I was amazed. Some random English guy comes into this German dealership, and in two hours they'd replaced parts on my car, under warranty, from one of their own showroom cars! You'd never get that service here in the UK...
 
 And my cat? When they'd done, the guy came up to me and said "This was the problem" and tipped the exhaust section they'd removed onto the table:
 
-<center><img src="http://ikennd.ac/pictures/breakdown/cat.jpg"/></center>
+<center><img src="/pictures/breakdown/cat.jpg"/></center>
 
 I think that might've been the problem. 
 
@@ -45,6 +45,6 @@ Driving the Nürburgring in the 8 is an amazing experience. The 8's handling is 
 
 Pics: 
 
-<center><img src="http://ikennd.ac/pictures/breakdown/ring1.jpg"/></center>
+<center><img src="/pictures/breakdown/ring1.jpg"/></center>
 
-<center><img src="http://ikennd.ac/pictures/breakdown/ring2.jpg"/></center>
+<center><img src="/pictures/breakdown/ring2.jpg"/></center>

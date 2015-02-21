@@ -18,7 +18,7 @@ just how much time I'll be spending on one of these this year:
 
 [^1]: Three days to clear my eye - about 30 seconds after the booking confirmation page appeared in my browser I received a *text* from my credit card company telling me I was approaching my limit!
 
-[![image](http://ikennd.ac/pictures/for_posts/2008/04/023jumbo_468x329.jpg "BA 747")](http://ikennd.ac/pictures/for_posts/2008/04/023jumbo_468x329.jpg)
+[![image](/pictures/for_posts/2008/04/023jumbo_468x329.jpg "BA 747")](/pictures/for_posts/2008/04/023jumbo_468x329.jpg)
 {:.center}
 
 Note to plane nerds: I don't know if that's actually the exact model of
@@ -32,17 +32,17 @@ lines to their destinations (which I'm well aware that they don't), I'll
 be flying approximately 30,000 miles this year! To show this small feat,
 allow me to present a map:
 
-[![image](http://ikennd.ac/pictures/for_posts/2008/04/maps.jpg "maps")](http://ikennd.ac/pictures/for_posts/2008/04/maps.jpg)
+[![image](/pictures/for_posts/2008/04/maps.jpg "maps")](/pictures/for_posts/2008/04/maps.jpg)
 {:.center}
 
 It'd actually be less distance to fly *around the world* from London to
 America to Australia and back to London! Normally, I'd be exited about
 this. And this time is no different - I had an amazing time in San
 Francisco and California last time I was there, which I
-[documented](http://ikennd.ac/blog/2006/08/wwdc-day-1/)
-[really](http://ikennd.ac/blog/2006/08/wwdc-2006/)
-[quite](http://ikennd.ac/blog/2006/08/the-day-to-end-all-days/)
-[concisely](http://ikennd.ac/blog/2006/08/its-a-mini-adventure/). 
+[documented](/blog/2006/08/wwdc-day-1/)
+[really](/blog/2006/08/wwdc-2006/)
+[quite](/blog/2006/08/the-day-to-end-all-days/)
+[concisely](/blog/2006/08/its-a-mini-adventure/). 
 
 San Francisco is an amazing
 city, and there's something about being in a brand new place halfway

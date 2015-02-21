@@ -47,7 +47,7 @@ This mentality is even present in my place of work, which is kinda surprising si
 
 ### The Inevitable Happens ###
 
-<img src="http://ikennd.ac/pictures/dd_starter.jpg" />
+<img src="/pictures/dd_starter.jpg" />
 {:.right .no-border}
 
 I am _completely_ invested in the story of the Warcraft universe and the characters within. I hate Garrosh for killing Cairne. I'm angry at Varian for acting like a complete asshole while his son grows out of him and looks destined to become a greater king than he'll ever be. I was absolutely devastated with what happened to the Dragon Aspects after we killed Deathwing.

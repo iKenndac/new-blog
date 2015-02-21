@@ -39,7 +39,7 @@ categories:
 <p>I'm an application developer and I've <em>never</em> expected anything less from a software purchase. If I buy version 1.x of an application, I expect to get all the updates to 1.x for free, but then pay for 2.0. It's how everything I own works, and how I operate my own software. What if the 1.0 I buy only ever stays at 1.0 and I don't get any updates? Fine. What if the updates are only bug fixes? Fine!</p>
 <p>So, having the update to CoverSutra 2.5 from version 2.2.2 be paid? Big no-no. However, this implicit expectation of free updates was explicitly backed up with this:</p>
 
-<img src="http://ikennd.ac/pictures/for_posts/2011/01/coversutra.png" border="0" alt="CoverSutra's Licensing Promise" width="590" height="315" />
+<img src="/pictures/for_posts/2011/01/coversutra.png" border="0" alt="CoverSutra's Licensing Promise" width="590" height="315" />
 {:.center .no-border}
 
 <h3>Trust takes an age of good deeds to build, but only one misdeed to shatter instantly</h3>

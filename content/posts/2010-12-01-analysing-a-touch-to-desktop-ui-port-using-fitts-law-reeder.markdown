@@ -14,7 +14,7 @@ categories:
 <p>It's finally happened. Someone came out with a Mac OS application that's <em>clearly </em>a touch UI crowbarred into a point-and-click universe.</p>
 <p>And it <em>doesn't work</em>.</p>
 <p>The application in question is Reeder, a Google Reader client for Mac OS X. Yes, it looks pretty, and I feel kind of bad for making an example of it, especially since it's in early beta. However, the Mac App Store is bringing people over to the Mac OS from iPhone and the amount of "Why won't my iOS code compile on Mac OS X?" questions on the developer forums is making me worry. If you're considering porting your iPad/iPhone UI to Mac OS X (or any desktop OS, for that matter) please read this first.</p>
-<p style="text-align: center;"><a href="http://ikennd.ac/pictures/for_posts/2010/12/reederb1.jpg"><img style="display: block; margin-left: auto; margin-right: auto;" src="http://ikennd.ac/pictures/for_posts/2010/12/reederb1.jpg" border="0" alt="Reeder Beta 1" width="550" height="386" /></a><em>Reeder for Mac 1.0b1</em></p>
+<p style="text-align: center;"><a href="/pictures/for_posts/2010/12/reederb1.jpg"><img style="display: block; margin-left: auto; margin-right: auto;" src="/pictures/for_posts/2010/12/reederb1.jpg" border="0" alt="Reeder Beta 1" width="550" height="386" /></a><em>Reeder for Mac 1.0b1</em></p>
 <p>So, I hereby present an analysis of the Reeder for Mac UI using Fitts's Law. I'll keep this as matter-of-fact as I can, but obviously there'll be some stuff in here based on my opinion — I am but human. If Reeder's designers are reading this, please don't take it personally, and use my criticisms constructively to make a better Mac app.</p>
 <h2>What is Fitts's Law?</h2>
 <p>It's complicated, that's what. See the <a href="http://en.wikipedia.org/wiki/Fitts's_law">Wikipedia article</a> — the first thing you see is a big-ass formula. In a nutshell, it defines the amount of time it takes for a user to point to a given item on the screen from another point on the screen.</p>
@@ -28,7 +28,7 @@ categories:
 <p>What this means is that Fitts's Law is largely a non-issue in touch interfaces. Of course, fingers are fat and inaccurate compared to a mouse pointer, so a good UI on a touch device needs to have well-spaced, large controls.</p>
 <h2>A Practical Example of Fitts's Law</h2>
 <p>As much as I hate Windows, it makes <em>excellent</em> use of Fitts's Law. Take this screenshot:</p>
-<p><img style="display: block; margin-left: auto; margin-right: auto; border: 1px solid black;" src="http://ikennd.ac/pictures/for_posts/2010/12/Win7FittsLaw.png" border="0" alt="Windows 7 with Maximised Window" width="550" height="429" /></p>
+<p><img style="display: block; margin-left: auto; margin-right: auto; border: 1px solid black;" src="/pictures/for_posts/2010/12/Win7FittsLaw.png" border="0" alt="Windows 7 with Maximised Window" width="550" height="429" /></p>
 <p>Every single corner has a useful function —</p>
 <ul>
 <li>Bottom Left: The Windows button's hit area is extended right into the corner, so down and left gets you the start menu.</li>
@@ -51,20 +51,20 @@ categories:
 <h3>The Mark (Un)Read/Favourite/???/Share Buttons</h3>
 <p>These buttons, in my opinion, will be used quite often by users. Personally, I often mark articles as unread if I want to read them again later, favourite them if they're great and share them with friends. I'm fairly certain a lot of other people do, too.</p>
 <p>I'm in Reeder, reading an article. "This is amazing!" I think, and mouse over towards the "Favourite" button. As discussed above, my mouse cursor is probably over the content of the list of articles to the left.</p>
-<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://ikennd.ac/pictures/for_posts/2010/12/ReederFittsOnTopBar.jpg" border="0" alt="Fitts's Law on the Favourite Button" width="550" height="431" /></p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="/pictures/for_posts/2010/12/ReederFittsOnTopBar.jpg" border="0" alt="Fitts's Law on the Favourite Button" width="550" height="431" /></p>
 <p>As you can see, while the buttons up there have lots of padding, it's in the wrong direction. The user is moving towards those (quite small) buttons from a fair distance away, and are therefore likely to overshoot. What if they do? They click the desktop, and Reeder is no longer the foreground app.</p>
 <p>How would you fix it? It should be fairly obvious from the diagram that we need more vertical space for the button. The standard Mac OS X toolbar provides this quite nicely, and allows the user to make the buttons smaller if need be.</p>
-<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://ikennd.ac/pictures/for_posts/2010/12/NNWFittsOnToolBar.jpg" border="0" alt="NetNewsWire Fitts's Law" width="550" height="480" /></p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="/pictures/for_posts/2010/12/NNWFittsOnToolBar.jpg" border="0" alt="NetNewsWire Fitts's Law" width="550" height="480" /></p>
 <p> </p>
 <p>As you can see, this has several advantages — the target is bigger, so easier to hit. If the user overshoots, which is fairly likely given the distance the pointer has travelled, they've got a much bigger cushion (the titlebar) before a mis-click does something bad.</p>
 <h3>The Feed Management Button</h3>
 <p>This button allows you to add, manage and refresh the feeds you have in Reeder. In my opinion, this will be a lesser-used button that the ones above — I rarely change my feeds and my RSS apps are set to auto-refresh every so often. I don't believe this is an unusual use-case.</p>
-<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://ikennd.ac/pictures/for_posts/2010/12/ReederFittsManagement.jpg" border="0" alt="Reeder Fitts's Law, Feed Management" width="550" height="343" /></p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="/pictures/for_posts/2010/12/ReederFittsManagement.jpg" border="0" alt="Reeder Fitts's Law, Feed Management" width="550" height="343" /></p>
 <p>The source of the operation is less defined here. Above, I've diagrammed what would happen if the user finished reading their last article and wants to refresh their list, or add a new feed they've just read about. The operation could just as easily be coming from directly above.</p>
 <p>In either case, the button is much easier for the user to click.</p>
 <h2>Just for Funzies…</h2>
 <p>Just for fun, I opened the iPad Simulator and moved Reeder for Mac over it. Here is the screenshot, unedited except for scaling.</p>
-<p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://ikennd.ac/pictures/for_posts/2010/12/ReederiPad.jpg" border="0" alt="Reeder Mac on iPad" width="550" height="426" /></p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="/pictures/for_posts/2010/12/ReederiPad.jpg" border="0" alt="Reeder Mac on iPad" width="550" height="426" /></p>
 <p>Remove the Mac OS X window widgets and that could be a screenshot of a native iPad app.</p>
 <p>This is NOT how to make Mac apps, guys.</p>
 <h2>Conclusion</h2>

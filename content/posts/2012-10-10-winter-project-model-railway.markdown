@@ -38,7 +38,7 @@ Once you have trains running around track set loosely on the table, start asking
 
 Once you're settled on a layout that'll make a good model, it's time to make the track more permanent so you can build it!
 
-<img src="http://ikennd.ac/pictures/railway/RailModeller.png" /> \\
+<img src="/pictures/railway/RailModeller.png" /> \\
  *My final layout in RailModeller. Real life is a little more flexible than RealModeller, so it's ok if things don't exactly line up.* 
 {:.center}
 
@@ -76,7 +76,7 @@ As mentioned earlier, my layout runs using a digital system called DCC. My contr
 
 This is where a piece of software called RailMaster comes in. Plug in the controller via USB and you can use it to build a rough version of your layout, telling it which points are where. Once you're done, you can click the points on the map of your layout to switch them.
 
-<img src="http://ikennd.ac/pictures/railway/Railmaster.png" /> \\
+<img src="/pictures/railway/Railmaster.png" /> \\
  *My layout in RailMaster.* 
 {:.center}
 

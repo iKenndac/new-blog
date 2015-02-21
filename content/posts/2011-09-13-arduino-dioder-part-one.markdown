@@ -11,7 +11,7 @@ categories:
 - Programming-Work
 ---
 
-<img src="http://ikennd.ac/pictures/for_posts/2011/09/ArduinoHeader.jpg" />
+<img src="/pictures/for_posts/2011/09/ArduinoHeader.jpg" />
 {:.center .no-border}
 
 A few weeks ago, it came to my attention that IKEA do a set of
@@ -48,7 +48,7 @@ projects for controlling it. The Arduino sketches require the [Arduino software]
 were written on Mac OS X 10.7.
 
 You can download a PDF wiring diagram
-[here](http://ikennd.ac/pictures/ArduinoDioderWiring.pdf).
+[here](/pictures/ArduinoDioderWiring.pdf).
 
 Enjoy!
 
@@ -103,11 +103,11 @@ wiring diagram.
 [<img src="http://farm7.static.flickr.com/6172/6144804622_28970d3dd4_z.jpg" />](http://www.flickr.com/photos/24169642@N06/6144804622)
 {:.center}
 
-<img src="http://ikennd.ac/pictures/for_posts/2011/09/ArduinoDioderWiring.png" />
+<img src="/pictures/for_posts/2011/09/ArduinoDioderWiring.png" />
 {:.center .no-border}
 
 You can download a PDF of the diagram
-[here](http://ikennd.ac/pictures/ArduinoDioderWiring.pdf).
+[here](/pictures/ArduinoDioderWiring.pdf).
 
 ### Part 2: Programming the Arduino
 
@@ -123,7 +123,7 @@ The protocol I implemented is very simple — two constant header bytes,
 12 "body" bytes (one for each red, green and blue pin over four separate
 LED strips) and a checksum byte (a bitwise XOR of all the body bytes).
 
-<img src="http://ikennd.ac/pictures/for_posts/2011/09/ArduinoDioderProtocol.png" />
+<img src="/pictures/for_posts/2011/09/ArduinoDioderProtocol.png" />
 {:.center .no-border}
 
 *A message setting all connected LED strips to white/GBR(255,255,255)*
@@ -156,7 +156,7 @@ photo at the start of this post, so I made this very simple application
 of the colour wells — the corresponding LED strip will change colour to
 match!
 
-<img src="http://ikennd.ac/pictures/for_posts/2011/09/DioderColourWells.png" />
+<img src="/pictures/for_posts/2011/09/DioderColourWells.png" />
 {:.center .no-border}
 
 The full Xcode project can be found over at the project's [home on GitHub](http://www.github.com/iKenndac/Arduino-Dioder-Playground), at

@@ -21,7 +21,7 @@ eventually concluding that although it can be tough at times, the
 tradeoffs are very much worth it if you can stomach the pitfalls of a
 life without guaranteed fixed income.
 
-<img src="http://ikennd.ac/pictures/for_posts/2011/01/Indietalkslide.jpg" />
+<img src="/pictures/for_posts/2011/01/Indietalkslide.jpg" />
 {:.center}
 
 You can download the slides from the talk
@@ -38,7 +38,7 @@ you want whenever and wherever you want to. It's a great service which
 I've been using for a long time, and I'm really excited to be able to
 help make it better.
 
-<img src="http://ikennd.ac/pictures/for_posts/2011/01/SpotifyLogo.jpg" />
+<img src="/pictures/for_posts/2011/01/SpotifyLogo.jpg" />
 {:.center}
 
 I'm aware that this change is the opposite of what many think is the
@@ -49,8 +49,8 @@ give up a successful independent software business and go work one
 someone else's product?
 
 Well, the last couple of years have
-[been](http://ikennd.ac/blog/2010/02/playing-the-game%E2%80%A6-and-losing/)
-[tough](http://ikennd.ac/blog/2009/05/being-passionate-about-x-and-running-a-business-in-x-are-incompatible-discuss/),
+[been](/blog/2010/02/playing-the-game%E2%80%A6-and-losing/)
+[tough](/blog/2009/05/being-passionate-about-x-and-running-a-business-in-x-are-incompatible-discuss/),
 for sure. However, I've gone through the worst and am pretty much out
 the other side. The main problem here is that I suck at running a
 business. Like, *really* suck. I hate it. I want to be coding, not

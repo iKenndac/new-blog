@@ -19,12 +19,12 @@ Outside the plane, though, I'm different. I regularly cause pile-ups[^1] on the 
 
 For starters, take a look at this plane taking off:
 
-<a href='http://ikennd.ac/pictures/for_posts/2008/05/800px-lahore-pia-747-takeoff-80375.jpg'><img src="http://ikennd.ac/pictures/for_posts/2008/05/800px-lahore-pia-747-takeoff-80375.jpg" alt="" title="747 Takeoff" width="500" height="353" class="alignnone size-full wp-image-130" /></a>
+<a href='/pictures/for_posts/2008/05/800px-lahore-pia-747-takeoff-80375.jpg'><img src="/pictures/for_posts/2008/05/800px-lahore-pia-747-takeoff-80375.jpg" alt="" title="747 Takeoff" width="500" height="353" class="alignnone size-full wp-image-130" /></a>
 {:.center}
 
 It almost looks as if it <em>wants</em> to take off, and is looking forward to being up in the sky. When it's up there, it looks just like the picture in my previous post - sleek and beautiful, soaring through the sky. Finally, compare that picture to this:
 
-<a href='http://ikennd.ac/pictures/for_posts/2008/05/800px-air_new_zealand_747-400_at_hong_kong_international_airport.jpg'><img src="http://ikennd.ac/pictures/for_posts/2008/05/800px-air_new_zealand_747-400_at_hong_kong_international_airport.jpg" alt="" title="747 Docked" width="500" height="375" class="alignnone size-full wp-image-131" /></a>
+<a href='/pictures/for_posts/2008/05/800px-air_new_zealand_747-400_at_hong_kong_international_airport.jpg'><img src="/pictures/for_posts/2008/05/800px-air_new_zealand_747-400_at_hong_kong_international_airport.jpg" alt="" title="747 Docked" width="500" height="375" class="alignnone size-full wp-image-131" /></a>
 {:.center}
 
 Tethered, as if to a life support machine - unable to support itself without hundreds of ancillary machines keeping it alive - it even has to be pushed around by a little truck! 
@@ -37,22 +37,22 @@ Unfortunately, Tim got me the very wonderful present of a trip up in a light air
 
 <!--more-->
 
-<a href='http://ikennd.ac/pictures/for_posts/2008/05/img_38361.jpg'><img src="http://ikennd.ac/pictures/for_posts/2008/05/img_38361.jpg" alt="" title="Plane on the ground" width="500" height="332" class="alignnone size-full wp-image-133" /></a>
+<a href='/pictures/for_posts/2008/05/img_38361.jpg'><img src="/pictures/for_posts/2008/05/img_38361.jpg" alt="" title="Plane on the ground" width="500" height="332" class="alignnone size-full wp-image-133" /></a>
 {:.center}
 
-<a href='http://ikennd.ac/pictures/for_posts/2008/05/img_3839.jpg'><img src="http://ikennd.ac/pictures/for_posts/2008/05/img_3839.jpg" alt="" title="Wing" width="500" height="332" class="alignnone size-full wp-image-134" /></a>
+<a href='/pictures/for_posts/2008/05/img_3839.jpg'><img src="/pictures/for_posts/2008/05/img_3839.jpg" alt="" title="Wing" width="500" height="332" class="alignnone size-full wp-image-134" /></a>
 {:.center}
 
-<a href='http://ikennd.ac/pictures/for_posts/2008/05/img_38401.jpg'><img src="http://ikennd.ac/pictures/for_posts/2008/05/img_38401.jpg" alt="" title="Cockpit" width="500" height="332" class="alignnone size-full wp-image-136" /></a>
+<a href='/pictures/for_posts/2008/05/img_38401.jpg'><img src="/pictures/for_posts/2008/05/img_38401.jpg" alt="" title="Cockpit" width="500" height="332" class="alignnone size-full wp-image-136" /></a>
 {:.center}
 
-<a href='http://ikennd.ac/pictures/for_posts/2008/05/img_3841.jpg'><img src="http://ikennd.ac/pictures/for_posts/2008/05/img_3841.jpg" alt="" title="Rear" width="500" height="332" class="alignnone size-full wp-image-137" /></a>
+<a href='/pictures/for_posts/2008/05/img_3841.jpg'><img src="/pictures/for_posts/2008/05/img_3841.jpg" alt="" title="Rear" width="500" height="332" class="alignnone size-full wp-image-137" /></a>
 {:.center}
 
-<a href='http://ikennd.ac/pictures/for_posts/2008/05/img_3861.jpg'><img src="http://ikennd.ac/pictures/for_posts/2008/05/img_3861.jpg" alt="" title="Takeoff" width="500" height="333" class="alignnone size-full wp-image-138" /></a>
+<a href='/pictures/for_posts/2008/05/img_3861.jpg'><img src="/pictures/for_posts/2008/05/img_3861.jpg" alt="" title="Takeoff" width="500" height="333" class="alignnone size-full wp-image-138" /></a>
 {:.center}
 
-<a href='http://ikennd.ac/pictures/for_posts/2008/05/img_3854.jpg'><img src="http://ikennd.ac/pictures/for_posts/2008/05/img_3854.jpg" alt="" title="Hangar" width="500" height="332" class="alignnone size-full wp-image-139" /></a>
+<a href='/pictures/for_posts/2008/05/img_3854.jpg'><img src="/pictures/for_posts/2008/05/img_3854.jpg" alt="" title="Hangar" width="500" height="332" class="alignnone size-full wp-image-139" /></a>
 {:.center}
 
 This would have been fine if after 10 minutes of looking at Cambridge and the surrounding area the pilot didn't say "Ok, now it's your turn". I would've happily enjoyed the experience, gone back home and wished I could fly. I'd then look into it, discover how much it costs, and give up. 
@@ -64,7 +64,7 @@ The experience was fascinating. I knew the theory behind it all from reading boo
 So, I want to learn. Allow me to present a thoroughly research cost analysis of flying a light aircraft:
 
 <div align="center">
-<a href='http://ikennd.ac/pictures/for_posts/2008/05/previewscreensnapz001.png'><img src="http://ikennd.ac/pictures/for_posts/2008/05/previewscreensnapz001.png" alt="" title="Table" width="317" height="112" class="aligncenter size-full wp-image-140" /></a>
+<a href='/pictures/for_posts/2008/05/previewscreensnapz001.png'><img src="/pictures/for_posts/2008/05/previewscreensnapz001.png" alt="" title="Table" width="317" height="112" class="aligncenter size-full wp-image-140" /></a>
 </div>
 
 The costs are, in seriousness, quite absurd. A brand new Cessna Skyhawk costs hundreds of thousands of pounds. Obviously, you don't buy brand new planes - you buy used ones and/or share ownership or rent them. For example, there's a 9 year old Skyhawk on eBay for a thoroughly reasonable £89,999.00. 

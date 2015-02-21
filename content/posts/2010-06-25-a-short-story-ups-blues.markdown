@@ -11,7 +11,7 @@ categories:
 - Gadgets
 ---
 
-<img src="http://ikennd.ac/pictures/for_posts/2010/06/upsheader.jpg" border="0" alt="UPS Truck" width="540" height="186" />
+<img src="/pictures/for_posts/2010/06/upsheader.jpg" border="0" alt="UPS Truck" width="540" height="186" />
 {:.center .no-border}
 
 <h3>9:30am</h3>

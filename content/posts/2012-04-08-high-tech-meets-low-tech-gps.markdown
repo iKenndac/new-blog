@@ -12,7 +12,7 @@ categories:
 
 Software that comes with devices, 90% of the time, isn't even worth installing. iTunes is almost universally hated. TomTom HOME is awful. *Anything* written by Sony makes me want to throw my computer out the window.
 
-<img src="http://ikennd.ac/pictures/vita/YES.png" /> \\
+<img src="/pictures/vita/YES.png" /> \\
  *Yes! Sony's PS Vita software seeing double and not communicating it very well.* 
 {:.center .no-border}
 
@@ -29,7 +29,7 @@ A few weeks ago, while researching Gamin's latest outdoor GPS unit, the Garmin M
 
 As I was tweeting about this as I was researching it, someone derisively pointed out that "There's an app for that!", likely free. And sure, topographic maps are expensive — the maps on my device that cover the section of Sweden I'm in (roughly 1/4 of the country) cost $199. However, Google Maps doesn't even come *close* to offering the level of detail these maps do, and while OpenStreetMap is better in my area they still don't match the quality and level-of-detail of these proper maps. Oh, and there's no way in hell I'm strapping an iPhone to my bike's handlebars!
 
-<img src="http://ikennd.ac/pictures/mapping/GoogleVsTopo.png" /> \\
+<img src="/pictures/mapping/GoogleVsTopo.png" /> \\
  *Google Maps on the left, 1:50,000 Topographic map on the right.* 
 {:.center}
 
@@ -41,15 +41,15 @@ As I was tweeting about this as I was researching it, someone derisively pointed
 
 So, why is this so awesome? Well, BaseCamp has a superb map display, allowing you to virtually explore the paths and trails with ease and import logs of recent hikes and bikerides to be shown on the map. 
 
-<img src="http://ikennd.ac/pictures/mapping/BasecampBikeride.png" /> \\
+<img src="/pictures/mapping/BasecampBikeride.png" /> \\
  *BaseCamp's Map Display, overlaid with a track of a recent bikeride (magenta).* 
 {:.center .no-border}
 
 The software comes into its own when planning where to go, though. You can draw out potential routes on the maps and you'll be given standard stuff like distance, but also a height map of the route. This is invaluable for planning outdoor treks — the route shown above was great fun because as the height map below shows, it's paced nicely with each steep uphill part followed with a rest, and running it in reverse on the way home has a nice long downhill section to finish on.
 
-<img src="http://ikennd.ac/pictures/mapping/BasecampHeightProfile.png" /> \\
+<img src="/pictures/mapping/BasecampHeightProfile.png" /> \\
  *BaseCamp's Height Map* 
 {:.center .no-border}
 
-As the [quest to go snowboarding](http://ikennd.ac/blog/2012/03/public-shaming-the-only-way/) continues, this workflow is really helping me explore the countryside on my bike and have a lot of fun doing it. We're going to the French Alps in the summer, and I'm really looking forward to getting maps of the area and going on some epic bikerides!
+As the [quest to go snowboarding](/blog/2012/03/public-shaming-the-only-way/) continues, this workflow is really helping me explore the countryside on my bike and have a lot of fun doing it. We're going to the French Alps in the summer, and I'm really looking forward to getting maps of the area and going on some epic bikerides!
 

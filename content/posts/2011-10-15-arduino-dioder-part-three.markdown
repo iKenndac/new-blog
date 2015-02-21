@@ -11,10 +11,10 @@ categories:
 - Programming-Work
 ---
 
-A month or so ago, I [wrote a post](http://ikennd.ac/blog/2011/09/arduino-dioder-part-one/)
+A month or so ago, I [wrote a post](/blog/2011/09/arduino-dioder-part-one/)
 detailing how I put together an Arduino Mega 2560, a couple of chips and
 a pile of wires to allow me to control the colour of a set of IKEA
-Dioder RGB LED strips in software, then a [follow-up post](http://ikennd.ac/blog/2011/09/arduino-dioder-part-two/) on
+Dioder RGB LED strips in software, then a [follow-up post](/blog/2011/09/arduino-dioder-part-two/) on
 how to emulate Philips' Ambilight technology to create a pleasing
 ambient light effect behind your computer's display.
 
@@ -57,7 +57,7 @@ Rather than step you through creating the board, I'll simply leave you
 with the circuit diagram to implement and some photos of my finished
 board.
 
-<img src="http://ikennd.ac/pictures/for_posts/2011/09/ArduinoDioderWiring.png" />
+<img src="/pictures/for_posts/2011/09/ArduinoDioderWiring.png" />
 {:.center .no-border}
 
 [<img src="http://farm7.static.flickr.com/6179/6245984929_3832d9711b_z.jpg" />](http://www.flickr.com/photos/24169642@N06/6245984929)
@@ -71,7 +71,7 @@ A few notes:
 -   You'll notice that the circuit diagram is a bit different to the one
     originally presented in the first part of this series. This is to
     make creating a circuit board easier, and I've gone back and updated
-    both the [original post](http://ikennd.ac/blog/2011/09/arduino-dioder-part-one/)
+    both the [original post](/blog/2011/09/arduino-dioder-part-one/)
     and the [code on GitHub](https://github.com/iKenndac/Arduino-Dioder-Playground) for
     this new layout.
 -   You can probably make your board look way neater than mine!
@@ -80,7 +80,7 @@ A few notes:
     Angle the two sets of pins that aren't hanging off the board upwards
     slightly to make connection easier.
 -   You can download a PDF of the diagram
-    [here](http://ikennd.ac/pictures/ArduinoDioderWiring.pdf).
+    [here](/pictures/ArduinoDioderWiring.pdf).
 
 Once you're completed the board, it will stack on top of the Arduino
 Mega just fine. Cop a bit out of the box to allow the Dioder cables

@@ -11,7 +11,7 @@ categories:
 - Programming-Work
 ---
 
-Since adopting my dog <a href="http://ikennd.ac/blog/2009/02/goggie/">Chester</a>, I've been looking for a program for my computer to keep all of his details - insurance, medical, expenses, etc - in one place. I haven't found anything any good, so I'm making my own with the aim of releasing it for others to use.
+Since adopting my dog <a href="/blog/2009/02/goggie/">Chester</a>, I've been looking for a program for my computer to keep all of his details - insurance, medical, expenses, etc - in one place. I haven't found anything any good, so I'm making my own with the aim of releasing it for others to use.
 
 I've made a short questionnaire with the aim of collecting data on how people approach recordkeeping for their pets so I can make a great program that's useful to everyone. It shouldn't take more than five minutes to do, and I'd really appreciate your help.
 

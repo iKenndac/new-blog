@@ -19,7 +19,7 @@ Ok, so why can't I just buy a flat-pack desk and build it? Simple - I've recentl
 
 Two days later, and we have a plan (sizes in millimetres):<br />&nbsp;
 
-<center><img src="http://ikennd.ac/pictures/desk/plan.png"/></center>
+<center><img src="/pictures/desk/plan.png"/></center>
 
 Let me explain the plan... The left diagram is of the top surface of the desk - the cut-outs down the left edge are for cables to go down, and the bottom one also makes room for the hot water pipes that go up the wall. The right diagram is of the frame that will support it. Little white rectangles are the supporting mounts that attach to the wall. Thin white rectangles are the supporting struts that run from the wall mounts to the legs and keep everything stable. Black squares are legs. 
 
@@ -27,14 +27,14 @@ Let construction begin!<br /> &nbsp;
 
 <center>
 
-<img src="http://ikennd.ac/pictures/desk/before.jpg"/><br />Before construction begins
-<img src="http://ikennd.ac/pictures/desk/tunes.jpg"/><br />Tunes while I work!
+<img src="/pictures/desk/before.jpg"/><br />Before construction begins
+<img src="/pictures/desk/tunes.jpg"/><br />Tunes while I work!
 
 
 
-<img src="http://ikennd.ac/pictures/desk/cutting.jpg"/><br />I broke 3 saws (not blades, saws!) cutting this wood
-<img src="http://ikennd.ac/pictures/desk/gettingthere.jpg"/><br />Getting there!
-<img src="http://ikennd.ac/pictures/desk/frame.jpg"/><br />The frame in place</center>
+<img src="/pictures/desk/cutting.jpg"/><br />I broke 3 saws (not blades, saws!) cutting this wood
+<img src="/pictures/desk/gettingthere.jpg"/><br />Getting there!
+<img src="/pictures/desk/frame.jpg"/><br />The frame in place</center>
 
 Wait a minute... this is wrong. It's going well! Which is good. However, it's just a boring desk made of wood. We need geeky/cool things in it! 
 
@@ -42,14 +42,14 @@ Hmmm... it'd be cool if I could have surface-mounted plug sockets for charging m
 
 Oh look, a chisel!<br />&nbsp;
 <center>
-<img src="http://ikennd.ac/pictures/desk/chiselingstarts.jpg"/><br />And we begin... 
-<img src="http://ikennd.ac/pictures/desk/chiselingdone.jpg"/><br />... four hours later, they fit!</center>
+<img src="/pictures/desk/chiselingstarts.jpg"/><br />And we begin... 
+<img src="/pictures/desk/chiselingdone.jpg"/><br />... four hours later, they fit!</center>
 
 Woohoo! Lights! With a <i>dimmer</i> switch! So cool, it requires italics. <i>Dimmer</i> switch. See? For the wiring, I simply wired 3-core flexes into the sockets and dimmer switch and put a standard plug on the other end so they just plug into the wall, all earthed and safe.
 
 So, now we have it all done but in pieces. Assemble them all together and varnish them, and we get this!<br />&nbsp;
 
-<center><img src="http://ikennd.ac/pictures/desk/varnished.jpg"/><br />It matches the furniture!</center>
+<center><img src="/pictures/desk/varnished.jpg"/><br />It matches the furniture!</center>
 
 Completed! It's strong and sturdy - it can hold the weight of all my computer stuff <b>and</b> me standing on it. It matches the furniture. It's varnished with floor varnish, so it's good and tough. 
 
@@ -72,4 +72,4 @@ Day 3: Final varnish coats
 
 ... and now for the final picture. Click it for a bigger photo!<br />&nbsp;
 
-<center><a href="http://ikennd.ac/pictures/desk/finished.jpg"><img border="0" src="http://ikennd.ac/pictures/desk/finished_small.jpg"/><br />Yes! Yes! Yes!</a></center>
+<center><a href="/pictures/desk/finished.jpg"><img border="0" src="/pictures/desk/finished_small.jpg"/><br />Yes! Yes! Yes!</a></center>

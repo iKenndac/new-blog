@@ -12,7 +12,7 @@ categories:
 
 I've been getting bored of my old domain, [danielkennett.org](http://danielkennett.org/), for a while. It's long and boring, and is pretty much the only thing online that uses my real name. I don't *mind* my real name being common online, but since I'm iKenndac on more or less every service I'm a member of, having my website be different seemed a bit weird.
 
-A couple of weeks ago, I registered a nifty new domain: [ikennd.ac](http://ikennd.ac/). It's perfect - short, sweet, and to the point. The problem is, though, that my blog had a big "danielkennett.org" logo on the top of it, and no other title or strapline. Replacing it with an "ikennd.ac" logo seems silly since I'll be keeping the danielkennett.org domain alive for linking, and I was stumped.
+A couple of weeks ago, I registered a nifty new domain: [ikennd.ac](/). It's perfect - short, sweet, and to the point. The problem is, though, that my blog had a big "danielkennett.org" logo on the top of it, and no other title or strapline. Replacing it with an "ikennd.ac" logo seems silly since I'll be keeping the danielkennett.org domain alive for linking, and I was stumped.
 
 That is, until today. A superb conversation popped up on Spotify's internal IRC from Tobi, one of the designers, a slightly trimmed version of which I present here (I'm dan):
 
@@ -49,7 +49,7 @@ That is, until today. A superb conversation popped up on Spotify's internal IRC 
 
 In it, I spontaneously came up with the phrase "Tales of an unchecked mind", which is both a cheesy tagline and *perfect* for a blog, but more importantly at the time of writing had **ZERO** results on Google when the exact phrase was entered!
 
-<img src="http://ikennd.ac/pictures/toaum.png" />
+<img src="/pictures/toaum.png" />
 {:.center}
 
 I changed it slightly to "Tales From An Unchecked Mind" and am now using it as the title for my blog. I've been wanting to make my blog more personal for a while now, including more writing about non-tech stuff along with an [about.me](http://about.me/)-style page with my bio on it, and I think the new title will fit well.

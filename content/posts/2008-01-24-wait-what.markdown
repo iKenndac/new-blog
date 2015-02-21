@@ -13,4 +13,4 @@ categories:
 
 Heh, you know you've done something pretty bad when the compiler just gives up on a simple instance declaration! 
 
-<img src="http://ikennd.ac/pictures/compilerconfusion.png" alt="Compiler Confusion" />
+<img src="/pictures/compilerconfusion.png" alt="Compiler Confusion" />

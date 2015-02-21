@@ -30,7 +30,7 @@ I could try the "new way", of course. We're still (just about) in the gold rush 
 
 The "new way" isn't my style, as you can probably tell from the bitterness of the above paragraph. It just isn't. It works for some people, and more power to them. However, I've spent enough time in the Silicon Valley bubble — or at least at the edge of it looking in — watching companies solve problems for wealthy, middle-class white people living in suburbia to turn me off that area of the industry for life.
 
-I've been working on a [side project](http://ikennd.ac/blog/2013/09/hacking-agile-style/) for over a year and a half now, and you know what? At some point it went from a hacky side project to a genuinely useful app that's just not ready for prime-time yet.
+I've been working on a [side project](/blog/2013/09/hacking-agile-style/) for over a year and a half now, and you know what? At some point it went from a hacky side project to a genuinely useful app that's just not ready for prime-time yet.
 
 [<img src="http://pcdn.500px.net/42924806/8f69558fc2421062cd3773028f0b68adea8c2c8c/5.jpg" />](http://500px.com/photo/42924806) \\
  *My project's agile board in 2013.* 

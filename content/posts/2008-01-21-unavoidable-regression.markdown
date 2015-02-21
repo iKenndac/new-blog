@@ -29,12 +29,12 @@ So, what to do? I've decided that since they're both expensive, I can have one o
 
 Childhood memory 1 is thundering down a lane/field/river/etc closely pursued, then underneath, either Bosun (our black Labrador) or more recently Sam, our faster-than-God Collie cross. 
 
-<div align="center"><img src="http://ikennd.ac/pictures/posts/regression/sam.jpg" alt="Sam" />
+<div align="center"><img src="/pictures/posts/regression/sam.jpg" alt="Sam" />
 <br /><em>Sam, being lazy.</em></div>
 
 Now, dogs are quite <em>alive</em>, thus needing constant care and attention. Something I'm able to give morning and night, but not during the day. While I could get someone to walk it during the day, I still think I'm at work far too much to be able to keep a dog - especially a big one - in my home. Even though I'd put up posters around the area much like the following, I can't justify owning a dog right now. 
 
-<div align="center"><img src="http://ikennd.ac/pictures/posts/regression/dogposter.jpg" alt="Poster" /></div>
+<div align="center"><img src="/pictures/posts/regression/dogposter.jpg" alt="Poster" /></div>
 
 
 <strong>Awesome Railway</strong>
@@ -45,15 +45,15 @@ Childhood memory 2 is being in my bedroom, past bedtime. I'd received an Interci
  
 While I'm well aware that most adult model railway owners look very much like this:
 
-<div align="center"><img src="http://ikennd.ac/pictures/posts/regression/nerd.jpg" alt="Nerd" /></div>
+<div align="center"><img src="/pictures/posts/regression/nerd.jpg" alt="Nerd" /></div>
 
 I think building a large model railway is something that can be engaging and rewarding, while a train set is what  kids play with. See attached diagram:
 
-<div align="center"><img src="http://ikennd.ac/pictures/posts/regression/diagram.jpg" alt="Diagram" /></div>
+<div align="center"><img src="/pictures/posts/regression/diagram.jpg" alt="Diagram" /></div>
 
 I'll be doing the one on the right. My prior experience into this is recently getting into R/C cars. I've build a few of them and painted many vehicle bodies - including one that looks very much like my RX-8.
 
-<img src="http://ikennd.ac/pictures/rc/ta04_rx8.jpg" alt="1/10 RX-8" />
+<img src="/pictures/rc/ta04_rx8.jpg" alt="1/10 RX-8" />
 {:.center}
 
 If you look at the expense on its own, the cost of making models is quite high. However, the enjoyment gained from building and tuning them makes it well worth it. And it's not like this railway would be a small project - hopefully I'll be building a large layout around the outside of my loft. 

@@ -13,7 +13,7 @@ categories:
 
 To all my friends and family,
 
-<img src="http://ikennd.ac/pictures/for_posts/2009/04/birthday.png" alt="Birthday Cake" title="Birthday Cake" width="32" height="32" class="alignright size-full wp-image-311" />
+<img src="/pictures/for_posts/2009/04/birthday.png" alt="Birthday Cake" title="Birthday Cake" width="32" height="32" class="alignright size-full wp-image-311" />
 {:.center .no-border}
 
 Due to work commitments, I'm officially postponing my birthday until Saturday, 18th April. Please refrain from lavish gift giving until that date. 

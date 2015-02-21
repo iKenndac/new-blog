@@ -11,7 +11,7 @@ categories:
 - Gadgets
 ---
 
-<!--more--><p><img style="display: block; margin-left: auto; margin-right: auto;" src="http://ikennd.ac/pictures/for_posts/2010/05/3gheader.jpg" border="0" alt="3gheader.jpg" width="540" height="190" /></p>
+<!--more--><p><img style="display: block; margin-left: auto; margin-right: auto;" src="/pictures/for_posts/2010/05/3gheader.jpg" border="0" alt="3gheader.jpg" width="540" height="190" /></p>
 <p>Unfortunately, my office is located in a very small mobile phone signal blackspot as it's nestled at the bottom of a small hill — move a few metres away outside and signal returns to normal. Recently, Vodafone released a little device called the <a href="http://online.vodafone.co.uk/dispatch/Portal/appmanager/vodafone/wrp?_nfpb=true&amp;_pageLabel=templateCClamp&amp;pageID=PPP_0161">Sure Signal</a> — a mini cell tower (femtocell) that provides your phone with signal.</p>
 <p>Pretty much <a href="http://www.pocket-lint.com/review/4620/vodafone-sure-signal-femtocell-box">anywhere</a> you see a Sure Signal review, you'll see comments talking about Vodafone's evil plans for ripping off the consumer by charging extra to supply their service over the customer's internet connection. Well, I managed to use a SUPER SECRET method to get my Sure Signal absolutely free.</p>
 <ol>

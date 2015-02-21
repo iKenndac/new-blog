@@ -20,7 +20,7 @@ On a recent hackday, I took the Mac mini that builds CocoaLibSpotify and runs th
  *Yellow = running tests, green = all passed, red = one more more failed.* 
 {:.center}
 
-To accomplish this, I made a simpler version of my [previous project](http://ikennd.ac/blog/2011/10/arduino-dioder-part-three/) to control four individual RGB LED strips. The simplified unit uses an Arduino Uno instead of a Mega2560, and only has two channels instead of four (only one of which is used in this project).
+To accomplish this, I made a simpler version of my [previous project](/blog/2011/10/arduino-dioder-part-three/) to control four individual RGB LED strips. The simplified unit uses an Arduino Uno instead of a Mega2560, and only has two channels instead of four (only one of which is used in this project).
 
 [<img src="http://pcdn.500px.net/7840903/7b0e4b152b896ade6775bded0935b7568c04b1e5/4.jpg" />](http://500px.com/photo/7840903) \\
  *The completed hardware - running wires underneath the board makes it much neater!* 

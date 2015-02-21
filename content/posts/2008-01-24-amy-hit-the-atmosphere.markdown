@@ -11,7 +11,7 @@ categories:
 - General
 ---
 
-So, I decided that I'd like to build a [model railway](http://ikennd.ac/blog/2008/01/unavoidable-regression/) in my house. Since I live in a
+So, I decided that I'd like to build a [model railway](/blog/2008/01/unavoidable-regression/) in my house. Since I live in a
 fairly small house that's filled with people and things *and* I want
 something better than a tiny little board with a circle of track on it,
 the most sensible place to build such a thing is in the loft. My loft,

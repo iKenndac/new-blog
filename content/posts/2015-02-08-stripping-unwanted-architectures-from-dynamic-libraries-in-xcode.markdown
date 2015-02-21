@@ -24,7 +24,7 @@ So, how do we work around this?
 
 - We could use static libraries instead. However, with multiple targets and extensions in my project, it seems silly to bloat all my executables with copies of the same libraries.
 
-- We could compile the library from source each time, generating a new dynamic library with only the needed architectures for each build. A couple of things bother me about this - first, it seems wasteful to recompile all this non-changing code all the time, and the second is that I [like to keep my dependencies static](http://ikennd.ac/blog/2015/01/secret-diary-of-a-side-project-part-2/), and making new builds each time means I'm not necessarily running stable code any more, particularly if I start mucking around in Xcode betas. What if a compiler change causes odd bugs in the library? It's a very rare thing to happen, but it *does* happen, and I don't know the library's codebase well enough to debug it.  
+- We could compile the library from source each time, generating a new dynamic library with only the needed architectures for each build. A couple of things bother me about this - first, it seems wasteful to recompile all this non-changing code all the time, and the second is that I [like to keep my dependencies static](/blog/2015/01/secret-diary-of-a-side-project-part-2/), and making new builds each time means I'm not necessarily running stable code any more, particularly if I start mucking around in Xcode betas. What if a compiler change causes odd bugs in the library? It's a very rare thing to happen, but it *does* happen, and I don't know the library's codebase well enough to debug it.  
 
 - If we don't have the source to start with, well, we're kinda out of luck.
 

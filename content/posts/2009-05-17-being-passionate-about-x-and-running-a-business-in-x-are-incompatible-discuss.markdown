@@ -50,7 +50,7 @@ If I was working on my own, this would be fine as my cashflow, even at this curr
 
 So, allow me to introduce the "Businessman Hat". Once a month, every month, I have to put this hat on and remove myself from my world. I need to look at the figures for the company and make sure I know exactly where every penny in comes from, and where every penny out goes. I have to make predictions for the month. If they aren't met, why not? If they're beaten, why? I need to do business-y things like establish trends and... stuff. If things aren't going well, I need to ensure that the Businessman Hat stays on until they're fixed. 
 
-<img src="http://ikennd.ac/pictures/for_posts/2009/05/1058wallaroocrocblackjpg.jpeg" alt="Businessman Hat" title="Businessman Hat" width="400" height="300" class="aligncenter size-full wp-image-364" /> \\
+<img src="/pictures/for_posts/2009/05/1058wallaroocrocblackjpg.jpeg" alt="Businessman Hat" title="Businessman Hat" width="400" height="300" class="aligncenter size-full wp-image-364" /> \\
 *The Businessman Hat. Similarities to Crocodile Dundee's hat have been noted.*
 {:.center .no-border}
 

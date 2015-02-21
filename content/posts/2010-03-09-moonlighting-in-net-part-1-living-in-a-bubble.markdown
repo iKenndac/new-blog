@@ -28,7 +28,7 @@ categories:
 <p>&bull; You're done! Since the unmanaged memory space isn't garbage collected, don't forget to deallocate the memory space you copied to.&nbsp;</p>
 <p>Here's a nice diagram of what's going on:</p>
 
-<img src="http://ikennd.ac/pictures/for_posts/2010/03/CLRDiagram.png" border="0" alt="CLRDiagram" width="486" height="338" />
+<img src="/pictures/for_posts/2010/03/CLRDiagram.png" border="0" alt="CLRDiagram" width="486" height="338" />
 {:.no-border .center}
 
 <p>Or, in terms of code:</p>

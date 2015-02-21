@@ -19,13 +19,13 @@ Ok, so you've upgraded your home server machine to Mac OS X 10.5 Server from 10.
 
 Three hours later, you decide to read the log file. "SACL authorisation failed", it says. Hrm. To the access control! Wait, my name isn't that UUID ((I'm too lazy to type it out - laziness 1, humour 0))! 
 
-<a href='http://ikennd.ac/pictures/for_posts/2008/02/picture-1.png' title='Broken User'><img src='http://ikennd.ac/pictures/for_posts/2008/02/picture-1.png' alt='Broken User' /></a>
+<a href='/pictures/for_posts/2008/02/picture-1.png' title='Broken User'><img src='/pictures/for_posts/2008/02/picture-1.png' alt='Broken User' /></a>
 
 <!--more-->
 
 That'd be the UUID of the old user before the upgrade. How many clicks can I fix this in? One? (Clicks "Allow all users and groups"). Nope. Two? (Clicks "Save")... 
 
-<a href='http://ikennd.ac/pictures/for_posts/2008/02/picture-2.png' title='Felicity Shares'><img src='http://ikennd.ac/pictures/for_posts/2008/02/picture-2.png' alt='Felicity Shares' /></a>
+<a href='/pictures/for_posts/2008/02/picture-2.png' title='Felicity Shares'><img src='/pictures/for_posts/2008/02/picture-2.png' alt='Felicity Shares' /></a>
 
 YES!
 

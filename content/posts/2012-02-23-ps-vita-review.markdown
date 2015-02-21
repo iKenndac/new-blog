@@ -24,7 +24,7 @@ We get back to the office and Rick boots his Vita. "Would you like to use your P
 
 I sit, piling a McDonald's Big Mac into my face, happy about my decision to not buy one. Sony's software is as bad as ever! However, as Rick starts navigating around the device, it doesn't look that bad.
 
-<img src="http://ikennd.ac/pictures/vita/pleasewait.jpg" /> \\
+<img src="/pictures/vita/pleasewait.jpg" /> \\
  *You'll see this a LOT.* 
 {:.center}
 
@@ -44,14 +44,14 @@ I'm not going to do a full review here. You can find a hundred of them online, s
 * Proprietary memory cards and connectors are the spawn of Satan himself.
 * Rayman Origins and Wipeout 2048 are the most beautiful mobile games I've ever seen.
 
-<img src="http://ikennd.ac/pictures/vita/rayman.jpg" /> \\
+<img src="/pictures/vita/rayman.jpg" /> \\
  *Rayman Origins.* 
 {:.center}
 
 
 Oh, and the Mac software for connecting to the device is as awful as you might expect. It took 1.5Gb of RAM on my machine, then popped up this when I connected my Vita:
 
-<img src="http://ikennd.ac/pictures/vita/YES.png" />
+<img src="/pictures/vita/YES.png" />
 {:.center .no-border}
 
 …so that got deleted pretty much right away.
@@ -70,11 +70,11 @@ A basic overview of the UI:
 
 * Up to six cards can remain in the stack. If you want to remove a card from the stack, grab the top right-hand corner of it and rip it off the screen - this will remove the card and completely quit the application if it's still running.
 
-<img src="http://ikennd.ac/pictures/vita/pebbles.jpg" /> \\
+<img src="/pictures/vita/pebbles.jpg" /> \\
  *Application pebbles.* 
 {:.center}
 
-<img src="http://ikennd.ac/pictures/vita/storecard.jpg" /> \\
+<img src="/pictures/vita/storecard.jpg" /> \\
  *The PSN Store's card, featuring buttons for categories and current "trending" games.* 
 {:.center}
 

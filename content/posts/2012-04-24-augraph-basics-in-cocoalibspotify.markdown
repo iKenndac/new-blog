@@ -44,19 +44,19 @@ To simplify this for most use cases, CocoaLibSpotify includes a class called `SP
 
 Once this is up-and-running, `SPCoreAudioController` is managing an audio chain that looks like this:
 
-<img src="http://ikennd.ac/pictures/augraph/SPCoreAudioControllerBasicGraph.png" />
+<img src="/pictures/augraph/SPCoreAudioControllerBasicGraph.png" />
 {:.center .no-border}
 
 ### Customising SPCoreAudioController ###
 
 If you want to customise audio playback, `SPCoreAudioController` includes a handy pair of methods that allow you to insert any `AUNode` you like into the `AUGraph` without having to manage the whole graph, making the chain look like this:
 
-<img src="http://ikennd.ac/pictures/augraph/SPCoreAudioControllerCustomGraph.png" />
+<img src="/pictures/augraph/SPCoreAudioControllerCustomGraph.png" />
 {:.center .no-border}
 
 So, let's provide an example that inserts a 10-band graphic EQ into the graph:
 
-<img src="http://ikennd.ac/pictures/augraph/SPCoreAudioControllerEQGraph.png" />
+<img src="/pictures/augraph/SPCoreAudioControllerEQGraph.png" />
 {:.center .no-border}
 
 **Note:** The completed sample project can be found on GitHub [here](https://github.com/iKenndac/SimplePlayer-with-EQ).
@@ -121,7 +121,7 @@ At this point, our EQ is set up and inserted into the audio controller's graph. 
 
 That's it! The EQ node is now inserted into the `AUGraph` managed by `SPCoreAudioController`, which now looks like this:
 
-<img src="http://ikennd.ac/pictures/augraph/SPCoreAudioControllerEQGraph.png" />
+<img src="/pictures/augraph/SPCoreAudioControllerEQGraph.png" />
 {:.center .no-border}
 
 It's important to do cleanup as well so we don't leak memory and cause problems. `SPCoreAudioController` provides `-disposeOfCustomNodesInGraph:` to be overridden for just this purpose:
@@ -179,7 +179,7 @@ The sample project then has ten continuous vertical sliders all hooked up to dif
 }
 ~~~~~~~~
 
-<img src="http://ikennd.ac/pictures/augraph/SimplePlayerWithEQ.png" />
+<img src="/pictures/augraph/SimplePlayerWithEQ.png" />
 {:.center .no-border}
 
 ### Further Reading ###

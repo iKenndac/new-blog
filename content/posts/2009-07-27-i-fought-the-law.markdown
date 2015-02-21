@@ -17,7 +17,7 @@ Even as a thirteen year-old, I didn't like what I was doing. I was more than awa
 
 Nowadays, of course, I don't own a single piece of illegally obtained software. I don't have any software on my machines used to get illegal software/music/etc like Limewire or whatever. I'm more than willing to pay for the software I use as part of my work or hobbies, and totally understand the value in software - it's very rare I find a piece of software I think is overpriced.
 
-<img src="http://ikennd.ac/pictures/for_posts/2009/07/licenses-small.png" alt="Software Licenses" title="Software Licenses" width="478" height="113" class="aligncenter size-full wp-image-387" />
+<img src="/pictures/for_posts/2009/07/licenses-small.png" alt="Software Licenses" title="Software Licenses" width="478" height="113" class="aligncenter size-full wp-image-387" />
 {:.center .no-border}
 
 <h3>Boxes are <em>so</em> 1990's</h3>
@@ -28,7 +28,7 @@ So, picture the situation. Something on TV reminds me about the firm <em>The Gir
 
 "<em>Aha!</em>" I exclaim, "Why don't we watch it tonight? I'm sure I have it somewhere."
 
-A quick search of my DVD shelves yielded nothing, so I consulted my <a href="http://ikennd.ac/deliciouslibrary/">Delicious Library</a>. Nada. 
+A quick search of my DVD shelves yielded nothing, so I consulted my <a href="/deliciouslibrary/">Delicious Library</a>. Nada. 
 
 "I'm sure I had it", I said, "Never mind, we can get it on iTunes."
 
@@ -46,7 +46,7 @@ So, again I visit The Pirate Bay and download a copy of the game. When I apply t
 
 Come Monday, Amazon's delivery arrives, and I'm now the proud owner of official copies of both The Girl Next Door and The Settlers. Included in the photos are both my downloaded copy of the film (playing in iTunes) and The Settlers, on a DVD-R. 
 
-<a href="http://ikennd.ac/pictures/for_posts/2009/07/settlers-big.jpg"><img src="http://ikennd.ac/pictures/for_posts/2009/07/settlers.jpg" alt="My Goods" title="My Goods" width="540" height="405" class="aligncenter size-full wp-image-391" /></a>
+<a href="/pictures/for_posts/2009/07/settlers-big.jpg"><img src="/pictures/for_posts/2009/07/settlers.jpg" alt="My Goods" title="My Goods" width="540" height="405" class="aligncenter size-full wp-image-391" /></a>
 {:.center}
 
 

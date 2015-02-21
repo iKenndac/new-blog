@@ -17,7 +17,7 @@ When you're doing geeky things or actually something useful (read: work), you're
 
 The answer? Well, a watch that sets itself. Duh.
 
-<center><img src="http://ikennd.ac/pictures/watch.jpg"/></center>
+<center><img src="/pictures/watch.jpg"/></center>
 
 Every day, this thing sets itself using a time signal sent out from an atomic clock somewhere in Frankfurt. This clock is accurate to the point where it's expected to deviate only ±1 second in a million years. Which is alright, I suppose. 
 

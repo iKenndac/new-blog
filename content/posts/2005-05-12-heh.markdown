@@ -11,4 +11,4 @@ categories:
 - General
 ---
 
-<img src="http://ikennd.ac/pictures/haxor.jpg"/>
+<img src="/pictures/haxor.jpg"/>

@@ -10,7 +10,7 @@ categories:
 - A Nerd Outdoors
 ---
 
-[In March](http://ikennd.ac/blog/2012/03/public-shaming-the-only-way/), I publicly announced I wanted to get fit enough to go snowboarding and have fun. [In May](http://ikennd.ac/blog/2012/05/how-to-win-at-cycling-for-fun/), I talked about how I'd rekindled a love of mountain biking that I had before I moved to Sweden.
+[In March](/blog/2012/03/public-shaming-the-only-way/), I publicly announced I wanted to get fit enough to go snowboarding and have fun. [In May](/blog/2012/05/how-to-win-at-cycling-for-fun/), I talked about how I'd rekindled a love of mountain biking that I had before I moved to Sweden.
 
 Soon after that, my fiancée and I decided to take our mountain bikes on a planned summer trip to the French Alps. I'd been saving for a new bike for a couple of months, and ended up going into crunch mode to try and get it before we left. I was successful, and a couple of weeks ago we set off to France with my shiny new yellow bike strapped to the back!
 

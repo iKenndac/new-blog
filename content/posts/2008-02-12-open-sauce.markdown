@@ -19,7 +19,7 @@ At first, I was apprehensive about such a thing, before I remembered that the iP
 
 So, after a day at work and an evening at home, I have this:
 
-<a href='http://ikennd.ac/pictures/for_posts/2008/02/phonebrowse.jpg' title='Browsin’ Up A Storm'><img src='http://ikennd.ac/pictures/for_posts/2008/02/phonebrowse.jpg' alt='Browsin’ Up A Storm' /></a>
+<a href='/pictures/for_posts/2008/02/phonebrowse.jpg' title='Browsin’ Up A Storm'><img src='/pictures/for_posts/2008/02/phonebrowse.jpg' alt='Browsin’ Up A Storm' /></a>
 
 A fully functional ((It's not fully functional at all. It works - a bit.)) iPhone/iPod Touch browser! 
 

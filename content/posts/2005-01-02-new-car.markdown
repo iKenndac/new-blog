@@ -20,12 +20,12 @@ Three days later, I'm zipping around in a Vauxhall New Astra 1.8 SRi. It has a l
 However, the most amazing thing about the car is one tiny little button. It says "Sport" on it. It makes the car go faster. Of course, it does have traction control and ABS to help you crash less. Or so the theory goes, anyway. Enough words, let's have some pictures! <br />&nbsp;
 
 <center> 
-<img src="http://ikennd.ac/pictures/astra/still1.jpg"/>
-<img src="http://ikennd.ac/pictures/astra/still2.jpg"/>
-<img src="http://ikennd.ac/pictures/astra/still3.jpg"/>
-<img src="http://ikennd.ac/pictures/astra/moving.jpg"/>
+<img src="/pictures/astra/still1.jpg"/>
+<img src="/pictures/astra/still2.jpg"/>
+<img src="/pictures/astra/still3.jpg"/>
+<img src="/pictures/astra/moving.jpg"/>
 </center>
 
 Oh, and I took it up to Stuart's for a day. Feeling a bit envious, he decided to show off how fast his car was. Problem is, in this picture he's going about 5mph - it's blurry 'cause I'm waving the camera about! 
 <br />&nbsp;
-<center><img src="http://ikennd.ac/pictures/astra/stuart.jpg"/></center>
+<center><img src="/pictures/astra/stuart.jpg"/></center>

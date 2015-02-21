@@ -23,12 +23,12 @@ You can see my full cycling stats on my [Strava profile](http://app.strava.com/a
  *The ride home from work that tipped me over 1,000km.* 
 {:.center}
 
-My [new bike](http://ikennd.ac/blog/2012/07/mountain-bikes-plus-mountains-equals-awesome/) has been put through a wide range of terrain, from the dry, sandy mountains of [the Alps](http://ikennd.ac/blog/2012/07/mountain-bikes-plus-mountains-equals-awesome/) to wet but smooth rides into work to the muddy, dirty, leafy forests in there area around my home. 
+My [new bike](/blog/2012/07/mountain-bikes-plus-mountains-equals-awesome/) has been put through a wide range of terrain, from the dry, sandy mountains of [the Alps](/blog/2012/07/mountain-bikes-plus-mountains-equals-awesome/) to wet but smooth rides into work to the muddy, dirty, leafy forests in there area around my home. 
 
 
 One of the reasons I replaced my bike this year was that my old bike had suffered from neglect. A few years ago I rode it a lot in wet, gravelly conditions and fine pieces of gravel got everywhere. I didn't get my bike serviced (or service it myself), and the gravel wore away at irreparable parts of the frame. It wasn't gone by any means, but as the bike started needing serious money spending to replace work parts, I didn't want to spend that money on a failing frame.
 
-<img src="http://ikennd.ac/pictures/cycling/muddy.jpg" /> \\
+<img src="/pictures/cycling/muddy.jpg" /> \\
  *Cycling in wet, muddy conditions takes its toll on me, too!* 
 {:.center}
 

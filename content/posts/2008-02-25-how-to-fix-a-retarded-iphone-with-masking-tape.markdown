@@ -29,17 +29,17 @@ document the process.
 **Step 1** Remove the SIM card from the iPhone, and blur the SIM ID 
 from the card so pikeys don't steal your internets.
 
-[<img src="http://ikennd.ac/pictures/for_posts/2008/02/img_3810.jpg" />](http://ikennd.ac/pictures/for_posts/2008/02/img_3810.jpg)
+[<img src="/pictures/for_posts/2008/02/img_3810.jpg" />](/pictures/for_posts/2008/02/img_3810.jpg)
 {:.center}
 
 **Step 2** Apply two or three layers of thin masking tap to the back of the SIM card.
 
-[<img src="http://ikennd.ac/pictures/for_posts/2008/02/img_3811.jpg" />](http://ikennd.ac/pictures/for_posts/2008/02/img_3811.jpg)
+[<img src="/pictures/for_posts/2008/02/img_3811.jpg" />](/pictures/for_posts/2008/02/img_3811.jpg)
 {:.center}
 
 **Step 3** Reassemble.
 
 **Step 4** Revel in all the signal you have!
 
-[<img src="http://ikennd.ac/pictures/for_posts/2008/02/img_3814.jpg" />](http://ikennd.ac/pictures/for_posts/2008/02/img_3814.jpg)
+[<img src="/pictures/for_posts/2008/02/img_3814.jpg" />](/pictures/for_posts/2008/02/img_3814.jpg)
 {:.center}

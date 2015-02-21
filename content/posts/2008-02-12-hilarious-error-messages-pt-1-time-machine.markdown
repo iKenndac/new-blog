@@ -11,6 +11,6 @@ categories:
 - General
 ---
 
-<a href='http://ikennd.ac/pictures/for_posts/2008/02/tmerror.png' title='Time Machine'><img src='http://ikennd.ac/pictures/for_posts/2008/02/tmerror.png' alt='Time Machine' /></a>
+<a href='/pictures/for_posts/2008/02/tmerror.png' title='Time Machine'><img src='/pictures/for_posts/2008/02/tmerror.png' alt='Time Machine' /></a>
 
 Spot the deliberate mistake?

@@ -19,18 +19,18 @@ So, my TV busted. Sony took it away for repair, and my TV-hole looked very bland
 
 A couple of days later, I nipped to the local Apple Store and came back with one of <a src="http://www.apple.com/displays/">these</a> bad boys (the 23" one):
 
-<img src="http://ikennd.ac/pictures/cinema.jpg"/>
+<img src="/pictures/cinema.jpg"/>
 
 Mmmm... 23 inches...
 
 Anyway, the box is sat there, and my TV hole still looks a bit bland... aha! 
 
-<img src="http://ikennd.ac/pictures/tvhole.jpg"/>
+<img src="/pictures/tvhole.jpg"/>
 
 Much better! Of course, it looks fine until you actually try to watch it. The idea kinda falls flat on it's face when it gets to that part. 
 
 Oh, and I've been building a wall: 
 
-<img src="http://ikennd.ac/pictures/thewall.jpg"/>
+<img src="/pictures/thewall.jpg"/>
 
 Kinda surprised I'm not dead yet!

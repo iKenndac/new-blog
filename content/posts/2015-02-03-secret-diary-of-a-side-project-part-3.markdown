@@ -9,7 +9,7 @@ categories:
 - Programming-Work
 ---
 
-*Secret Diary of a Side Project is a series of posts documenting my journey as I take an app from side project to a full-fledged for-pay product. You can find the introduction to this series of posts [here](http://ikennd.ac/blog/2014/12/secret-diary-of-a-side-project-intro/).*
+*Secret Diary of a Side Project is a series of posts documenting my journey as I take an app from side project to a full-fledged for-pay product. You can find the introduction to this series of posts [here](/blog/2014/12/secret-diary-of-a-side-project-intro/).*
 
  ~ 
 {:.center}
@@ -20,7 +20,7 @@ Money puts a roof over your head, food on the table and is a required thing to f
 
 However, if you're serious about your project you're going to have to spend money on it at some point. If you don't, you're going to damage it in ways you might not be able to see until much later.
 
-It's very difficult — perhaps even nonsensical — to spend nontrivial amounts of money on something that's solely a side project. However, now we're getting serious about this thing it's time for that to change — something that can still be really difficult to do even though we've [shifted our perception](http://ikennd.ac/blog/2015/01/secret-diary-of-a-side-project-part-1/) of this project in other areas.  It really doesn't help that money tends to have a tendency to suck the fun out of things, either. It cuts fun stuff out of holidays, limits the size of your TV, and gets in the way of that Ferrari that should be on your drive. Spending money on software I'm perfectly capable of writing on my own? Where's the fun in that?
+It's very difficult — perhaps even nonsensical — to spend nontrivial amounts of money on something that's solely a side project. However, now we're getting serious about this thing it's time for that to change — something that can still be really difficult to do even though we've [shifted our perception](/blog/2015/01/secret-diary-of-a-side-project-part-1/) of this project in other areas.  It really doesn't help that money tends to have a tendency to suck the fun out of things, either. It cuts fun stuff out of holidays, limits the size of your TV, and gets in the way of that Ferrari that should be on your drive. Spending money on software I'm perfectly capable of writing on my own? Where's the fun in that?
 
 <img src="https://ppcdn.500px.org/26369209/3e4ad5be8c38815106a44ae5d0d05d8f149b6da2/2048.jpg" /> \\
  *This post is really text-heavy, so please enjoy this photo of the Northern Lights my wife took while you take a breather.* 
@@ -83,7 +83,7 @@ Alright, this one isn't really that universal. However, you really must work wit
 
 Depending on your project, you might be able to get away with an iOS device or two and be done with it. It's *really* important, in my opinion, to get hold of the slowest device you support and test on that as much as you possibly can. If you run your app day-to-day on the slow thing, you'll kinda do performance optimisation as you go, which is much nicer than working with the latest and greatest for a year, then thinking "Oh, I should test on that old one" a week before release and finding it runs at 2fps!
 
-For my project, though, I work with cameras. For a long time, I was just using the camera that started this whole thing, my [Canon EOS 6D](http://ikennd.ac/blog/2013/03/canon-eos-6d-review/). It works perfectly well, but there's a few problems:
+For my project, though, I work with cameras. For a long time, I was just using the camera that started this whole thing, my [Canon EOS 6D](/blog/2013/03/canon-eos-6d-review/). It works perfectly well, but there's a few problems:
 
 1. I can't really say I support "Canon SLRs" if I've only tested it with this one model of camera.
 

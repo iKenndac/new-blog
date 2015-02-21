@@ -11,7 +11,7 @@ categories:
 - Programming-Work
 ---
 
-Well over a year ago, I blogged about [starting a project](http://ikennd.ac/blog/2011/10/where-the-hell-is-my-self-driving-car/) in which I replace a radio-controlled car's guts with an Arduino and have it be able to navigate to a given GPS location.
+Well over a year ago, I blogged about [starting a project](/blog/2011/10/where-the-hell-is-my-self-driving-car/) in which I replace a radio-controlled car's guts with an Arduino and have it be able to navigate to a given GPS location.
 
 Well, that project is *finally* underway.
 
@@ -98,7 +98,7 @@ DISTANCE: 89,111,32,15
  *Sample Arduino output.* 
 {:.center}
 
-In addition, the Arduino listens for input on the serial port for setting speed and steering values for the servos. This is not unlike the protocol used in my [Arduino LED project](http://ikennd.ac/blog/2011/09/arduino-dioder-part-one/), with two header bytes, a byte for the steering angle (0 - 180), a byte for the throttle angle (0 - 180) and a checksum byte. 
+In addition, the Arduino listens for input on the serial port for setting speed and steering values for the servos. This is not unlike the protocol used in my [Arduino LED project](/blog/2011/09/arduino-dioder-part-one/), with two header bytes, a byte for the steering angle (0 - 180), a byte for the throttle angle (0 - 180) and a checksum byte. 
 
 ### Main Software Stack - Raspberry Pi ###
 

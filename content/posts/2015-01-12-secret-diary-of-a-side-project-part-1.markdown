@@ -9,7 +9,7 @@ categories:
 - Programming-Work
 ---
 
-***Secret Diary of a Side Project** is a series of posts documenting my journey as I take an app from side project to a full-fledged for-pay product. You can find the introduction to this series of posts [here](http://ikennd.ac/blog/2014/12/secret-diary-of-a-side-project-intro/).*
+***Secret Diary of a Side Project** is a series of posts documenting my journey as I take an app from side project to a full-fledged for-pay product. You can find the introduction to this series of posts [here](/blog/2014/12/secret-diary-of-a-side-project-intro/).*
 
 *In this post, I'm going to talk about some of the mental shifts you need to do when taking the leap from side project to real product.*
 

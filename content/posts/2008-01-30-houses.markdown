@@ -11,7 +11,7 @@ categories:
 - General
 ---
 
-Well, after [much pondering](http://ikennd.ac/blog/2008/01/amy-hit-the-atmosphere/), my house
+Well, after [much pondering](/blog/2008/01/amy-hit-the-atmosphere/), my house
 is finally [on the market](http://www.dezrez.com/DRApp/Search.ASP?WCI=Particular&WCE=001117183).
 Plans are to move a bit north of Hitchin (which isn't that far from
 here) where I can get lots more house for the same amount of money. \

@@ -10,12 +10,12 @@ categories:
 - Gadgets
 ---
 
-Over a year ago, I ["reviewed"](http://ikennd.ac/blog/2013/03/canon-eos-6d-review/) my Canon 6D. I love that camera, and it can take beautiful photos. However, it's *big*, especially with the battery grip attached.
+Over a year ago, I ["reviewed"](/blog/2013/03/canon-eos-6d-review/) my Canon 6D. I love that camera, and it can take beautiful photos. However, it's *big*, especially with the battery grip attached.
 
 <img src="http://ppcdn.500px.org/29004361/69075366b5eef1f7b997cb9097cc6e77ebfdbcc0/5.jpg" />
 {:.center}
 
-This means that I only take it with my when I actively want to *take photos*, which doesn't include, well, 95% of my life. Sure, I always have my iPhone with me, which has a great camera for a phone… and until that suffix — *for a phone* — is gone, it's not going to cut it as something to record photos that need to [last a lifetime](http://ikennd.ac/blog/2013/02/my-life-in-pictures/). It's *great* at photos of landscapes or people where everything is roughly the same brightness, but as soon as you show it something challenging such as a scene with bright areas and dark shadows, the poor dynamic range sticks out like a sore thumb. As a friend put it: "So, let's summarise:  Your device which has no other purpose than to be a camera, is better at being a camera than your phone which is many devices. Who knew?!"
+This means that I only take it with my when I actively want to *take photos*, which doesn't include, well, 95% of my life. Sure, I always have my iPhone with me, which has a great camera for a phone… and until that suffix — *for a phone* — is gone, it's not going to cut it as something to record photos that need to [last a lifetime](/blog/2013/02/my-life-in-pictures/). It's *great* at photos of landscapes or people where everything is roughly the same brightness, but as soon as you show it something challenging such as a scene with bright areas and dark shadows, the poor dynamic range sticks out like a sore thumb. As a friend put it: "So, let's summarise:  Your device which has no other purpose than to be a camera, is better at being a camera than your phone which is many devices. Who knew?!"
 
 Anyway, my search for a small but high-quality camera led me to Micro Four-Thirds (MFT) cameras, and on to the snappily-titled Olympus OM-D E-M10. I've always had a soft spot for Olympus cameras (I still have an Olympus OM-1 which was given to me as a child by my father), and after a bit of deliberation I picked one up.
 

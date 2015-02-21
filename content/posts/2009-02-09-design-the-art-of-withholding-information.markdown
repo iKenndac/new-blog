@@ -25,12 +25,12 @@ Adding information just because you can is a bad idea. Why? Let me give you thre
 
 My home entertainment system comprises of a TV, a "Home Theatre" style amp, and several sources. The sources all plug into the amp which is in turn connected to the TV and some speakers. The components in this system all did well at supplying information. As you can see, my Philips TV shows a little red light to show it's on standby. That's useful information - if there's no picture, I can instantly see that it's because my TV is off.
 
-<img src="http://ikennd.ac/pictures/for_posts/2009/02/img_4476.jpg" alt="TV Off" title="TV Off" width="540" height="484" class="aligncenter size-full wp-image-246" />
+<img src="/pictures/for_posts/2009/02/img_4476.jpg" alt="TV Off" title="TV Off" width="540" height="484" class="aligncenter size-full wp-image-246" />
 {:.center}
 
 When you switch the TV on, the light goes blue to tell you that it's on. However, as soon as the TV displays a picture, the lights goes off. This is also useful, as if there's still no picture I can tell that it isn't because someone unplugged the TV. As soon as a picture is displayed, the light goes off, because the TV assumes (correctly) that the light isn't needed to tell the TV is on, because the screen is displaying a massive picture.
 
-<img src="http://ikennd.ac/pictures/for_posts/2009/02/img_4477.jpg" alt="TV On" title="TV On" width="540" height="491" class="aligncenter size-full wp-image-247" />
+<img src="/pictures/for_posts/2009/02/img_4477.jpg" alt="TV On" title="TV On" width="540" height="491" class="aligncenter size-full wp-image-247" />
 {:.center}
 
 My amp is a Yamaha, and shows all its information on the screen on front of the box. It says which channel it's on, and the format of the audio you're listening to. This isn't really useful normally, but good for troubleshooting if things aren't working right (are the rear speakers not playing sound because they're disconnected, or because I'm only listening to stereo audio?) or the TV isn't showing a picture. 99% of the time, though, this isn't useful, but the amp goes in a cupboard and you can't see it. 
@@ -43,7 +43,7 @@ Moreover, this starts to detract from the enjoyment of the entertainment system.
 
 When driving, it's vitally important that you're not distracted by useless information, and when designing human interfaces for cars it's actually <em>dangerous</em> to barrage the driver with useless information. In fact, Volvo have something called "<a href="http://www.roadsafe.com/news/article.aspx?article=210" target="_blank">Intelligent Driver Information System</a>" in their cars which actually <em>delays</em> non-critical information while you're busy negotiating junctions or twisty roads with aplomb. Pick <em>any</em> "normal" car with a inbuilt stereo, you're likely to find something that's been integrated well with the car's aesthetics and in some cases, thought has been put into the UI. A great example of this is, again, Volvo:
 
-<img src="http://ikennd.ac/pictures/for_posts/2008/09/img_3976.jpg" alt="Working!" title="Working!" width="479" height="720" class="aligncenter size-full wp-image-177" />
+<img src="/pictures/for_posts/2008/09/img_3976.jpg" alt="Working!" title="Working!" width="479" height="720" class="aligncenter size-full wp-image-177" />
 {:.center}
 
 On the screen, it's telling me:
@@ -63,7 +63,7 @@ The aftermarket stereo marketplace is a terribly, terribly sorry state of affair
 
 Take this sample from a random Pioneer stereo I found online that seems to have roughly the same pixel count as the Volvo screen above:
 
-<img src="http://ikennd.ac/pictures/for_posts/2009/02/dehp680mp.jpg" alt="Pioneer Screen" title="Pioneer Screen" width="392" height="118" class="aligncenter size-full wp-image-250" />
+<img src="/pictures/for_posts/2009/02/dehp680mp.jpg" alt="Pioneer Screen" title="Pioneer Screen" width="392" height="118" class="aligncenter size-full wp-image-250" />
 {:.center}
 
 On the screen, it's telling me:
@@ -113,7 +113,7 @@ If you're using that thing for anything other than a doorstop, there's multitude
 
 My approach follows that of Apple and Volvo in the examples above, in that I ask "How does this help our users?" for each item I put in, <em>especially</em> on iPhone. For example, take this screenshot of Music Rescue copying some tracks to my computer:
 
-<img src="http://ikennd.ac/pictures/for_posts/2009/02/mrcopy.jpg" alt="Music Rescue copying" title="Music Rescue copying" width="488" height="279" class="aligncenter size-full wp-image-257" />
+<img src="/pictures/for_posts/2009/02/mrcopy.jpg" alt="Music Rescue copying" title="Music Rescue copying" width="488" height="279" class="aligncenter size-full wp-image-257" />
 {:.center .no-border}
 
 Notice what it's telling you, but more importantly what it's <em>not</em>:
@@ -133,7 +133,7 @@ That last one is very useful - you can see that perhaps the copy will take an ho
 
 I could show all of that to the user very very easily. However, I've chosen not to because none of it is terribly useful. The amount of data you're copying is largely irrelevant while you're copying - you get told how much space you need before you start, when it's useful. Just to really get my point across, here's a mockup of how the copy sheet would look with all that information:
 
-<img src="http://ikennd.ac/pictures/for_posts/2009/02/mrmockup.jpg" alt="Music Rescue copying mockup" title="Music Rescue copying mockup" width="465" height="262" class="aligncenter size-full wp-image-259" />
+<img src="/pictures/for_posts/2009/02/mrmockup.jpg" alt="Music Rescue copying mockup" title="Music Rescue copying mockup" width="465" height="262" class="aligncenter size-full wp-image-259" />
 {:.center .no-border}
 
 Cluttered, no? I try to stick to this ideal everywhere. 

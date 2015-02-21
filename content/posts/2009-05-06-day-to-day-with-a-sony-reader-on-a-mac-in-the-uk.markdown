@@ -27,7 +27,7 @@ On a Mac, this gives instant win. If the file you want isn't directly compatible
 
 Why A5? Well, consider this photo of an A4 sized PDF displayed on the Reader:
 
-<a href="http://ikennd.ac/pictures/for_posts/2009/05/a4pdf.jpg"><img class="aligncenter size-full wp-image-341" title="A4 on the Sony Reader" src="http://ikennd.ac/pictures/for_posts/2009/05/a4pdf.jpg" alt="A4 on the Sony Reader" width="420" height="460" /></a>
+<a href="/pictures/for_posts/2009/05/a4pdf.jpg"><img class="aligncenter size-full wp-image-341" title="A4 on the Sony Reader" src="/pictures/for_posts/2009/05/a4pdf.jpg" alt="A4 on the Sony Reader" width="420" height="460" /></a>
 {:.center}
 
 The Reader does an excellent job of rendering PDFs - images display with remarkable clarity and text is crisp. However, an A4 page scaled down to the smaller screen gives very tiny writing. The Reader can reflow PDFs, but you'll get much better results by creating smaller pages on your computer - the Mac will do a better job than the Reader will!

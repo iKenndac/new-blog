@@ -13,7 +13,7 @@ categories:
 
 <p>All of my applications these days are versioned after the revision number of the version control repository they're built from. Normally, having a version number different from the human readable version number isn't necessary, but it's handy in some cases, such as distributing beta builds and managing multiple builds of the same version.</p>
 
-<img src="http://ikennd.ac/pictures/for_posts/2011/01/ClarusAbout.png" width="364" height="414" />
+<img src="/pictures/for_posts/2011/01/ClarusAbout.png" width="364" height="414" />
 {:.left .no-border}
 
 <p>For example, to the left you can see Clarus version 1.5.4 (239), which is the version you can download from my <a href="http://www.kennettnet.co.uk/products/clarus/">website</a>. The version submitted to the Mac App Store is 1.5.4 (247) for a couple of reasons:</p>

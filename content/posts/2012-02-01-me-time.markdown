@@ -20,7 +20,7 @@ It's also been very easy to fall into the trap of thinking I simply don't have t
 
 Recently, I've been trialling having an enforced "me time" - one hour per weekday, in the evening, where I'll stop what I'm doing (within reason!) and go and do one of the above things.
 
-<img src="http://ikennd.ac/pictures/metime.png" />
+<img src="/pictures/metime.png" />
 {:.center .no-border}
 
 So far, it's working out really well. I'm fortunate to live in an apartment large enough to have a room available for filling with the kind of toys required for this - so far it's decked out with a model railway, a fairly decent audio system and a small guitar rack with an amp. Best of all, it's right at the opposite end of the apartment to the living room and above the entrance hall to the building, meaning I can make a racket without bothering my fiancé or anyone else.

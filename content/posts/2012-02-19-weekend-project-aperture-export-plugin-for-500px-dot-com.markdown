@@ -15,7 +15,7 @@ They've been saying for a while now that an official Aperture Export plugin is c
 
 It requires Mac OS X 10.7 (Lion) and Aperture 3.x, and do bear in mind that I made this in less than 48 hours, so it may be buggy and it's certainly light on features. But, it gets my photos directly from Aperture into 500px, so I'm happy!
 
-<img src="http://ikennd.ac/pictures/500pxAperturePlugin.png" />
+<img src="/pictures/500pxAperturePlugin.png" />
 {:.center .no-border}
 
 You can find out more and download the plugin from [GitHub](https://github.com/iKenndac/500px-Aperture-Uploader). Enjoy!

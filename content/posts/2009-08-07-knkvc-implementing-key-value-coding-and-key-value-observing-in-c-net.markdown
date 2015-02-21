@@ -12,7 +12,7 @@ categories:
 ---
 
 **Note:** This is full-on, hardcore *Computer Science* right here. If
-you're here to read about [my cute doggie](http://ikennd.ac/blog/2009/02/goggie/) or how I'm the [best boyfriend ever](http://ikennd.ac/blog/2009/05/romance-and-nerdiness-the-perfect-couple/), this post isn't for you.
+you're here to read about [my cute doggie](/blog/2009/02/goggie/) or how I'm the [best boyfriend ever](/blog/2009/05/romance-and-nerdiness-the-perfect-couple/), this post isn't for you.
 
 **Want the code first?**
 
@@ -68,7 +68,7 @@ application.
 ### How does it work? Magic, right?
 
 
-<img src="http://ikennd.ac/pictures/for_posts/2009/08/KNKVCProjectSml.PNG" />
+<img src="/pictures/for_posts/2009/08/KNKVCProjectSml.PNG" />
 {:.right .no-border}
 
 Three things made me attempt to implement KVC/O in .NET...
@@ -109,7 +109,7 @@ implementation that's mostly full of null checking. Unfortunately, it's
 not simple enough to describe succinctly with words. Allow me to
 present... a *diagram*:
 
-<img src="http://ikennd.ac/pictures/for_posts/2009/08/KNKVO-Path-Flow.png" />
+<img src="/pictures/for_posts/2009/08/KNKVO-Path-Flow.png" />
 {:.center .no-border}
 
 At the moment, let's just pretend the automatic stuff actually works and

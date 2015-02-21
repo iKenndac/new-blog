@@ -63,7 +63,7 @@ license agreement nobody reads through, but that's not really an excuse.
 
 ### Interesting parts of my location history
 
-<img src="http://ikennd.ac/pictures/for_posts/2011/04/iPhoneLocationDataGermany.png" />
+<img src="/pictures/for_posts/2011/04/iPhoneLocationDataGermany.png" />
 {:.center}
 
 **Figure 1:** Driving through Germany. We stayed overnight down near
@@ -72,7 +72,7 @@ Hamburg for another overnight stop. I had Data Roaming switched on for a
 while at our stopovers, and occasionally switched it on throughout the
 drive to check Twitter.
 
-<img src="http://ikennd.ac/pictures/for_posts/2011/04/iPhoneDataSweden.png" />
+<img src="/pictures/for_posts/2011/04/iPhoneDataSweden.png" />
 {:.center}
 
 **Figure 2:** Driving through Sweden. My data is on permanently in Sweden,
@@ -81,7 +81,7 @@ interesting hole in the data towards the South, which isn't a one-time
 thing — this data was collected over three separate trips through the
 country: one in August 2010, the other two in March 2011.
 
-<img src="http://ikennd.ac/pictures/for_posts/2011/04/iPhoneDataFerry.png" />
+<img src="/pictures/for_posts/2011/04/iPhoneDataFerry.png" />
 {:.center}
 
 **Figure 3:** Sailing past England. This data is from two separate trips,
