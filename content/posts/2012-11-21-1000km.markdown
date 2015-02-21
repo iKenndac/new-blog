@@ -1,0 +1,71 @@
+---
+kind: article
+author: Daniel Kennett
+layout: post
+title: "1,000 km"
+slug: 1000km
+created_at: 2012-11-21 21:45
+comments: true
+categories: 
+- A Nerd Outdoors
+---
+
+Today, after a slightly extended trip home from work, I hit 1,000km ridden on my bike since March 25th this year, which is enough to ride from South London to Monaco in a straight line! In those eight months, I have…
+
+- Spent 71 hours on my bikes.
+- Gone on 81 separate rides, which averages 2.5 per week.
+- My [longest ride](http://app.strava.com/rides/13036767) was just over 30km.
+
+You can see my full cycling stats on my [Strava profile](http://app.strava.com/athletes/401933).
+
+<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='http://app.strava.com/runs/28819085/embed/307db656b437d928402cdb56b9ef8ebea07fb06b' style="display:block; margin: auto;"></iframe>
+
+ *The ride home from work that tipped me over 1,000km.* 
+{:.center}
+
+My [new bike](http://ikennd.ac/blog/2012/07/mountain-bikes-plus-mountains-equals-awesome/) has been put through a wide range of terrain, from the dry, sandy mountains of [the Alps](http://ikennd.ac/blog/2012/07/mountain-bikes-plus-mountains-equals-awesome/) to wet but smooth rides into work to the muddy, dirty, leafy forests in there area around my home. 
+
+
+One of the reasons I replaced my bike this year was that my old bike had suffered from neglect. A few years ago I rode it a lot in wet, gravelly conditions and fine pieces of gravel got everywhere. I didn't get my bike serviced (or service it myself), and the gravel wore away at irreparable parts of the frame. It wasn't gone by any means, but as the bike started needing serious money spending to replace work parts, I didn't want to spend that money on a failing frame.
+
+<img src="http://ikennd.ac/pictures/cycling/muddy.jpg" /> \\
+ *Cycling in wet, muddy conditions takes its toll on me, too!* 
+{:.center}
+
+So, I'm preparing to give my bike a thorough service now I'll be winding the riding down as it gets snowy. Armed with the knowledge I've gained over the years and [The Big Blue Book of Bicycle Repair](http://www.amazon.com/Park-Tool-BBB-2-Bicycle-Repair/dp/B001B6NAW2/ref=sr_1_1?s=books&ie=UTF8&qid=1353531679&sr=1-1&keywords=Big+Blue+Book+of+Bicycle+Repair), I'll be spending a weekend taking my bike apart and thoroughly cleaning and re-lubricating the sensitive parts. Since I'll have it apart *anyway*, I've decided to do a couple of upgrades to the brake system (new hoses) and the tyres (converting to tubeless). It'll be as good as new!
+
+Here's my list of tasks. It'll be a busy weekend!
+
+**Brakes**
+
+* Bleed brake lines (if needed)
+* Adjust lever travel and reach
+
+**Rear Gears**
+
+* Remove cassette and clean
+* Clean and re-lubricate derailleur
+* Check gear cables for smoothness/fraying, re-lubricate or replace if needed
+* Check and adjust gear shifting
+
+
+**Rest of Drivechain**
+
+* Check chain for stretch, replace if needed
+* Remove crank and bottom bracket, clean, lubricate and reassemble
+* Check wheels and axles for lubrication, correct tightness
+
+**Suspension**
+
+* Check seals and pressures
+* Re-adjust if needed
+
+**Frame**
+
+* Check frame for cracks etc
+* Clean frame, sticker/paint over damage, observe friction points
+
+**Miscellaneous**
+
+* Check saddle height and position
+* Remove dropper post, clean and re-lubricate if needed
