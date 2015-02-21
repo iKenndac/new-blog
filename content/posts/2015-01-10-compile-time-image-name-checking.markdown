@@ -6,7 +6,7 @@ title: "Compile-Time Image Name Checking"
 created_at: 2015-01-10 21:40:00 +0100
 comments: true
 categories:
-- Programming-Work
+- Programming
 ---
 
 In my [continued](/blog/2014/08/nslocalizedstring/) [quest](/blog/2014/08/nslocalizedstring-part-2/) to banish as many string literals as I possibly can from my project, I wrote a little tool to generate a header file containing string constants for the names of all the images in my `.xcassets` bundle. 

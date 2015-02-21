@@ -8,7 +8,7 @@ status: publish
 title: The store is dead. Long live the store!
 wordpress_id: '613'
 categories:
-- Programming-Work
+- Programming
 ---
 
 <p>Many moons ago, I sold two programs: Writer (a little word processing app) and PodUtil 2.0 (which evolved into my current app, Music Rescue). I'd decided to sell them through the payment processor <a href="http://www.esellerate.net/">eSellerate</a>. However, eSellerate worked in dollars and my bank charged £20 to deposit a foreign cheque. That was approaching 10% of my approximate monthly income of $400! Things had to change.</p>

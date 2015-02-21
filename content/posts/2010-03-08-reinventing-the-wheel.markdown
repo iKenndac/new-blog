@@ -8,7 +8,7 @@ status: publish
 title: Reinventing the Wheel
 wordpress_id: '522'
 categories:
-- Programming-Work
+- Programming
 ---
 
 <p>Over the past week or two, I've been working exclusively in Visual Studio on Windows, writing the core components of the next version of my Music Rescue application.</p>

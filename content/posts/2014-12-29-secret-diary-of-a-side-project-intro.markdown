@@ -6,7 +6,7 @@ title: "Secret Diary Of A Side Project: Introduction"
 created_at: 2014-12-29 18:15:00 +0100
 comments: true
 categories:
-- Programming-Work
+- Programming
 ---
 
 

@@ -8,7 +8,7 @@ status: publish
 title: 'Designers: How To Get Me To Give You Money For Stuff'
 wordpress_id: '623'
 categories:
-- Programming-Work
+- Programming
 ---
 
 <p>By and large, my experience with designers has been bad. It started when I was 15 and had to borrow money off Mum to employ a designer to make an icon for my crappy little word processor for Mac OS 9. The designer went bust, or something, and it took us months to get our money back.</p>

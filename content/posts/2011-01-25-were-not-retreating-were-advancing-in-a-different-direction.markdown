@@ -8,7 +8,7 @@ status: publish
 title: We're Not Retreating; We're Advancing in a Different Direction
 wordpress_id: '711'
 categories:
-- Programming-Work
+- Programming
 - Sweden
 ---
 

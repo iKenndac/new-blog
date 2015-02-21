@@ -6,7 +6,7 @@ title: "2013 Mac Pro Review: Developer Edition"
 created_at: 2014-07-19 23:00
 comments: true
 categories:
-- Programming-Work
+- Programming
 ---
 
 On June 10th 2013, I was sitting in the upper floor of Moscone West in San Francisco, along with a few thousand fellow iOS and Mac developers.

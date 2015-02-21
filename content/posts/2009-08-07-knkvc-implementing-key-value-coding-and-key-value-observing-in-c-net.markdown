@@ -8,7 +8,7 @@ status: publish
 title: KNKVC - Implementing Key-Value Coding and Key-Value Observing in C#.NET
 wordpress_id: '398'
 categories:
-- Programming-Work
+- Programming
 ---
 
 **Note:** This is full-on, hardcore *Computer Science* right here. If

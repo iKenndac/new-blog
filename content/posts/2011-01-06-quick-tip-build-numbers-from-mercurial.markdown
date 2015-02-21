@@ -8,7 +8,7 @@ status: publish
 title: 'Quick Tip: Build numbers from Mercurial'
 wordpress_id: '685'
 categories:
-- Programming-Work
+- Programming
 ---
 
 <p>All of my applications these days are versioned after the revision number of the version control repository they're built from. Normally, having a version number different from the human readable version number isn't necessary, but it's handy in some cases, such as distributing beta builds and managing multiple builds of the same version.</p>

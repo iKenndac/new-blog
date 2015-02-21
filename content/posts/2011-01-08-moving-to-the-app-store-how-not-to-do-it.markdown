@@ -8,7 +8,7 @@ status: publish
 title: 'Moving to the App Store: How Not To Do It'
 wordpress_id: '693'
 categories:
-- Programming-Work
+- Programming
 ---
 
 <p>The Mac App Store was released a couple of days ago, and one of the main challenges for us developers with existing user bases has been what to do if we want our applications on the store — Apple don't give us a way to move our users to the App Store versions of our applications for free while allowing us to charge money to new users.</p>

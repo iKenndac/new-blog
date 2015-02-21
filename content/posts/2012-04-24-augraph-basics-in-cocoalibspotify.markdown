@@ -7,7 +7,7 @@ created_at: 2012-04-24 13:31
 comments: true
 slug: augraph-basics-in-cocoalibspotify
 categories:
-- Programming-Work
+- Programming
 ---
 
 Core Audio is one of the trickier frameworks in the Mac and iOS arsenal, but is incredibly powerful once you manage to tame it. I've been spending some time at Spotify getting to grips with it, and have released some Core Audio code as part of the open-source [CocoaLibSpotify](https://github.com/spotify/cocoalibspotify) library.

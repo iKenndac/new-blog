@@ -8,7 +8,7 @@ status: publish
 title: 'Nerd++: Controlling Dioder RGB LED Strips with Arduino, Pt. 3 - Hardware Tidyup'
 wordpress_id: '771'
 categories:
-- Programming-Work
+- Programming
 ---
 
 A month or so ago, I [wrote a post](/blog/2011/09/arduino-dioder-part-one/)

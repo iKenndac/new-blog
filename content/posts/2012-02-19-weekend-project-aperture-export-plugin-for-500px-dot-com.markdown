@@ -6,7 +6,7 @@ title: "Weekend Project: Aperture Export Plugin for 500px.com"
 created_at: 2012-02-19 00:35
 comments: true
 categories: 
-- Programming-Work
+- Programming
 ---
 
 [500px.com](http://500px.com/) is a pretty awesome new(ish) photo site. I really prefer its layout and display of photos over Flickr, in part because it simply displays the photos _bigger_, and the photos are the most important thing!

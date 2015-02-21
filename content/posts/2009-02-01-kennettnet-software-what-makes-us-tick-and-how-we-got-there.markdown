@@ -8,7 +8,7 @@ status: publish
 title: 'KennettNet Software: What Makes Us Tick And How We Got There'
 wordpress_id: '203'
 categories:
-- Programming-Work
+- Programming
 ---
 
 Every programmer has a plethora of tools up their sleeve to make their job more about programming and less about managing the files and issues that come about. I thought I'd share the tools that make up our workflow.

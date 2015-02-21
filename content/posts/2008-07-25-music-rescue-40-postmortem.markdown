@@ -8,7 +8,7 @@ status: publish
 title: Music Rescue 4.0 Postmortem
 wordpress_id: '152'
 categories:
-- Programming-Work
+- Programming
 ---
 
 This post has been moved <a href="http://www.kennettnet.co.uk/blog/full/music_rescue_4.0_postmortem/">here</a>.

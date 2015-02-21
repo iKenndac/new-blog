@@ -8,7 +8,7 @@ status: publish
 title: 'Moonlighting in .NET Part 1: Living in the Bubble'
 wordpress_id: '531'
 categories:
-- Programming-Work
+- Programming
 ---
 
 <p>I'm a Cocoa developer first and foremost, but for the next few months I'll be moonlighting as a C#.NET developer, writing version 5.0 of my Music Rescue application from scratch. I actually have version 4.0 in Visual Basic.NET, but, you know &mdash; Visual Basic is for chumps.</p>

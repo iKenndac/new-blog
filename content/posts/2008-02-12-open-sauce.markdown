@@ -8,7 +8,7 @@ status: publish
 title: Open Sauce
 wordpress_id: '45'
 categories:
-- Programming-Work
+- Programming
 ---
 
 Over the past few days, I've been writing Mac (Cocoa) and Windows (.NET) code to allow the new version of a certain <a href="http://www.kennettnet.co.uk/musicrescue">product</a> of mine to work with those new-fangled ((iPhone was released in the US in June 2007 - 8 months ago. Ahem.)) iPhones and iPod touches we've been hearing so much about. 

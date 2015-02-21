@@ -7,7 +7,7 @@ slug: your-runtime-and-you
 created_at: 2013-02-04 18:15
 comments: true
 categories:
-- Programming-Work
+- Programming
 ---
 
 There've been a [few](http://ashfurrow.com/blog/the-necessity-of-c-in-objective-c) [posts](http://ashfurrow.com/blog/seven-deadly-sins-of-modern-objective-c)[^your-runtime-and-you-1] [floating](http://ashfurrow.com/blog/objcmsgsend-is-not-your-bottleneck) [around](http://xinsight.ca/blog/saving-objc-method-calls/) the internets recently discussing some rules about when to use Objective-C or not, mainly focusing on performance but touching on code readability and maintainability too. These posts are all written by intelligent people who make reasonable arguments, I get a rather uneasy feeling reading them.

@@ -8,7 +8,7 @@ status: publish
 title: '"Wait.... what?"'
 wordpress_id: '37'
 categories:
-- Programming-Work
+- Programming
 ---
 
 Heh, you know you've done something pretty bad when the compiler just gives up on a simple instance declaration! 

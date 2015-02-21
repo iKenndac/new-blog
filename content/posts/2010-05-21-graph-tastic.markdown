@@ -8,7 +8,7 @@ status: publish
 title: Graph-tastic!
 wordpress_id: '557'
 categories:
-- Programming-Work
+- Programming
 ---
 <p>I've haven't been <a href="/2010/02/playing-the-game%E2%80%A6-and-losing/">shy</a> about sharing my personal financial difficulties on this blog. However, one thing I was worried about was that my financial troubles were being caused by fundamental cracks in the foundations of my company. The year's accounts have just been completed, and I'm very relieved to find out that isn't the case. Allow me to present a <em>graph</em> to demonstrate.</p>
 

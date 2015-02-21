@@ -8,7 +8,7 @@ status: publish
 title: 'Sparkle and the Mac App Store: Techniques for managing optional code'
 wordpress_id: '665'
 categories:
-- Programming-Work
+- Programming
 ---
 
 ### Example 1: Managing Optional Features in Different Builds of the Same Application (like, say, Sparkle)

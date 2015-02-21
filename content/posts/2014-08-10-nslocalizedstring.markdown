@@ -6,7 +6,7 @@ title: "Compile-Time NSLocalizedString Key Checking"
 created_at: 2014-08-10 14:45:00 +0200
 comments: true
 categories:
-- Programming-Work
+- Programming
 ---
 
 There are two typical flows for using `NSLocalizedString` to localise your application's strings:

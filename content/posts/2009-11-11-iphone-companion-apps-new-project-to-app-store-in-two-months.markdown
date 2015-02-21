@@ -8,7 +8,7 @@ status: publish
 title: 'iPhone Companion Apps: New Project to App Store in Two Months'
 wordpress_id: '487'
 categories:
-- Programming-Work
+- Programming
 ---
 
 <img src="/pictures/for_posts/2009/11/ClarusiPhone128.png" alt="ClarusiPhone128.png" border="0" width="128" height="128" align="left" />

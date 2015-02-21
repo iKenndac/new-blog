@@ -8,7 +8,7 @@ created_at: 2013-02-10 16:30
 comments: true
 categories:
 - Gadgets
-- Programming-Work
+- Programming
 ---
 
 Well over a year ago, I blogged about [starting a project](/blog/2011/10/where-the-hell-is-my-self-driving-car/) in which I replace a radio-controlled car's guts with an Arduino and have it be able to navigate to a given GPS location.

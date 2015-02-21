@@ -6,7 +6,7 @@ title: "Secret Diary of a Side Project: Perception Shift"
 created_at: 2015-01-12 21:30:00 +0100
 comments: true
 categories:
-- Programming-Work
+- Programming
 ---
 
 ***Secret Diary of a Side Project** is a series of posts documenting my journey as I take an app from side project to a full-fledged for-pay product. You can find the introduction to this series of posts [here](/blog/2014/12/secret-diary-of-a-side-project-intro/).*

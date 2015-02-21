@@ -6,7 +6,7 @@ title: "Compile-Time NSLocalizedString Key Checking Part 2: Other Languages"
 created_at: 2014-08-25 20:00:00 +0200
 comments: true
 categories:
-- Programming-Work
+- Programming
 ---
 
 In my last post, [Compile-Time NSLocalizedString Key Checking](/blog/2014/08/nslocalizedstring/), we explored a solution that elevated `.strings` files from "just another resource" to something that we could get compile-time checks on.

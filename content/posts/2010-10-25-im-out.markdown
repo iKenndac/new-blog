@@ -8,7 +8,7 @@ status: publish
 title: I'm out.
 wordpress_id: '621'
 categories:
-- Programming-Work
+- Programming
 ---
 
 <p>I'm convinced that <a href="http://www.kennettnet.co.uk/">my company's</a> file has never been quite right in the HMRC's system(s). Every new financial year I have to phone up and pester them to get new forms and stuff, even though I'm supposed to get them automatically.</p>

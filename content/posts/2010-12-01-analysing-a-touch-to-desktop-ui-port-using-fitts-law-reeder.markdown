@@ -8,7 +8,7 @@ status: publish
 title: 'Analysing a Touch-to-Desktop UI port using Fitts''s Law: Reeder for Mac Beta'
 wordpress_id: '632'
 categories:
-- Programming-Work
+- Programming
 ---
 
 <p>It's finally happened. Someone came out with a Mac OS application that's <em>clearly </em>a touch UI crowbarred into a point-and-click universe.</p>

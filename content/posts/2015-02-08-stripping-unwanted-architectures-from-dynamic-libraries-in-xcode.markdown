@@ -6,7 +6,7 @@ title: "Stripping Unwanted Architectures From Dynamic Libraries In Xcode"
 created_at: 2015-02-08 19:00:00 +0100
 comments: true
 categories:
-- Programming-Work
+- Programming
 ---
 
 Since iOS 8 was announced, developers have been able to take advantage of the benefits of dynamic libraries for iOS development.

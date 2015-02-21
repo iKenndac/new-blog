@@ -9,7 +9,7 @@ title: 'Nerd++: Controlling Dioder RGB LED Strips with Arduino, Pt. 2 - Some Sor
   of Ambient Lighting'
 wordpress_id: '754'
 categories:
-- Programming-Work
+- Programming
 ---
 
 <img src="/pictures/for_posts/2011/09/DioderFacebookReaction.png" />

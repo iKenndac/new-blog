@@ -8,7 +8,7 @@ status: publish
 title: Being Passionate About x and Running a Business in x Are Incompatible. Discuss.
 wordpress_id: '363'
 categories:
-- Programming-Work
+- Programming
 ---
 
 A few months ago, I was in perhaps the worst state I've been in for a few years. I could see my company's cashflow falling, and expenses rising. I'm not a numbers and charts kinda guy, but I made a chart plotting the projected cashflow against projected expenses and the chart didn't paint a pretty picture. Many a sleepless night passed as I figured out what on earth I was going to do.

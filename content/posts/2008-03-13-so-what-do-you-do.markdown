@@ -8,7 +8,7 @@ status: publish
 title: '"So, what do you do?"'
 wordpress_id: '84'
 categories:
-- Programming-Work
+- Programming
 ---
 
 This is a question I get asked fairly often. Normally I just lie and say that I write software - it's easier. I <em>do</em> write software, but that's not my job. 

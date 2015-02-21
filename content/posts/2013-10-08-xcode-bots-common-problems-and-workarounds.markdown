@@ -6,7 +6,7 @@ title: "Xcode Bots: Common Problems And Workarounds"
 created_at: 2013-10-08 22:38
 comments: true
 categories:
-- Programming-Work
+- Programming
 ---
 
 I *love* Continuous Integration. I've never bothered with it for my side projects since it didn't seem worth the effort, but now it's built into Xcode I thought "This is Apple! Two clicks and I'm done, right?"
