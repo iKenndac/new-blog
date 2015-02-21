@@ -1,0 +1,31 @@
+---
+kind: article
+author: Daniel Kennett
+created_at: '2005-01-02 15:36:14'
+layout: post
+slug: new-car
+status: publish
+title: New Car!
+wordpress_id: '11'
+categories:
+- Gadgets
+---
+
+The plan <b>was</b> to save up over a period of three years, and get a shiny new car at the end of it when I graduated university. However, that plan sucked. Saving up money is the most boring thing to do in the world, ever. 
+
+So instead I came up with a much better plan. I could buy the car <i>now</i> and pay for it over three years. I'd be saving up for it, but I'd have it already! Brilliant! 
+
+Three days later, I'm zipping around in a Vauxhall New Astra 1.8 SRi. It has a load of cool stuff like air conditioning and knows everything - if someone isn't wearing a seatbelt, I get a warning. If someone farts in the seat, I get a warning. 
+
+However, the most amazing thing about the car is one tiny little button. It says "Sport" on it. It makes the car go faster. Of course, it does have traction control and ABS to help you crash less. Or so the theory goes, anyway. Enough words, let's have some pictures! <br />&nbsp;
+
+<center> 
+<img src="http://ikennd.ac/pictures/astra/still1.jpg"/>
+<img src="http://ikennd.ac/pictures/astra/still2.jpg"/>
+<img src="http://ikennd.ac/pictures/astra/still3.jpg"/>
+<img src="http://ikennd.ac/pictures/astra/moving.jpg"/>
+</center>
+
+Oh, and I took it up to Stuart's for a day. Feeling a bit envious, he decided to show off how fast his car was. Problem is, in this picture he's going about 5mph - it's blurry 'cause I'm waving the camera about! 
+<br />&nbsp;
+<center><img src="http://ikennd.ac/pictures/astra/stuart.jpg"/></center>

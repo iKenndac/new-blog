@@ -1,0 +1,38 @@
+@import 'mixins';
+
+p.center {
+	text-align: center;
+}
+
+p.right {
+	float: right;
+}
+
+p.left {
+	float: left;
+}
+
+p.left img {
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+article img {
+	border: 10px solid white;
+	box-shadow: 0px 0px 2px 1px #ccc;
+}
+
+article img.no-border {
+	border: none;
+	box-shadow: none;
+}
+
+article p.no-border img {
+	border: none;
+	box-shadow: none;
+}
+
+article img {
+	max-width:100%;
+	max-height:auto;
+}

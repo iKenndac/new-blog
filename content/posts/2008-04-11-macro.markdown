@@ -1,0 +1,37 @@
+---
+kind: article
+author: Daniel Kennett
+created_at: '2008-04-11 20:13:07'
+layout: post
+slug: macro
+status: publish
+title: Macro Lens Tomfoolery
+wordpress_id: '97'
+categories:
+- Gadgets
+---
+
+Boredom + new macro lens + new car =
+
+<a href='http://ikennd.ac/pictures/for_posts/2008/04/img_3820.jpg' title='C30 Badge'><img src='http://ikennd.ac/pictures/for_posts/2008/04/img_3820.jpg' alt='C30 Badge' /></a>
+{:.center}
+
+<a href='http://ikennd.ac/pictures/for_posts/2008/04/img_3821.jpg' title='Volvo Badge'><img src='http://ikennd.ac/pictures/for_posts/2008/04/img_3821.jpg' alt='Volvo Badge' /></a>
+{:.center}
+
+Read more for more photos.
+
+<!--more-->
+
+<a href='http://ikennd.ac/pictures/for_posts/2008/04/img_3823.jpg' title='Rear Cluster'><img src='http://ikennd.ac/pictures/for_posts/2008/04/img_3823.jpg' alt='Rear Cluster' /></a>
+{:.center}
+
+<a href='http://ikennd.ac/pictures/for_posts/2008/04/img_3824.jpg' title='Dash'><img src='http://ikennd.ac/pictures/for_posts/2008/04/img_3824.jpg' alt='Dash' /></a>
+{:.center}
+
+<a href='http://ikennd.ac/pictures/for_posts/2008/04/img_3826.jpg' title='RDesign'><img src='http://ikennd.ac/pictures/for_posts/2008/04/img_3826.jpg' alt='RDesign' /></a>
+{:.center}
+
+<a href='http://ikennd.ac/pictures/for_posts/2008/04/img_3827.jpg' title='Indicator Stalk'><img src='http://ikennd.ac/pictures/for_posts/2008/04/img_3827.jpg' alt='Indicator Stalk' /></a>
+{:.center}
+

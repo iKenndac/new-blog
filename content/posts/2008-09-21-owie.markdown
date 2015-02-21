@@ -1,0 +1,16 @@
+---
+kind: article
+author: Daniel Kennett
+created_at: '2008-09-21 20:10:26'
+layout: post
+slug: owie
+status: publish
+title: Owie!
+wordpress_id: '184'
+---
+
+I've been doing some bike riding since moving house, and I'm lucky to be situated within riding distance of <a href="http://www.chicksandsbikepark.co.uk/">Chick Sands</a>. However, while watching someone else and assuming that if I followed their path I wouldn't crash, I... well, crashed. Artist's impression:
+
+<a href="http://ikennd.ac/pictures/for_posts/2008/09/crash.png"><img src="http://ikennd.ac/pictures/for_posts/2008/09/crash.png" alt="Crash" title="Oh noes!" width="463" height="206" class="size-full wp-image-185" /></a>
+{:.center .no-border}
+

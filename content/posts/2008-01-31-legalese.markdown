@@ -1,0 +1,16 @@
+---
+kind: article
+author: Daniel Kennett
+created_at: '2008-01-31 19:46:44'
+layout: post
+slug: legalese
+status: publish
+title: Legalese
+wordpress_id: '40'
+categories:
+- General
+---
+
+I would like it on record that I felt ill <em>before</em> eating Tim's cooking, and consuming said delicacy didn't seem to affect me that much.
+
+Thank you for your time.

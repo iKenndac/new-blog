@@ -1,0 +1,73 @@
+---
+kind: article
+author: Daniel Kennett
+created_at: '2004-12-10 15:22:16'
+layout: post
+slug: h2e
+status: publish
+title: H2E!
+wordpress_id: '9'
+categories:
+- General
+---
+
+On December 7th, there was a collection of people here for the ultimate gaming event... H2E (which is a snazzy acronym for the rather boring name "Halo 2 Event"). 
+
+There would be 5 teams of two, in a battle for the grand prize!
+
+<center><img border="0" src="http://ikennd.ac/pictures/h2e/gmc.jpg"/></center><br />
+
+... the Golden Master Chiefs! Two of them, to be precise seeing as there's two people in each team. The winner was decided over 5 rounds of Team Deathmatch, with the winner getting 8 points, 2nd place getting 6, etc. The champions will be the people with most points. 
+
+
+<center><img border="0" src="http://ikennd.ac/pictures/h2e/group.jpg"/></center><br />
+
+This was the collection of people that took part. From top-to-bottom, left-to-right they are:
+
+Top Row: Darren, Marcus (Gilb), Jonny
+Middle Row: Michelle, Luke, Wil
+Bottom Row: James (Jimmy, Squirrel), Stuart, Daniel (Me!), Robin
+
+That's right, a girl! At a video game event! I'm afraid she didn't break the "girls don't play shooty games" stereotype... the plan was for her to play a tennis game on a PS2 in the corner but that failed because of technical difficulties (Darren forgot the remote for his TV, which you need to get it onto the AV channel) so she ended up keeping scores and handing out drinks and cake. 
+
+
+<center><img border="0" src="http://ikennd.ac/pictures/h2e/michelle.jpg"/><br />Nobody else thought it was cold enough to wear a scarf indoors...</center><br />
+
+In the few days before the event, I went round and collected my friend's (very generously) donated TVs and Xboxes and set them all up on my home network. For the geeks out there: My network is a switched 1000/100/10-baseT affair and is all static IPs, but I set up my server machine to be a DHCP server for the evening. My things kept their static IPs but everyone else's Xboxes used DHCP. Worked without a hiccup!
+
+In total we had 5 Xboxes and TVs arranged around the room. But first... pizza. After a trip to Tesco and Pizza Hut, we had 4 large pizzas, a load of garlic and enough drink to fill a swimming pool. A few minutes spent eating and drinking, and we were ready to go! 
+
+The room was laid out as such:
+
+
+<center><img border="0" src="http://ikennd.ac/pictures/h2e/room1.jpg"/><br />Most people were in here...<img border="0" src="http://ikennd.ac/pictures/h2e/room2.jpg"/><br />...but Marcus and Luke were over there!</center>
+
+I ended up on my own instead of in a team as there were only 9 taking part and as I organised the thing and made the prizes, it was unfair if I had a chance of winning. Thing is, I managed to not come last in a couple of the rounds, until Stuart found out about dual-wielding needlers. Many times after that you heard someone shout "Pink! It's all <i>pink!</i> followed by a violent death. By the end of it there was a clear winner - Team Trout (Marcus and Luke). They were presented with their prize by Robin...
+
+
+<center><img border="0" src="http://ikennd.ac/pictures/h2e/winners.jpg"/></center><br />
+
+... and one of the Master Chiefs promptly got violated by the other ...
+
+
+<center><img border="0" src="http://ikennd.ac/pictures/h2e/violated.jpg"/></center><br />
+
+Right, with the tournament over it was time for... cake! A quick trip to the Co-Op by Stuart yielded 4 cakes... and Michelle the serving lady* got it cut up and distributed in no time. 
+
+* Michelle isn't actually a serving lady. Michelle, please don't kill me.
+
+More gaming. This time, two big teams (5 vs 4) against each other in a few rounds of Capture the Flag (CTF), and we arranged the Xboxes into two team areas for better play. This is blue team: 
+
+
+<center><img border="0" src="http://ikennd.ac/pictures/h2e/blueteam.jpg"/></center><br />
+
+Red Team were the other guys who are out of shot. We did have a bit of an unfair advantage though... Our team had 5 players, and red team had Stuart. Not to be harsh on him, but he did spend a fair 10 minutes in the first CTF game trying to figure out what was going on... "Right so we get the flag from their base... and bring it back here?" Then he managed to kill his team mates on more than one occasion. In fact, that was Red Team's excuse for losing so badly... "You had 5 players, and we had Stuart!" I also think that having the two MCs on our big TV helped a bit - but it was 99% skill on our part! 
+
+
+<center><img border="0" src="http://ikennd.ac/pictures/h2e/mc-tv.jpg"/></center><br />
+
+Our last flag capture was in fact the best... on Coagulation, we ran the whole way back on foot as a team - when the flag carrier got killed the next guy picked it up and continued running! My part of this relay lasted about 10 seconds and consisted of jumping around screaming while being shot in the back by three people. Nice!
+
+So, all in all it was a successful night! I didn't win the tournament, but I was part of the winning team in all the big team games. 
+
+Bitches.

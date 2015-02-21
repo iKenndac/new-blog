@@ -1,0 +1,73 @@
+---
+kind: article
+author: Daniel Kennett
+created_at: '2006-08-07 01:52:56'
+layout: post
+slug: wwdc-day-1
+status: publish
+title: San Francisco Day 1
+wordpress_id: '28'
+categories:
+- General
+---
+
+Since the rest of the my week is going to be completely boring to anyone but us Mac geeks, I thought I'd write about my first couple of days. There's plenty of photos to look at if you get bored reading (click them for bigger versions).
+
+My flight arrived at 1.15pm, which was about 9.15pm UK time. The flight itself wasn't bad at all - I was upstairs in the plane so it was quiet, and my 'space' was about the size of a single bed - the seat reclines all the way back to make a bed, if you like. I stuck it out to about 6pm (2am UK time) last night before I gave up and went to bed.
+
+8.30am this (Sunday) morning I was up, fed and about. Registration for <a href="http://www.apple.com/wwdc/">WWDC</a> opened today, so I decided to go track the building down and get checked in. It's only a 5 minute walk from my hotel, and really not that hard to spot:
+
+<a href="http://ikennd.ac/pictures/wwdc/day1/IMG_0860_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/day1/IMG_0860.jpg"/></a>
+
+<!--more-->
+
+San Francisco is a bit weird - it's very modern and clean, but at the same time living in a previous era. I was standing at a corner admiring the fancy Virgin store...
+
+<a href="http://ikennd.ac/pictures/wwdc/day1/IMG_0863_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/day1/IMG_0863.jpg"/></a>
+
+... when this trundled past.
+
+<a href="http://ikennd.ac/pictures/wwdc/day1/IMG_0866_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/day1/IMG_0866.jpg"/></a>
+
+My hotel is right next to a cable car turning point. The San Francisco cable cars are pretty famous, and work by gripping a cable that moves under the street. The line ends at a turntable - the driver and conductor jump out and push the car around so it can go back the way it came. 
+
+<a href="http://ikennd.ac/pictures/wwdc/day1/IMG_0870_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/day1/IMG_0870.jpg"/></a>
+
+<a href="http://ikennd.ac/pictures/wwdc/day1/IMG_0869_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/day1/IMG_0869.jpg"/></a>
+
+The tracks go along the same road that cars use, and it's quite interesting watching them share the road. 
+
+<a href="http://ikennd.ac/pictures/wwdc/day1/IMG_0876_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/day1/IMG_0876.jpg"/></a>
+
+I took a ride on the cable car, and it's great fun. On the way back, I was dangling off the back, and took a few photos - the first and second being my favourites.
+
+<a href="http://ikennd.ac/pictures/wwdc/day1/IMG_0897_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/day1/IMG_0897.jpg"/></a>
+
+<a href="http://ikennd.ac/pictures/wwdc/day1/IMG_0901_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/day1/IMG_0901.jpg"/></a>
+
+<a href="http://ikennd.ac/pictures/wwdc/day1/IMG_0906_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/day1/IMG_0906.jpg"/></a>
+
+<a href="http://ikennd.ac/pictures/wwdc/day1/IMG_0907_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/day1/IMG_0907.jpg"/></a>
+
+When I got back to the hotel, it occurred to me that the only pair of jeans I have with me is covered in tar from when I was kneeling on the hot road last week when taking my MX-5 to bits. And that I could feel the floor through my shoes. It later occurred to me that wearing the same pair of jeans for two weeks straight probably wouldn't have been a good idea, but I'd already got new ones by then.
+
+To the shops! I ended up getting two pairs of jeans, a pair of trainers and three t-shirts. 
+
+<b>Random Tidbits</b>
+
+Everything is bigger here. The small bottles of drink are 600ml instead of the 500ml we have in the UK. Asking for a large Coke in Subway/etc gets you a <i>large</i> Coke. However, the drink dispensers are faster so you don't feel like a fat pig waiting for your cup to fill.
+
+<a href="http://ikennd.ac/pictures/wwdc/day1/IMG_0911_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/day1/IMG_0911.jpg"/></a>
+
+San Francisco has a few (small) beaches. People were swimming in the water, albeit in wetsuits.
+
+<a href="http://ikennd.ac/pictures/wwdc/day1/IMG_0887_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/day1/IMG_0887.jpg"/></a>
+
+On this very random gazebo was a very random sign.
+
+<a href="http://ikennd.ac/pictures/wwdc/day1/IMG_0891_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/day1/IMG_0891.jpg"/></a>
+
+<img src="http://ikennd.ac/pictures/wwdc/day1/solicitors.jpg"/>
+
+Well, that's it for now. Tomorrow morning the big keynote kicks off the conference, and I'll be knee deep in code and tech talk for the rest of week. Let the geekery commence!
+
