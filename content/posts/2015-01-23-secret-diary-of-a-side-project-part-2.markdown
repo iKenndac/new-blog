@@ -13,8 +13,7 @@ categories:
 
 *In this post, I'm going to talk about some of the coding practices I've picked up over the years that really make a difference when working on projects that have a limited time budget.*
 
- ~ 
-{:.center}
+---
 
 There are *tons* of coding practices that help us be better, faster, more understandable as coders. However, although this post is pretty long, I only talk about two practices — both of which are focused on keeping projects simple to understand for people new to the project. That's *really* important for a side project you intend on seeing through — because you're working under severe time constraints, you may well go months between looking at a particular part of a project. You'll be a newbie to your own code, and *future* you will love *past* you a lot more if *past* you writes a simple, easy-to-understand project.
 
@@ -110,7 +109,6 @@ If you want to be *really* flexible and are seriously considering multiple platf
  *Cascable in C#? Why not?* 
 {:.center}
 
- ~ 
-{:.center}
+---
 
 Next time on *Secret Diary of a Side Project*, we'll talk about one of the most difficult things in this whole process: cold, hard, cash money.

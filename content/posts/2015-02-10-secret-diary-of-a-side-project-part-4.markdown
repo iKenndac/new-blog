@@ -13,8 +13,7 @@ categories:
 
 *In this post, I'm going to talk about something that strikes fear into the heart of any programmer: planning. You won't get to 1.0 without it!*
 
- ~  
-{:.center}
+---
 
 If you're anything like me, it's likely that you have some form of issue tracker for your side project, detailing various bugs to be fixed and features to be added. In my instance, that ended up being a sort of rolling affair — I'd fix a bunch of things, see that my issue list was diminishing, then spend a while with the app prodding around until I found more things to add to the tracker. This was a perfectly acceptable approach in the beginning.
 
@@ -70,8 +69,7 @@ This task helps establish why this project exists to start with.
 
 > The applications that come with WiFi-enabled cameras tend to be pretty terrible. We can do better, and make a WiFi connection an indispensable tool on a camera rather than a toy.
 	
- ~  
-{:.center}
+---
 
 ### Elevator Pitch
 
@@ -79,8 +77,7 @@ This is a fairly standard thing in the software world these days. Describe the p
 
 > For photographers who need intelligent access to their camera and photos in the field, Cascable is an iOS app that connects to the camera over WiFi and opens up a world of possibilities. Unlike current apps, Cascable will develop and evolve to become an easy-to-use and indispensable tool for amateur and professional photographers alike.
 
- ~  
-{:.center}
+---
 
 ### The Not List
 
@@ -110,8 +107,7 @@ This is one is new to me and was incredibly helpful. Defining what **isn't** in 
 - Second screen mode for AppleTV, etc.
 - Applying Calculations Mode results to the camera.
 
- ~  
-{:.center}
+---
 
 ### What Keeps Me Up At Night
 
@@ -179,7 +175,6 @@ This is an absolute lie. Step three is the hardest one of all. Now you have a sp
 
 My project isn't a "side project" any more. Far from it — it has deadlines, a prioritised story list, and a product owner. Between the start of this post and now, it's transformed into a fully-fledged software project, and I'm letting it down by only working on it in my spare time. Four weeks from today, however, that's all going to change!
 
- ~  
-{:.center}
+---
 
 Next time on *Secret Diary of a Side Project*, we'll swing back to some coding and talk about what happens when you ignore my advice and decide to refactor a piece of code that really doesn't need it.

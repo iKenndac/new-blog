@@ -14,8 +14,7 @@ categories:
 
 *Recent events in both my private life and the world at large have convinced me that discussing mental health can only be a good thing. If you only visit here for posts about programming and stuff, you’re welcome to give this a miss. However, I’d encourage you to give it a read — who knows, it may help you or someone you know.*
 
-~
-{:.center}
+---
 
 There’s nothing quite like writing a letter demanding a solicitors release money from your dead Mother’s estate to make you feel like the scummiest person on Earth.
 
@@ -25,8 +24,7 @@ Grieving the loss of a parent is always going to be a shitty part of your life n
 
 However, being her closest living relative, I had the task of supporting the solicitors assigned to administer my late Mother’s estate. In May 2013 I sat in their stuffy office in Stevenage in the UK and was assured that the estate should be a fairly simple affair and that they couldn’t see it taking more than six months to complete. Two weeks later they sent me a document that contained a few currency conversions, all of which had been calculated wrong. And so started the most harrowing set of bureaucracy I’ve ever encountered in my life.
 
-~
-{:.center}
+---
 
 My breakdown came in a one-on-one meeting with my manager in October 2013. In a previous blog post, I hinted that I was thinking of trying to “go Indie” again, and in October I’d committed to take six months off from March 2014 to try just that. All the paperwork was signed, and I was looking forward to making my own apps “for real” again.
 
@@ -62,8 +60,7 @@ Facebook in particular is completely devastating to someone going through a toug
 
 Typically, all these posts don’t really bother me — hell, I do the same thing — and I unsubscribe from the people who are particularly obnoxious. In my broken state, however, each one of those posts became a slap in the face, causing me to further distance myself from my friends and coworkers. Eventually, I’d stopped talking to most of the people I knew and had stopped attending any social events at all.
 
-~
-{:.center}
+---
 
 Nearly a year later, I realise that manager practically saved my life. I didn’t return to work for well over a week after that incident, and only after doing as instructed — I spoke to my local doctor who referred me to psychiatric care at a clinic in Stockholm.
 
@@ -102,8 +99,7 @@ On the way home, I'm bursting with excitement at finally being able to *see* my 
 
 Of course, my wife is ecstatic that I'm making positive progress and I feel like an idiot.
 
-~
-{:.center}
+---
 
 Once we’d rooted out what exactly was wrong, we started a form of [CBT](http://en.wikipedia.org/wiki/Cognitive_behavioral_therapy) which, very simply, is a treatment that embodies “If you were happy when you did *x*, you should do *x*.”. My doctor spent a session drawing a diagram on the whiteboard of the destructive cycle that’s common:
 

@@ -11,8 +11,7 @@ categories:
 
 *Secret Diary of a Side Project is a series of posts documenting my journey as I take an app from side project to a full-fledged for-pay product. You can find the introduction to this series of posts [here](/blog/2014/12/secret-diary-of-a-side-project-intro/).*
 
- ~ 
-{:.center}
+---
 
 Moolah. Cheddar. Bank. Cash. Benjamins. There are so many slang terms for money it's hard to keep track. It's not surprising, really — people typically dislike talking about money, and it's human nature to try and make light of something that's not even slightly fun. It's the same reason people make jokes at funerals, I suppose.
 
@@ -127,7 +126,6 @@ Not including workspace costs (which I'll discuss in a future post) *or* the cos
 
 Once upon a time, a few mistakes ago, this number would have scared me away big time. But! If I'm not willing to invest in myself, how can I expect customers to invest their money and time into me and my app?
 
- ~ 
-{:.center}
+---
 
 Next time on *Secret Diary of a Side Project*, we'll talk about taking your project and taking it from whatever state it's in right now through to launch, through careful planning and a little help from an outsider.

@@ -13,8 +13,7 @@ categories:
 
 *In this post, I'm going to talk about some of the mental shifts you need to do when taking the leap from side project to real product.*
 
- ~ 
-{:.center}
+---
 
 That pivotal moment. It's weird. You've been looking at this project for months, maybe years, slowly adding code here and there. Features slowly form, and the bugs get less "Oh, don't push that button — it'll crash" and more "Yeah, I need to make sure those buttons line up".
 
@@ -39,8 +38,7 @@ At that moment, I felt so proud. *This* is why I make software. The process was 
 
 That day, my project shed its "side project" status and became a thing I knew could be genuinely useful to people. I'd been idly considering it for a long time, but I *knew* that I should try to finish this and ship it.
 
- ~ 
-{:.center}
+---
 
 Once this big perception shift has happened, *everything* changes. It's really important to take this perception shift seriously and be strict with yourself — if you carry on as before, your side project will stay a side project and you'll end up shipping something not up-to-scratch.
 
@@ -92,7 +90,6 @@ Remember: This is a real product now. If you bring in every shiny new library or
 
 These restrictions take away a lot of the fun things about side projects. This can be a little discouraging at first, but stick with it. You'll (hopefully) start to find joy in the results of your work rather than the process of making it. Sure, mucking around with autolayout for hours is a pain in the ass, but just *look* at that UI! It's glorious!
 
- ~ 
-{:.center}
+---
 
 Next time on *Secret Diary of a Side Project*, we'll talk about some actual software development practices and idioms that've helped me. There'll be code and everything! 
