@@ -20,6 +20,29 @@ body {
 	color: $color-fg-light;
 }
 
+.inline-icon {
+	color: $color-accent-fg;
+	padding-left: 0.5em;
+	padding-right: 0.25em;
+}
+
+.archive-header {
+	color: $color-accent-bg;
+}
+
+.archive-postdetails {
+	color: $color-fg-subtle;
+}
+
+li.archive-post {
+	padding-bottom: 1em !important;
+}
+
+.archive-postname {
+	font-size: 1.5em;
+}
+
+
 p.center {
 	text-align: center;
 }

@@ -55,7 +55,7 @@
           <nav id="nav">
             <ul>
               <% 
-                items = items_with_tag('in_menu')
+                items = items_with_tag('in_menu').sort_by {|item| item[:title]}
                 items.each do |item|
               %>
                 <li><a href="<%= item.path %>"><%= item[:title] %></a></li>

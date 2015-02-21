@@ -1,0 +1,41 @@
+---
+title: Archive
+tags: ['in_menu']
+---
+
+<section id="one"></section>
+
+<div class="container">
+
+<section id="two">
+	<header class="major">
+		<h2><%= @item[:title] %></h2>
+	</header>
+</section>
+
+<section id="three">
+
+<% grouped_articles.each do |yearmonth, articles_this_month| %>
+
+	
+	<h3 class="archive-header"><%= Date::MONTHNAMES[yearmonth.last] %> <%= yearmonth.first %></h3>
+	<section>
+		<ul class="alt">
+		<% articles_this_month.each do |article| %>
+       		<li class="archive-post"><a class="archive-postname" href="<%= article.path %>"><%= article[:title] %></a><br />
+       		<span class="archive-postdetails"><span class="fa fa-calendar-o inline-icon"></span><%= get_pretty_date_short(article) %> 
+       		<% if !article[:categories].nil? %>
+       			<span class="fa fa-tag inline-icon"></span>
+	       		<% article[:categories].each do |category| %>
+       				<%= category %><% if category != article[:categories].last %>, <% end %>
+       			<% end %>
+       		<% end %>
+       		</span>	
+       		</li>
+    	<% end %>
+    	</ul>	
+	</section>
+
+<% end %>
+</section>
+</div>
