@@ -70,17 +70,17 @@ paths for the red, green and blue channels.
 Ingredients (links to Swedish stores):
 
 -   1 x Arduino Mega2560
-    [[Link](http://www.lawicel-shop.se/shop/custom/prod.aspx?productid=690919&groupid=63894&sortafter=0&sortafterchild=0&refcode=f)]
+    [Link](http://www.lawicel-shop.se/shop/custom/prod.aspx?productid=690919&groupid=63894&sortafter=0&sortafterchild=0&refcode=f)
 -   1 x 12v AC-DC Adapter
-    [[Link](http://www.lawicel-shop.se/shop/custom/prod.aspx?productid=801708&groupid=0&sortafter=0&sortafterchild=0&refcode=p)]
+    [Link](http://www.lawicel-shop.se/shop/custom/prod.aspx?productid=801708&groupid=0&sortafter=0&sortafterchild=0&refcode=p)
 -   1 x A-B USB Cable
-    [[Link](http://www.lawicel-shop.se/shop/custom/prod.aspx?productid=47306&groupid=8852&sortafter=0&sortafterchild=0&refcode=f)]
+    [Link](http://www.lawicel-shop.se/shop/custom/prod.aspx?productid=47306&groupid=8852&sortafter=0&sortafterchild=0&refcode=f)
 -   ~40 x Male-Male Jump Cables (I got four packs of ten)
-    [[Link](http://www.lawicel-shop.se/shop/custom/prod.aspx?productid=564449&groupid=64668&sortafter=0&sortafterchild=0&refcode=f)]
+    [Link](http://www.lawicel-shop.se/shop/custom/prod.aspx?productid=564449&groupid=64668&sortafter=0&sortafterchild=0&refcode=f)
 -   2 x ULN2003 DIP-profile chips
-    [[Link](http://www.electrokit.se/ic-linjara-uln2003a-dip-16-7-darlington-drivare_40350032)]
+    [Link](http://www.electrokit.se/ic-linjara-uln2003a-dip-16-7-darlington-drivare_40350032)
 -   1x Breadboard with at least 20 lanes
-    [[Link](http://www.lawicel-shop.se/shop/custom/prod.aspx?productid=610020&groupid=64668&sortafter=0&sortafterchild=0&refcode=f)]
+    [Link](http://www.lawicel-shop.se/shop/custom/prod.aspx?productid=610020&groupid=64668&sortafter=0&sortafterchild=0&refcode=f)
 
 The layout here is fairly simple — power the Arduino with the 12V power
 adapter, then tap into that for the anode on each LED strip.

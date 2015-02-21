@@ -17,7 +17,7 @@ However, what if a female type ends up in this abode? You can't eat pizza on the
 
 Ok, so why can't I just buy a flat-pack desk and build it? Simple - I've recently become the sole dweller of this house. I must assert my power over it by building stuff! 
 
-Two days later, and we have a plan (sizes in millimetres [mm]):<br />&nbsp;
+Two days later, and we have a plan (sizes in millimetres):<br />&nbsp;
 
 <center><img src="http://ikennd.ac/pictures/desk/plan.png"/></center>
 
@@ -62,9 +62,9 @@ Ok, lets see a damage report:
 Materials: £60  
 Tools: £50  
 Switches, wires, etc: £40  
-<b>Total: £150
+<b>Total: £150</b>
 
-Time taken: Three days</b>
+<b>Time taken: Three days</b>
 
 Day 1: Building  
 Day 2: Assembly and 1st varnish coat  

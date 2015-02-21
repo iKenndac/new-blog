@@ -45,13 +45,13 @@ to Swedish store):
     a [strip board](http://www.kpsec.freeuk.com/stripbd.htm) and some
     spare components like resistors to practice with first.
 -   Assorted lengths of wire.
-    [[Link](http://www.youtube.com/watch?v=mFxc1cAGlYU)] [[Real Link](http://www.lawicel-shop.se/shop/custom/prod.aspx?productid=432167&groupid=55653&sortafter=0&sortafterchild=0&refcode=f)]
+    [Link](http://www.youtube.com/watch?v=mFxc1cAGlYU)] [[Real Link](http://www.lawicel-shop.se/shop/custom/prod.aspx?productid=432167&groupid=55653&sortafter=0&sortafterchild=0&refcode=f)
 -   1x Box for Arduino.
-    [[Link](http://www.lawicel-shop.se/shop/custom/prod.aspx?productid=680253&groupid=63894&sortafter=0&sortafterchild=0&refcode=f)]
+    [Link](http://www.lawicel-shop.se/shop/custom/prod.aspx?productid=680253&groupid=63894&sortafter=0&sortafterchild=0&refcode=f)
 -   1x Proto-Shield for Arduino that includes stacking components.
-    [[Link](http://www.lawicel-shop.se/shop/custom/prod.aspx?productid=820488&groupid=8841&sortafter=0&sortafterchild=0&refcode=f)]
+    [Link](http://www.lawicel-shop.se/shop/custom/prod.aspx?productid=820488&groupid=8841&sortafter=0&sortafterchild=0&refcode=f)
 -   16x Right-Angled Strip Headers
-    [[Link](http://www.lawicel-shop.se/shop/custom/prod.aspx?productid=801883&groupid=8852&sortafter=0&sortafterchild=0&refcode=f)]
+    [Link](http://www.lawicel-shop.se/shop/custom/prod.aspx?productid=801883&groupid=8852&sortafter=0&sortafterchild=0&refcode=f)
 
 Rather than step you through creating the board, I'll simply leave you
 with the circuit diagram to implement and some photos of my finished

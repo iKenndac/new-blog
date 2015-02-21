@@ -11,7 +11,7 @@ categories:
 - Gadgets
 ---
 
-In November 2008, I bought a pair of Sennheiser <a href="http://www.sennheiser.com/sennheiser/home_en.nsf/product.html?ReadForm&path=private_headphones_audiophile-headphones&product=005343&row=2" target=_"blank">HD 595</a> headphones. A few weeks ago, they developed a really annoying rattle in the left can, so I set about looking for the receipt so I could take them back. It or the original packaging were nowhere to be found.
+In November 2008, I bought a pair of Sennheiser <a href="http://www.sennheiser.com/sennheiser/home_en.nsf/product.html?ReadForm&path=private_headphones_audiophile-headphones&product=005343&row=2">HD 595</a> headphones. A few weeks ago, they developed a really annoying rattle in the left can, so I set about looking for the receipt so I could take them back. It or the original packaging were nowhere to be found.
 
 I don't live near the store I bought them from - <a href="http://www.richersounds.com/" target="_blank">Richer Sounds</a> in Watford - so I phoned them up and asked if I could return them to a different store. They said yes, and also offered to look for my receipt on their system - an offer I accepted, but they couldn't find me. 
 

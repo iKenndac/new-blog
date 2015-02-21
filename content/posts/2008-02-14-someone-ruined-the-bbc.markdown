@@ -27,11 +27,11 @@ BBC Three is pretty cool, and it had a very nice ident going on - simple, but hu
 
 Here's a compilation of a few of them:
 
-<object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/1zccNjxOaEY&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/1zccNjxOaEY&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object>
+<object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/1zccNjxOaEY&rel=1"/><param name="wmode" value="transparent"/><embed src="http://www.youtube.com/v/1zccNjxOaEY&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"/></object>
 
 ... the Glastonbury one:
 
-<object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/lup1Rr1feOg&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/lup1Rr1feOg&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object>
+<object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/lup1Rr1feOg&rel=1"/><param name="wmode" value="transparent"/><embed src="http://www.youtube.com/v/lup1Rr1feOg&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"/></object>
 
 ... and an official image:
 
@@ -41,7 +41,7 @@ The recently had a rebrand, however - and now its all neon colours and 'hip' thi
 
 <a href='http://ikennd.ac/pictures/for_posts/2008/02/bbcthreenew.jpg' title='BBC Three ‘Neon’ ident'><img src='http://ikennd.ac/pictures/for_posts/2008/02/bbcthreenew.jpg' alt='BBC Three ‘Neon’ ident' /></a>
 
-<object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/tG3g5N-HlFM&rel=1"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/tG3g5N-HlFM&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"></embed></object>
+<object width="425" height="355"><param name="movie" value="http://www.youtube.com/v/tG3g5N-HlFM&rel=1"/><param name="wmode" value="transparent"/><embed src="http://www.youtube.com/v/tG3g5N-HlFM&rel=1" type="application/x-shockwave-flash" wmode="transparent" width="425" height="355"/></object>
 
 I really don't like the new image at all. As we're going over to DVB, perhaps they're changing the image to attract younger people as more and more people can view these digital channels. Perhaps I'm just getting too old to get what the kids are into these days?
 

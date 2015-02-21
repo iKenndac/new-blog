@@ -26,9 +26,9 @@ There's not that much to say about Yosemite - it's a national park, it's very bi
 
 For photography geeks, I bought a new lens just before we went out there - a Canon 24-105mm f/4 L IS lens. The important letters in that lot are L and IS - L means it's a very high quality lens, and IS means it has image stabilisation. IS lets me take long exposure shots like the ones of the waterfalls below without a tripod - they were all taken handheld at 1/10th of a second or so. 'Tis a very, very cool lens.
 
-<a href="http://ikennd.ac/pictures/wwdc/yosemite/IMG_1145_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/yosemite/IMG_1145.jpg"/> 
+<a href="http://ikennd.ac/pictures/wwdc/yosemite/IMG_1145_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/yosemite/IMG_1145.jpg"/></a>
 
-</a><a href="http://ikennd.ac/pictures/wwdc/yosemite/IMG_1148_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/yosemite/IMG_1148.jpg"/></a>
+<a href="http://ikennd.ac/pictures/wwdc/yosemite/IMG_1148_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/yosemite/IMG_1148.jpg"/></a>
 
 <a href="http://ikennd.ac/pictures/wwdc/yosemite/IMG_1168_big.jpg"><img src="http://ikennd.ac/pictures/wwdc/yosemite/IMG_1168.jpg"/></a>
 

@@ -29,7 +29,8 @@ Once the training was over, I took to the circuit for real. I did a few laps wit
 
 I brought my video camera and telemetry logger along with me, and got some great footage. Here's a screenshot from the video, showing how wet it really was! 
 
- <div align="center"><img src="http://ikennd.ac/pictures/brandshatch/inside.jpg" /></div>
+<img src="http://ikennd.ac/pictures/brandshatch/inside.jpg" />
+{:.center}
 
 I made a quick video of a lap and a half of the track, from inside and outside the car. Enjoy! 
 
@@ -38,9 +39,11 @@ I made a quick video of a lap and a half of the track, from inside and outside t
 
 Stuart also drove a few laps of the track in my car, after I'd done messing with the video camera. The marshals said that I could have my passenger <i>or</i> the video camera in the car, which is fair enough. He did some good laps, and was just as hesitant about letting the steering out early as I was! 
 
-<div align="center"><img src="http://ikennd.ac/pictures/brandshatch/corner2.jpg" /></div>
-<br />
-<div align="center"><img src="http://ikennd.ac/pictures/brandshatch/corner3.jpg" /></div>
+<img src="http://ikennd.ac/pictures/brandshatch/corner2.jpg" />
+{:.center}
+
+<img src="http://ikennd.ac/pictures/brandshatch/corner3.jpg" />
+{:.center}
 
 And there goes another track day. At first I was dreading going out in such awful conditions, but a few laps in I gained my confidence and now I'm glad I didn't bottle out - it was amazing fun and it's done my confidence with the car in the wet wonders - I was expecting to be sliding all over the place, but it gripped wonderfully and I didn't see the traction control light once. A few cars weren't so lucky, though. An MR2 span out within the first couple of laps (before I even had a chance to go out!), and an RX-7 followed shortly after. Neither of them actually hit anything, but the MR2 went into the gravel pit pretty quickly and had to have gravel scooped out of it's brakes and undertray.
 

@@ -44,7 +44,7 @@ Now you've followed my terrible advice (or hopefully not) and put some money asi
 
 #### Hire Someone Better Than You
 
-Universal Rule #1: **Time is money** <sup>[citation needed]</sup>, particularly if time is constrained. If you can hire someone to do a way better job as you in a fraction of the time, you should seriously consider it.
+Universal Rule #1: **Time is money** <sup>\[citation needed\]</sup>, particularly if time is constrained. If you can hire someone to do a way better job as you in a fraction of the time, you should seriously consider it.
 
 Me? I'm terrible at designing stuff. I can throw together some lines that look sort of like an arrow, but that's it.
 
