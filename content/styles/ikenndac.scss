@@ -1,5 +1,19 @@
 @import 'mixins';
 
+body {
+	position:relative;
+}
+
+#header ul.icons {
+	margin-top: 1em;
+}
+
+#header {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+
 p.center {
 	text-align: center;
 }
@@ -43,4 +57,8 @@ article li {
 
 article iframe {
 	margin: auto;
+}
+
+article blockquote p:last-child {
+	margin-bottom: 0px;
 }
