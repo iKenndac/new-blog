@@ -1,3 +1,4 @@
+@import 'vars';
 @import 'mixins';
 
 body {
@@ -12,6 +13,11 @@ body {
 	position: absolute;
 	top: 0;
 	bottom: 0;
+}
+
+#footer {
+	background: none;
+	color: $color-fg-light;
 }
 
 p.center {
@@ -61,4 +67,16 @@ article iframe {
 
 article blockquote p:last-child {
 	margin-bottom: 0px;
+}
+
+article hr {
+	border: 0;
+	width: 80%;
+	height: 1px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), $color-fg-light, rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), $color-fg-light, rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), $color-fg-light, rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), $color-fg-light, rgba(0,0,0,0)); 
 }
