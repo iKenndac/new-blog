@@ -1,7 +1,7 @@
 ---
 title: Home
 ---
-<% sorted_articles.each_with_index do |post, index| %>
+<% sorted_articles.first(10).each_with_index do |post, index| %>
 
 <% if index == 0 %>
 <section id="one">

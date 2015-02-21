@@ -1,11 +1,13 @@
-<!-- Remove render 'default' do to have completely new page -->
-
 <% render 'default' do %>
-  <div class='post'>
-    <h1><%= item[:title] %></h1>
-    <aside>Posted at: <%= get_pretty_date(item) %></aside>
-    <article>
-      <%= yield %>
-    </article>
-  </div>
+<section>
+	<div class="container">
+		<header class="major">
+			<h4><%= get_pretty_date(item) %></h4>
+			<h2><%= item[:title] %></h2>
+		</header>
+		<article>
+			<%= yield %>
+		</article>
+	</div>
+</section>
 <% end %>
