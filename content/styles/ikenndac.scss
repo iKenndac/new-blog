@@ -103,3 +103,8 @@ article hr {
     background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), $color-fg-light, rgba(0,0,0,0)); 
     background-image:      -o-linear-gradient(left, rgba(0,0,0,0), $color-fg-light, rgba(0,0,0,0)); 
 }
+
+.more-posts-link-footer {
+	text-align: center;
+	color: $color-accent-bg;
+}

@@ -11,6 +11,10 @@ require 'active_support/core_ext/integer/inflections'
 
 module PostHelper
 
+  def number_of_front_page_posts()
+    return 10
+  end
+
   def get_pretty_date(post)
     time = attribute_to_time(post[:created_at])
     time.strftime('%B') + " " + time.day.ordinalize + time.strftime(', %Y')
