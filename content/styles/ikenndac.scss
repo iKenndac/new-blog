@@ -15,6 +15,54 @@ body {
 	bottom: 0;
 }
 
+@media screen and (max-width: 1024px) {
+    #header {
+        position: relative;
+    }
+
+    #one::before {
+    	// Header image
+		display: none;
+	}
+
+	#header #nav {
+		margin-bottom: 20px;
+	}
+
+	#header #nav ul {
+		display: inline;
+		list-style-type: none;
+	}
+
+	#header #nav li {
+		display: inline;
+		border-top: none;
+		border-left: solid $size-border-width $color-header-border;
+	}
+
+	#header #nav ul li:first-child {
+		border-left: none;
+	}
+
+	#header #nav li a {
+		display: inline;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	#header > header .avatar {
+		margin-bottom: 10px;
+	}
+
+	#header > header p {
+		display: inline;
+	}
+
+	#header ul.icons {
+		margin-bottom: 0px;
+	}
+}
+
 #footer {
 	background: none;
 	color: $color-fg-light;
@@ -136,6 +184,10 @@ article tbody tr:first-child th {
 
 .previous-post-link {
 	float: left;
+}
+
+a.no-underline, a.no-underline :hover {
+	text-decoration: none;
 }
 
 /* Code highlighting */
