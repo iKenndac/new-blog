@@ -3,26 +3,21 @@ title: Archive
 tags: ['in_menu']
 ---
 
-<section id="one"></section>
-
+<section id="one">
 <div class="container">
 
-<section id="two">
-	<header class="major">
-		<h2><%= @item[:title] %></h2>
-	</header>
-</section>
+  <header class="major">
+    <h2><%= @item[:title] %></h2>
+  </header>
 
-<section id="three">
+  <% num_articles = 0 %>
+  <% grouped_articles.each do |yearmonth, articles_this_month| %>
 
-<% num_articles = 0 %>
-<% grouped_articles.each do |yearmonth, articles_this_month| %>
-
-	
-	<h3 class="archive-header"><%= Date::MONTHNAMES[yearmonth.last] %> <%= yearmonth.first %></h3>
-	<section>
-		<ul class="alt">
-		<% 
+  
+  <h3 class="archive-header"><%= Date::MONTHNAMES[yearmonth.last] %> <%= yearmonth.first %></h3>
+  <section>
+    <ul class="alt">
+    <% 
     articles_this_month.each do |article|
 
       num_articles += 1
@@ -30,26 +25,31 @@ tags: ['in_menu']
       if (num_articles == number_of_front_page_posts()) %>
           <a name="front-page-cutoff"></a>
       <% end %>
-       		<li class="archive-post"><a class="archive-postname" href="<%= article.path %>"><%= article[:title] %></a><br />
-       		<span class="archive-postdetails"><span class="icon-calendar-empty inline-icon"></span><%= get_pretty_date_short(article) %> 
-       		<% if !article[:categories].nil? %>
-       			<span class="icon-tag inline-icon"></span><%=
+          <li class="archive-post"><a class="archive-postname" href="<%= article.path %>"><%= article[:title] %></a><br />
+          <span class="archive-postdetails"><span class="icon-calendar-empty inline-icon"></span><%= get_pretty_date_short(article) %> 
+          <% if !article[:categories].nil? %>
+            <span class="icon-tag inline-icon"></span><%=
               categories = ""
               article[:categories].each do |category| 
                 categories += category
                 if category != article[:categories].last
                   categories += ", "
                 end
-       			  end
+              end
               categories
               %>
-       		<% end %>
-       		</span>	
-       		</li>
-    	<% end %>
-    	</ul>	
-	</section>
+          <% end %>
+          </span> 
+          </li>
+      <% end %>
+      </ul> 
+  </section>
 
 <% end %>
-</section>
+
 </div>
+</section>
+
+
+
+
