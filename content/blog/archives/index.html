@@ -31,12 +31,18 @@ tags: ['in_menu']
           <a name="front-page-cutoff"></a>
       <% end %>
        		<li class="archive-post"><a class="archive-postname" href="<%= article.path %>"><%= article[:title] %></a><br />
-       		<span class="archive-postdetails"><span class="fa fa-calendar-o inline-icon"></span><%= get_pretty_date_short(article) %> 
+       		<span class="archive-postdetails"><span class="icon-calendar-empty inline-icon"></span><%= get_pretty_date_short(article) %> 
        		<% if !article[:categories].nil? %>
-       			<span class="fa fa-tag inline-icon"></span>
-	       		<% article[:categories].each do |category| %>
-       				<%= category %><% if category != article[:categories].last %>, <% end %>
-       			<% end %>
+       			<span class="icon-tag inline-icon"></span><%=
+              categories = ""
+              article[:categories].each do |category| 
+                categories += category
+                if category != article[:categories].last
+                  categories += ", "
+                end
+       			  end
+              categories
+              %>
        		<% end %>
        		</span>	
        		</li>
