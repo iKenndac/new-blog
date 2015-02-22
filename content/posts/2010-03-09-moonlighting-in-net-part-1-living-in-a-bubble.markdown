@@ -34,14 +34,14 @@ categories:
 <p>Or, in terms of code:</p>
 <p><strong>Objective-C</strong></p>
 
-~~~~~~~~
+~~~~~~~~ c
 struct MyStruct myThing;
 ASystemCall(&myThing);
 ~~~~~~~~
 
 <p><strong>C#/.NET</strong></p>
 
-~~~~~~~~
+~~~~~~~~ csharp
 MyStruct &myThing;
 int inputSize = Marshal.SizeOf(GetType(MyStruct));
 IntPtr ptr = Marshal.AllocHGlobal(inputSize); // Allocate some memory

@@ -38,7 +38,7 @@ separate nib file, which is controlled by my helper class, a subclass of
 
 As for the helper class, allow me to present the *simplest sample code ever:*
 
-~~~~~~~~
+~~~~~~~~ objc
 #import "SparkleHelper.h"
 
 static NSString * const kSparkleHelperNibName = @"SparkleHelper";
@@ -74,7 +74,7 @@ code copied and pasted from Clarus itself — applicationMenu is an
 `IBOutlet` to the Application menu, and updatesView is an `IBOutlet` to a
 view in the Preferences window that should contain the self-updating UI.
 
-~~~~~~~~
+~~~~~~~~ objc
 SparkleHelper *helper = [[SparkleHelper alloc] init];
 
 if (helper != nil) {

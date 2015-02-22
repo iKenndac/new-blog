@@ -9,6 +9,7 @@ To install:
 3. `$ gem install kramdown`
 4. `$ gem install stringex`
 5. `$ gem install builder`
+6. `$ gem install pygments.rb`
 
 To generate:
 

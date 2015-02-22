@@ -131,7 +131,7 @@ account a few niggles. There are three methods in Clarus for adding and
 removing photos. The first is called by whatever has the file path of
 the original file to be added:
 
-~~~~~~~~
+~~~~~~~~ objc
 -(void)addImageFromPath:(NSString *)path {
 
     NSString *resourceId = [[[self document] resourceManager] addResourceFromPath:path];
@@ -161,7 +161,7 @@ Fairly simple, right? This is what the code *does*:
 
 The `removePhoto:withResourceId:` method is simpler:
 
-~~~~~~~~
+~~~~~~~~ objc
 -(void)removePhoto:(Photo *)aPhoto withResourceId:(NSString *)resourceId {
     
     [[[self document] undoManager] beginUndoGrouping];
@@ -176,7 +176,7 @@ The `removePhoto:withResourceId:` method is simpler:
 
 Finally, `addPhoto:withResourceId:` is just as simple:
 
-~~~~~~~~
+~~~~~~~~ objc
 -(void)addPhoto:(Photo *)aPhoto withResourceId:(NSString *)resourceId {
 
     [[[self document] undoManager] beginUndoGrouping];

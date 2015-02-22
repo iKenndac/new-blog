@@ -65,7 +65,7 @@ First, create a new class subclassing `SPCoreAudioController` - the sample proje
 
 In this first example, set up a description of the EQ Audio Unit then have the graph add a node matching that description before getting a reference to the Audio Unit itself so we can set properties on it. Then, it initializes the Audio Unit and sets it to a 10-band EQ.
 
-~~~~~~~~
+~~~~~~~~ objc
 @implementation EQCoreAudioController {
     // Keep the node and unit around so we can reference them anytime.
     AUNode eqNode;
@@ -104,7 +104,7 @@ In this first example, set up a description of the EQ Audio Unit then have the g
 
 At this point, our EQ is set up and inserted into the audio controller's graph. All that's left to do now is hook it up to the provided source and destination nodes so audio gets piped through it:
 
-~~~~~~~~
+~~~~~~~~ objc
     // ... continued from previous code snippet.
     
     // Connect the output of the provided audio source node to the input of our EQ.
@@ -126,7 +126,7 @@ That's it! The EQ node is now inserted into the `AUGraph` managed by `SPCoreAudi
 
 It's important to do cleanup as well so we don't leak memory and cause problems. `SPCoreAudioController` provides `-disposeOfCustomNodesInGraph:` to be overridden for just this purpose:
 
-~~~~~~~~
+~~~~~~~~ objc
 -(void)disposeOfCustomNodesInGraph:(AUGraph)graph {
     
     // Shut down our unit.
@@ -143,7 +143,7 @@ It's important to do cleanup as well so we don't leak memory and cause problems.
 
 Now we have an EQ inserted into our Core Audio graph, we need to control the levels! To do this, the sample project implements the following method in `EQCoreAudioController`, which applies up to ten band values.
 
-~~~~~~~~
+~~~~~~~~ objc
 -(void)applyBandsToEQ:(NSArray *)tenBands {
     
     if (eqUnit == NULL) return;
@@ -159,7 +159,7 @@ Now we have an EQ inserted into our Core Audio graph, we need to control the lev
 
 The sample project then has ten continuous vertical sliders all hooked up to different `IBOutlet`s but calling the same `IBAction`. It's best to set your sliders to range between `-12.0` and `+12.0` (this is the range iTunes uses in its EQ) otherwise the distortion gets a bit unbearable!
 
-~~~~~~~~
+~~~~~~~~ objc
 -(IBAction)eqSliderDidChange:(id)sender {
     
     NSMutableArray *bands = [NSMutableArray arrayWithCapacity:10];

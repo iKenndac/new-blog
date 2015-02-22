@@ -58,7 +58,7 @@ To integrate this into your project, there are three steps:
 
 First, you want to create a custom build step in Xcode *before* the **Compile Sources** build step to generate header files from your strings files. You could be less lazy than me and create a custom build rule to automatically do this to all your strings files, but I'm lazy. My custom build step looks like this:
 
-~~~~~~~~
+~~~~~~~~ bash
 "$PROJECT_DIR/Vendor/generate-string-symbols/generate-string-symbols"
     -strings "$PROJECT_DIR/Cascable/Base.lproj/GeneralUI.strings"
     -out "$BUILT_PRODUCTS_DIR/include/GeneralUI.h"
@@ -74,7 +74,7 @@ To get around this, can `#import` them in your project's prefix header file.
 
 In my project, I have a "convenience header" which imports the generated files and provides a couple of helper macros to make localisation a little nicer, especially considering I use non-default string table names.
 
-~~~~~~~~
+~~~~~~~~ objc
 #import <Foundation/Foundation.h>
 #import <GeneralUI.h> // Generated from strings file
 

@@ -30,7 +30,7 @@ To integrate this into your project, there are three steps:
 
 First, you want to create a custom build step in Xcode *before* the **Compile Sources** build step to generate header files from your image assets. My custom build step looks like this:
 
-~~~~~~~~
+~~~~~~~~ bash
 "$PROJECT_DIR/Vendor/generate-imageasset-symbols/generate-imageasset-symbols" 
     -assets "$PROJECT_DIR/Cascable/Images.xcassets"
     -out "$BUILT_PRODUCTS_DIR/include/CBLImageNames.h"
@@ -46,7 +46,7 @@ At this point, you can start using the symbols in your project. However, you'll 
 
 To get around this, can `#import` them in your project's prefix header file.
 
-~~~~~~~~
+~~~~~~~~ objc
 #import <CBLImageNames.h> // Generated from image assets
 
 UIImage *image = [UIImage imageNamed:CBLAwesomeImageName];

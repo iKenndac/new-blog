@@ -94,7 +94,7 @@ end
 
 Next, continuing the trend of implementing this in the worst way possible, I added HTTP requests directly into the unit test code in CocoaLibSpotify. If you start the tests with the command-line parameter `-StatusColorServer localhost:4567` it'll make HTTP requests to the given server:
 
-~~~~~~~~
+~~~~~~~~ objc
 -(void)pushColorToStatusServer:(UIColor *)color {
     
     NSString *statusServerAddress = [[NSUserDefaults standardUserDefaults] stringForKey:kTestStatusServerUserDefaultsKey];

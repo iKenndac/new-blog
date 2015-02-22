@@ -37,7 +37,7 @@ Usage is very similar to my tool that generates header files from `.strings` fil
 
 To integrate it with your Xcode project, add a custom build step at any sensible point in the build process that runs the following script:
 
-~~~~~~~~
+~~~~~~~~ bash
 "$PROJECT_DIR/Vendor/verify-string-files/verify-string-files"
     -master "$PROJECT_DIR/Cascable/Base.lproj/GeneralUI.strings"
 ~~~~~~~~
