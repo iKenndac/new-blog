@@ -1,0 +1,3 @@
+[submodule "content/pictures"]
+	path = content/pictures
+	url = git@github.com:iKenndac/blog-binary-content.git
