@@ -37,6 +37,9 @@ end
 compile '*' do
   if item[:extension] == 'css'
     # don’t filter stylesheets
+  elsif item[:extension] == 'md' || item[:extension] == 'markdown'
+    filter :kramdown
+    layout 'page'
   elsif item.binary?
     # don’t filter binary items
   else
