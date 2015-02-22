@@ -29,6 +29,10 @@ compile '/fonts/*/' do
   #Skip
 end
 
+compile '/feed/*/' do
+  filter :erb
+end
+
 compile '*' do
   if item[:extension] == 'css'
     # don’t filter stylesheets
@@ -52,6 +56,10 @@ end
 
 route '/fonts/*/' do
   item.identifier.chop + '.' + item[:extension]
+end
+
+route '/feed/*/' do
+  '/atom.xml'
 end
 
 route '*' do

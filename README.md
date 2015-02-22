@@ -8,6 +8,7 @@ To install:
 2. `$ gem install adsf`
 3. `$ gem install kramdown`
 4. `$ gem install stringex`
+5. `$ gem install builder`
 
 To generate:
 

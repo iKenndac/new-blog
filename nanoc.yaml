@@ -72,3 +72,7 @@ checks:
     # E.g.:
     #   exclude: ['^/server_status']
     exclude: []
+
+
+base_url: http://ikennd.ac
+
