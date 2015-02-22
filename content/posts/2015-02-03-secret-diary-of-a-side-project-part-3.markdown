@@ -102,7 +102,7 @@ Adding it all up, I've spent well over USD $1,500 on Cascable and I'm still only
 
 If you're interested, here's a list of my current and near-future expenses.
 
-<table>
+<table class="alt">
 <thead><td>Item</td><td>Cost (USD) </td></thead>
 <tr class="yellow"><td>Test Camera (Canon EOS 70D) </td><td>$999</td></tr>
 <tr><td>Canon Mains Power Adapter</td><td>$119(!)</td></tr>
@@ -114,7 +114,7 @@ If you're interested, here's a list of my current and near-future expenses.
 
 As I approach launch, the costs will start to pile up:
 
-<table>
+<table class="alt">
 <thead><td>Item</td><td>Cost (USD) </td></thead>
 <tr class="yellow"><td>Various Hosting Costs</td><td>~$40/month</td></tr>
 <tr><td>SSL certificate</td><td>$100-$500</td></tr>

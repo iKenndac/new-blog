@@ -58,7 +58,7 @@ Now, time to retroactively justify spending so much money on a computer!
 
 Let's begin by discussing what I'm working with. First, the hardware. I'll mainly be comparing the Mac Pro with my work-provided 15" Retina MacBook Pro since they're the two machines I have access to, and my wife won't let me fill up her iMac with my crap (which, to be fair, is probably a wise choice).
 
-<table>
+<table class="alt">
 <thead><td> </td><td>2013 Mac Pro</td><td>2013 15" Retina MacBook Pro</td></thead>
 <tr><th>CPU</th><td>3.5 GHz 6-Core Intel Xeon E5</td><td>2.7GHz 4-Core Intel Core i7 "Ivy Bridge"</td></tr>
 <tr><th>RAM</th><td>32GB 1867 MHz DDR3 ECC</td><td>16GB 1600 MHz DDR3</td></tr>
@@ -73,7 +73,7 @@ I've chosen these projects as I feel they reflect two common use cases — **Lar
 
 To reiterate my disclaimer above, I'm not going to go into detail about the exact number of lines of code, partly because of sensitivity concerns as I'm talking about a commercial application, and partly because it doesn't really matter. However, to give you an idea of the size of the projects:
 
-<table>
+<table class="alt">
 <thead><td> </td><td>Small Project</td><td>Large Project</td></thead>
 <tr><th>Derived Data*</th><td>150MB</td><td>3.98GB</td></tr>
 <tr><th>Debug Binary Size**</th><td>2MB</td><td>105MB</td></tr>
@@ -104,7 +104,7 @@ Since my Mac Pro has 32GB of RAM, I also benchmarked building the projects while
 
 The builds had some Xcode debug build time optimisations applied as described [over here](http://labs.spotify.com/2013/11/04/shaving-off-time-from-the-ios-edit-build-test-cycle/), and are all debug builds for a single architecture.
 
-<table>
+<table class="alt">
 <thead><td> </td><td>Small Project</td><td>Large Project</td></thead>
 <tr><th>MacBook Pro</th><td>9 seconds</td><td>6 minutes, 2 seconds</td></tr>
 <tr><th>Mac Pro (SSD)</th><td>6 seconds</td><td>3 minutes, 58 seconds</td></tr>

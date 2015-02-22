@@ -21,7 +21,7 @@ However, shortly after I committed to do this full-time, I realised I had no lon
 
 This is the result, based on nothing more than a loosey-goosey feeling of the state of the project so far:
 
-<table>
+<table class="alt">
 <thead><td>Milestone</td><td>Date</td></thead>
 <tr><td>Start collecting beta invites</td><td>2015-03-10</td></tr>
 <tr><td>First beta release</td><td>2015-03-24 → 28 </td></tr>

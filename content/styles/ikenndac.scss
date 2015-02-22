@@ -110,6 +110,19 @@ article code {
 	border: 1px solid #ccc;
 }
 
+article thead {
+	font-weight: 700;
+}
+
+article tr th {
+	border: solid 2px $color-border2;
+	border-top: none;
+}
+
+article tbody tr:first-child th {
+	border-top: solid 2px $color-border2;
+}
+
 .more-posts-link-footer {
 	text-align: center;
 	color: $color-accent-bg;
