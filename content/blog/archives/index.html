@@ -3,15 +3,13 @@ title: Archive
 tags: ['in_menu']
 ---
 
-<section id="one">
-<div class="container">
 
-  <header class="major">
-    <h2><%= @item[:title] %></h2>
-  </header>
+<header class="major">
+  <h2><%= @item[:title] %></h2>
+</header>
 
-  <% num_articles = 0 %>
-  <% grouped_articles.each do |yearmonth, articles_this_month| %>
+<% num_articles = 0 %>
+<% grouped_articles.each do |yearmonth, articles_this_month| %>
 
   
   <h3 class="archive-header"><%= Date::MONTHNAMES[yearmonth.last] %> <%= yearmonth.first %></h3>
@@ -46,9 +44,6 @@ tags: ['in_menu']
   </section>
 
 <% end %>
-
-</div>
-</section>
 
 
 

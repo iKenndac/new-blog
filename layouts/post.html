@@ -1,15 +1,11 @@
 <% render 'default' do %>
-<section>
-	<div class="container">
-		<header class="major">
-			<h4><%= get_pretty_date(item) %></h4>
-			<h2><%= item[:title] %></h2>
-		</header>
-		<article>
-			<%= yield %>
-		</article>
-		<p class="previous-post-link"><%= previous_link() %></p>
-		<p class="next-post-link"><%= next_link() %></p>
-	</div>
-</section>
+	<header class="major">
+		<h4><%= get_pretty_date(item) %></h4>
+		<h2><%= item[:title] %></h2>
+	</header>
+	<article>
+		<%= yield %>
+	</article>
+	<p class="previous-post-link"><%= previous_link() %></p>
+	<p class="next-post-link"><%= next_link() %></p>
 <% end %>
