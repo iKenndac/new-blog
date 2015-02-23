@@ -5,7 +5,7 @@ tags: ['in_menu']
 
 Hello! My name is Daniel Kennett, and this is my website. 
 
-*Photo of me.*
+<img src="/pictures/about/me.jpg" width="800" />
 {:.center}
 
 Before we get started, here's some tidbits about me to break the ice:
@@ -74,7 +74,8 @@ Ultimately, KennettNet failed because I tried to expand our product line too muc
 
 In 2010, I moved to Sweden with my fianceé, deciding that we should do such a thing while we were young and could move geographically without affecting our work too much. The original plan was to stay for eighteen months, but we're still here over four years later!
 
-*Sweden-related photo. Maybe the frozen beard one from Kiruna.*
+<img src="/pictures/about/sweden.jpg" width="760" /> \\
+*Trying to learn Swedish.*
 {:.center}
 
 
@@ -82,7 +83,7 @@ In 2010, I moved to Sweden with my fianceé, deciding that we should do such a t
 
 In February 2011, I started working at Spotify in Stockholm, Sweden. I started work as a Mac OS X developer on their desktop client, before moving to Mac OS X and iOS frameworks for a few years. Most recently, I moved to the iOS client, concentrating on integrating the Spotify experience into cars.
 
-*Spotify-related photo*
+<img src="/pictures/about/spotify.jpg" width="760" />
 {:.center}
 
 Notable public-facing achievements include, in rough cronological order:
