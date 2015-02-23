@@ -10,6 +10,7 @@ To install:
 4. `$ gem install stringex`
 5. `$ gem install builder`
 6. `$ gem install pygments.rb`
+7. `$ gem install activesupport`
 
 To generate:
 
