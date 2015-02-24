@@ -43,7 +43,7 @@ Why the 12th? Well, on March 13th, my first day off, I'll hop on a plane and fly
 This decision hasn't come lightly. I've been fighting it for over a year, but I recently realised that if I don't do it now while the opportunity is available, I'll regret it for the rest of my life. 
 
 <img src="/pictures/secret-diary/glass.jpg" width="190" />
-{:.right .no-border}
+{:.right}
 
 So, what's *Secret Diary of a Side Project*? In the coming weeks and months as we approach March 12th, I'll post a series of articles on this blog discussing the project — the disciplines I've used to keep it moving forwards, the lessons I've learned along the way, and other various tidbits about making an app as a "spare-time" indie developer.
 

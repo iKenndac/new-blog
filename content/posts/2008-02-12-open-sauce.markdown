@@ -11,7 +11,7 @@ categories:
 - Programming
 ---
 
-Over the past few days, I've been writing Mac (Cocoa) and Windows (.NET) code to allow the new version of a certain <a href="http://www.kennettnet.co.uk/musicrescue">product</a> of mine to work with those new-fangled ((iPhone was released in the US in June 2007 - 8 months ago. Ahem.)) iPhones and iPod touches we've been hearing so much about. 
+Over the past few days, I've been writing Mac (Cocoa) and Windows (.NET) code to allow the new version of a certain <a href="http://www.kennettnet.co.uk/musicrescue">product</a> of mine to work with those new-fangled iPhones and iPod touches we've been hearing so much about. 
 
 And, to be honest, it's been a pain in the backside. Since the iPhone/iTouch doesn't mount itself on the filesystem, you can't get at it easily like the other iPods. Instead, you've got to talk to it using a special protocol. This in itself isn't a problem, but the protocol is proprietary. Therefore, you have to link into Apple's undocumented driver and talk to it through that.
 
@@ -21,7 +21,7 @@ So, after a day at work and an evening at home, I have this:
 
 <a href='/pictures/for_posts/2008/02/phonebrowse.jpg' title='Browsin’ Up A Storm'><img src='/pictures/for_posts/2008/02/phonebrowse.jpg' alt='Browsin’ Up A Storm' /></a>
 
-A fully functional ((It's not fully functional at all. It works - a bit.)) iPhone/iPod Touch browser! 
+A fully functional iPhone/iPod Touch browser! 
 
 <!--more-->
 

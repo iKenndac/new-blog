@@ -143,7 +143,7 @@ I really wish this would change. I genuinely believe it could save lives.
 
 Just over a week ago I visited my Mother’s final resting place for the first time since she died — a remote spot on top of a mountain in the Alps near the French-Italian border.
 
-<img src="http://ppcdn.500px.org/83545063/0babbd442d0c9805718f25985360413e276001d7/5.jpg" /> \\
+<img src="http://ppcdn.500px.org/83545063/0babbd442d0c9805718f25985360413e276001d7/5.jpg" /> \\
 *My Mother’s Resting Place, ~2100m Above Sea Level Atop Combe Chauve*
 {:.center}
 

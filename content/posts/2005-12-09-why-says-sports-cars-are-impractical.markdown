@@ -16,3 +16,4 @@ When I spread the word that I'd got my RX-8, I was immediately given lots of rea
 Well, there's no such thing as too fast. As for practicality, well, today I went to pick up my 6ft high Christmas tree from the... well, Christmas tree shop, I suppose. And you know what, they were right. The car is way too cramped to transport a big tree from... oh, wait...
 
 <img src="/pictures/rx8/xmastree.jpg" />
+{:.center}

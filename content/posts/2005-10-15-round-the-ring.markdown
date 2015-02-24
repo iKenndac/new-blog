@@ -15,7 +15,8 @@ For these, you'll need the latest version of <a href="http://www.apple.com/quick
 
 Well, I finally took my car around the Nürburgring.
 
-<img src="pictures/breakdown/ring2.jpg"/> 
+<img src="/pictures/breakdown/ring2.jpg"/> 
+{:.center}
 
 First video is a quick drive-by clip of my car coming through Wippermann. Right-click + download <a href="http://homepage.mac.com/danielkennett/files/ring-driveby.mp4">here</a>. (1.8Mb).
 

@@ -12,5 +12,6 @@ categories:
 ---
 
 <a href='/pictures/for_posts/2008/02/tmerror.png' title='Time Machine'><img src='/pictures/for_posts/2008/02/tmerror.png' alt='Time Machine' /></a>
+{:.center .no-border}
 
 Spot the deliberate mistake?

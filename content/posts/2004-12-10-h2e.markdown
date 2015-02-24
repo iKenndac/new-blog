@@ -40,7 +40,13 @@ In total we had 5 Xboxes and TVs arranged around the room. But first... pizza. A
 The room was laid out as such:
 
 
-<center><img border="0" src="/pictures/h2e/room1.jpg"/><br />Most people were in here...<img border="0" src="/pictures/h2e/room2.jpg"/><br />...but Marcus and Luke were over there!</center>
+<img border="0" src="/pictures/h2e/room1.jpg" /> \\
+Most people were in here...
+{:.center}
+
+<img border="0" src="/pictures/h2e/room2.jpg" /> \\
+...but Marcus and Luke were over there!
+{:.center}
 
 I ended up on my own instead of in a team as there were only 9 taking part and as I organised the thing and made the prizes, it was unfair if I had a chance of winning. Thing is, I managed to not come last in a couple of the rounds, until Stuart found out about dual-wielding needlers. Many times after that you heard someone shout "Pink! It's all <i>pink!</i> followed by a violent death. By the end of it there was a clear winner - Team Trout (Marcus and Luke). They were presented with their prize by Robin...
 

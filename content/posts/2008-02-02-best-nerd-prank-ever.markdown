@@ -22,10 +22,12 @@ The premise was that Google Maps has introduced a "Choose your Vehicle" feature,
 Here's the resulting journey to her work in my car:
 
 <img src="/pictures/GooglePrank-RX8.png" alt="RX-8 Journey time" />
+{:.center}
 
 ... and in hers:
 
 <img src="/pictures/GooglePrank-Ka.png" alt="RX-8 Journey time" />
+{:.center}
 
 Needless to say, she fell for it - being annoyed that Google would've got the data for her car so wrong. The best comment: "According to that i drive an RX8 to work and uni!"
 

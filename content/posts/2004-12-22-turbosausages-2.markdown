@@ -18,9 +18,20 @@ Ok, so years ago in school my friend Marcus and I invented "Turbosausages", whic
 I now present Turbosausages 2: In Colour!
 
 
-<img src="/pictures/ts2/1.gif"/> <br /><br />
-<img src="/pictures/ts2/2.gif"/> <br /><br />
-<img src="/pictures/ts2/3.gif"/> <br /><br />
-<img src="/pictures/ts2/4.gif"/> <br /><br />
-<img src="/pictures/ts2/5.gif"/> <br /><br />
-<img src="/pictures/ts2/6.gif"/> <br /><br />
+<img src="/pictures/ts2/1.gif"/>
+{:.center}
+
+<img src="/pictures/ts2/2.gif"/>
+{:.center}
+
+<img src="/pictures/ts2/3.gif"/>
+{:.center}
+
+<img src="/pictures/ts2/4.gif"/>
+{:.center}
+
+<img src="/pictures/ts2/5.gif"/>
+{:.center}
+
+<img src="/pictures/ts2/6.gif"/>
+{:.center}

@@ -16,13 +16,16 @@ The other day I finally got enough money for my mount in World of Warcraft. I ca
 First I had to go to the kennel to choose which one I wanted...
 
 <img src="/pictures/wow/kennelsml.jpg" />
+{:.center}
 
 This one!
 
 <img src="/pictures/wow/wolfie2sml.jpg" />
+{:.center}
 
 Then, I took him for a run:
 
 <img src="/pictures/wow/wolfiesml.jpg" />
+{:.center}
 
 Bored at work? Never!

@@ -19,15 +19,18 @@ I had an Astra VXR on order - the same basic car as mine, but with a 240bhp 2 li
 
 Interesting point. Two days later, I'd put an order down for one. A couple of weeks after that, I was driving round in a sexy new RX-8, with all the trimmings! At first, I was a bit anxious about swapping that new Astra for this, but after driving it a bit, I can honestly say that the RX-8 is more than the Astra was ever going to be. 
 
-<center>
 <img src="/pictures/rx8/gner.jpg"/>
+{:.center}
 
 <img src="/pictures/rx8/tree.jpg"/>
+{:.center}
 
-<img src="/pictures/rx8/eurostar.jpg"/>
+<img src="/pictures/rx8/eurostar.jpg"/> \\
 Yes, that <i>is</i> the Eurostar going past in the background!
+{:.center}
 
 <img src="/pictures/rx8/close.jpg"/>
+{:.center}
 
 <img src="/pictures/rx8/doors.jpg"/>
-</center>
+{:.center}

@@ -18,36 +18,46 @@ My flight arrived at 1.15pm, which was about 9.15pm UK time. The flight itself w
 8.30am this (Sunday) morning I was up, fed and about. Registration for <a href="http://www.apple.com/wwdc/">WWDC</a> opened today, so I decided to go track the building down and get checked in. It's only a 5 minute walk from my hotel, and really not that hard to spot:
 
 <a href="/pictures/wwdc/day1/IMG_0860_big.jpg"><img src="/pictures/wwdc/day1/IMG_0860.jpg"/></a>
+{:.center}
 
 <!--more-->
 
 San Francisco is a bit weird - it's very modern and clean, but at the same time living in a previous era. I was standing at a corner admiring the fancy Virgin store...
 
 <a href="/pictures/wwdc/day1/IMG_0863_big.jpg"><img src="/pictures/wwdc/day1/IMG_0863.jpg"/></a>
+{:.center}
 
 ... when this trundled past.
 
 <a href="/pictures/wwdc/day1/IMG_0866_big.jpg"><img src="/pictures/wwdc/day1/IMG_0866.jpg"/></a>
+{:.center}
 
 My hotel is right next to a cable car turning point. The San Francisco cable cars are pretty famous, and work by gripping a cable that moves under the street. The line ends at a turntable - the driver and conductor jump out and push the car around so it can go back the way it came. 
 
 <a href="/pictures/wwdc/day1/IMG_0870_big.jpg"><img src="/pictures/wwdc/day1/IMG_0870.jpg"/></a>
+{:.center}
 
 <a href="/pictures/wwdc/day1/IMG_0869_big.jpg"><img src="/pictures/wwdc/day1/IMG_0869.jpg"/></a>
+{:.center}
 
 The tracks go along the same road that cars use, and it's quite interesting watching them share the road. 
 
 <a href="/pictures/wwdc/day1/IMG_0876_big.jpg"><img src="/pictures/wwdc/day1/IMG_0876.jpg"/></a>
+{:.center}
 
 I took a ride on the cable car, and it's great fun. On the way back, I was dangling off the back, and took a few photos - the first and second being my favourites.
 
 <a href="/pictures/wwdc/day1/IMG_0897_big.jpg"><img src="/pictures/wwdc/day1/IMG_0897.jpg"/></a>
+{:.center}
 
 <a href="/pictures/wwdc/day1/IMG_0901_big.jpg"><img src="/pictures/wwdc/day1/IMG_0901.jpg"/></a>
+{:.center}
 
 <a href="/pictures/wwdc/day1/IMG_0906_big.jpg"><img src="/pictures/wwdc/day1/IMG_0906.jpg"/></a>
+{:.center}
 
 <a href="/pictures/wwdc/day1/IMG_0907_big.jpg"><img src="/pictures/wwdc/day1/IMG_0907.jpg"/></a>
+{:.center}
 
 When I got back to the hotel, it occurred to me that the only pair of jeans I have with me is covered in tar from when I was kneeling on the hot road last week when taking my MX-5 to bits. And that I could feel the floor through my shoes. It later occurred to me that wearing the same pair of jeans for two weeks straight probably wouldn't have been a good idea, but I'd already got new ones by then.
 
@@ -58,16 +68,20 @@ To the shops! I ended up getting two pairs of jeans, a pair of trainers and thre
 Everything is bigger here. The small bottles of drink are 600ml instead of the 500ml we have in the UK. Asking for a large Coke in Subway/etc gets you a <i>large</i> Coke. However, the drink dispensers are faster so you don't feel like a fat pig waiting for your cup to fill.
 
 <a href="/pictures/wwdc/day1/IMG_0911_big.jpg"><img src="/pictures/wwdc/day1/IMG_0911.jpg"/></a>
+{:.center}
 
 San Francisco has a few (small) beaches. People were swimming in the water, albeit in wetsuits.
 
 <a href="/pictures/wwdc/day1/IMG_0887_big.jpg"><img src="/pictures/wwdc/day1/IMG_0887.jpg"/></a>
+{:.center}
 
 On this very random gazebo was a very random sign.
 
 <a href="/pictures/wwdc/day1/IMG_0891_big.jpg"><img src="/pictures/wwdc/day1/IMG_0891.jpg"/></a>
+{:.center}
 
 <img src="/pictures/wwdc/day1/solicitors.jpg"/>
+{:.center}
 
 Well, that's it for now. Tomorrow morning the big keynote kicks off the conference, and I'll be knee deep in code and tech talk for the rest of week. Let the geekery commence!
 

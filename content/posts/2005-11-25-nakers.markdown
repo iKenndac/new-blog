@@ -15,8 +15,11 @@ For the past week I've been driving around in a Hyundai Getz. 66bhp! Anyway, I n
 
 Don't worry, it'll have it's stripes back soon.
 
-<img src="pictures/rx8/ms2.jpg"/> 
+<img src="/pictures/rx8/ms2.jpg"/> 
+{:.center}
 
-<img src="pictures/rx8/ms1.jpg"/> 
+<img src="/pictures/rx8/ms1.jpg"/>
+{:.center}
 
-<img src="pictures/rx8/ms3.jpg"/> 
+<img src="/pictures/rx8/ms3.jpg"/>
+{:.center}
