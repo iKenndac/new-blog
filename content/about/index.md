@@ -72,7 +72,7 @@ Ultimately, KennettNet failed because I tried to expand our product line too muc
 
 ### Sweden
 
-In 2010, I moved to Sweden with my fianceé, deciding that we should do such a thing while we were young and could move geographically without affecting our work too much. The original plan was to stay for eighteen months, but we're still here over four years later!
+In 2010, I moved to Sweden with my fiancée, deciding that we should do such a thing while we were young and could move geographically without affecting our work too much. The original plan was to stay for eighteen months, but we're still here over four years later!
 
 <img src="/pictures/about/sweden.jpg" width="760" /> \\
 *Trying to learn Swedish.*
@@ -86,7 +86,7 @@ In February 2011, I started working at Spotify in Stockholm, Sweden. I started w
 <img src="/pictures/about/spotify.jpg" width="760" />
 {:.center}
 
-Notable public-facing achievements include, in rough cronological order:
+Notable public-facing achievements include, in rough chronological order:
 
 - Significant early work on the Spotify Apps platform, a HTML and Javascript-based platform that allowed HTML applications to run inside the Spotify desktop client with a bridge to the C++ core of the application. This platform eventually went on to power Spotify's own UI, replacing all of their older C++-based UI.
 
