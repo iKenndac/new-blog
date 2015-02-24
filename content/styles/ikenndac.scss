@@ -98,6 +98,11 @@ li.archive-post {
 	font-size: 1.5em;
 }
 
+article p > a {
+	border-bottom: none;
+	color: inherit;
+	text-decoration: underline;
+}
 
 p.center {
 	text-align: center;
