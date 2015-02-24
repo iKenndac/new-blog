@@ -99,7 +99,7 @@ C# command-line application for interfacing with the sensors and servos on an Ar
 
 #### Arduino-Dioder-Playground
 
-A project playing with a set of IKEA Dioder LED strips connected to an Arduino Mega 2560, as dicussed in a series of posts: [Part 1](/blog/2011/09/arduino-dioder-part-one/), [Part 2](/blog/2011/09/arduino-dioder-part-two/), and [Part 3](/blog/2011/10/arduino-dioder-part-three/). Available on [GitHub](http://github.com/iKenndac/Arduino-Dioder-Playground).
+A project playing with a set of IKEA Dioder LED strips connected to an Arduino Mega 2560, as discussed in a series of posts: [Part 1](/blog/2011/09/arduino-dioder-part-one/), [Part 2](/blog/2011/09/arduino-dioder-part-two/), and [Part 3](/blog/2011/10/arduino-dioder-part-three/). Available on [GitHub](http://github.com/iKenndac/Arduino-Dioder-Playground).
 
 #### Viva
 
