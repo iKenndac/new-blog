@@ -18,7 +18,7 @@ Before we get started, here's some tidbits about me to break the ice:
 
     - The correct number of trackdays per year is between two and four.
 
-    - A happy car is an customised car. Some photos of my work to make my MX-5 better suited to the track [can be found on 500px.com](http://500px.com/ikenndac/sets/mx5).
+    - A happy car is a customised car. Some photos of my work to make my MX-5 better suited to the track [can be found on 500px.com](http://500px.com/ikenndac/sets/mx5).
 
 - I really enjoy photography. I started with a fully manual Olympus OM-1 when I was a child, and currently wield a Canon SLR and an Olympus Micro Four-Thirds camera, with assorted lenses for both. You can find some of my photography [on 500px.com](http://500px.com/ikenndac).
 
