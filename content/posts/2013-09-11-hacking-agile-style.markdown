@@ -40,7 +40,7 @@ So, during my July vacation I set aside two weeks with the intention of making a
 
 First, I spent a couple of days in Photoshop making mockups of what I wanted to do. The logic behind this was to try and avoid the "blank canvas" feeling you get a few moments after creating a new project in Xcode. With a few mockups under my belt, I would hopefully be able to dive right in without wasting time implementing a UI that I'd have easily seen was unworkable if I'd simply have drawn a picture of it. Indeed, my first idea turned out to be unusable because I'd assumed the camera's image would fill the iPad's screen:
 
-<img src="/pictures/hacking-agile-style/second-sketch.png" \> \\
+<img src="/pictures/hacking-agile-style/second-sketch.png" /> \\
  *Originally, the app's controls would flank the image vertically, hiding and showing with a tap.* 
 {:.center}
 
