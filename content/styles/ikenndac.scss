@@ -159,7 +159,7 @@ a.no-underline, a.no-underline :hover {
 /* Mobile */
 
 @media screen and (max-width: 960px) { 
-	#main > section > .container {
+	#main > section .container {
 		width: 100%;
 		padding-left: 20px;
 		padding-right: 20px;
