@@ -156,6 +156,15 @@ a.no-underline, a.no-underline :hover {
 	text-decoration: none;
 }
 
+div.footnotes::before {
+	content: "Footnotes";
+	font-size: 1.25em;
+	font-weight: $font-weight-bold;
+	line-height: 1em;
+	margin: 0 0 ($size-element-margin * 0.25) 0;
+	display: block;
+}
+
 /* Mobile */
 
 @media screen and (max-width: 960px) { 
