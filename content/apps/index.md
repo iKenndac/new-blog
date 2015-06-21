@@ -13,7 +13,7 @@ These projects have made it to the revered *Apps* category, which means I consid
 **Cascable**
 {:.center .no-border}
 
-Cascable is an iOS application that allows you to control your WiFi-enabled SLR. It's a powerful, slick experience designed to fit right in with the modern iOS experience. Features include remote control, assistants for astrophotography and using ND filters, photo downloading, Apple Watch support and much more.
+Cascable is an iOS application that allows you to control your WiFi-enabled SLR. It's a powerful, slick experience designed to fit right in with the modern iOS ecosystem. Features include remote control, assistants for astrophotography and using ND filters, photo downloading, Apple Watch support and much more.
 
 More info at [cascable.se](http://cascable.se/).
 
