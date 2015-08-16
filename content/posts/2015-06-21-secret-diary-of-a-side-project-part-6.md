@@ -53,7 +53,9 @@ You can check Cascable out [here](http://cascable.se). You should totally buy a 
 
 At [NSConference 7](/blog/2015/03/nsconference-7/) I gave a short talk which was basically *Secret Diary: On Stage*, in which I discussed working on this project.
 
-<iframe src="https://player.vimeo.com/video/124337772" width="700" height="394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><p>&nbsp;</p>
+<div class="iframe-16x9-container">
+<iframe src="https://player.vimeo.com/video/124337772" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div><p>&nbsp;</p>
 
 In that talk, I spoke about a bottle of whiskey I have on my desk. It's a bottle of Johnnie Walker Blue Label, and at £175 it's by far the most expensive bottle of whiskey I've bought. When I bought it, I vowed it'd only be opened when a real human being that wasn't my friend (sorry Tim!) exchanged money for my app.
 
