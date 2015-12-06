@@ -17,6 +17,14 @@ Cascable is an iOS application that allows you to control your WiFi-enabled SLR.
 
 More info at [cascable.se](http://cascable.se/).
 
+<img src="/pictures/apps/fitness-converter.png" width="128"/> \\
+**Fitness Converter**
+{:.center .no-border}
+
+Fitness Converter is a small Mac application for converting fitness files between the GPX, TCX and FIT formats. It has a simple but beautiful UI, showing the route of the file on a map and the various telemetry data in colourful graphs.
+
+More info on the [Fitness Converter](http://ikennd.ac/fitness-converter/) page.
+
 <img src="/pictures/apps/couch-slouch.png" width="128" /> \\
 **Couch Slouch**
 {:.center .no-border}
