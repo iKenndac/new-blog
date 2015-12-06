@@ -1,10 +1,10 @@
 # All files in the 'lib' directory will be loaded
 # before nanoc starts compiling.
 
-include Nanoc3::Helpers::Blogging
-include Nanoc3::Helpers::Tagging
-include Nanoc3::Helpers::Rendering
-include Nanoc3::Helpers::LinkTo
+include Nanoc::Helpers::Blogging
+include Nanoc::Helpers::Tagging
+include Nanoc::Helpers::Rendering
+include Nanoc::Helpers::LinkTo
 
 require 'date'
 require 'active_support/core_ext/integer/inflections'
@@ -48,7 +48,7 @@ module PostHelper
     else
       title = prev_article[:title]
       html = "&larr; Previous"
-      link_to(html, prev_article.reps[0], :class => "previous", :title => title)
+      link_to(html, prev_article.reps[:default], :class => "previous", :title => title)
     end
   end
 
@@ -60,7 +60,7 @@ module PostHelper
       post = sorted_articles[nxt]
       title = post[:title]
       html = "Next &rarr;"
-      link_to(html, post.reps[0], :class => "next", :title => title)
+      link_to(html, post.reps[:default], :class => "next", :title => title)
     end
   end
 

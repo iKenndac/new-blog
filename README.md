@@ -11,6 +11,8 @@ To install:
 5. `$ gem install builder`
 6. `$ gem install pygments.rb`
 7. `$ gem install activesupport`
+8. `$ gem install compass`
+9. `$ gem install nokogiri`
 
 To generate:
 
