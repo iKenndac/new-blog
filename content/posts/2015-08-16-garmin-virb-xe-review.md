@@ -9,6 +9,8 @@ categories:
 - General
 ---
 
+**Update January 2016:** I've updated this review to reflect the camera and its software after a few months and a few software updates. Happily, it's pretty much all positive. Parts of the review that are now incorrect are still here but <del>are struck through</del> so you can see what's changed.
+
 **Note:** For the first part of this review, I'm going to ramble on a bit about my history with this sort of thing and why I'm *so* hopeful that the VIRB XE isn't crappy for use on track days. If you don't care, you can [scroll down a bit](#virb-xe-review-start) to get to the real review.
 
 ## We were totally ahead of the times, man!
@@ -111,7 +113,9 @@ A very minor niggle is that the "Menu" button on mine feels a bit weird. You fee
 
 A much less minor niggle is the cable connecting mechanism. The cable snaps on using a very rugged connector (which is great), but when I pick the camera up it disconnects as if I'd unplugged it. I can repeat this with 100% repeatability with my camera and cable, which is quite worrying. Randomly disconnecting is a great way to corrupt the filesystem. Sure, I can work around that by taking the SD card out and using a card reader, but what happens if my dog bumps my desk during a firmware update?
 
-Hopefully, this is just a niggle with my particular camera. I'll contact Garmin about it and update this review with their reply.
+<del>Hopefully, this is just a niggle with my particular camera. I'll contact Garmin about it and update this review with their reply.</del>
+
+**Update January 2016:** The weird menu button isn't unique to my camera. There are theories on the Garmin forums that it's actually a half-full button like the shutter button on a camera, and there's nothing yet assigned to a half press. Garmin's response was that the camera was acting as normal. I haven't actually used the cable again since this review, and I haven't pursued it further.
 
 ### Recording a Car Video
 
@@ -144,17 +148,19 @@ Holy crap. With zero effort I have a full set of data *and* a map synced to my d
 
 The quality of the recorded data by the VIRB seems great — the OBD data came out perfectly despite there being a couple of metres and an engine between the camera and the Bluetooth OBD adapter, and the application managed to handle the device losing a GPS fix for a few seconds with grace, resulting in a slightly funny-looking map (bottom left of the map in the screenshot above — the road isn't that square) but no other problems.
 
-However, the data is a bit *too* perfect, and the app seems too trusting of it. In particular, G-forces. With the camera directly bolted to my car's chassis, the camera's internal accelerometer seems to pick up every tiny little vibration, which VIRB Edit displays without filtering as this example from a perfectly smooth road shows:
+<del>However, the data is a bit *too* perfect, and the app seems too trusting of it. In particular, G-forces. With the camera directly bolted to my car's chassis, the camera's internal accelerometer seems to pick up every tiny little vibration, which VIRB Edit displays without filtering as this example from a perfectly smooth road shows:</del>
+
+**Update January 2016:** I'm happy to report that this problem has been *completely* fixed with firmware 3.70, released in early December 2015. I was concerned that the vibrations from being directly bolted to my car with a metal mount would be too much to overcome, but with the firmware update the G-force data from the VIRB is lovely and smooth, and picks up gentle curves and speed changes just fine. You can see a before (left) and after (right) comparison below:
 
 <div class="video-container">
-<video class="center" style="overflow:hidden; max-width: 458px;" autoplay loop>
-  <source src="/pictures/virb-review/gforces.mp4" type="video/mp4" />
+<video class="center" style="overflow:hidden; max-width: 640px;" autoplay loop>
+  <source src="/pictures/virb-review/gforces-compare.mp4" type="video/mp4" />
   Your browser does not support the video tag.
 </video>
 </div>
 <p>&nbsp;</p>
 
-It'd be nice if there was an option to have the application perform a low-pass filter on the data. This would reduce the responsiveness of the data slightly, but my 1,200kg car isn't changing direction fast enough in any axis to make that a huge problem.
+<del>It'd be nice if there was an option to have the application perform a low-pass filter on the data. This would reduce the responsiveness of the data slightly, but my 1,200kg car isn't changing direction fast enough in any axis to make that a huge problem.</del>
 
 VIRB Edit comes with a number of templates which work great, and a lot of individual gauges that you can customise the colours of to create your own layouts and styles.
 
@@ -179,7 +185,9 @@ Now, I'm not saying Garmin should implement all these features — that'd be sil
 
 I could go the other way — import the raw video into my editor of choice, apply corrections, merge in the better audio, etc, but you still end up with an extra encoding step that reduces quality.
 
-Solving this is actually relatively easy, and my prototype application from years ago had this built-in: several video formats and containers support videos with alpha channels. What I'd love to do is add my data overlays in VIRB Edit then export a lossless video containing *only* the overlays on a transparent canvas. This way, I could import the original video and the overlays into my editor of choice and keep them in separate tracks, allowing me to apply rotations and colour corrections to the video to my heart's content. Bonus points for being able to export each overlay separately, allowing the sweet animations seen in Garmin's own VIRB XE promotional video!  
+<del>Solving this is actually relatively easy, and my prototype application from years ago had this built-in: several video formats and containers support videos with alpha channels. What I'd love to do is add my data overlays in VIRB Edit then export a lossless video containing *only* the overlays on a transparent canvas. This way, I could import the original video and the overlays into my editor of choice and keep them in separate tracks, allowing me to apply rotations and colour corrections to the video to my heart's content. Bonus points for being able to export each overlay separately, allowing the sweet animations seen in Garmin's own VIRB XE promotional video!</del>
+
+**Update January 2016:** I'm not sure if I was just being dumb when I wrote this review, but I've recently found an option in VIRB Edit's preferences: *Export transparent PNG sequence for overlays*. This does exactly what it says on the tin, and after exporting a video it'll separately export a sequence of transparent PNGs containing only the overlays. Apple's Motion editing software picked this sequence up directly with no further action needed on my part. The only minor downside to this is that you'll have one PNG sequence containing every single overlay, which is less useful if you want to animate them independently. This can be worked around, though, by exporting multiple times with one overlay at a time. The minor downside to *that* approach, though, is that there's no option to export *only* the overlay PNG sequence, so you have to re-export the video itself as well. This can become a lengthy process!
 
 ### Hail To The Power User
 
@@ -199,6 +207,8 @@ I've already - and I'm not joking - sold all of my GoPro cameras.
 
 I bought this camera within its first week of availability in Sweden, and unfortunately these days that means software niggles are to be expected. However, I've owned a number of Garmin devices (and still do) and they've a long history of continuing to improve their products over time. My four year old GPS unit still gets regular software updates, for instance. I have a very positive opinion of Garmin as a company — they make solid products and solid software, so I'm hopeful they'll resolve the bugs I found.
 
+**Update January 2016:** I'm happy that my faith in Garmin seems to have been well placed - the more problematic software issues have been fixed by updates.
+
 I *am* rather concerned about the flaky connection between the camera and its USB cable, though. This is certainly a hardware issue — I'll contact Gamin and see what they say.
 
 Overall, though, I love this camera and have already sold all my GoPros. The combination of its superb build quality and extra data acquisition features are *killer* for me, and are a joy to have after years of lacklustre GoPro updates.
@@ -217,7 +227,7 @@ Overall, though, I love this camera and have already sold all my GoPros. The com
 
 - PAPER LAUNCH DAMNIT! Don't show me a product I want then wait four months to start selling it!
 - Cable doesn't fit snugly and disconnects when I move the camera. Hopefully this is a one-off thing.
-- One of the buttons feels weird. Again, hopefully a one-off niggle.
+- One of the buttons feels weird. <del>Again, hopefully a one-off niggle.</del> **May actually be as-designed. Garmin considers it 'normal'.**
 - Proprietary cable isn't super great when you need an emergency charge in a world of micro USB. I see why they did it and, like Apple's Lightning, the pros outweigh the cons most of the time.
 - Only one sticker in the box. I'm prepared to go full fanboy with this thing, and I only have one sticker?!
 
@@ -230,10 +240,10 @@ Overall, though, I love this camera and have already sold all my GoPros. The com
 
 **Bad (as of August 2015)**
 
-- Accelerometer data needs a low-pass filter — it's unusably noisy when the camera is bolted to my car's chassis. 
+- <del>Accelerometer data needs a low-pass filter — it's unusably noisy when the camera is bolted to my car's chassis.</del> **Fixed with firmware 3.70.**  
 - Audio glitch when transitioning between clips that've been cut up by the camera.
 
 **Missing Features**
 
-- Ability to export a translucent video containing only the gauges so I can edit the source video in my preferred editor and keep the data overlays clean.
+- <del>Ability to export a translucent video containing only the gauges so I can edit the source video in my preferred editor and keep the data overlays clean.</del> **Feature exists, but is slightly hidden. My fault!**
 
