@@ -26,7 +26,10 @@
 	$color-fg-bold:				#333;	
 	$color-fg-light:			#aaa;
 
-	$color-accent-bg:			#12523D; //#253C52;; //#EA6B2A;
+// For the 2015 green theme: $color-accent-bg:			#12523D;
+// For the 2016 red theme: $color-accent-bg:			#5e0000;
+
+	$color-accent-bg:			#5e0000;
 	$color-accent-fg-bold:		#ffffff;
 	$color-accent-fg:			mix($color-accent-bg, $color-accent-fg-bold, 25%);
 	$color-accent-fg-light:		mix($color-accent-bg, $color-accent-fg-bold, 40%);
