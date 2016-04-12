@@ -3,7 +3,7 @@ kind: article
 author: Daniel Kennett
 layout: post
 title: "Secret Diary of a Side Project: No Longer Alone"
-created_at: 2016-04-12 18:00:00 +0200
+created_at: 2016-04-12 16:30:00 +0200
 comments: true
 categories:
 - Programming
