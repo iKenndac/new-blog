@@ -68,13 +68,17 @@ So, with all of that self-congratulation out of the way, let's look at some cold
 
 The established launch pattern for iOS apps is to have a huge launch spike that tails off fairly sharply. This "long tail" is a tough thing to endure, and [can be fatal](https://medium.com/swlh/how-our-app-went-from-20-000-day-to-2-day-in-revenue-d6892a2801bf#.6b3r10ffq).
 
-Our spike followed normal trends. Here's our downloads over the first three of weeks of 2.0:
+Our spike followed normal trends. Here's our downloads over the first few days of 2.0:
 
-[download graph]
+<img src="/pictures/releasing-cascable-2/Cascable20Downloads.png" width="725" />  \\
+*Downloads during the launch.* 
+{:.center}
 
 However, if we compare that to the number of purchases over the same period, a couple of things stick out: 
 
-[purchase graph]
+<img src="/pictures/releasing-cascable-2/Cascable20Sales.png" width="725" />  \\
+*Purchases during the launch.* 
+{:.center}
 
 First, the spike for purchases was a couple of days *after* the spike for downloads. Second, the purchases graph doesn't lose quite as much momentum as the downloads graph, which (along with our retention data) shows that a decent proportion of that download spike was from drive-by users — people who had seen the app as part of the initial media push, tried it once, and never used it again.
 
@@ -104,25 +108,35 @@ The upside to all this added complexity is that we get to reduce sticker-shock (
 
 Here's a typical flow. Feel free to [download Cascable](https://itunes.apple.com/us/app/cascable-wifi-camera-remote/id974193500?ls=1&mt=8&at=1010l4JU&ct=homepage) and follow along!
 
-[screenshot of free version in Remote Control]
-
 Here's a typical screenshot of Cascable running as a free user. Notice there's absolutely no indication they haven't paid for the app.
 
-[screenshot of trying to use a Pro feature]
+<img src="/pictures/releasing-cascable-2/1-PhotosStart.jpg" width="768" />
+{:.center}
 
-Here, the user has encountered a feature that requires them to part with some money. At this point, we don't pop up a store or otherwise interrupt their flow.
+Here, the user has encountered a feature that requires them to part with some money. At this point, we don't pop up a store or otherwise interrupt their flow:
 
-[screenshot of store on individual product]
+<img src="/pictures/releasing-cascable-2/2-PhotosProPrompt.jpg" width="768" />
+{:.center}
 
 If they tap on a "Pro" button or a "More Information…" button, they'll get the In-App Purchase store showing the cheapest available purchase that'll unlock the feature they're trying to work with, along with a little video previewing everything that purchase will unlock. The video is shipped as part of the app bundle, so there's no waiting for it to download.
 
+<img src="/pictures/releasing-cascable-2/3-StoreIndividual.png" width="571" />
+{:.center}
+
 If the user attempts to purchase the presented In-App Purchase, they'll be presented with this dialog:
 
-[screenshot of the upsell dialog]
+<img src="/pictures/releasing-cascable-2/4-StoreBundlePrompt.png" width="571" />
+{:.center}
 
-This is where we get a chance upsell the user to the more expensive (but better value for money) purchase. If the user taps "View Bundle", the purchase will be cancelled and they'll be shown the video and description of the bundle. Otherwise, the purchase of the requested item will continue.
+This is where we get a chance upsell the user to the more expensive (but better value for money) purchase. If the user taps "View Pro Bundle", the purchase will be cancelled and they'll be shown the video and description of the bundle. Otherwise, the purchase of the requested item will continue.
 
-[screenshot of the bundle]
+<img src="/pictures/releasing-cascable-2/5-StoreBundle.jpg" width="571" />
+{:.center}
+
+Finally, once the user has purchased the unlock for a feature, the original message is replaced with controls for the feature itself.
+
+<img src="/pictures/releasing-cascable-2/6-PhotosProFeature.jpg" width="768" />
+{:.center}
 
 ## Does our Store work?
 
@@ -138,11 +152,15 @@ Overall, our paid:free ratio is about 20%, which I don't feel is too bad.
 
 This graph shows the *Entry Point* to the In-App Purchase store within Cascable - that is, the product they first see when the store is shown to them. As you can see, it's *reasonably* evenly spread between the three individual $10 unlocks, with the $25 bundle coming in last. This is because the only way to see the bundle first is to navigate to the "Purchases" item in Settings and tap the button next to the bundle. The rest are encountered when using the app normally.
 
-[StoreShown graph]
+<img src="/pictures/releasing-cascable-2/StoreShown.png" width="680" />  \\
+*In-App Store entry point by product over five weeks during our long tail.* 
+{:.center}
 
 This next graph shows the products purchased over the same period. As you can see, the Full Bundle *significantly* outperforms the other products, despite the fact that it's more expensive and isn't the product the user is shown first in most circumstances.
 
-[Purchased graph]
+<img src="/pictures/releasing-cascable-2/ProductPurchased.png" width="680" />  \\
+*In-App Store purchases by product over five weeks during our long tail.* 
+{:.center}
 
 I think it's a reasonable conclusion that the upsell is having a positive effect on sales. However, we don't have enough data to say whether or not this is definitely the best approach. For that, we'd need to compare our upsell to the following scenarios: 
 
@@ -174,7 +192,9 @@ Additionally, we're reaching out to photography websites, magazines, camera manu
 
 Second, we recently shipped an update to Cascable that adds an "Announcements Channel" to the app. This allows us to publish content online for presentation to users inside the app. We're trying to make this visible to the user without being annoying — no push notifications, no noises, no alerts. Hopefully the little unread indicator won't be too abrasive to our users.
 
-[screenshot]
+<img src="/pictures/releasing-cascable-2/Announcements.png" width="1024" />
+{:.center}
+
 
 Our intent is to publish high-quality content roughly once per week at most, mainly in the form of previewing and linking to articles on our website about how to get the most out of Cascable's features — for example, a detailed article on using Cascable's automation tools to make time-lapse videos, long exposures of the night sky, and so on.
 
