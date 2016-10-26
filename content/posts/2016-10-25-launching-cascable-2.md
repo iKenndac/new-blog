@@ -45,10 +45,11 @@ As the Cascable launch approached, my belief in my own abilities was at an all-t
 
 Launch day came, and the app was sitting in iTunes Connect, waiting for me to click the "Release" button. An attempt at having it happen automatically was stymied by a problem with iTunes Connect that resulted in hours on the phone with iTunes Connect support, which ended up making the problem worse. In the end, I had to yank the previous version from sale a few days before 2.0's launch. D'oh!
 
-[iTunes Connect History]
+<img src="/pictures/releasing-cascable-2/iTCHistory.png" width="350" />  \\
+*This is not the history of a smooth release process!* 
+{:.center}
 
-
-I clicked the button, and braced myself for a horrible week.
+I clicked the "Release" button, and braced myself for a horrible week.
 
 <blockquote class="twitter-tweet" data-lang="en-gb"><p lang="en" dir="ltr">Launching an app is crazy - what a week! On Wednesday I was having to forcefully take breaks to keep the stress levels under control. 😰</p>&mdash; Daniel Kennett (@iKenndac) <a href="https://twitter.com/iKenndac/status/764185288411414528">12 August 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -82,7 +83,7 @@ However, if we compare that to the number of purchases over the same period, a c
 
 First, the spike for purchases was a couple of days *after* the spike for downloads. Second, the purchases graph doesn't lose quite as much momentum as the downloads graph, which (along with our retention data) shows that a decent proportion of that download spike was from drive-by users — people who had seen the app as part of the initial media push, tried it once, and never used it again.
 
-## Was Switching To Freemium The Right Thing To Do?
+## Was switching to Freemium the right thing to do?
 
 I believe that Cascable is a pro-level tool and should command a pro-level price — particularly for a niche app in the physical photography sector. Yes, $25 is a *huge* barrier to entry on mobile, and our 1.x sales show that. However, the problem we need to solve is showing users that the app is worth the price it commands.
 
@@ -111,12 +112,12 @@ Here's a typical flow. Feel free to [download Cascable](https://itunes.apple.com
 Here's a typical screenshot of Cascable running as a free user. Notice there's absolutely no indication they haven't paid for the app.
 
 <img src="/pictures/releasing-cascable-2/1-PhotosStart.jpg" width="768" />
-{:.center}
+{:.center .tight-border}
 
 Here, the user has encountered a feature that requires them to part with some money. At this point, we don't pop up a store or otherwise interrupt their flow:
 
 <img src="/pictures/releasing-cascable-2/2-PhotosProPrompt.jpg" width="768" />
-{:.center}
+{:.center .tight-border}
 
 If they tap on a "Pro" button or a "More Information…" button, they'll get the In-App Purchase store showing the cheapest available purchase that'll unlock the feature they're trying to work with, along with a little video previewing everything that purchase will unlock. The video is shipped as part of the app bundle, so there's no waiting for it to download.
 
@@ -136,9 +137,9 @@ This is where we get a chance upsell the user to the more expensive (but better 
 Finally, once the user has purchased the unlock for a feature, the original message is replaced with controls for the feature itself.
 
 <img src="/pictures/releasing-cascable-2/6-PhotosProFeature.jpg" width="768" />
-{:.center}
+{:.center .tight-border}
 
-## Does our Store work?
+## Does our store work?
 
 The remaining data is taken from a five week period during that long tail after the big spike.
 
@@ -148,7 +149,7 @@ I'm pretty happy with 21% — less so with the 4%. What this data shows us is th
 
 Overall, our paid:free ratio is about 20%, which I don't feel is too bad. 
 
-## Does our Upsell work? 
+## Does our upsell work? 
 
 This graph shows the *Entry Point* to the In-App Purchase store within Cascable - that is, the product they first see when the store is shown to them. As you can see, it's *reasonably* evenly spread between the three individual $10 unlocks, with the $25 bundle coming in last. This is because the only way to see the bundle first is to navigate to the "Purchases" item in Settings and tap the button next to the bundle. The rest are encountered when using the app normally.
 
@@ -182,18 +183,18 @@ For me, it's time to take a step back, hand Cascable's reigns over to Tim for a 
 
 With that in mind, this next couple of months will be focused on the goal of making this company sustainable in the long term in ways that aren't adding new features to the existing app — it's feature complete enough that adding individual features won't make that critical difference.
 
-### First Approach: Get More People To Use Cascable
+### First Approach: Get more people to use Cascable
 
 First, we're experimenting with various advertising streams to get users into the app and using it. So far, we're only in the first phase of this and are trying out Facebook, Instagram, Twitter, Google AdWords and App Store Search ads. It's too early to draw any conclusions from this, but it seems that App Store Search ads are significantly outperforming the rest.
 
 Additionally, we're reaching out to photography websites, magazines, camera manufacturers, etc to try and get coverage. It's difficult for a tiny and unknown company like ours to wriggle through the noise, but we're starting to get noticed.
 
-### Second Approach: Get More People To Convert to Paid Users
+### Second Approach: Get more people to convert to paid users
 
 Second, we recently shipped an update to Cascable that adds an "Announcements Channel" to the app. This allows us to publish content online for presentation to users inside the app. We're trying to make this visible to the user without being annoying — no push notifications, no noises, no alerts. Hopefully the little unread indicator won't be too abrasive to our users.
 
 <img src="/pictures/releasing-cascable-2/Announcements.png" width="1024" />
-{:.center}
+{:.center .tight-border}
 
 
 Our intent is to publish high-quality content roughly once per week at most, mainly in the form of previewing and linking to articles on our website about how to get the most out of Cascable's features — for example, a detailed article on using Cascable's automation tools to make time-lapse videos, long exposures of the night sky, and so on.
@@ -202,7 +203,7 @@ The channel allows us to present different content depending on what purchases t
 
 The intention is to increase conversion from free users while at the same time increasing the happiness of our paid users by helping them get the most of what they have. This will be a tricky line to walk well, though.
 
-### Third Approach: Don't Put All Our Eggs In The iOS Basket
+### Third Approach: Don't put all our eggs in the iOS basket
 
 Relying on one platform for income gives me the heebie-jeebies, particularly when that platform is one as difficult to reliably make money on as iOS. 
 
@@ -210,7 +211,8 @@ In a [previous *Secret Diary of a Side Project* post](http://ikennd.ac/blog/2015
 
 With Tim working on the first two approaches, I've started working on branching out to Mac OS. Thanks to a fully functional core library, I've been able to cash in on this past work and start *incredibly* quickly — I built a functional (and reasonably polished) prototype of a Mac app in less than two weeks, and we're aiming to ship it by early December.
 
-[screenshot of prototype]
+<img src="/pictures/releasing-cascable-2/TransferPrototype.png" width="700" />
+{:.center .no-border}
 
 ## Conclusion
 
