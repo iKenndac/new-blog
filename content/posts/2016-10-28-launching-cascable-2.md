@@ -3,7 +3,7 @@ kind: article
 author: Daniel Kennett
 layout: post
 title: "Launching Cascable 2.0"
-created_at: 2016-10-25 16:30:00 +0200
+created_at: 2016-10-28 20:00:00 +0200
 comments: true
 categories:
 - Programming
@@ -27,7 +27,7 @@ Nine months is a *very* long time to be working on a single update, and it can b
 
 Of course, this is part and parcel of being a developer. However, you typically have other developers working alongside you to share the burden and a reasonable release cadence that (hopefully) provides real-world evidence that your work is good enough for production.
 
-In the weeks before the launch, I didn't *feel* stressed at all — we'd had a very long TestFlight period with over 100 testers over all the difference camera brands Cascable now supports and all of the major issues were ironed out. I'd enforced a feature-freeze at the beginning of June, and a ship-to-App Store date of July 29th. That's two months in feature freeze and two weeks between uploading to the App Store and releasing — plenty of time to iron out any issues before shipping, and plenty up time to iron out any App Store problems before releasing. 
+In the weeks before the launch, I didn't *feel* stressed at all — we'd had a very long TestFlight period with over 100 testers over all the different camera brands Cascable now supports and all of the major issues were ironed out. I'd enforced a feature-freeze at the beginning of June, and a ship-to-App Store date of July 29th. That's two months in feature freeze and two weeks between uploading to the App Store and releasing — plenty of time to iron out any issues before shipping, and plenty up time to iron out any App Store problems before releasing. 
 
 *Plus*, this time I had help in the form of [Tim](http://ikennd.ac/blog/2016/04/secret-diary-of-a-side-project-part-7/), who'd been diligently working away at the website for weeks — this time, it was finished by the time I'd hit code freeze and better than ever - much more content and some lovely extras like a nicely made video. 
 
@@ -37,7 +37,7 @@ However, those nine months of JIRA tickets had taken their toll. My self-confide
 
 On top of this, with 2.0 Cascable would be transitioning from paid-up-front to free with In-App Purchases to unlock the good stuff. It's a move we needed to make — a $25 up-front payment is an impossible sell on mobile — but a huge risk of doing this (and well-known enough that it was the first thing every developer friend I have mentioned when I told them of this plan) is receiving a massive amount of support email from free users and unfair one-star reviews.
 
-> "You realise that you'll *immediately* get people downloading it without looking then leaving you one-star reviews because it isn't Instagram right?", said one.
+*"You realise that you'll **immediately** get people downloading it without looking then leaving you one-star reviews because it isn't Instagram right?"*, said one.
 
 As the Cascable launch approached, my belief in my own abilities was at an all-time low, and I was expecting to be buried in an avalanche of one-star reviews and email.
 
@@ -55,13 +55,13 @@ I clicked the "Release" button, and braced myself for a horrible week.
 
 But, the avalanche never came. Instead, we got great coverage, a big pile of downloads and some [really positive reviews](http://www.photographyblog.com/reviews/cascable_review/). 
 
-In hindsight, I consider it a very successful launch. Neither my wildest dreams nor my deepest fears came true — the switch to freemium didn't make me an overnight millionaire, but we didn't get buried by one-star reviews and support email either.
+Looking back, I consider it a very successful launch. Neither my wildest dreams nor my deepest fears came true — the switch to freemium didn't make me an overnight millionaire, but we didn't get buried by one-star reviews and support email either.
 
 It's amazing what shipping code can do to your self-esteem. After a couple of quick point-releases to fix some crashes that did crop up — all of them reasonably rare, thankfully — Cascable's crash-free sessions metric is in the very high-90% range (on the day of writing, it's at 98.5%). Of course that can be improved, but between the subjective reviews and this objective data, I've  completely regained my confidence that I'm able to write and ship a decent product. Hooray!
 
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="en-gb"><p lang="en" dir="ltr">Two days later, I’m bowing out the week with a great review and coverage on one of the largest photography sites there is. Much better! 😀</p>&mdash; Daniel Kennett (@iKenndac) <a href="https://twitter.com/iKenndac/status/764185315942727680">12 August 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-It's worth noting again what an incredible difference having someone helping out on stuff that isn't code. I don't think Tim would be upset with me if I said that he's by no means a professional website builder, nor is he a professional video editor. Yet, thanks to him, Cascable's launch had that extra layer of quality to it that I've never been able to achieve on my own.
+It's worth noting again what an incredible difference having someone helping out on stuff that isn't code. I don't think Tim would be upset with me if I said that he's by no means a professional website builder, nor is he a professional video editor. Yet, thanks to him, I had a burden lifted from my shoulders and Cascable's launch had that extra layer of quality to it that I've never been able to achieve on my own.
 
 So, with all of that self-congratulation out of the way, let's look at some cold, hard data!
 
@@ -87,7 +87,7 @@ First, the spike for purchases was a couple of days *after* the spike for downlo
 
 I believe that Cascable is a pro-level tool and should command a pro-level price — particularly for a niche app in the physical photography sector. Yes, $25 is a *huge* barrier to entry on mobile, and our 1.x sales show that. However, the problem we need to solve is showing users that the app is worth the price it commands.
 
-At the most basic level, yes, it was. Cascable is earning more money than it was than when it was paid-up-front. However, there's a lot more to it than that!
+At the most basic level, yes, it was the right thing to do. Cascable is earning more money than it was than when it was paid-up-front. However, there's a lot more to it than that!
 
 For several months, my plan was to have the app work with basic features for free, and implement a single In-App Purchase for $25 to unlock the whole app. However, after some discussion, we ended up shipping *four* separate In-App Purchases, as follows: 
 
@@ -103,7 +103,7 @@ For several months, my plan was to have the app work with basic features for fre
 
 The biggest detractor to this is development complexity. Different parts of the app need different feature checks, and we need to communicate to the user what they need to purchase to get which feature in a non-confusing way. Indeed, the latter point was worrying me up until launch due to the fact we decided that creating a [support article with a big-ass table](https://cascable.se/help/pro-features/) to explain it all was necessary.  
 
-In practice, though, I think the user experience isn't too bad. We've only had one support ticket from someone who'd accidentally bought the wrong thing so far, which makes us hopeful it isn't too bad. 
+In practice, though, I think the user experience isn't too bad. We've only had one support ticket from someone who'd accidentally bought the wrong thing so far, which makes us hopeful it isn't too confusing for our users. 
 
 The upside to all this added complexity is that we get to reduce sticker-shock ("$25?! Screw that!") and up-sell to the user. We're trying to avoid the aggressive sales pitch if at all possible, and don't start asking for money until the user wants to do something that isn't free. 
 
@@ -117,6 +117,11 @@ Here's a typical screenshot of Cascable running as a free user. Notice there's a
 Here, the user has encountered a feature that requires them to part with some money. At this point, we don't pop up a store or otherwise interrupt their flow:
 
 <img src="/pictures/releasing-cascable-2/2-PhotosProPrompt.jpg" width="768" />
+{:.center .tight-border}
+
+In some places, particularly in lists, we place a "Pro" button in place of the switch or button that would invoke a particular feature:
+
+<img src="/pictures/releasing-cascable-2/2a-NightModeProPrompt.png" width="438" />
 {:.center .tight-border}
 
 If they tap on a "Pro" button or a "More Information…" button, they'll get the In-App Purchase store showing the cheapest available purchase that'll unlock the feature they're trying to work with, along with a little video previewing everything that purchase will unlock. The video is shipped as part of the app bundle, so there's no waiting for it to download.
@@ -139,9 +144,21 @@ Finally, once the user has purchased the unlock for a feature, the original mess
 <img src="/pictures/releasing-cascable-2/6-PhotosProFeature.jpg" width="768" />
 {:.center .tight-border}
 
-## Does our store work?
+<img src="/pictures/releasing-cascable-2/6a-NightModeProFeature.png" width="438" />
+{:.center .tight-border}
 
-The remaining data is taken from a five week period during that long tail after the big spike.
+As you can see, even though payment and billing logic is provided by the App Store infrastructure, there's still a *ton* of work to do if you want to provide a somewhat rich In-App Purchase experience for your users. Which you *do* want to do — that little "Give me money!" button is difficult for users to tap!
+
+A little extra touch we added to give some extra gratification to our paid users is a friendly, heart-adorned version of Colin (our unofficial name for the anthropomorphised camera mascot used throughout the app):
+
+<img src="/pictures/releasing-cascable-2/7-Purchases.png" width="438" />
+{:.center .tight-border}
+
+This version of Colin is slightly more whimsical than the tone of the rest of the app, but I really love this version of him, and he's reserved just for our paid users.
+
+## So, does our store work?
+
+The following data is taken from a five week period during that long tail after the big spike.
 
 Over the five-week period this data is from, our average conversion ratio from viewing the store to making a purchase was 21%. This compares to a conversion ratio of 4% from all users of the app to making a purchase. 
 
@@ -151,7 +168,7 @@ Overall, our paid:free ratio is about 20%, which I don't feel is too bad.
 
 ## Does our upsell work? 
 
-This graph shows the *Entry Point* to the In-App Purchase store within Cascable - that is, the product they first see when the store is shown to them. As you can see, it's *reasonably* evenly spread between the three individual $10 unlocks, with the $25 bundle coming in last. This is because the only way to see the bundle first is to navigate to the "Purchases" item in Settings and tap the button next to the bundle. The rest are encountered when using the app normally.
+This graph shows the *Entry Point* to the In-App Purchase store within Cascable - that is, the product they first see when the store is shown to them. Once they're in the store, users can swipe left and right to browse all the available options, but the data for that isn't graphed here. As you can see, the entry point is *reasonably* evenly spread between the three individual $10 unlocks, with the $25 bundle coming in last. This is because the only way to see the bundle first is to navigate to the "Purchases" item in Settings and tap the button next to the bundle. The rest are encountered when using the app normally.
 
 <img src="/pictures/releasing-cascable-2/StoreShown.png" width="680" />  \\
 *In-App Store entry point by product over five weeks during our long tail.* 
@@ -191,7 +208,7 @@ Additionally, we're reaching out to photography websites, magazines, camera manu
 
 ### Second Approach: Get more people to convert to paid users
 
-Second, we recently shipped an update to Cascable that adds an "Announcements Channel" to the app. This allows us to publish content online for presentation to users inside the app. We're trying to make this visible to the user without being annoying — no push notifications, no noises, no alerts. Hopefully the little unread indicator won't be too abrasive to our users.
+We recently shipped an update to Cascable that adds an "Announcements Channel". This allows us to publish content online for presentation to users inside the app. We're trying to make this visible to the user without being annoying — no push notifications, no noises, no alerts. Hopefully the little unread indicator won't be too abrasive to our users.
 
 <img src="/pictures/releasing-cascable-2/Announcements.png" width="1024" />
 {:.center .tight-border}
@@ -207,9 +224,9 @@ The intention is to increase conversion from free users while at the same time i
 
 Relying on one platform for income gives me the heebie-jeebies, particularly when that platform is one as difficult to reliably make money on as iOS. 
 
-In a [previous *Secret Diary of a Side Project* post](http://ikennd.ac/blog/2015/01/secret-diary-of-a-side-project-part-2/), I discussed how I've been taking the extra effort to make sure our core camera connection stack is architected in a manner that keeps it cleanly separated from the Cascable app and fully functional on Mac OS as well as iOS.
+In a [previous *Secret Diary of a Side Project* post](http://ikennd.ac/blog/2015/01/secret-diary-of-a-side-project-part-2/), I discussed how I've been taking the extra effort to make sure our core camera connection stack is architected in a manner that keeps it cleanly separated from the Cascable app and fully functional on macOS as well as iOS.
 
-With Tim working on the first two approaches, I've started working on branching out to Mac OS. Thanks to a fully functional core library, I've been able to cash in on this past work and start *incredibly* quickly — I built a functional (and reasonably polished) prototype of a Mac app in less than two weeks, and we're aiming to ship it by early December.
+With Tim working on the first two approaches, I've started working on branching out to macOS. Thanks to a fully functional core library, I've been able to cash in on this past work and start *incredibly* quickly — I built a functional (and reasonably polished) prototype of a Mac app in less than two weeks, and we're aiming to ship it by early December.
 
 <img src="/pictures/releasing-cascable-2/TransferPrototype.png" width="700" />
 {:.center .no-border}
@@ -217,5 +234,7 @@ With Tim working on the first two approaches, I've started working on branching 
 ## Conclusion
 
 As much as being an overnight success is the dream, it doesn't tend to happen like that in the real world. After a couple of years of hard work, it looks like a sustainable business is starting to get within reach — Cascable's progress looks remarkably similar to that of my (mostly) successful foray into indie development all the way back in 2005. In fact, Cascable is doing *better* than my old company was after the same time period, but back then I lived in my parents' house basically for free — Cascable has a much higher bar to reach in order to be considered "successful"!
+
+As always, feel free to get in touch with me [on Twitter](http://twitter.com/iKenndac).
 
 
