@@ -82,8 +82,8 @@ base_url: http://ikennd.ac
 deploy:
   staging:
     kind: rsync
-    dst:  "blog_publish@uk.ikennd.ac:/srv/www/staging.ikennd.ac/public_html"
+    dst:  "website_deployment@london.ikennd.ac:/srv/www/public_html/staging.ikennd.ac"
   public:
     kind: rsync
-    dst:  "blog_publish@uk.ikennd.ac:/srv/www/ikennd.ac/public_html"
+    dst:  "website_deployment@london.ikennd.ac:/srv/www/public_html/ikennd.ac"
 
