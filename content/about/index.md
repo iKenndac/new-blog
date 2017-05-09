@@ -72,7 +72,7 @@ Ultimately, KennettNet failed because I tried to expand our product line too muc
 
 ### Sweden
 
-In 2010, I moved to Sweden with my fiancée, deciding that we should do such a thing while we were young and could move geographically without affecting our work too much. The original plan was to stay for eighteen months, but we're still here over four years later!
+In 2010, I moved to Sweden with my fiancée, deciding that we should do such a thing while we were young and could move geographically without affecting our work too much. The original plan was to stay for eighteen months, but we're still here over six years later!
 
 <img src="/pictures/about/sweden.jpg" width="760" /> \\
 *Trying to learn Swedish.*
@@ -104,5 +104,9 @@ Notable public-facing achievements include, in rough chronological order:
 
 ### Cascable
 
-In early 2015, I started a six month leave from Spotify to work on my own photography app, [Cascable](http://cascable.se/). Since it's still early 2015 at time of writing, I don't have much more to write here at the moment! However, you can follow along with my progress in my *Secret Diary of a Side Project* series of posts, the first of which [can be found here](/blog/2014/12/secret-diary-of-a-side-project-intro/).
+In early 2015, left Spotify to work on my own photography app, [Cascable](http://cascable.se/). Cascable communicates with cameras from Canon, Fujifilm, Nikon, Olympus, Panasonic, and Sony, providing users with a powerful mobile workflow that gives full RAW support, shutter automation, and much more.
 
+Cascable has been steadily growing since then, and is responsible for shooting nearly 100,000 photos per month as of spring 2017.
+
+<img src="/pictures/about/cascable-2-screenshots.jpg" width="660" />
+{:.center}
