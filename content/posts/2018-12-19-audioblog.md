@@ -3,10 +3,10 @@ kind: article
 author: "Daniel Kennett"
 layout: post
 title: "Introducing the iKennd.ac Audioblog!"
-created_at: 2018-12-20 21:00:00 +0100
+created_at: 2018-12-20 18:00:00 +0100
 categories:
 - General
-published: false
+published: true
 audioblog_audio: "audioblog/01-intro.mp3"
 audioblog_audio_filesize: 4078677
 audioblog_audio_duration: "00:03:45"
@@ -14,7 +14,7 @@ audioblog_summary: "Welcome to the first entry in the iKennd.ac audioblog!"
 audioblog_html_notes: "<ul><li>My Swift and Fika talk: <a href=\"https://www.youtube.com/watch?v=f4ihOnvU68Y\">Adventures in API Design</a></li><li>My CocoaHeads talk: <a href=\"https://youtu.be/Nr9z-T8Rgr0?t=5224\">Writing Command-Line Apps with Swift Package Manager</a> (start at 1hr 27min)</li></ul>"
 ---
 
-This post is included in the iKennd.ac Audioblog! Want to listen to this blog post? Subscribe to my audioblog!
+This post is included in the iKennd.ac Audioblog! Want to listen to this blog post? [Subscribe to my audioblog!](/audioblog.xml) (Apple Podcasts and Overcast links coming soon!)
 
 ---
 
@@ -39,6 +39,8 @@ So, I hereby announce… **The iKennd.ac Audioblog** *(Pause for applause?)*
 In order to get comfortable with my equipment and being behind a mic, with audio editing, and the whole experience of hosting a podcast, I'm starting an *audioblog*. It's like an audio*book*, but a for a blog! For each post on this blog going forward, I'm going to try to make an audio counterpart that's of a decent quality and engaging to listen to. I have a couple of really meaty posts planned for the next couple of months, so recording these should give some great practice for when Daniel's Awesome, Guest-Filled Podcast[^1] comes along sometime in 2019.
 
 In fact, this post is on the audioblog! Why not give it a listen? I'm genuinely interested in hearing any feedback on audio quality, how I sound, if I manage to make the listening experience engaging, and so on.
+
+You can subscribe to the audioblog via [this feed](/audioblog.xml) — Apple Podcasts etc links coming soon!
 
 
 [^1]: Title TBD.
