@@ -34,6 +34,10 @@ compile '/feed/*/' do
   filter :erb
 end
 
+compile '/audioblog/*/' do
+  filter :erb
+end
+
 compile '*' do
   if item[:extension] == 'css'
     # don’t filter stylesheets
@@ -64,6 +68,10 @@ end
 
 route '/feed/*/' do
   '/atom.xml'
+end
+
+route '/audioblog/*/' do
+  '/audioblog.xml'
 end
 
 route '*' do

@@ -4,7 +4,6 @@ layout: post
 title: "Build-Time CFBundleVersion Values in WatchKit Apps"
 created_at: 2015-05-01 23:00:00 +0200
 kind: article
-published: false
 categories:
 - Programming
 ---

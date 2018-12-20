@@ -13,6 +13,7 @@ To install:
 7. `$ gem install activesupport`
 8. `$ gem install compass`
 9. `$ gem install nokogiri`
+10. `$ gem install htmlentities`
 
 To generate:
 

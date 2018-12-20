@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+    <channel>
+        <title>The iKennd.ac Audioblog</title>
+        <link>http://ikennd.ac/</link>
+        <language>en-us</language>
+        <copyright>© 2018 Daniel Kennett</copyright>
+        <itunes:subtitle>Audio readings of blog posts on Daniel Kennett's blog.</itunes:subtitle>
+        <itunes:author>Daniel Kennett</itunes:author>
+        <itunes:summary>Audio readings of blog posts on Daniel Kennett's blog.</itunes:summary>
+        <description>Audio readings of blog posts on Daniel Kennett's blog.</description>
+        <itunes:type>episodic</itunes:type>
+        <itunes:owner>
+            <itunes:name>Daniel Kennett</itunes:name>
+            <itunes:email>podcasts@ikennd.ac</itunes:email>
+        </itunes:owner>
+        <itunes:image href="http://ikennd.ac/podcasts/audioblog/artwork.jpg" />
+        <itunes:category text="Technology">
+            <itunes:category text="Podcasting" />
+        </itunes:category>
+        <itunes:explicit>no</itunes:explicit>
+        <%
+        audioblogs = audioblog_articles()
+        audioblogs.each do | audioblog |
+        %>
+        <item>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:title><%= xml_encode(audioblog[:title]) %></itunes:title>
+            <title><%= xml_encode(audioblog[:title]) %></title>
+            <itunes:author><%= xml_encode(audioblog[:author]) %></itunes:author>
+            <itunes:subtitle><%= xml_encode(audioblog[:audioblog_summary]) %></itunes:subtitle>
+            <itunes:summary><%= xml_encode(audioblog[:audioblog_summary]) %></itunes:summary>
+            <description><%= xml_encode(audioblog[:audioblog_summary]) %></description>
+            <content:encoded><![CDATA[<%= audioblog[:audioblog_html_notes] %>]]></content:encoded>
+            <enclosure length="<%= audioblog[:audioblog_audio_filesize] %>" type="audio/mpeg" url="http://ikennd.ac/podcasts/<%= audioblog[:audioblog_audio] %>" />
+            <guid>http://ikennd.ac/podcasts/<%= audioblog[:audioblog_audio] %></guid>
+            <pubDate><%= audioblog_timestamp(audioblog) %></pubDate>
+            <itunes:duration><%= audioblog[:audioblog_audio_duration] %></itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <link>http://ikennd.ac<%= audioblog.path %></link>
+        </item>
+        <% end %>
+    </channel>
+</rss>

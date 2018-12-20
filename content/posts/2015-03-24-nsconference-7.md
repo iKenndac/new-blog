@@ -3,7 +3,6 @@ author: Daniel Kennett
 title: "NSConference 7"
 created_at: 2015-03-24 16:30:00 +0100
 kind: article
-published: false
 categories:
 - General
 ---

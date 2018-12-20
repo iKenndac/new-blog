@@ -8,6 +8,7 @@ include Nanoc::Helpers::LinkTo
 
 require 'date'
 require 'active_support/core_ext/integer/inflections'
+require 'htmlentities'
 
 module PostHelper
 
@@ -34,15 +35,24 @@ module PostHelper
     return content
   end
 
+  def published_sorted_articles 
+    return sorted_articles.select { |article|   
+      article[:published] == nil || article[:published] == true
+    }
+  end
+
   def grouped_articles
-    sorted_articles.group_by do |a|
+    published_sorted_articles.group_by do |a|
       [ Time.parse(a[:created_at].to_s).year, Time.parse(a[:created_at].to_s).month ]
     end.sort.reverse
   end
 
   def previous_link
-    prev = sorted_articles.index(@item) + 1
-    prev_article = sorted_articles[prev]
+    if published_sorted_articles.index(@item).nil?
+      return ''
+    end
+    prev = published_sorted_articles.index(@item) + 1
+    prev_article = published_sorted_articles[prev]
     if prev_article.nil?
       ''
     else
@@ -53,15 +63,30 @@ module PostHelper
   end
 
   def next_link
-    nxt = sorted_articles.index(@item) - 1
+    if published_sorted_articles.index(@item).nil?
+      return ''
+    end
+    nxt = published_sorted_articles.index(@item) - 1
     if nxt < 0
       ''
     else
-      post = sorted_articles[nxt]
+      post = published_sorted_articles[nxt]
       title = post[:title]
       html = "Next &rarr;"
       link_to(html, post.reps[:default], :class => "next", :title => title)
     end
+  end
+
+  def audioblog_articles
+    return sorted_articles.select { |i| i[:audioblog_audio] != nil }
+  end
+
+  def audioblog_timestamp(post)
+    return attribute_to_time(post[:created_at]).rfc2822
+  end
+
+  def xml_encode(str)
+    return HTMLEntities.new.encode str
   end
 
 end
