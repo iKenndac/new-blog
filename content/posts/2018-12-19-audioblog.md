@@ -11,11 +11,7 @@ audioblog_audio: "audioblog/01-intro.mp3"
 audioblog_audio_filesize: 4078677
 audioblog_audio_duration: "00:03:45"
 audioblog_summary: "Welcome to the first entry in the iKennd.ac audioblog!"
-audioblog_html_notes: "<ul><li>My Swift and Fika talk: <a href=\"https://www.youtube.com/watch?v=f4ihOnvU68Y\">Adventures in API Design</a></li><li>My CocoaHeads talk: <a href=\"https://youtu.be/Nr9z-T8Rgr0?t=5224\">Writing Command-Line Apps with Swift Package Manager</a> (start at 1hr 27min)</li></ul>"
----
-
-This post is included in the iKennd.ac Audioblog! Want to listen to this blog post? [Subscribe to my audioblog!](/audioblog.xml) (Apple Podcasts and Overcast links coming soon!)
-
+audioblog_html_notes: "<ul><li>My Swift and Fika talk: <a href=\"https://www.youtube.com/watch?v=f4ihOnvU68Y\">Adventures in API Design</a></li><li>My CocoaHeads talk: <a href=\"https://www.youtube.com/watch?v=cVqMvBr7YKU\">Writing Command-Line Apps with Swift Package Manager</a></li></ul>"
 ---
 
 For well over a year, I've been talking about doing a podcast. In fact, in late November 2017 I made a handshake promise with a friend that we'd both get the first episode of our podcasts out "by Christmas at the latest!", so I'd already been going on ab-out it for far too long a year ago. (She hasn't released hers either, so we did at least do the same thing!)
@@ -28,7 +24,7 @@ However, I don't want to waste my guests' time by putting out shoddy work, and I
 
 So, I hereby announce… **I am not starting a podcast just yet.** *(Pause for applause.)*
 
-The thing is, I really love contributing to the community. Even though my blog has been relatively quiet for the past couple of years, I've been giving talks here and there. In September, I gave a talk at the [Swift and Fika](http://swiftandfika.com) conference here in Stockholm entitled [Adventures in API Design](https://www.youtube.com/watch?v=f4ihOnvU68Y), in which I mixed some stories of what I've been up to over the past couple of years with some useful advice about designing APIs. More recently, I spoke at a CocoaHeads meeting about [writing command-line apps with Swift Package Manager](https://youtu.be/Nr9z-T8Rgr0?t=5224) (start at 1hr 27min), in which I talked about drone photography and some tips and tricks for writing little command-line apps in Swift.
+The thing is, I really love contributing to the community. Even though my blog has been relatively quiet for the past couple of years, I've been giving talks here and there. In September, I gave a talk at the [Swift and Fika](http://swiftandfika.com) conference here in Stockholm entitled [Adventures in API Design](https://www.youtube.com/watch?v=f4ihOnvU68Y), in which I mixed some stories of what I've been up to over the past couple of years with some useful advice about designing APIs. More recently, I spoke at a CocoaHeads meeting about [writing command-line apps with Swift Package Manager](https://www.youtube.com/watch?v=cVqMvBr7YKU), in which I talked about drone photography and some tips and tricks for writing little command-line apps in Swift.
 
 I don't have any formal training in giving talks, but with each one of these I give, I get better. I still say the word "so" far too much, and I forget to breathe half the time so I end up out of breath, but I'm improving! And, importantly, I'm having a lot of fun! And, *most* importantly, people tell me they like my talks and get something useful from them.
 
@@ -40,7 +36,7 @@ In order to get comfortable with my equipment and being behind a mic, with audio
 
 In fact, this post is on the audioblog! Why not give it a listen? I'm genuinely interested in hearing any feedback on audio quality, how I sound, if I manage to make the listening experience engaging, and so on.
 
-You can subscribe to the audioblog via [this feed](/audioblog.xml) — Apple Podcasts etc links coming soon!
+You can subscribe to the audioblog via links at the top of this post.
 
 
 [^1]: Title TBD.
