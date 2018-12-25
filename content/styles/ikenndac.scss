@@ -150,6 +150,33 @@ iframe.iframe-16x9 {
     height: 100%;
 }
 
+table.audioblog-icons {
+	text-align: center;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table.audioblog-icons tr {
+	background-color: transparent !important;
+	border: 0px !important;
+}
+
+table.audioblog-icons td {
+	width: 20%;
+	padding: 0;
+}
+
+table.audioblog-icons img {
+	border: 0;
+	box-shadow: none;
+}
+
+a.audioblog-img-link, a.audioblog-img-link:active, a.audioblog-img-link:hover, a.audioblog-img-link:visited, a.audioblog-img-link:link {
+	text-decoration: none;
+	border-bottom: 0;
+}
+
 article hr {
 	border: 0;
 	width: 80%;

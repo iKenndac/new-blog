@@ -9,6 +9,7 @@ title: Home
 		<h2><%= link_to post[:title], post.path %></h2>
 	</header>
 	<article>
+		<%= render 'audioblog_link_header', {:item => post} %>
 		<%= get_post_start(post) %>
 		<hr />
 	</article>

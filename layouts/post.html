@@ -4,6 +4,7 @@
 		<h2><%= item[:title] %></h2>
 	</header>
 	<article>
+		<%= render 'audioblog_link_header' %>
 		<%= yield %>
 	</article>
 	<p class="previous-post-link"><%= previous_link() %></p>

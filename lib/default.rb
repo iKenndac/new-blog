@@ -48,11 +48,12 @@ module PostHelper
   end
 
   def previous_link
-    if published_sorted_articles.index(@item).nil?
+    filtered_articles = published_sorted_articles()
+    if filtered_articles.index(@item).nil?
       return ''
     end
-    prev = published_sorted_articles.index(@item) + 1
-    prev_article = published_sorted_articles[prev]
+    prev = filtered_articles.index(@item) + 1
+    prev_article = filtered_articles[prev]
     if prev_article.nil?
       ''
     else
@@ -63,14 +64,15 @@ module PostHelper
   end
 
   def next_link
-    if published_sorted_articles.index(@item).nil?
+    filtered_articles = published_sorted_articles()
+    if filtered_articles.index(@item).nil?
       return ''
     end
-    nxt = published_sorted_articles.index(@item) - 1
+    nxt = filtered_articles.index(@item) - 1
     if nxt < 0
       ''
     else
-      post = published_sorted_articles[nxt]
+      post = filtered_articles[nxt]
       title = post[:title]
       html = "Next &rarr;"
       link_to(html, post.reps[:default], :class => "next", :title => title)
@@ -78,7 +80,11 @@ module PostHelper
   end
 
   def audioblog_articles
-    return sorted_articles.select { |i| i[:audioblog_audio] != nil }
+    return published_sorted_articles.select { |i| i[:audioblog_audio] != nil }
+  end
+
+  def has_audioblog(post)
+    return post[:audioblog_audio] != nil
   end
 
   def audioblog_timestamp(post)
