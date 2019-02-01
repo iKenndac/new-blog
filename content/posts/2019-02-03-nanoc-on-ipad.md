@@ -74,7 +74,7 @@ Next, we want to make Apache serve content based on the entered domain. Manually
 
 My configuration looks like this: 
 
-```
+~~~~~~~~
 DocumentRoot /ikenndac/public_html/content
 
 <Directory /ikenndac/public_html/content> 
@@ -91,7 +91,7 @@ DocumentRoot /ikenndac/public_html/content
     ErrorLog /ikenndac/public_html/static-staging.ikennd.ac.error.log
     CustomLog /ikenndac/public_html/static-staging.ikennd.ac.access.log combined
 </VirtualHost>
-``` 
+~~~~~~~~
 
 That `VirtualDocumentRoot` line is the important part here. If I go to `http://my-cool-blog.static-staging.ikennd.ac`, Apache will look for content in `/ikenndac/public_html/content/my-cool-blog.static-staging.ikennd` (note the missing *.ac*).
 
@@ -99,7 +99,7 @@ Once this is set up and running, our web server is ready! The final part is to g
 
 `nanoc` has the `deploy` command, but as far as I can figure out, it doesn't support dynamically setting the destination directory, so we can't use that. Instead, my blog's repository contains [a script](https://github.com/iKenndac/new-blog/blob/master/static-staging-deploy.sh) to do the work:
 
-```
+~~~~~~~~ bash
 # Get the current branch name
 BRANCH_NAME=`git rev-parse --abbrev-ref HEAD`
 
@@ -114,7 +114,7 @@ echo "Deploying ${BRANCH_NAME} to ${DEPLOY_DIRECTORY_NAME}.ac…"
 
 # Use rsync to get the content onto the server.
 rsync -r --links --safe-links output/ "website_deployment@static-staging.ikennd.ac:/ikenndac/public_html/content/${DEPLOY_DIRECTORY_NAME}/"
-```
+~~~~~~~~
 
 A couple of notes about using `rsync` to deploy from CI:
 
