@@ -53,3 +53,89 @@ So, here's why I'm only *sort of* writing this post using an iPad — while I am
 - A static web server set up to serve content from a location based on the subdomain used to access it.
 
 So, as I'm writing this, I'm committing the changes to a branch of my repository - let's say `post/nanoc-on-ipad`. Once I push a commit, my CI server will pick it up, build it, then deploy it to the web server. I can then go to `http://post-nanoc-on-ipad.static-staging.ikennd.ac` to view the results. It's not quite a *live* preview since my blog is ~400Mb of content and the build server takes a minute or two to process it all, but it's enough that I can write my blog post with Safari in split view with my editor, and I can reload occasionally to see how it's going.
+
+### My Setup
+
+The first thing we need to do is get a CI server to build our `nanoc` site. I won't actually cover that directly here - there are lots of CI services available, many of them free. Since `nanoc` is a Ruby gem, you can set up a cheap/free Linux-based setup without too much fuss.
+
+Personally, I'm using TeamCity running on a Mac mini, mostly because I already had that set up and running for other things.
+
+The second thing we need is a web server. Now, when I suggested the idea of serving content based directly on the domain name being used, a [web developer friend of mine](https://www.calleerlandsson.com/about/) made a funny face and started talking about path sanitisation, so I spun up a new tiny Linode that does literally nothing but host these static pages for blog post previewing. I set up an Ubuntu machine running Apache for hosting.
+
+Now for the fun part!
+
+### Linking It All Together
+
+We're going to be taking advantage of wildcard subdomains so we can preview different branches at the same time. For my personal blog it isn't something I'll use that often, but it's handy to have and is definitely *cooler*.
+
+In your DNS service, add an **A/AAAA** record for both the subdomain you want to use as the "parent" for all this, and a wildcard subdomain. For example, I added `static-staging` and `*.static-staging` records and pointed them to my server.
+
+Next, we want to make Apache serve content based on the entered domain. Manually (or even automatically) adding Apache configuration for each branch is too much like hard work, but we can use `mod_vhost_alias` to help out out. It's not a default module in the Apache version I had, so `a2enmod vhost_alias` to enable it. 
+
+My configuration looks like this: 
+
+```
+DocumentRoot /ikenndac/public_html/content
+
+<Directory /ikenndac/public_html/content> 
+    Options None
+    AllowOverride None
+    Order allow,deny
+    Allow from all
+    Require all granted
+</Directory>
+
+<VirtualHost *:80> 
+    ServerAlias *.static-staging.ikennd.ac
+    VirtualDocumentRoot /ikenndac/public_html/content/%-2+/
+    ErrorLog /ikenndac/public_html/static-staging.ikennd.ac.error.log
+    CustomLog /ikenndac/public_html/static-staging.ikennd.ac.access.log combined
+</VirtualHost>
+``` 
+
+That `VirtualDocumentRoot` line is the important part here. If I go to `http://my-cool-blog.static-staging.ikennd.ac`, Apache will look for content in `/ikenndac/public_html/content/my-cool-blog.static-staging.ikennd` (note the missing *.ac*).
+
+Once this is set up and running, our web server is ready! The final part is to get the content from our CI build onto the web server in the right place.
+
+`nanoc` has the `deploy` command, but as far as I can figure out, it doesn't support dynamically setting the destination directory, so we can't use that. Instead, my blog's repository contains [a script](https://github.com/iKenndac/new-blog/blob/master/static-staging-deploy.sh) to do the work:
+
+```
+# Get the current branch name
+BRANCH_NAME=`git rev-parse --abbrev-ref HEAD`
+
+# Replace anything that's not a number or letter with a hyphen.
+SANITIZED_BRANCH_NAME=`echo "${BRANCH_NAME}" | tr A-Z a-z | sed -e 's/[^a-zA-Z0-9\-]/-/g'`
+SANITIZED_BRANCH_NAME=`echo "${SANITIZED_BRANCH_NAME}" | sed 's/\(--*\)/-/g'`
+
+# Build the right directory name for our HTTP server configuration.
+DEPLOY_DIRECTORY_NAME="${SANITIZED_BRANCH_NAME}.static-staging.ikennd"
+
+echo "Deploying ${BRANCH_NAME} to ${DEPLOY_DIRECTORY_NAME}.ac…"
+
+# Use rsync to get the content onto the server.
+rsync -r --links --safe-links output/ "website_deployment@static-staging.ikennd.ac:/ikenndac/public_html/content/${DEPLOY_DIRECTORY_NAME}/"
+```
+
+A couple of notes about using `rsync` to deploy from CI:
+
+- Since CI runs headless, it's unlikely you'll be able to use a password to authenticate through `rsync` - you'll need to set up SSH key authentication on your HTTP and CI servers. I won't cover that here, but there are tutorials aplenty for this online.
+
+- If your CI still fails with auth errors after setting up SSH key authentication, it might be failing on a *The authenticity of host ... can't be established* prompt. If deploying to your HTTP server works from your machine but not in CI, SSH into your CI server and try to deploy from there.
+
+### The Result
+
+*Phew!*
+
+This was a bit of a slog, but the outcome is pretty great. With everything connected together, I can work on my iPad and get a full-fat preview of my blog as I write. No "real" computer required (except the one running the CI server and the other one running the HTTP server)! 
+
+### Apps Used To Write This Blog Post
+
+I was pretty successful in writing this post on my iPad. I used the following apps:
+
+- [Working Copy](https://workingcopyapp.com) for text editing and `git` work.
+
+- [Cascable](https://cascable.se) for copying photos from my camera and light editing.
+
+- [Affinity Photo](https://affinity.serif.com/en-gb/photo/ipad/) for sizing photos down to the right dimensions for my blog.
+
+Maybe next time I'll even manage to do the Audioblog recording on my iPad!
