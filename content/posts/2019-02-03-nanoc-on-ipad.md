@@ -60,6 +60,9 @@ The first thing we need to do is get a CI server to build our `nanoc` site. I wo
 
 I'm using [TeamCity](https://www.jetbrains.com/teamcity/) running on a Mac mini, mostly because I already had that set up and running for other things. TeamCity has a pretty generous free plan, and I get on with how it operates pretty well.
 
+<img class="no-border" src="/pictures/nanoc-on-ipad/teamcity.png" /> 
+{:.center}
+
 The second thing we need is a web server. Now, when I suggested the idea of serving content based directly on the domain name being used, a [web developer friend of mine](https://www.calleerlandsson.com/about/) made a funny face and started talking about path sanitisation, so I spun up a new tiny Linode that does literally nothing but host these static pages for blog post previewing. I set up an Ubuntu machine running Apache for hosting.
 
 Now for the fun part!
@@ -93,7 +96,7 @@ DocumentRoot /ikenndac/public_html/content
 </VirtualHost>
 ~~~~~~~~
 
-That `VirtualDocumentRoot` line is the important part here. If I go to `http://my-cool-blog.static-staging.ikennd.ac`, Apache will look for content in `/ikenndac/public_html/content/my-cool-blog.static-staging.ikennd.ac`.
+That `VirtualDocumentRoot` line is the important part here. If I go to `http://my-cool-blog.static-staging.ikennd.ac`, thanks to that `%0` in there, Apache will look for content in `/ikenndac/public_html/content/my-cool-blog.static-staging.ikennd.ac`.
 
 Once this is set up and running, our web server is ready! The final part is to get the content from our CI build onto the web server in the right place.
 
@@ -110,7 +113,7 @@ SANITIZED_BRANCH_NAME=`echo "${SANITIZED_BRANCH_NAME}" | sed 's/\(--*\)/-/g'`
 # Build the right directory name for our HTTP server configuration.
 DEPLOY_DIRECTORY_NAME="${SANITIZED_BRANCH_NAME}.static-staging.ikennd.ac"
 
-echo "Deploying ${BRANCH_NAME} to ${DEPLOY_DIRECTORY_NAME}.ac…"
+echo "Deploying ${BRANCH_NAME} to ${DEPLOY_DIRECTORY_NAME}…"
 
 # Use rsync to get the content onto the server.
 rsync -r --links --safe-links output/ "website_deployment@static-staging.ikennd.ac:/ikenndac/public_html/content/${DEPLOY_DIRECTORY_NAME}/"
