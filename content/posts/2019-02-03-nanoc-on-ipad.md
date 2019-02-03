@@ -131,13 +131,25 @@ A couple of notes about using `rsync` to deploy from CI:
 *I kind of want a mouse…* 
 {:.center}
 
-*Phew!* This was a bit of a slog, but the outcome is pretty great. With everything connected together, I can work on my iPad and get a full-fat preview of my blog as I write. No "real" computer required (except the one running the CI server and the other one running the HTTP server)! 
+*Phew!* This was a bit of a slog, but the outcome is pretty great. With everything connected together, I can work on my iPad and get a full-fat preview of my blog as I write. No "real" computer required (except the one running the CI server and the other one running the HTTP server)!
+
+It's not perfect, of course. Like many "I can do real work on my iPad!" workflows, it's a pile of hacks — but I'm at least part of that club, now!
+
+The real downside to this is the latency between pushing a change and it showing up online. This is mostly caused by my setup, though:
+
+- My CI server isn't on a public-facing IP, which means GitHub webhooks can't reach it. This means that the server has to poll for changes, adding quite a lot of time until the build actually starts.
+
+- It takes the CI server towards a minute to build my blog and deploy it to the HTTP server. The vast majority this time is taken with processing all the photos and videos that have accumulated here over the years — splitting that out to a separate repository will significantly reduce the amount of time it takes. 
+
+All in all, though, I'm really happy with the outcome of this experiment. Real computers can suck it! 
 
 ### Apps Used To Write This Blog Post
 
 I was pretty successful in writing this post on my iPad. I used the following apps:
 
 - [Working Copy](https://workingcopyapp.com) for text editing and `git` work.
+
+- [Prompt](https://panic.com/prompt/) for SSHing into my HTTP server to tweak some configuration.
 
 - [Cascable](https://cascable.se) for copying photos from my camera and light editing.
 
