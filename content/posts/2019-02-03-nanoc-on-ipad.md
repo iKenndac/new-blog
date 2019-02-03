@@ -60,7 +60,8 @@ The first thing we need to do is get a CI server to build our `nanoc` site. I wo
 
 I'm using [TeamCity](https://www.jetbrains.com/teamcity/) running on a Mac mini, mostly because I already had that set up and running for other things. TeamCity has a pretty generous free plan, and I get on with how it operates pretty well.
 
-<img class="no-border" src="/pictures/nanoc-on-ipad/teamcity.png" /> 
+<img src="/pictures/nanoc-on-ipad/teamcity-ipad.png" />  \\
+*TeamCity's web UI on iPad is not quite perfect, but it functions just fine.* 
 {:.center}
 
 The second thing we need is a web server. Now, when I suggested the idea of serving content based directly on the domain name being used, a [web developer friend of mine](https://www.calleerlandsson.com/about/) made a funny face and started talking about path sanitisation, so I spun up a new tiny Linode that does literally nothing but host these static pages for blog post previewing. I set up an Ubuntu machine running Apache for hosting.
