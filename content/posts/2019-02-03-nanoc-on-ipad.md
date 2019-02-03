@@ -18,7 +18,7 @@ For the first time in this blog's history, I am going to try my very best to wri
 
 The unfortunate reality of the iPad right now (in early 2019) is that for many workflows, it simply isn't viable as a replacement for a "real" computer. For the workflows that *can* be done entirely on an iPad, those that manage to do so end up allowing us to modify an old joke:
 
-> How do you know if someone uses an iPad as a laptop replacement? Don't worry — they'll tell you! 
+> How can you tell if someone uses an iPad as a laptop replacement? Don't worry — they'll tell you! 
 
 This isn't to belittle their achievements — building a viable workflow for any serious task that requires more than one app on the iPad is a real challenge, and people are damn right to be proud of their collections of [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios) and URL callback trees.
 
@@ -78,7 +78,7 @@ Next, we want to make Apache serve content based on the entered domain. Manually
 
 My configuration looks like this: 
 
-~~~~~~~~
+~~~~~~~~ apache
 DocumentRoot /ikenndac/public_html/content
 
 <Directory /ikenndac/public_html/content> 
@@ -128,13 +128,13 @@ A couple of notes about using `rsync` to deploy from CI:
 
 ### The Result
 
+*Phew!* This was a bit of a slog, but the outcome is pretty great. With everything connected together, I can work on my iPad and get a full-fat preview of my blog as I write. No "real" computer required (except the one running the CI server and the other one running the HTTP server)!
+
 <img src="/pictures/nanoc-on-ipad/side-by-side.png" />  \\
 *I kind of want a mouse…* 
 {:.center}
 
-*Phew!* This was a bit of a slog, but the outcome is pretty great. With everything connected together, I can work on my iPad and get a full-fat preview of my blog as I write. No "real" computer required (except the one running the CI server and the other one running the HTTP server)!
-
-It's not perfect, of course. Like many "I can do real work on my iPad!" workflows, it's a pile of hacks — but I'm at least part of that club, now!
+It's not perfect, of course. Like many "I can do real work on my iPad!" workflows, it's a pile of hacks — but I'm at least part of that club now!
 
 The real downside to this is the latency between pushing a change and it showing up online. This is mostly caused by my setup, though:
 
