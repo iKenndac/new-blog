@@ -126,7 +126,13 @@ A couple of notes about using `rsync` to deploy from CI:
 
 - If your CI still fails with auth errors after setting up SSH key authentication, it might be failing on a *The authenticity of host … can't be established* prompt. If deploying to your HTTP server works from your machine but not in CI, SSH into your CI server and try to deploy from there.
 
-### The Result
+### Deploying the Final Result
+
+The beauty of this process that that we've been deploying the entire time! If you follow [git flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) and your `master` branch only ever has finished content in it, you could point your main domain to the same directory that the CI server puts the `master` branch and you're done! If your `master` branch isn't that clean, you could make a new `deployment` branch and do the same there.
+
+My "public" blog is hosted from a completely different machine than the one the CI publishes to, so that's currently a manual step for me. However, it we be easy enough to modify my `static-staging-deploy.sh` script to `rsync` to a different place if it detects that it's on the `deployment` branch.
+
+### Conclusion
 
 *Phew!* This was a bit of a slog, but the outcome is pretty great. With everything connected together, I can work on my iPad and get a full-fat preview of my blog as I write. No "real" computer required (except the one running the CI server and the other one running the HTTP server)!
 
