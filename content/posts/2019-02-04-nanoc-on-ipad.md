@@ -2,12 +2,17 @@
 kind: article
 author: "Daniel Kennett"
 layout: post
-title: "Editing, Previewing and Deploying nanoc Sites Using An iPad"
-created_at: 2019-02-03 18:00:00 +0100
+title: "Editing, Previewing and Deploying Nanoc Sites Using An iPad"
+created_at: 2019-02-04 22:00:00 +0100
 categories:
 - General
 - Programming
 published: true
+audioblog_audio: "audioblog/02-nanoc-on-ipad.mp3"
+audioblog_audio_filesize: 6270500
+audioblog_audio_duration: "00:12:04"
+audioblog_summary: "My choice of blog platform means I need to use a "real" computer to write blog posts. Or does it?"
+audioblog_html_notes: "<ul><li>This post on my blog: <a href=\"http://ikennd.ac/blog/2019/02/nanoc-on-ipad/\">Editing, Previewing and Deploying Nanoc Sites Using An iPad</a></li><li><a href=\"https://workingcopyapp.com\">Working Copy</a> for text editing and git work.</li><li><a href=\"https://panic.com/prompt/\">Prompt</a> for SSHing into my HTTP server to tweak some configuration.</li><li><a href=\"https://cascable.se\">Cascable</a> for copying photos from my camera and light editing.</li><li><a href=\"https://affinity.serif.com/en-gb/photo/ipad/\">Affinity Photo</a> for sizing photos down to the right dimensions for my blog.</li></ul>"
 ---
 
 For the first time in this blog's history, I am going to try my very best to write, edit, polish and deploy a post using only an iPad (sort of). I'll  let you know if I was successful at the end!
@@ -146,7 +151,7 @@ The real downside to this is the latency between pushing a change and it showing
 
 - My CI server isn't on a public-facing IP, which means GitHub webhooks can't reach it. This means that the server has to poll for changes, adding quite a lot of time until the build actually starts.
 
-- It takes the CI server towards a minute to build my blog and deploy it to the HTTP server. The vast majority this time is taken with processing all the photos and videos that have accumulated here over the years — splitting that out to a separate repository will significantly reduce the amount of time it takes. 
+- It takes the CI server towards a minute to build my blog and deploy it to the HTTP server. The vast majority of this time is taken with processing all the photos and videos that have accumulated here over the years — splitting that out to a separate repository will significantly reduce the amount of time it takes. 
 
 All in all, though, I'm really happy with the outcome of this experiment. Real computers can suck it! 
 
