@@ -11,7 +11,7 @@ published: true
 audioblog_audio: "audioblog/02-nanoc-on-ipad.mp3"
 audioblog_audio_filesize: 6270500
 audioblog_audio_duration: "00:12:04"
-audioblog_summary: "My choice of blog platform means I need to use a "real" computer to write blog posts. Or does it?"
+audioblog_summary: "My choice of blog platform means I need to use a \"real\" computer to write blog posts. Or does it?"
 audioblog_html_notes: "<ul><li>This post on my blog: <a href=\"http://ikennd.ac/blog/2019/02/nanoc-on-ipad/\">Editing, Previewing and Deploying Nanoc Sites Using An iPad</a></li><li><a href=\"https://workingcopyapp.com\">Working Copy</a> for text editing and git work.</li><li><a href=\"https://panic.com/prompt/\">Prompt</a> for SSHing into my HTTP server to tweak some configuration.</li><li><a href=\"https://cascable.se\">Cascable</a> for copying photos from my camera and light editing.</li><li><a href=\"https://affinity.serif.com/en-gb/photo/ipad/\">Affinity Photo</a> for sizing photos down to the right dimensions for my blog.</li></ul>"
 ---
 
