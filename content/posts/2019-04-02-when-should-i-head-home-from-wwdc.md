@@ -20,7 +20,7 @@ Fly home on *Monday*. Especially if you're heading back to Europe.
 
 Let me explain.
 
-You've just spent a week smack dab in front of a huge firehose of new information and exciting features. Your brain is still processing it all, and is full of exciting ideas of how you'll spend the time between WWDC and the next iOS public release in the autumn.
+You've just spent a week smack dab in front of a huge firehose of new information and exciting features. Your brain is still processing it all, and is full of exciting ideas of how you'll spend the time between WWDC and the next public iOS release in the autumn.
 
 Basically, you won't rest until September. 
 
