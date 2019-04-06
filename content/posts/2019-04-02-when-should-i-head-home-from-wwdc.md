@@ -2,7 +2,7 @@
 kind: article
 author: "Daniel Kennett"
 layout: post
-title: "When Should I Head Home From WWC?"
+title: "When Should I Head Home From WWDC?"
 created_at: 2019-04-02 22:00:00 +0200
 categories:
 - General
