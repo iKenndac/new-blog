@@ -338,3 +338,135 @@ Additionally, you may find Apple's list of [Sandbox Entitlements](https://develo
 If you're shipping directly — you're done! However, if you're submitting to the Mac App Store, it's time to continue on…
 
 ## Part 2: Overcoming Policy — Submitting to the Mac App Store
+
+Now you have your app all sandboxed and awesome, it's time to get it on the App Store. Now, if your app doesn't ask for any "weird" entitlements and the reviewers can use your app easily enough, there's nothing special to discuss. I'd consider an entitlement "weird" if a quick look through it might cause someone to raise their eyebrow without the context of knowing why it's there.
+
+For instance: 
+
+- This app wants to read and write inside an unrelated folder in the user's `Library` folder? 🤨
+- This app wants to read from a settings file inside another app's sandbox? 🤨🤨🤨
+
+Additionally, Cascable Transfer is a bit of a nightmare for something like App Review — it needs a WiFi-enabled DSLR-type camera in order to do anything useful, which App Review is unlikely to have.
+
+So, what we need to do is show and explain.
+
+At this point, you might be thinking: "Why should I have to explain myself to Apple? The computer belongs to the user, and I'm an honest developer. The user's trust should be enough!! Screw them!!"
+
+While that's perhaps a valid discussion to have, app review isn't the place the have it. It's very important to separate the rules from the person tasked with enforcing them, _especially_ in situations like these where personal discretion is allowed on the part of the enforcer. In these situations, the rule enforcer is in a position to be able to help or hinder — so we should go out of our way to make it both easy and engaging for them to help us.
+
+For example, years ago when I bought my first house, the bank issuing my mortgage made error after error. The day before the chain of three purchases (I was buying a house, whose owner was buying another house at the same time, whose owner…) was due to complete, some final error threatened to bring the whole thing crashing down, at great expense and incovenience to everyone involved. Phone support was useless ("This will take many days to investigate, sorry"), so I carted myself down to a bank branch I'd never been to before with a mountain of paperwork and practically apoplectic with rage. When I got to see someone, I dumped all of the paperwork on her desk, sat down with what must have been a look of fire on my face (judging by her very defensive body language), and… "I understand this is completely not your fault, and I'm not angry at you. However, I'm supposed to move house tomorrow…". 
+
+The _instant_ that first sentence or so was out of my mouth, her body language changed from defensive to welcoming, and she spent the next couple of hours doing everything she possibly could to fix the errors some department somewhere had caused in time to save the house purchase. And, she did! The situation was saved, and I'm _certain_ that if I'd started by screaming at her about how incompetent the bank was and so on and so on.
+
+I mean, we've all been through it, right? It's much easier to help someone we can empathise with than someone yelling at us about something we didn't cause.
+
+So, remember — the person reviewing your app has nothing to do with the rules themselves. However, if you're friendly and do everything you can to help them understand your app and empathise with you, that person might be more inclined to give more thought or more leniency during your review.
+
+So, I have an app that has some very eyebrow-raising entitlements that App Review can't actually use. Super. It's time to make full use of the most important parts of the app submission form: **Notes**, **Attachment**, and **App Sandbox Information**.
+
+Rather than explain everything, I'll include everything submitted below. This includes the contents of our **Notes** field and our **App Sandbox Information** table. The video we attached is included as a YouTube link, and the images we linked to are included inline.
+
+As you'll see, we were descriptive to a point of perhaps being overly so. But, I wanted to try to answer every question a reviewer might have before they had to come back to me for answers (or to reach for that "Reject" button).
+
+---
+
+Cascable Transfer is an application that connects to WiFi-enabled digital cameras from various manufacturers, and allows the user to import photos wirelessly from their cameras into their Mac — either to a location on disk, or directly into their photo libraries in a few supported applications: Photos, Lightroom Classic, Capture One Pro, and Retrobatch.
+
+This app has been sold outside the Mac App Store for a few years now, but we're hoping to be able to bring it to the Mac App Store as we believe it'll be a nicer experience for our customers. It's based on technology (and is part of the same family as) our iOS app Cascable, App ID: 974193500.
+
+While I understand that you're busy, I would like to politely request that you do a thorough review of the app even if you find a small problem quickly. Due to the large list of entitlements we have and how much we reach out to other apps, we're expecting this review process to take a couple of tries to get right. We're completely open to working with App Review to get this just right, but getting a big list of everything rather than one-at-a-time would be very much appreciated.
+
+Due to the nature of the app, we have a number of entitlements to enable the app's ability to communicate with cameras and other apps in order to import photos. We have described what we do with each entitlement in detail in the Entitlements section of the submission form.
+
+Since the app connects to WiFi-enabled cameras, such a camera is required to view most of the application's functionality. For iOS App Review, providing videos of the app in use has been sufficient, and you can find a video of the app in use attached to this submission. If this is not sufficient in this case, we can provide a build to you that contains a simulated camera, which will allow you to use the app in full. Of course, we can work with you to provide something else — please feel free to contact me using the contact details provided in the submission form if needed.
+
+The attached video (also viewable at [https://www.youtube.com/watch?v=DnhSu15kATE](https://www.youtube.com/watch?v=DnhSu15kATE)) shows:
+
+- Connecting to a Wi-Fi enabled camera.
+- Copying photos to the Finder after making a custom scheme to sort and name them.
+- Copying photos to the Apple Photos app.
+- Copying photos to the Capture One app.
+- Installing the Lightroom Plugin and copying photos to Adobe Lightroom.
+- Creating a workflow in Retrobatch that blurs photos, then copying photos using that Retrobatch workflow.
+
+--
+
+August 19th: Thank you for approving our previous submission. This submission is the build we intend to release to users.
+
+In addition to the previously reviewed build, we have added In-App purchases for a free trial and a full unlock of the app. The entire trial and purchase flow can be seen without connecting a camera. The exception to this is when the user connects to a camera after their trial is expired. If they do this and try to copy images or view a high-resolution preview, they'll get the following dialog. Clicking "More Information…" will take them to the same place as choosing "Purchase…" from the application menu: 
+
+<img src="/pictures/mac-the-new-way/ExpiredTrial.jpg" />
+{:.center .no-border}
+
+We have also added a single location under the com.apple.security.temporary-exception.files.home-relative-path.read-only entitlement. Please see the separate explanation for that entitlement for details.
+
+
+---
+
+<table class="alt">
+<tr>
+    <td><h4>com.apple.security.assets.pictures.read-write</h4>
+    The app imports copies photos from a user's camera and can import them straight into the user's Photo library. This entitlement is used to enable this feature.</td>
+</tr>
+<tr>
+    <td><h4>com.apple.security.device.camera</h4>
+    The app can use their computer's webcam to scan a QR code displayed on their camera to get details about the camera's Wi-Fi network and have the computer automatically connect to it.</td>
+</tr>
+<tr>
+    <td><h4>com.apple.security.files.user-selected.read-write</h4>
+    The user can choose folders on their local disk to copy photos to.</td>
+</tr>
+<tr>
+    <td><h4>com.apple.security.network.client</h4>
+    The app connects to Wi-Fi enabled cameras over the network. It also connects to Lightroom Classic on localhost in order to import photos into the user's Lightroom catalog.</td>
+</tr>
+<tr>
+    <td><h4>com.apple.security.network.server</h4>
+    Some models of camera have a two-way architecture - the app connects to the camera, then the camera connects back to the app in order to deliver events and so forth. The app does not accept connections over the public network — only from other hosts on the local network.</td>
+</tr>
+<tr>
+    <td><h4>com.apple.security.temporary-exception.apple-events</h4>
+    The app communicates with the following applications via Apple Events in order to communicate with them to import photos from the user's camera. The applications are:<br><br>
+    <ul>
+        <li>com.apple.Photos: The Apple Photos app.</li>
+        <li>com.flyingmeat.Retrobatch: Retrobatch, an image processing tool by Flying Meat.</li>
+        <li>com.phaseone.captureone12: Capture One Pro, a  photo storage, workflow, and editing app by Phase One.</li>
+    </ul>
+    </td>
+</tr>
+<tr>
+    <td><h4>com.apple.security.temporary-exception.files.home-relative-path.read-write</h4>
+    The app communicates with Adobe Lightroom Classic using a Lightroom plugin. This entitlement is to allow the plug-in to be installed. The plug-in is written using the official Adobe Lightroom Plug-in SDK, and the path for installing plug-ins is documented in the "Delivering a standard plug-in" section of the SDK documentation (link to documentation).</td>
+</tr>
+<tr>
+    <td><h4>com.apple.security.temporary-exception.files.home-relative-path.read-only</h4>
+    The app can copy images into Photos on the user's Mac. Photos has a setting: "Copy items to the Photo Library", which affects how Photos imports images. We use this entitlement to read this setting and ensure we do the right thing when importing. Not being able to read this setting has the potential to cause data loss for our users.<br><br>You can see screenshots that show what happens in this app when the setting is changed in Photos below.<br><br>We cannot use the entitlement to access app preferences (com.apple.security.temporary-exception.shared-preference.read-only) since Photos' settings are stored in its sandbox.<br><br>macOS 10.15 Catalina adds new API for importing to Photos, and once Catalina has been released we will submit an update that uses that new API. This entitlement will only be used on macOS 10.14 Mojave or earlier.<br><br>
+    <img class="center no-border" src="/pictures/mac-the-new-way/PhotosEntitlementOverview.jpg" />
+    </td>
+</tr>
+</table>
+
+---
+
+Phew! That's a lot of text! So, how did we do? 
+
+The app was in review for almost a week… then got rejected. D'oh! Thankfully, it was rejected with a question: 
+
+> Does the app use the Touch Bar?
+
+I replied with a quick explanation of where and how the app uses the Touch Bar, along with screenshots. After another day, the app was approved!
+
+You may also notice that I talk about multiple builds in my review notes — this is because I submitted multiple times. I was so unsure that Apple would approve an app like this in the first place, I didn't want to spend the time to implement and test In-App Purchases if it would never be approved anyway.
+
+In fact, I didn't want to spend the time to do the work described in the first part of this post at all without having _some_ idea if it would be approved, which is why it took me so long. I managed to talk to someone in the App Review lab at this year's WWDC, and they couldn't say either way, but they did say:
+
+- Regarding entitlements, they look at the intent more than the actual entitlement. If it makes sense for an app to have a particular entitlement and there's no other way to achieve something, it's not an auto-reject.
+
+- You don't get penalised for rejections. If you need a few iterations to "test the waters" and work things out, that's fine.
+
+This gave me the confidence to give it a try. Of course, this is all "within reason" — I don't think any intention will get them to approve an app with an entitlement that grants `files.absolute-path.read-write` to `/`!
+
+
+
+
+
