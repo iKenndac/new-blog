@@ -2,7 +2,7 @@
 kind: article
 author: "Daniel Kennett"
 layout: post
-title: "Successfully Working From Home: It's All About Boundaries"
+title: "Successfully Working From Home: It's All About Boundaries!"
 created_at: 2020-04-05 18:00:00 +0200
 categories:
 - General
@@ -14,7 +14,9 @@ Working from home can very easily end up eveloping our entire lives, making it f
 
 A few years ago, I worked from home fulltime for towards a year. Here are my tips for staying sane, staying productive, and most of all, staying healthy. As you'll see, *everything* revolves around a critically important theme: **boundaries**. 
 
-**Disclaimer:** I'm not a mental health expert, and this entire set of tips is within giant "in my experience" and "I find that…" modifiers. Please take inspiration here if you can, but don't force yourself to this way of working.
+**Disclaimer:** I'm not a mental health expert, and this entire set of tips is within giant "in my experience" and "I find that…" modifiers. Please take inspiration here if you can, but don't force yourself to this way of working. 
+
+**Another Disclaimer:** This post is aimed at people who work using computers and are trying to transition into healthily working from home **in a childless environment**.
 
 ### Problem 1: Boundaries In Workspace
 
