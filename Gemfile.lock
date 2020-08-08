@@ -39,7 +39,8 @@ GEM
     htmlentities (4.3.4)
     i18n (1.4.0)
       concurrent-ruby (~> 1.0)
-    kramdown (1.17.0)
+    kramdown (2.3.0)
+      rexml
     mini_portile2 (2.4.0)
     minitest (5.11.3)
     multi_json (1.13.1)
@@ -65,6 +66,7 @@ GEM
     rb-inotify (0.10.0)
       ffi (~> 1.0)
     ref (2.0.0)
+    rexml (3.2.4)
     sass (3.4.25)
     slow_enumerator_tools (1.1.0)
     stringex (2.8.5)
