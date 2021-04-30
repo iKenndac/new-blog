@@ -94,7 +94,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     ref (2.0.0)
-    rexml (3.2.4)
+    rexml (3.2.5)
     sass (3.4.25)
     slow_enumerator_tools (1.1.0)
     stringex (2.8.5)
