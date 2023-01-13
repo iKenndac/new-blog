@@ -3,10 +3,15 @@ kind: article
 author: "Daniel Kennett"
 layout: post
 title: "Identity Crisis"
-created_at: 2023-01-04 16:00:00 +0200
-published: false
+created_at: 2023-01-13 20:00:00 +0100
+published: true
 categories:
 - General
+audioblog_audio: "audioblog/03-identity-crisis.mp3"
+audioblog_audio_filesize: 17708413
+audioblog_audio_duration: "00:35:52"
+audioblog_summary: "A look back over the past few — and difficult — years as an indie developer."
+audioblog_html_notes: "<ul><li>This post on my blog: <a href=\"https://ikennd.ac/blog/2023/01/identity-crisis/\">Identity Crisis</a></li></ul>"
 ---
 
 ### Prologue 
@@ -15,7 +20,7 @@ This post is less of a "blog post" and more of… I dunno, a chapter of a memoir
 
 This _was_ going to stay in scruffily-scrawled fountain pen ink shoved into a drawer until some poor soul has the task of clearing out all of my crap when _I'm_ gone, but slowly the idea of putting it up here has become less awful over time. Nobody likes to share their low points (much less this widely), but people I respect tell me there's strength in failure, and I'd like to draw a nice, clean line under this whole affair so I can focus on the next thing.
 
-So, below you'll find 5,000 words or so about the past four years of my life as <del>an indie developer</del> a small business owner. Enjoy!
+So, below you'll find 5,000 words or so — or, on the audioblog, 36 minutes or so — about the past four years of my life as <del>an indie developer</del> a small business owner. Enjoy!
 
 ---
 
@@ -33,7 +38,7 @@ For the rest of the time, I've made my way through life identifying as an "indie
 
 ### 2011–2015
 
-When KennettNet failed — a long story for another day — I got a job at Spotify and, for the most part, enjoyed my time there. I worked on fun challenges and shipped things I was (and still am) proud of, but grew increasingly frustrated that my career progression there seemed to be circling into a funnel towards management. I firmly hold the belief a good developer should be able to progress through their career entirely doing development work if they want to — effectively becoming an artisan of their craft, as dated as that may sound. At Spotify, I never wanted to play the game of checking the progression boxes they wanted everyone to check to progress through the system. "I'm a developer — just let me be good at my job!" Thanks to being afforded the chance to work on some impactful projects I *did* manage to make salary and career progress based off the back of my work, but it was always a struggle without my nicely-checked boxes.
+When KennettNet failed — a long story for another day — I got a job at Spotify and, for the most part, enjoyed my time there. I worked on fun challenges and shipped things I was (and still am) proud of, but grew increasingly frustrated that my career progression there seemed to be circling into a funnel towards management. I firmly hold the belief a good developer should be able to progress through their career entirely doing development work if they want to — effectively becoming an artisan of their craft, as dated as that may sound. At Spotify, I never wanted to play the game of checking the progression boxes they wanted everyone to check to progress through the system. "I'm a developer — just let me be good at my job!", I'd bluster. Thanks to being afforded the chance to work on some impactful projects I *did* manage to make salary and career progress based off the back of my work, but it was always a struggle without my nicely-checked boxes.
 
 As a "car guy", one of the more fantastical weekends of my time at Spotify was being flown out to San Francisco with a friend-slash-colleague for a hackathon at TechCrunch Disrupt. Over a very blurry twenty-four hours, we mashed together the Spotify app with Ford's then-fledgling Sync AppLink platform to create a [tech demo of Spotify in a car](https://www.cnet.com/roadshow/news/ford-kicks-off-hackathon-contest-with-spotify-integration/). I'd somehow managed to completely miss that TechCrunch Disrupt was somewhat of a Big Deal™, so I sauntered onto the stage and somehow managed to give a successful live tech demo with speech recognition before we headed to the airport and slept the entire flight home.
 
@@ -69,9 +74,9 @@ The first version of the Cascable app was [released in 2015](https://ikennd.ac/b
 
 This continued until early 2019, when SanDisk approached the company to add support for one of their hardware accessories to the app. I was thrilled to be approached by such a well-known brand (and the marketing opportunities that'd bring), but adding the support would mean a big rebuild of the app's photo management features. It needed doing *anyway*, though, and this rebuild ended up being the tentpole of the next big update — Cascable 4.0!
 
-I was *convinced* this would be the big one. The new photo management feature was leagues ahead of the old one, and thing were turning out *great*. Unfortunately, rendering grids of images turned out to be a lot more complex than I'd expected — and then, I got the golden email. I was going to WWDC 2019! What a perfect deadline.
+I was *convinced* this would be the big one. The new photo management feature was leagues ahead of the old one, and things were turning out *great*. Unfortunately, rendering grids of images turned out to be a lot more complex than I'd expected — and then, I got the golden email. I was going to WWDC 2019! What a perfect deadline.
 
-After some discussion with my wife, I went all in… and it was brutal. Twelve-hour days, sever days per week through March, April, and May. But at least it'd be temporary. My wife took over all of my household tasks and I brought my work computer home to cut out the commute — I'd roll out of bed, sit at the computer for twelve hours, then roll back into bed to sleep. But at least it'd be temporary. Personal care and grooming went to hell (although hygiene thankfully survived — I was scruffy but *clean*), as did the perception of time.
+After some discussion with my wife, I went all in… and it was brutal. Twelve-hour days, seven days per week through March, April, and May. But at least it'd be temporary. My wife took over all of my household tasks and I brought my work computer home to cut out the commute — I'd roll out of bed, sit at the computer for twelve hours, then roll back into bed to sleep. But at least it'd be temporary. Personal care and grooming went to hell (although hygiene thankfully survived — I was scruffy but *clean*), as did the perception of time.
 
 <img src="/pictures/identity-crisis/profile-pictures.jpg" />  \\
 *My "regular" profile picture against one taken in May 2020. It's remarkable what good lighting and a smile can hide — but the clues are certainly there.*
@@ -115,7 +120,7 @@ Guillestre is one of my favourite places in the world. It's a small village nest
 *"Nothing particularly special".*
 {:.center}
 
-Once settled in, I started a daily-ish journal to try and get my head in order, first trying to reconcile reality with my state of mind. It wasn't lost on me that I'd jumped into my two-seater sports car and pissed off to the south of France for a month to try and "figure things out" — I privilege I'm very lucky to be afforded. This, of course, just made things worse. My days would swing wildly — I'd be joyful and proud of my achievements one day, then come crashing down the next, admonishing myself for my poor mental and physical health. "It's a wonder you still have a wife that can bear to look at you," a particularly low point reads.
+Once settled in, I started a daily-ish journal to try and get my head in order, first trying to reconcile reality with my state of mind. It wasn't lost on me that I'd jumped into my two-seater sports car and pissed off to the south of France for a month to try and "figure things out" — I privilege I'm very lucky to be afforded. This, of course, just made me feel worse. My days would swing wildly — I'd be joyful and proud of my achievements one day, then come crashing down the next, admonishing myself for my poor mental and physical health. "It's a wonder you still have a wife that can bear to look at you," a particularly low point reads.
 
 As this all started to unravel, my hopes were fading that I could ever reach a solution that didn't involve shutting down the company. This was more than just burnout — my mental and physical health were so bad that it was clear that Cascable was actively harmful to me. But why?
 
@@ -178,13 +183,15 @@ My wife and I are trying to find answers that weren't there in note-covered card
 
 ---
 
-In the eighteen months or so since returning from that trip to France, things have been, slowly but surely, recovering. The most meaningful event was a successful partnership with a camera manufacturer to integrate them with the Cascable app. This, on top of the financial contribution, helped me successfully switch my mindset — for the most part — away from "developer" to "business owner", and I'm able to take a more pragmatic approach to my decision making. Alongside the camera manufacturer integration, we did a [very large overhaul](https://cascable.se/blog/cascable-60-new-remote-phase-one/) of an ageing component of the app. Much like the disastrous Cascable 4.0 update in 2019, this was a modernisation of an existing feature-set. *Unlike* 2019, there was no pressure for it to increase revenue — it was done because it needed doing, and that was all. Business owner Daniel decided it was time to revamp the app's App Store presence, so a decent investment was put into making sorely-needed new screenshots, video, and marketing copy. 
+In the eighteen months or so since returning from that trip to France, things have been, slowly but surely, recovering. The most meaningful event was a successful partnership with a camera manufacturer to integrate them with the Cascable app. This, on top of the financial contribution, helped me successfully switch my mindset — for the most part — away from "developer" to "business owner", and I'm able to take a more pragmatic approach to my decision making. Alongside the camera manufacturer integration, we did a [very large overhaul](https://cascable.se/blog/cascable-60-new-remote-phase-one/) of an ageing component of the app. Much like the disastrous Cascable 4.0 update in 2019, this was a modernisation of an existing feature-set. *Unlike* 2019, there was no pressure for it to increase revenue — it was done because it needed doing, and that was all. *Business Owner* Daniel decided it was time to revamp the app's App Store presence, so a decent investment was put into making sorely-needed new screenshots, video, and marketing copy. 
 
 Since then, sales have risen and combined with more B2B revenue from [CascableCore](https://developer.cascable.se), the company is able to focus 100% of its time to Cascable projects. It's hard to pinpoint exactly what caused app sales to rise — perhaps this time the revamp of an existing feature was meaningful to revenue. Perhaps the better App Store presence has boosted things. Perhaps my attitude shift and the confidence boost from landing the camera manufacturer deal has let me move forward in a better way. Most likely, it's a little of each.
 
 I'm not perfect, of course. I continue to repeatedly declare that I'm going to dedicate more time to making marketing content, and I repeatedly fail to do so. I'm trying, though! Old habits die hard. The tendrils of failure continue to pop up now and then and assert their grip — every time I see another indie post success or brag about sales, they slither into my soul for a moment — but by now I can largely brush them away, and they're controlled enough that I can identify them as a personality trait that can likely be soothed with counselling. 
 
-The freedom gained from letting go of the "this single app must earn all of the revenue and if it doesn't I'm a failure" mindset has allowed me to poke at an idea for a new app that's been rattling around in my head for years. Indie Developer Daniel would have just jumped right in and started writing code, but Business Owner Daniel is here now. We did market research with user surveys and questionnaires, feeling out the market a little. We put together sample marketing, figuring out who this might be marketed towards and what features would be important to them. We had screenshots and adverts before a single line of code was written — and then I wrote a small prototype to make sure the idea would, you know, actually work technically. Nearly twenty years at this, and I've never done it this way 'round before — usually it's code first, find the market later. If *that's* not a great example of "success can hide a lot of failures", I don't know what is.
+The freedom gained from letting go of the "this single app must earn all of the revenue and if it doesn't I'm a failure" mindset has allowed me to poke at an idea for a new app that's been rattling around in my head for years. Indie Developer Daniel would have just jumped right in and started writing code, but *Business Owner* Daniel is here now. We did market research with user surveys and questionnaires, feeling out the market a little. We put together sample marketing, figuring out who this might be marketed towards and what features would be important to them. We had screenshots and adverts before a single line of code was written — and then I wrote a small prototype to make sure the idea would, you know, actually work technically. Nearly twenty years at this, and I've never done it this way 'round before — usually it's code first, find the market later. If *that's* not a great example of "success can hide a lot of failures", I don't know what is.
+
+---
 
 "The core question is: Is this idea good enough to invest a lot of time and," — I switch over to a spreadsheet labelled *Estimated MVP Costs* — "a *lot* of money in to see if it'll actually work?"
 
@@ -200,9 +207,10 @@ More silence.
 
 #### Physical Health
 
-A few weeks after returning from France, I drummed up the courage to go into a gym and ask about a personal trainer with the goal of getting into a routine to turn my momentum around and slowly start improving my health. By sheer happenstance, I got paired with a trainer whose attitude to the craft inspired me so much that my intended few weeks just kept on going — I'm continuing training to this day. Thanks to her, I did a mountain bike race this year, and am working towards doing it again next year with an even better time. This is *far* beyond any goal I'd originally set, and I still can't quite believe it myself.
+A few weeks after returning from France, I drummed up the courage to go into a gym and ask about a personal trainer with the goal of getting into a routine to turn my momentum around and slowly start improving my health. By sheer happenstance, I got paired with a trainer whose attitude towards the craft inspired me so much that my intended few weeks just kept on going — I'm continuing training to this day. Thanks to her, I did a mountain bike race last year, and am working towards doing it again this year with an even better time. This is *far* beyond any goal I'd originally set, and I still can't quite believe it myself.
 
-<img src="/pictures/identity-crisis/race.jpg" />
+<img src="/pictures/identity-crisis/race.jpg" /> \\
+*I was trying to pull off a "determined" look, but ended up with "bemused".*
 {:.center}
 
 #### Excellent Humans
@@ -223,4 +231,4 @@ Thanks to my tendency to turn in on myself during times of pain, a number of peo
 
 If you made it this far, thank you! As I mentioned at the beginning, publishing this (kind of against my better judgement still) is aimed to draw a line under these past few years so I can leave the sorrow behind and take the lessons forward. 
 
- At the time of writing (well, typing it up), I'm fully focused on the new app idea mentioned above, and the aim is to launch a limited beta test of it around the end of January or so. I'm excited! If you'd like to follow along, you can do so by following me on [Mastodon](https://mastodon.social/@ikenndac). I also plan to post some of the more interesting technical things on this blog.
+ At the time of writing (well, typing it up), I'm fully focused on the new app idea mentioned above, and the aim is to launch a limited beta test of it around the end of January or so. I'm excited! If you'd like to follow along, you can do so by following me on [Mastodon](https://mastodon.social/@ikenndac). I also plan to post some of the more interesting technical things on this blog — back to business as usual, finally.
