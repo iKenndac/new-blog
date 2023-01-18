@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.0.4)
+    activesupport (7.0.4.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -40,7 +40,7 @@ GEM
     kramdown (2.4.0)
       rexml
     memo_wise (1.7.0)
-    minitest (5.16.3)
+    minitest (5.17.0)
     multi_json (1.15.0)
     nanoc (4.12.11)
       addressable (~> 2.5)
@@ -77,6 +77,8 @@ GEM
       nanoc-core (~> 4.11, >= 4.11.15)
     nokogiri (1.13.9-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.13.9-x86_64-linux)
+      racc (~> 1.4)
     parallel (1.22.1)
     pastel (0.8.0)
       tty-color (~> 0.5)
@@ -106,6 +108,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   activesupport
