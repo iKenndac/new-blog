@@ -18,6 +18,15 @@ The tagline of Photo Scout is "You tell us where. We tell you when." It's an app
 <img class="no-border" width="600" src="/pictures/photo-scout-tf1-screenshots.png" />
 {:.center}
 
+Actually, rather than trying to list out *what* it can do, why don't I tell you *why*:
+
+<p align="center">
+    <video style="border: 1px solid #999; border-radius: 20px;" width="400" height="400" controls>
+        <source src="/pictures/photo-scout-testflight-intro.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</p>
+
 You can find out more about the app and sign up to be notified when you can join the TestFlight over on the [Photo Scout website](https://photo-scout.app/). You can also follow along with development on the [app's Mastodon account](https://indieapps.space/@photoscout) or on [my personal Mastodon account](https://mastodon.social/@ikenndac). The TestFlight will stay fairly small for the first week or two to make sure the servers don't fall over, but if you ask nicely on Mastodon you may well get in early too!
 
 ### How Photo Scout Came To Be
