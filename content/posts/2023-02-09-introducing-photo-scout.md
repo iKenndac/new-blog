@@ -57,7 +57,7 @@ The plan is as follows:
 
 - Then, over the coming weeks, increase the TestFlight size and add features and polish for a public release sometime in spring or early summer. 
 
-Everything about this project is built using knowledge brand new to me. It's almost entirely SwiftUI, which is new for me. I've approached the app in a completely new, design-first way, which is new for me. It has a backed written in Swift with [Vapor](https://vapor.codes), both of which are new for me. It has AR components with some custom 3D programming, which is… well, you get the picture.
+Everything about this project is built using knowledge brand new to me. It's almost entirely SwiftUI, which is new for me. I've approached the app in a completely new, design-first way, which is new for me. It has a backend written in Swift with [Vapor](https://vapor.codes), both of which are new for me. It has AR components with some custom 3D programming, which is… well, you get the picture.
 
 I've learned a lot — at times it felt like being at university again! — and there's a lot about Photo Scout that I'm _really_ pleased with (it has a theme song?!). Over the coming weeks as the TestFlight progresses and opens up to more people, I'll be writing some articles on here about some of the things I thought turned out really well, and some things that were more challenging.
 
