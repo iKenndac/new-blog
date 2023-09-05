@@ -11,7 +11,9 @@ categories:
 
 This year at [iOSDevUK](https://www.iosdevuk.com), I gave a talk on using Swift on the Server with Vapor to build an app's backend in Swift. 
 
-You can download the slides [here](/pictures/ServerSideSwiftServicesForSmallStartupSuccess.pdf).This post contains some links to additional resources.
+You can download the slides [here](/pictures/ServerSideSwiftServicesForSmallStartupSuccess.pdf).
+
+This post contains some links to additional resources.
 
 ### The Basics
 
