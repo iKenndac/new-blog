@@ -79,6 +79,8 @@ GEM
       nanoc-core (~> 4.11, >= 4.11.15)
     nokogiri (1.15.4-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.15.4-x86_64-darwin)
+      racc (~> 1.4)
     parallel (1.23.0)
     pastel (0.8.0)
       tty-color (~> 0.5)
@@ -116,6 +118,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-darwin-22
 
 DEPENDENCIES
   activesupport
