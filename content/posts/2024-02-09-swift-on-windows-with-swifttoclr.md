@@ -36,7 +36,7 @@ Otherwise, stick around! It's been a… journey. An exciting, fun, frustrating, 
 
 My company has an SDK called [CascableCore](https://developer.cascable.se/), which talks to cameras from various manufacturers (such as Canon, Nikon, Sony, etc) via the network or USB. Its job is to deal with each camera's particular protocols and oddities as it presents a unified set of APIs to apps that use the SDK. This SDK is used by [our own apps](https://cascable.se/), as well as those from a number of third-party developers.
 
-<img class="no-border" width="663" src="/pictures/swift-on-windows/cascablecore-examples.png" />
+<img class="no-border" width="750" src="/pictures/swift-on-windows/cascablecore-examples.png" />
 {:.center}
 
 There's nothing particularly platform-specific about this task — networks and USB are cross-platform *by design* — so CascableCore is a great candidate to be a cross-platform codebase. It'd give us the option to expand our apps to more platforms in the future, as well as expand the potential customer base for the SDK itself. 
@@ -71,7 +71,7 @@ This ended up being a perfect storm of circumstances:
 
 Not long later, my Framework laptop arrived and we were off to the races — a two-week timebox to explore this as we wind down for the Christmas break? Heck yeah.
 
-<img width="660" src="/pictures/swift-on-windows/laptop.jpg" /> \\
+<img width="750" src="/pictures/swift-on-windows/laptop.jpg" /> \\
 *I, er, went a little overboard on the unboxing photos.* 
 {:.center}
 
@@ -365,7 +365,7 @@ Hiding under this boringness are a *trove* of unanswered technical questions. Ag
 
 So, what became of this experiment? Well, we *did* manage to build the same app on macOS and Windows with the same underlying Swift codebase.
 
-<img width="663" src="/pictures/swift-on-windows/side-by-side.png" />
+<img src="/pictures/swift-on-windows/side-by-side.png" />
 {:.center}
 
 I've learned a ton, and I feel like I now have a reasonably well-informed opinion of Swift on Windows (which was the primary "business" goal of this project, I suppose).
