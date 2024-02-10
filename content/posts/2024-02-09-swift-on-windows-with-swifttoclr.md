@@ -87,7 +87,8 @@ Getting all this into place took a few days — the simulated camera was *largel
 
 Let's have a look at a little demo project on the Mac:
 
-[Screenshot]
+<img class="no-border" src="/pictures/swift-on-windows/mac-demo.png" />
+{:.center}
 
 This little app discovers and connects to a camera, shows the camera's live view feed, shows some camera settings, and lets you change them. It's a simple enough app, but implements a decent chunk of the CascableCore API - issuing camera commands, observing camera settings, and receiving a stream of live view images. If we can get this working on Windows, we can get *everything* working.
 
@@ -171,7 +172,7 @@ This isn't actually that *difficult* - it's just very *tedious*. Each link in th
 
 A simple, manually-made test project ends up looking like this:
 
-<img src="/pictures/swift-on-windows/manual-poc.png" />
+<img class="no-border" src="/pictures/swift-on-windows/manual-poc.png" />
 {:.center}
 
 It's not pretty, but it works!
@@ -362,9 +363,12 @@ Hiding under this boringness are a *trove* of unanswered technical questions. Ag
 
 ### Conclusion
 
-So, what became of this experiment? 
+So, what became of this experiment? Well, we *did* manage to build the same app on macOS and Windows with the same underlying Swift codebase.
 
-After a month of this, I feel like I have a reasonably well-informed opinion of Swift on Windows.
+<img width="663" src="/pictures/swift-on-windows/side-by-side.png" />
+{:.center}
+
+I've learned a ton, and I feel like I now have a reasonably well-informed opinion of Swift on Windows (which was the primary "business" goal of this project, I suppose).
 
 It's undoubtedly an "Apple platforms-first" language, particularly the tooling. Like with Swift on Linux, we get a second-class Foundation (although that's actively being worked on *[right now](https://github.com/apple/swift-foundation)*). The [Swift plugin for Visual Studio Code](https://www.swift.org/blog/vscode-extension/) works on Windows and is pretty great, if it wasn't for the fact that no matter what I try, `sourcekit-lsp.exe` *continuously* spins at 100% CPU usage unless I disable code completion. Building our project with SPM's default configuration gives a ton of `.o` files to manually assemble, only to get inscrutable crashes deep in the runtime (explicitly flagging everything to be a `.dynamic` library fixes both of these).
 
