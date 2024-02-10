@@ -9,7 +9,7 @@ categories:
 - Programming
 ---
 
-There are many ways to write "cross-platform" apps - ranging from going all in on the cross-platform idea and writing a web app in something like Electron, to writing two completely separate apps that happen to look the same and do the same thing. And of course, the internet is *full* of… let's say "vibrant" discussion on what's the best way to do things.
+There are many ways to write "cross-platform" apps - ranging from going all-in on the cross-platform idea and writing a web app in something like Electron, to writing two completely separate apps that happen to look the same and do the same thing. And of course, the internet is *full* of… let's say "vibrant" discussion on what's the best way to do things.
 
 My personal preference is to write the UI layer in a native technology stack in order to take advantage of a particular platform's look-and-feel, with the "core" logic in a cross-platform codebase that the native layer can interact with. In an ideal world, we'd be able to implement this incredibly complex tech stack:
 
@@ -18,19 +18,19 @@ My personal preference is to write the UI layer in a native technology stack in 
 
 A drawback of this approach is that it does tend to limit your choice of programming languages for the cross-platform codebase. Programming languages all tend to have their own [ABIs](https://en.wikipedia.org/wiki/Application_binary_interface), and you need to rely on there being a "bridge" available between the two languages you want to use. In practice, this often means finding an intermediate ABI that both languages can interoperate with - quite a lot of languages have compatibility with the C ABI, for instance.
 
-I love Swift, and write code in it every day. It'd be _great_ if we could ship CascableCore in Swift to multiple platforms, and Swift even has [official Windows builds](https://www.swift.org/download/)!
+Since I primarily work on Mac and iOS apps, I write code in Swift every day. It's been getting a lot more love on the cross-platform front than its predecessor in the ecosystem, Objective-C (Swift even has [official Windows builds](https://www.swift.org/download/)!), and it'd be _great_ if we could ship CascableCore in Swift to multiple platforms.
 
-However, the challenge comes not necessarily from compiling our Swift code on Windows, but from using it from *other* languages. Specifically in this case, I'd like to write a C# app using WinUI3 that uses our CascableCore camera SDK. However, there just isn't an existing bridge between Swift ABI and the C#/CLR one.
+However, the challenge comes not necessarily from compiling our Swift code on Windows, but from using it from *other* languages. Specifically in this case, I'd like to write a C# app using [WinUI 3](https://learn.microsoft.com/en-us/windows/apps/winui/) that uses our CascableCore camera SDK. However, there just isn't an existing bridge between Swift ABI and the C#/CLR one.
 
 Well, maybe there's a solution. Swift recently introduced C++ interoperability… maybe we could use that to bridge between the two worlds? 
 
 *How hard could it be?*
 
-That little question, dear reader, led me down quite the rabbit hole. This blog post is a brave retelling of that story, tactfully omitting the defeats and unashamedly embellishing the victories — just as any story worth its salt does.
+That little question, dear reader, led me down quite the rabbit hole. This blog post is a brave re-telling of that story, tactfully omitting the defeats and unashamedly embellishing the victories — just as any story worth its salt does.
 
 If you already know what C++/CLI and a CLR is and don't need my life story, you can hop straight over to the [SwiftToCLR proof-of-concept repository](https://github.com/cascable/swift-on-windows-poc). The readme there is still pretty long, but it's a more technical document with the aim of getting folks more familiar with the technologies at hand to get stuck in. 
 
-Otherwise, stick around! It's been a… journey. An exciting, fun, frustrating, tedious journey. But I learned a lot, and hopefully you'll enjoy coming along for the ride.
+Otherwise, stick around! It's been a… journey. An exciting, fun, frustrating, tedious journey. However, I learned a lot, and hopefully you'll enjoy coming along for the ride.
 
 ### What Are We Trying To Achieve?
 
@@ -50,9 +50,11 @@ Despite its GNU roots, Objective-C isn't particularly multi-platform in the real
 
 However, dear reader, I'll let you in on a little secret if you promise not to tell anyone. Lean closer. Ready?
 
-…I hate C++. Don't tell anyone, OK?
+…I hate C++.
 
-My dislike of C++ is, if I'm honest, mostly irrational. I've seen one horrendous [C++ template](https://en.cppreference.com/w/cpp/language/templates) too many. But, we could just… not do that in our own code, y'know? 
+Don't tell anyone, OK?
+
+My dislike of C++ is, if I'm honest, mostly irrational — I've just seen one horrendous [C++ template](https://en.cppreference.com/w/cpp/language/templates) too many. But, we could just… not do that in our own code, y'know? 
 
 On the more rational side, though, we *are* a small company and our expertise *is* largely in Swift simply as a consequence of only having Mac and iOS apps at the moment. We've already dabbled in Swift on other platforms, too — [Photo Scout](https://photo-scout.app/)'s backend is written in Swift/[Vapor](https://vapor.codes) running on Linux servers, and it's been a great success. Since most of CascableCore's work is platform-agnostic, once the initial work is done we can (in theory) use our existing Swift expertise to maintain and improve CascableCore with only a relatively small additional cross-platform maintenance overhead.
 
@@ -69,7 +71,7 @@ This ended up being a perfect storm of circumstances:
 - I like to slow down a little and do interesting/"hack day" projects in December.
 - I *really* wanted a reason to justify getting a [Framework laptop](https://frame.work/).
 
-Not long later, my Framework laptop arrived and we were off to the races — a two-week timebox to explore this as we wind down for the Christmas break? Heck yeah.
+Not long later, my Framework laptop arrived and I was off to the races — a two-week timebox to explore this as I wind down for the Christmas break? Heck yeah.
 
 <img width="750" src="/pictures/swift-on-windows/laptop.jpg" /> \\
 *I, er, went a little overboard on the unboxing photos.* 
@@ -79,11 +81,11 @@ Not long later, my Framework laptop arrived and we were off to the races — a t
 
 When putting together projects like this, it's always nice to be able to use "real" code. Luckily, we have the [CascableCore Simulated Camera](https://github.com/Cascable/cascablecore-simulated-camera) project, which is a CascableCore plugin that implements the API without needing a real camera to hand. This is a *perfect* candidate for this project — it's implementing a real, shipping API without the need for us to figure out network or USB communication on Windows. It's everything we need and nothing we don't. Also, happily, it's already all in Swift.
 
-What *isn't* in Swift, unfortunately, is the CascableCore API itself. It was introduced before Swift, and has remained a set of Objective-C headers to this day. We'll need to redefine these in Swift.
+What *isn't* in Swift, unfortunately, is the CascableCore API itself. It was introduced before Swift, and has remained a set of Objective-C headers to this day. We'll need to redefine these in Swift. Oh, and port [StopKit](https://github.com/cascable/StopKit), which is an Objective-C dependency.
 
 Finally, we need a little bit of glue. CascableCore "proper" has a central "camera discovery" object that implements USB and network discovery, along with interfacing with plugins such as the simulated camera. We're not bringing that over to the Windows proof-of-concept, so we need something in its place so we can actually "discover" our simulated camera on Windows.
 
-Getting all this into place took a few days — the simulated camera was *largely* fine other than needing to remove some Objective-C features (such as Key-Value Observing) and use of Apple-only APIs (such as CoreGraphics). Rebuilding the Objective-C API protocols into Swift ones took a couple of days, and the glue at the end a day or so.
+Getting all this into place took a few days — the simulated camera was *largely* fine other than needing to remove some Objective-C features (such as Key-Value Observing) and use of Apple-only APIs (such as CoreGraphics). Porting StopKit and rebuilding the Objective-C API protocols into Swift ones took a couple of days, and the glue at the end a day or so.
 
 Let's have a look at a little demo project on the Mac:
 
@@ -113,11 +115,11 @@ Telling the story of two days of Googling would be *exquisitely* boring, so I'll
 
 ### A Rumble of Runtimes
 
-A **runtime** can be thought of as a "support structure" for your code, providing functionality at runtime like memory management, thread management, error handling, and more. Swift, for instance, uses ARC (Automated Retain Counting) for memory management, and the runtime is the thing that actually does the allocation, reference counting, and deallocation of objects.
+A **runtime** can be thought of as a "support structure" for your code, providing functionality at runtime like memory management, thread management, error handling, and more. Swift, for instance, uses ARC (Automatic Reference Counting) for memory management, and the runtime is the thing that actually does the allocation, reference counting, and deallocation of objects.
 
 C# runs in the **CLR** (**C**ommon **L**anguage **R**untime), which is a garbage-collected runtime that's a lot more complex than the Swift one, providing additional things like just-in-time compiling.
 
-The thing about a runtime - especially the more complex ones like the CLR - is that they need everything in the "bubble" they operate to conform to the same rules for everything to work correctly. The CLR's garbage-collection works because all of the objects in there are laid out in a particular way and behave the same way. A random Swift object floating around inside the CLR wouldn't be able to take part in garbage collection since the compiled code has no knowledge of such a thing — and the converse is true, too: a random C# object floating around inside the Swift runtime wouldn't be able to take part in ARC since it don't have the ability to call the Swift runtime's reference-counting methods.
+The thing about a runtime - especially the more complex ones like the CLR - is that they need everything in the "bubble" they operate to conform to the same rules for everything to work correctly. The CLR's garbage-collection works because all of the objects in there are laid out in a particular way and behave the same way. A random Swift object floating around inside the CLR wouldn't be able to take part in garbage collection since the compiled Swift code has no knowledge of such a thing — and the converse is true, too: a random C# object floating around inside the Swift runtime wouldn't be able to take part in ARC since it don't have the ability to call the Swift runtime's reference-counting methods.
 
 There are two ways around this: exiting the bubble entirely and doing things manually, or "teaching" another language about your runtime.
 
@@ -127,11 +129,11 @@ However, Swift's C++ interop feature is pretty neat in that it actually, in a wa
 
 The CLR *also* has a way of teaching C++ about the CLR's memory management in the form of a special "dialect" of C++ called [C++/CLI](https://en.wikipedia.org/wiki/C%2B%2B/CLI). Great!
 
-Wait a minute…
+Well…
 
 ### Why This Is Actually Rather Difficult
 
-We're finally getting down to the *core* of the problem here. Let's lay out some facts, including a couple more that we discovered during that two days of excruciatingly boring Googling mentioned above:
+We're finally getting down to the *core* of the problem here. Let's lay out some facts, including a couple more that I discovered during that two days of excruciatingly boring Googling mentioned above:
 
 - Swift's C++ headers contain a lot of additional infrastructure that "teaches" C++ about Swift's memory management.
 
@@ -153,7 +155,7 @@ Crap.
 
 Luckily, `Clang`'s _compiled_ output is [(at least somewhat) ABI-compatible](https://clang.llvm.org/docs/MSVCCompatibility.html) with `MSVC`, so although `MSVC` can't compile the Swift C++ interop header, it _can_ link against the compiled output.
 
-This, thankfully, opens a route through — we can make an **additional** wrapper layer, compiled with `Clang`, that wraps the generated Swift/C++ APIs in, er… I guess… "vanilla" C++ that `MSVC` can deal with. The end-to-end chain would then be:
+This, thankfully, opens a route through — we can make an **additional** wrapper layer, compiled with `Clang`, that wraps the generated Swift/C++ APIs in, er… I guess… "normal?" C++ that `MSVC` can deal with. The end-to-end chain would then be:
 
 <img class="no-border" width="600" src="/pictures/swift-on-windows/layer-chain.png" />
 {:.center}
@@ -162,9 +164,9 @@ While this is a chain of four steps, we thankfully "only" need two wrappers:
 
 - We have our Swift code that's compiled by `Clang`, giving us a compiled binary and a C++ header.
 
-- **Wrapper 1**: Compiled by `Clang`, wraps the `Clang`-generated Swift C++ interop header with a "vanilla" C++ one that `MSVC` can understand. The wrapper implementation calls the API defined in the C++ interop header.
+- **Wrapper 1**: Compiled by `Clang`, wraps the `Clang`-generated Swift C++ interop header with a "normal" C++ one that `MSVC` can understand. The wrapper implementation calls the API defined in the C++ interop header.
 
-- **Wrapper 2**: Compiled by `MSVC`, wraps the "vanilla" C++ header with a C++/CLI one that gets us into the CLR, and therefore up to C#. The wrapper implementation calls the API defined in **Wrapper 1**.
+- **Wrapper 2**: Compiled by `MSVC`, wraps the "normal" C++ header with a C++/CLI one that gets us into the CLR, and therefore up to C#. The wrapper implementation calls the API defined in **Wrapper 1**.
 
 - We have our C# code, compiled by `MSVC`, running in the CLR. It calls the API defined in **Wrapper 2**.
 
@@ -179,7 +181,7 @@ It's not pretty, but it works!
 
 ### Making This Not Suck
 
-Manually building two wrapper layers is, well, kind of a pain. For CascableCore it'd actually *largely* be a one-off cost - the API is fairly mature and stable, and we try not to change it unless we have to. Still, not fun.
+Manually building two wrapper layers is, well, kind of a pain. For CascableCore it'd actually *largely* be a one-off cost — the API is fairly mature and stable, and we try not to change it unless we have to. Still, not fun.
 
 Our case is fairly rare, though. Having to adjust two wrapper layers for every change you make as you work on Swift code is annoying enough to make you give up and not bother, so what can we do to make this better?
 
@@ -206,7 +208,9 @@ That's *extremely* repetitive and well-defined work, and it's a perfect candidat
 
 `SwiftToCLR` is the main "result" of this proof-of-concept project, and the thing that took by far the most amount of time and trouble. I'll spare you the journey here, but if you're interested in it there's a more detailed discussion over on the [project's GitHub repository](https://github.com/cascable/swift-on-windows-poc).
 
-SwiftToCLR is a command-line tool, written in Swift, that takes your C++ interop header from Swift (as well as a couple of other bits and pieces) and generates the header and implementation for *both* wrapper layers discussed above.
+SwiftToCLR is a command-line tool, written in Swift, that takes your C++ interop header from Swift (as well as a couple of other bits and pieces) and generates the header and implementation for *both* wrapper layers discussed above. The example usage here is on Windows, but it does work on macOS too.
+
+**Note:** You may start to notice mentions of "unmanaged" and "managed" code here and there. This is a result of the project's focus on the CLR — "managed code" is how the CLR refers to code running within the garbage-collected runtime, and "unmanaged code" is code running outside of that environment.
 
 ~~~~~~~~ bash
 C:\> .\SwiftToCLR.exe CascableCoreBasicAPI-Swift.h
@@ -263,11 +267,10 @@ public:
 };
 ~~~~~~~~
 
-Given this header, SwiftToCLR will output the following "vanilla" C++ wrapper:
+Given this header, SwiftToCLR will output the following "normal" C++ wrapper:
 
 ~~~~~~~~ c++
 class APIClass {
-private:
 public:
     std::shared_ptr<BasicTest::APIClass> swiftObj;
     APIClass(std::shared_ptr<BasicTest::APIClass> swiftObj);
@@ -297,7 +300,7 @@ public:
 };
 ~~~~~~~~
 
-I won't paste the entire implementation here, but here's an example from the "vanilla" layer in which we're translating optional strings in both directions. The code is *particularly* verbose here, but given it's autogenerated code that is unlikely to ever be looked at, I think that's alright.
+I won't paste the entire implementation here, but here's an example from the "normal" layer in which we're translating optional strings in both directions. The code is *particularly* verbose here, but given it's autogenerated code that is unlikely to ever be looked at, I think that's alright.
 
 ~~~~~~~~ c++
 std::optional<std::string> UnmanagedBasicTest::APIClass::doOptionalWork(const std::optional<std::string> & optionalString) {
@@ -312,7 +315,7 @@ std::optional<std::string> UnmanagedBasicTest::APIClass::doOptionalWork(const st
 }
 ~~~~~~~~
 
-So… great, right?! Let's go!
+So… great, right?! Let's go! Wait… *more* roadblocks?
 
 ### Limitations of Swift's C++ Interop
 
@@ -326,11 +329,11 @@ Swift's C++ interop feature is still pretty young, and has a number of limitatio
 
 - Swift closures aren't exposed through C++. This is a *huge* one - CascableCore's API uses callbacks extensively since working with cameras is intrinsically asynchronous. They're used to observe changes to camera settings, receive frames of the live view stream, find out if a sent command was successful, and more.
 
-So, what to do? All of these problems do have workarounds, with the closure limitation being a particularly gnarly one. After a bit of pondering, I decided that they were outside of the scope of this project (especially considering the timebox I had). This is a long-term endeavour, and hopefully Swift's C++ interop featureset will improve over time.
+So, what to do? All of these problems do have workarounds, with the closure limitation being particularly gnarly to combat. After a bit of pondering, I decided that they were outside of the scope of this project (especially considering the timebox I had). This is a long-term endeavour, and hopefully Swift's C++ interop featureset will improve over time.
 
 Instead, I built the "CascableCore Basic API", which is a simplified API that wraps the "full" one (this project is *full* of wrappers, crikey):
 
-- Objects are defined as classes.
+- Objects are defined as classes rather than protocols.
 
 - `Data` objects in Swift are exposed as "unsafe" methods to copy the data to a pointer via `Data`'s `copyBytes(to:count:)` method.
 
@@ -344,41 +347,41 @@ I have to admit, there were times where I thought I'd have to abandon this proje
 
 However, one day everything finally "clicked" and suddenly this demo app was coming together *fast*. Holy crap, it works!!
 
-<img width="663" src="/pictures/swift-on-windows/windows-app.png" />
+<img width="750" src="/pictures/swift-on-windows/windows-app.png" />
 {:.center}
 
 I tried to write the demo app as I *should*, so I abstracted away the polling (*boooo!*) with a couple of classes — `PollingAwaiter` and `PollingObserver` — that vend events for the app to observe as if the polling limitation wasn't present.
 
-Otherwise, the Windows demo app is pretty bog-standard, which is exactly what I hoped the outcome would be. It's written in C# using XAML and WinUI3 for the UI, and the whole thing is a standard Visual Studio app project. There's nothing special about it at _all_, other than having to link to Swift.
+Otherwise, the Windows demo app is pretty bog-standard, which is exactly what I hoped the outcome would be. It's written in C# using XAML and WinUI 3 for the UI, and the whole thing is a standard Visual Studio app project. There's nothing special about it at _all_, other than having to link to Swift.
 
 Hiding under this boringness are a *trove* of unanswered technical questions. Again, these are discussed more in the [project's GitHub repository](https://github.com/cascable/swift-on-windows-poc), but some of the larger ones:
 
-- Why do we get _very_ weird crashes when our Swift code is built for static linking? (**Note:** You really _must_ explicitly mark your targets as `.dynamic` in your package manifest to get SPM to build `.dll` binaries otherwise you'll lose days to chaos as I did.)
+- Why do we get _very_ weird crashes when our Swift code is built for static linking? (**Sidebar:** You really _must_ explicitly mark your targets as `.dynamic` in your package manifest to get SPM to build dynamic binaries (i.e., `.dll` files), otherwise you'll lose days to chaos as I did.)
 
-- How do we best solve problem of the lack of closures?
+- How do we best solve the problem of the lack of closures?
 
-- What's the real-world performance impact of translating every parameter through two wrapper layers? `System::String` &rarr; `std::string` &rarr; `swift::String` and back is hardly ideal, and I didn't have to to run meaningful performance measurements.
+- What's the real-world performance impact of translating every parameter through two wrapper layers? `System::String` &rarr; `std::string` &rarr; `swift::String` and back is hardly ideal — especially when arrays get involved — and I didn't have to to run meaningful performance measurements.
 
-- When run in this context (i.e., a C# app managing the process' lifecycle), Swift code doesn't get a working main dispatch queue (or runloop, or…). This is largely expected (see the [notes on `dispatch_get_main_queue()`'s documentation](https://developer.apple.com/documentation/dispatch/1452921-dispatch_get_main_queue) for details), but it'd be *very* useful to be able to sync the C# app's UI thread with the main dispatch queue.
+- When run in this context (i.e., a C# app managing the process' lifecycle), Swift code doesn't get a working main dispatch queue (or runloop, or…). This is largely expected (`dispatch_get_main_queue()` has some [relevant notes in its documentation](https://developer.apple.com/documentation/dispatch/1452921-dispatch_get_main_queue)), but it'd be *very* useful to be able to sync the C# app's UI thread with the main dispatch queue.
 
 ### Conclusion
 
-So, what became of this experiment? Well, we *did* manage to build the same app on macOS and Windows with the same underlying Swift codebase.
+So, what became of this experiment? Well, I *did* manage to build the same app on macOS and Windows with the same underlying Swift codebase, which I'm incredibly happy about!
 
 <img src="/pictures/swift-on-windows/side-by-side.png" />
 {:.center}
 
 I've learned a ton, and I feel like I now have a reasonably well-informed opinion of Swift on Windows (which was the primary "business" goal of this project, I suppose).
 
-It's undoubtedly an "Apple platforms-first" language, particularly the tooling. Like with Swift on Linux, we get a second-class Foundation (although that's actively being worked on *[right now](https://github.com/apple/swift-foundation)*). The [Swift plugin for Visual Studio Code](https://www.swift.org/blog/vscode-extension/) works on Windows and is pretty great, if it wasn't for the fact that no matter what I try, `sourcekit-lsp.exe` *continuously* spins at 100% CPU usage unless I disable code completion. Building our project with SPM's default configuration gives a ton of `.o` files to manually assemble, only to get inscrutable crashes deep in the runtime (explicitly flagging everything to be a `.dynamic` library fixes both of these).
+Swift is undoubtedly an "Apple platforms-first" language, particularly the tooling. Like with Swift on Linux, we get a second-class Foundation (although that's actively being worked on *[right now](https://github.com/apple/swift-foundation)*). The [Swift plugin for Visual Studio Code](https://www.swift.org/blog/vscode-extension/) works on Windows and is pretty great, if it wasn't for the fact that no matter what I try, `sourcekit-lsp.exe` *continuously* spins at 100% CPU usage unless I disable code completion. Building our project with SPM's default configuration gives a ton of `.o` files to manually assemble, only to get inscrutable crashes deep in the runtime (explicitly flagging everything to be a `.dynamic` library fixes both of these).
 
 On *all* platforms, the Swift/C++ interop feature set is extremely limited — the lack of closures in particular is a particularly big one. That polling workaround I implemented *will not* make it to production. 
 
 However.
 
-None of that changes the fact that once I'd overcome these hurdles, I was able to take Swift a codebase that can be compiled for iOS, macOS, and Windows and build a meaningful demo project in C# on top of it in just a couple of days. Once it's up-and-running, it's *amazing*.
+None of that changes the fact that once I'd overcome these hurdles, I was able to take a Swift codebase that can be compiled for iOS, macOS, and Windows and build a meaningful demo project in C# on top of it in just a couple of days. Once it's up-and-running, it's *amazing*.
 
-We don't be dropping everything to build Windows versions of CascableCore and our apps at the moment — we have a *lot* of other work on our plate. However, my experience was *very* confidence-inspiring, and I can *genuinely* see a path to shipping real products to real users using a cross-platform CascableCore and this hybrid C#/Swift approach.
+We don't be dropping everything to build Windows versions of CascableCore and our apps just yet — we have a *lot* of other work on our plate. However, my experience was *very* confidence-inspiring, and I can *genuinely* see a path to shipping real products to real users using a cross-platform CascableCore and this hybrid C#/Swift approach.
 
 I'm also *very* excited about the future of Swift on Windows, and will be staying up-to-date with what's going on. There's also a number of meaningful improvements that can be made to `SwiftToCLR` right now, and hopefully I'll be able to chip away at those as time goes on. If this project can push things in a positive direction even *slightly*, I'll consider that a huge bonus.
 
