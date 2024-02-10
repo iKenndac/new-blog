@@ -253,7 +253,11 @@ div.footnotes::before {
 	}
 }
 
-@media screen and (max-width: 1024px) {
+.container {
+	width: 50em;
+}
+
+@media screen and (max-width: 1200px) {
     #header {
         position: relative;
     }
