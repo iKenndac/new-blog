@@ -3,7 +3,7 @@ kind: article
 author: "Daniel Kennett"
 layout: post
 title: "Proof of Concept Project: Combining Swift and C# on Windows with SwiftToCLR"
-created_at: 2024-02-09 14:00:00 +0100
+created_at: 2024-02-12 16:00:00 +0100
 categories:
 - General
 - Programming
