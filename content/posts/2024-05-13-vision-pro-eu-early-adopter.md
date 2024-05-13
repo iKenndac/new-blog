@@ -14,7 +14,7 @@ This was originally going to be a series of [Mastodon](https://mastodon.social/@
 
 ### Demos & Buying
 
-I was only in New York for five full days, and I ended up doing two demos. On the first day, I went through the scripted demo then went away for a bit to think about whether I should get one. On the second day, I went back for another demo but this time spent the whole time slot trying on different face adapters to make sure I got the right fit.
+I was only in New York for five full days before moving on to Chicago for a few more, and I ended up doing two demos. On the first day, I went through the scripted demo then went away for a bit to think about whether I should get one. On the second day, I went back for another demo but this time spent the whole time slot trying on different face adapters to make sure I got the right fit.
 
 <img width="600" src="/pictures/vision-pro-initial-impressions/vision-pro-demo.jpg" /> \\
 *Don't I look super cool?* 
@@ -68,6 +68,21 @@ The replacement cost me $40 or so due to the sales tax being higher in Chicago t
 
 <img width="750" src="/pictures/vision-pro-initial-impressions/chicago.jpg" />
 {:.center}
+
+### Buying Checklist
+
+If you're coming into the USA from elsewhere, the process is:
+
+- Book a demo at an Apple Store to try the Vision Pro out and confirm your fit.
+- Buy the Vision Pro (hopefully the store will have your size and configuration in stock).
+- If you need prescription lenses, use [Visibly](https://www.govisibly.com), a similar service, or a local optician to get a valid USA glasses prescription. The total turnaround time for Visibly was about an hour for me, but they do say it can take up to a day.
+- Once you have your prescription, order the lenses from Apple/Zeiss. Total turnaround for these for me was a week (Monday to Monday), but they say it can take up to ten days.
+- Once you have the unit *and* can see into it properly, verify that everything is working properly.
+- Exchange the Vision Pro if needed.
+
+All in all, if you need prescription lenses you'll need ten days or so to comfortably get everything sorted out. If you like to live dangerously, you can have the lenses shipped to a USA-based friend who can forward them along to you.
+
+If you don't need the lenses, things will be much much simpler.
 
 ### Actually Using The Damn Thing
 
