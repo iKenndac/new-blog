@@ -3,12 +3,14 @@ kind: article
 author: "Daniel Kennett"
 layout: post
 title: "Early-Adopting the Apple Vision Pro from Outside the USA"
-created_at: 2024-05-14 16:00:00 +0100
+created_at: 2024-05-13 17:00:00 +0100
 categories:
 - General
 ---
 
 Recently, on a trip to the USA, I bought an Apple Vision Pro. This wouldn't usually be worth a blog post, but the Vision Pro isn't available outside the USA at the moment *and* it's rather complicated to buy, especially if you need corrective lenses (and my particular instance was even *more* complicated, as you'll see below). I thought I'd share my experience and initial impressions, largely for posterity but perhaps to help other non-USA folk to get their own before it's available in their region (which hopefully won't be for long).
+
+This was originally going to be a series of [Mastodon](https://mastodon.social/@ikenndac) posts, so forgive the less-than-usual level of polish on this post.
 
 ### Demos & Buying
 
@@ -33,7 +35,7 @@ I didn't get the Apple astronaut egg case, instead opting for a $20 case designe
 
 Unfortunately I can't really see without my glasses, so I had to get some lenses for this thing before I could actually use it. Apple/Zeiss won't just take your word for it to make a set of lenses, so I had to get a "proper" US prescription. Eye tests are particularly expensive in the Land of the Free, and I was recommended an online service called [Visibly](https://www.govisibly.com) that does an online vision test to "verify" an existing prescription, effectively letting me launder my Swedish prescription into a US one. It cost $35 and was done in 20 minutes.
 
-Shipping on these was a bit touch-and-go due to my short time in the USA. They *should* have arrived while I was still in New York, but they got delayed a couple of days. Thankfully I'd had them shipped to a friend who managed to get them turned around to me in Chicago the day before I left back home for Sweden. Phew!
+Shipping on these was a bit touch-and-go due to my short time in the USA. They *should* have arrived while I was still in New York, but they got delayed a couple of days — my total time from shipping to arrival was a calendar week (Monday to Monday). Thankfully I'd had them shipped to a friend who managed to get them turned around to me in Chicago the day before I left back home for Sweden. Phew!
 
 <img width="700" src="/pictures/vision-pro-initial-impressions/lenses.jpg" />
 {:.center}
@@ -42,7 +44,7 @@ Shipping on these was a bit touch-and-go due to my short time in the USA. They *
 
 ### Exchanging My Faulty Unit
 
-Since getting this thing repaired from Europe is currently a no-go, I wanted to make sure that everything was OK before I left the country. Finally able to *see* the thing, I did a dead/hot pixel check and everything seemed fine, but when my wife was using it I noticed that the front screen looked a bit… wibbly? It's hard to describe and photograph, but something's not right here. If there *was* a problem it was minor, and I didn't want to spend the day carting the massive box around Chicago.
+Since getting the Vision Pro repaired from Europe is currently a no-go, I wanted to make sure that everything was OK before I left the country. Finally able to *see* the thing, I did a dead/hot pixel check and everything seemed fine, but when my wife was using it I noticed that the front screen looked a bit… wibbly? It's hard to describe and photograph, but something wasn't right. If there *was* a problem it was minor, and I didn't want to spend the day carting the massive box around Chicago.
 
 <img width="700" src="/pictures/vision-pro-initial-impressions/bad-screen.jpg" /> \\
 *The best we could do to capture the weird screen problem. Those lighter speckles over my eye shouldn't be there. This was manifesting in a line all the way across the screen — maybe the 3D-effect overlay was misaligned?* 
@@ -106,19 +108,19 @@ What I'm having most fun with at the moment is bringing other things into it. Fo
 
 What I'm *not* having fun with is the region restrictions for the App Store - you can only use a US Apple ID to make purchases, which means I don't get my apps or my Apple TV/Music/Arcade subscription. I *really* don't want to buy everything again, and I'm very hesitant to buy new things since (presumably) this restriction will be lifted soon once they start selling these things internationally, and my US Apple ID will no longer be needed. It was suggested to me that adding the US Apple ID as a family member via Family Sharing would work, and while it *appears* to have worked and the UI on both accounts is adamant that I should have access to everything, in practice nothing is actually working. Perhaps it's due to the different billing regions.
 
-As a non-US resident, getting this up-and-running has been very much an "it takes a village" affair — getting help with finding that Visibly service for my prescription, then a friend willing to let me ship the lenses to them and forward them along when they were late, then another friend to order me a Developer Strap, then *another* friend helping me with a US billing address to set up a US Apple ID to download apps.
+As a non-US resident, getting this up-and-running has been very much an "it takes a village" affair — getting help with finding that Visibly service for my prescription (thank you various folks in The Slack™), then a friend willing to let me ship the lenses to them and forward them along when they were late (thank you Sam & M), then another friend to order me a Developer Strap (thank you Dave), then *another* friend helping me with a US billing address (thank you Michael) to set up a US Apple ID to download apps.
 
-And the TWO HUNDRED DOLLAR face adapters aren't even fully light-proof! (Sorry, I'm particularly baffled at how expensive these are and how they don't actually do their job properly)
+And the TWO HUNDRED DOLLAR face adapters aren't even fully light-proof! (Sorry to keep bringing it up — I'm particularly baffled at how expensive these are and how they don't actually do their job properly.)
 
 ### Initial Conclusion
 
-The fundamentals of this thing are really strong, I think. Sure, the whole experience is a bit empty at times due to holes in the software — both first- and third-party — but I'm pretty blown away by the whole thing. Well, my wife calls my visionOS Persona "Creepy Daniel" and the virtual Mac display feature is less sharp than I'd like. It *is* a very young product, after all.
+The fundamentals of the Vision Pro are really strong, I think. Sure, the whole experience is a bit empty at times due to holes in the software — both first- and third-party — but I'm pretty blown away by the whole experience. Well, my wife calls my visionOS Persona "Creepy Daniel" and the virtual Mac display feature is less sharp than I'd like. It *is* a very young product, after all.
 
 <img width="300" src="/pictures/vision-pro-initial-impressions/creepy-daniel.jpg" /> \\
 *"Creepy Daniel"* 
 {:.center}
 
-I'm fully aware that at a $$$ level this thing isn't worth it. As a user, I've spent $3500 to sit in a chair in my pyjamas and play games on a PC in the next room. As a developer, I'm going to get *no* customers for my current set of apps. 
+I'm fully aware that at a $$$ level the Vision Pro isn't worth it and it won't be a good investment in pure RoI terms. It's not replacing my laptop for work or whatever, and as a user, I've basically spent $3500 to sit in a chair in my pyjamas and play games on a PC in the next room. As a developer, I'm going to get *no* customers for my current set of apps. 
 
 However, I want to learn 3D programming, and I want to explore the ideas I've had for my apps in a spatial environment like this. Sometimes, learning and trying new things can be their own justification, money be damned.
 
