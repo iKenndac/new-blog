@@ -2,14 +2,20 @@
 kind: article
 author: "Daniel Kennett"
 layout: post
-title: "Handling Responder Chain Actions in SwiftUI (With A Little Help From Objective-C)"
+title: "Handling Responder Chain Actions in SwiftUI (With A 'Lil Help From Objective-C)"
 created_at: 2024-09-25 16:00:00 +0100
 categories:
 - General
 - Programming
 ---
 
-We're currently in the process of bringing my indie company's main app Cascable to the Mac.
+**Note:** If you got here via a web search for handling UIKit menus or responder chain actions in SwiftUI and don't need/care about the context here, you can jump straight to my [GitHub repo containing the sample project](https://github.com/iKenndac/responder-chain-in-swiftui), which has a much more succinct readme.
+
+We're currently in the process of bringing my indie company's main app, [Cascable](https://cascable.se/), to the Mac using the [Mac Catalyst](https://developer.apple.com/mac-catalyst/) technology.
+
+<img width="800" src="/pictures/swiftui-responder-chain/cascable-catalyst-early-build.png" /> \\
+*An early build of Cascable for Mac, an iOS app ported to the Mac with Catalyst.*
+{:.center .no-border}
 
 Cascable isn't a particularly huge app in terms of lines of code (around 90,000 lines of Swift and 57,000 lines of Objective-C), but it _is_ getting pretty large in terms of _time_. Cascable 1.0 shipped in 2015 and has evolved from there, travelling through various iOS UI trends — starting in the era of Storyboards and visual editing, through autolayout's [visual format language](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage.html), the expanded autolayout APIs for expressing constraints in code, and finally into SwiftUI.
 
@@ -19,9 +25,13 @@ As a result of this approach, the Cascable app is a melting pot of all the above
 
 And that's where we find ourselves today.
 
-Part of the Mac work is building out a robust set of menus and keyboard shortcuts. We're using the "traditional" approach for this — building out the menus with action-based items that pieces of UI can choose to handle. 
+### The Problem
 
-For example, a menu item can be defined like this then added to the menu bar:
+Part of the Mac work is building out a robust set of menus and keyboard shortcuts. We're using the "traditional" approach for this — building out the menus with action-based items that pieces of UI can choose to handle.
+
+This blog post is going to use the specific example of applying a star rating to images. There multiple places in the app the user might want to apply a rating to an image — in the image grid, in the single image viewer, and in a separate window/screen dedicated to viewing images.
+
+In UIKit, a menu item can be defined like this then added to the menu bar:
 
 ~~~~~~~~ swift
 let fiveStarRatingItem = UIKeyCommand(title: "★★★★★",
@@ -29,7 +39,7 @@ let fiveStarRatingItem = UIKeyCommand(title: "★★★★★",
                                       input: "5")
 ~~~~~~~~
 
-…and then a view controller can implement the item's action to enable the menu item and perform an action when it's chosen.
+Once the menu item is in place, a view controller can implement the item's action to enable the menu item and perform an action when it's chosen.
 
 ~~~~~~~~ swift
 @objc func applyFiveStarRating(_ sender: UICommand) {
@@ -37,7 +47,7 @@ let fiveStarRatingItem = UIKeyCommand(title: "★★★★★",
 }
 ~~~~~~~~
 
-…and even change the menu item's enabled status and other attributes (like having a checkmark next to it) dynamically.
+It can even change the menu item's enabled status and other attributes (like having a checkmark next to it) dynamically. For example, let's put a checkmark next to the current rating of the image.
 
 ~~~~~~~~ swift
 func validate(_ command: UICommand) {
@@ -50,7 +60,7 @@ func validate(_ command: UICommand) {
 }
 ~~~~~~~~
 
-This particular example lets us only declare menu items for rating images once and have our image grid and single image viewer both be able to react to the menu items appropriately.
+This setup lets us only declare menu items for rating images once, and our image grid, single image viewer, and separate image viewer can all to react to the menu items appropriately without them all having to redeclare them, their titles, and their keyboard shortcuts.
 
 At runtime, the system will walk the app's [responder chain](https://developer.apple.com/documentation/uikit/touches_presses_and_gestures/using_responders_and_the_responder_chain_to_handle_events) when evaluating the menu item for display or for executing its action, and it'll automatically be enabled and the view controller's method called.
 
@@ -58,7 +68,9 @@ This approach is pretty much as old as time (menus worked like this in Mac OS X 
 
 This all comes to a screeching halt when we get to SwiftUI, which doesn't really expose a responder chain *per se*.
 
-However, since we're a hybrid app that "starts" with UIKit, our SwiftUI is always displayed inside a `UIHostingController`, which _is_ a normal view controller and can absolutely take part in the responder chain.
+### Initial Solution: Explicit Forwarding
+
+Since we're a hybrid app that "starts" with UIKit, our SwiftUI is always displayed inside a `UIHostingController`, which _is_ a normal view controller and can absolutely take part in the responder chain.
 
 I'll skip the journey and get straight to the initial solution: A coordinator object belonging to the `UIHostingController` that contains a basic store of handlers, and a SwiftUI view modifier that looks like this to register a handler with that coordinator: 
 
@@ -96,7 +108,7 @@ This works great in theory, but the whole _point_ of the responder chain is that
 
 It'd be really nice if we didn't have to do that.
 
-### Objective-C To The Rescue!
+### Final Solution: Objective-C To The Rescue!
 
 The responder chain's design allows us to redirect an action to a new target pretty simply. This override on our `UIHostingController` subclass will redirect our menu actions to the coordinator:
 
@@ -112,7 +124,7 @@ override func target(forAction action: Selector, withSender sender: Any?) -> Any
 
 However, all this does is change the target — our coordinator object will still need to implement all the action methods. This doesn't solve our problem at all — it just moves it!
 
-Swift is interoperable with the Objective-C runtime, which uses dynamic message sending. It's possible to "catch" a message (i.e., a method call) at runtime and point it somewhere else using a thing called `NSInvocation`, which represents an "instance" of a method call, combining the method's signature, types, and particular parameters being sent. Once you "catch" an invocation, it can be inspected and redirected to a different method definition.
+Swift is interoperable with the Objective-C runtime, which uses dynamic message sending. It's possible to "catch" a message (i.e., a method call) at runtime and point it somewhere else using a thing called `NSInvocation`, which represents an "instance" of a method call, combining the method's signature, types, and particular parameters being sent. Once you "catch" an invocation, it can be inspected and redirected to a different destination.
 
 All we need to do is override `forwardInvocation(_:)` and… ah. Turns out Swift is _mostly_ interoperable with the Objective-C runtime, but not completely.
 
@@ -213,3 +225,5 @@ Text("IOU 1x UI")
 ~~~~~~~~
 
 …with no additional glue code in between. Pretty nice!
+
+If you want to see this in action, there's a working sample project [over on GitHub](https://github.com/iKenndac/responder-chain-in-swiftui). Enjoy!
