@@ -204,7 +204,7 @@ An `NSInvocation` is a specific instance of a method call. It contains the selec
 
 7) There's no step <s>three</s> seven!
 
-Basically, that Objective-C object redirects all incoming actions to `handleAction:` on-the-fly, removing the need to explicitly implement any of them. Since menu actions come with a `UICommand` object, we can still see the original action after the redirect and handle it appropriately. On AppKit, we'd have to keep hold of the original selector somehow, but it's still perfectly doable.
+Basically, that Objective-C object redirects all incoming actions to `handleAction:` on-the-fly, removing the need to explicitly implement any of them directly. Since menu actions come with a `UICommand` object, we can still see the original action after the redirect and handle it appropriately. On AppKit, we'd have to keep hold of the original selector somehow, but it's still perfectly doable.
 
 Again, in diagram form. While the diagram is more complicated the one above, we don't actually have to add more code for each menu item we want to handle in anything but the SwiftUI view that actually handles it, unlike with the previous solution.
 
