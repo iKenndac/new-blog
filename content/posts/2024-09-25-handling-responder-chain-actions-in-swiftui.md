@@ -3,7 +3,7 @@ kind: article
 author: "Daniel Kennett"
 layout: post
 title: "Handling Responder Chain Actions in SwiftUI (With A 'Lil Help From Objective-C)"
-created_at: 2024-09-25 16:00:00 +0100
+created_at: 2024-09-30 16:00:00 +0100
 categories:
 - General
 - Programming
@@ -68,7 +68,7 @@ At runtime, the system will walk the app's [responder chain](https://developer.a
 
 This approach is pretty much as old as time (menus worked like this in Mac OS X 10.0 back in 2001), and works great — we have the advantage of only having the declare the menu item and its keyboard shortcut once, and the items will automatically be enabled when they're available. Lovely!
 
-This all comes to a screeching halt when we get to SwiftUI, which doesn't really expose the responder chain directly.
+This all comes to a screeching halt when we get to SwiftUI, which doesn't really expose the responder chain directly. So, how can we handle selector-based responder chain actions in SwiftUI?
 
 ### Initial Solution: Explicit Forwarding
 
@@ -142,7 +142,7 @@ All we need to do is override `forwardInvocation(_:)` and… ah. Turns out Swift
 Welp, to solve our SwiftUI problem it looks like we're going to have to write some honest-to-goodness Objective-C. Thankfully, it's only a few lines.
 
 <table class="alt">
-<tr><td style="padding: 20px;"><strong>Side anecdote:</strong> I posted that above screenshot onto Mastodon when I was working on this, and almost immediately got this message from a friend — and it's still making me laugh several days later.
+<tr><td style="padding: 20px;"><strong>Side anecdote:</strong> I posted that above screenshot to Mastodon when I was working on this, and almost immediately got this message from a friend — and it's still making me laugh several days later.
 <br><br><p class="center" style="margin: 0"><img class="no-border" width="549" src="/pictures/swiftui-responder-chain/slack-scorn.png" /></p>
 </td></tr>
 </table>
@@ -173,7 +173,7 @@ override func target(forAction action: Selector, withSender sender: Any?) -> Any
 }
 ~~~~~~~~
 
-4) Once we confirm that we can perform the action, the responder chain will then send a regular Objective-C message (method call) to our Objective-C class. At this point, we get the opportunity to intercept the message. To do so, we must first override `methodSignatureForSelector:`.
+4) Once we confirm that we can perform the action, the responder chain will then send a regular Objective-C message (method call) to our Objective-C object. At this point, we get the opportunity to intercept the message. To do so, we must first override `methodSignatureForSelector:`.
 
 ~~~~~~~~ objc
 -(NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector {
@@ -183,7 +183,7 @@ override func target(forAction action: Selector, withSender sender: Any?) -> Any
 
 The selector at this point will be the action's selector, `applyFiveStarRating:`. A selector doesn't contain any type information, but an `NSMethodSignature` object does — it's a description of the parameter and return types of an Objective-C method call. What we're saying here is "Hey, you're looking to send the message `applyFiveStarRating:`, and here's the types that're needed for me to receive that message."
 
-5) Finally, the Objective-C runtime will attempt to deliver the message. If we'd implemented `-(void)closePanelFromMenu:(UICommand *)sender` explicitly, that'll be called. However, we don't _want_ to manually implement every single possible menu handler, so we didn't. So, instead, we get the opportunity to intercept the method call. **This part is the core of this entire thing.**
+5) Finally, the Objective-C runtime will attempt to deliver the message. If we'd implemented `-(void)closePanelFromMenu:(UICommand *)sender` explicitly, that'd be called. However, we don't _want_ to manually implement every single possible menu handler, so we didn't. So, instead, we get the opportunity to intercept the method call. **This part is the core of this entire thing.**
 
 ~~~~~~~~ objc
 -(void)forwardInvocation:(NSInvocation *)anInvocation {
@@ -206,7 +206,7 @@ An `NSInvocation` is a specific instance of a method call. It contains the selec
 
 Basically, that Objective-C object redirects all incoming actions to `handleAction:` on-the-fly, removing the need to explicitly implement any of them. Since menu actions come with a `UICommand` object, we can still see the original action after the redirect and handle it appropriately. On AppKit, we'd have to keep hold of the original selector somehow, but it's still perfectly doable.
 
-Again, in diagram form. While the diagram is more complicated, we don't actually have to add more code for each menu item we want to handle in anything but the SwiftUI view that actually handles it, unlike with the previous solution.
+Again, in diagram form. While the diagram is more complicated the one above, we don't actually have to add more code for each menu item we want to handle in anything but the SwiftUI view that actually handles it, unlike with the previous solution.
 
 <img width="671" src="/pictures/swiftui-responder-chain/dynamic-forwarding-diagram.png" />
 {:.center .no-border}
