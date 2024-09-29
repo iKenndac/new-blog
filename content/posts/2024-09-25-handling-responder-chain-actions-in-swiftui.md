@@ -142,7 +142,7 @@ All we need to do is override `forwardInvocation(_:)` and… ah. Turns out Swift
 Welp, to solve our SwiftUI problem it looks like we're going to have to write some honest-to-goodness Objective-C. Thankfully, it's only a few lines.
 
 <table class="alt">
-<tr><td style="padding: 20px;"><strong>Side anecdote:</strong> I posted that above screenshot to Mastodon when I was working on this, and almost immediately got this message from a friend — and it's still making me laugh several days later.
+<tr style="background: #fff;"><td style="padding: 20px;"><strong>Side anecdote:</strong> I posted that above screenshot to Mastodon when I was working on this, and almost immediately got this message from a friend — and it's still making me laugh several days later.
 <br><br><p class="center" style="margin: 0"><img class="no-border" width="549" src="/pictures/swiftui-responder-chain/slack-scorn.png" /></p>
 </td></tr>
 </table>
