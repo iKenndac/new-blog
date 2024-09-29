@@ -31,6 +31,8 @@ Part of the Mac work is building out a robust set of menus and keyboard shortcut
 
 This blog post is going to use the specific example of applying a star rating to images. There multiple places in the app the user might want to apply a rating to an image — in the image grid, in the single image viewer, and in a separate window/screen dedicated to viewing images.
 
+<img width="441" src="/pictures/swiftui-responder-chain/rating-menu.png" />
+
 In UIKit, a menu item can be defined like this then added to the menu bar:
 
 ~~~~~~~~ swift
@@ -66,13 +68,13 @@ At runtime, the system will walk the app's [responder chain](https://developer.a
 
 This approach is pretty much as old as time (menus worked like this in Mac OS X 10.0 back in 2001), and works great — we have the advantage of only having the declare the menu item and its keyboard shortcut once, and the items will automatically be enabled when they're available. Lovely!
 
-This all comes to a screeching halt when we get to SwiftUI, which doesn't really expose a responder chain *per se*.
+This all comes to a screeching halt when we get to SwiftUI, which doesn't really expose the responder chain directly.
 
 ### Initial Solution: Explicit Forwarding
 
 Since we're a hybrid app that "starts" with UIKit, our SwiftUI is always displayed inside a `UIHostingController`, which _is_ a normal view controller and can absolutely take part in the responder chain.
 
-I'll skip the journey and get straight to the initial solution: A coordinator object belonging to the `UIHostingController` that contains a basic store of handlers, and a SwiftUI view modifier that looks like this to register a handler with that coordinator: 
+I'll skip the journey and get straight to the initial solution: A coordinator object belonging to the `UIHostingController` that contains a basic store of handlers, and a SwiftUI view modifier that looks like this to register a handler with that coordinator:
 
 ~~~~~~~~ swift
 Text("IOU 1x UI")
@@ -99,6 +101,11 @@ override func validate(_ command: UICommand) {
     }
 }
 ~~~~~~~~
+
+Or, in diagram form. Note that for every menu item we want to handle in SwiftUI, code needs to be added to the `UIHostingController` subclass to specifically handle it.
+
+<img width="533" src="/pictures/swiftui-responder-chain/direct-forwarding-diagram.png" />
+{:.center .no-border}
 
 **Problem solved forever.**
 
@@ -132,7 +139,15 @@ All we need to do is override `forwardInvocation(_:)` and… ah. Turns out Swift
 *Nooooooooo!*
 {:.center}
 
-Welp, to solve our SwiftUI problem it looks like we're going to have to write some honest-to-goodness Objective-C. Thankfully, it's only a few lines. Rather than dump a pile of code in here, let's go through what's happening step-by-step:
+Welp, to solve our SwiftUI problem it looks like we're going to have to write some honest-to-goodness Objective-C. Thankfully, it's only a few lines.
+
+<table class="alt">
+<tr><td style="padding: 20px;"><strong>Side anecdote:</strong> I posted that above screenshot onto Mastodon when I was working on this, and almost immediately got this message from a friend — and it's still making me laugh several days later.
+<br><br><p class="center" style="margin: 0"><img class="no-border" width="549" src="/pictures/swiftui-responder-chain/slack-scorn.png" /></p>
+</td></tr>
+</table>
+
+Rather than dump a pile of code in here, let's go through what's happening step-by-step:
 
 1) The user chooses a menu item.
 
@@ -189,19 +204,12 @@ An `NSInvocation` is a specific instance of a method call. It contains the selec
 
 7) There's no step <s>three</s> seven!
 
-I understand that this does seem pretty complicated, but it's pretty simple in concept:
-
-1) The user chooses a menu item.
-
-2) Our view controller gets a "Hey, I want you to handle `applyFiveStarRating:`" message. It replies "Actually, deliver it to this other thing."
-
-3) The "other thing" is our Objective-C redirector, which gets a "Can you handle `applyFiveStarRating:`?" message. It checks with our coordinator object and replies "Sure!"
-
-4) The Objective-C redirector then gets a `applyFiveStarRating:` message. It replies "Actually, deliver it to `handleAction:`."
-
-5) The Objective-C redirector then gets a `handleAction:` message. At this point, it forwards that along to the coordinator object, which forwards that along to SwiftUI and the action is handled.
-
 Basically, that Objective-C object redirects all incoming actions to `handleAction:` on-the-fly, removing the need to explicitly implement any of them. Since menu actions come with a `UICommand` object, we can still see the original action after the redirect and handle it appropriately. On AppKit, we'd have to keep hold of the original selector somehow, but it's still perfectly doable.
+
+Again, in diagram form. While the diagram is more complicated, we don't actually have to add more code for each menu item we want to handle in anything but the SwiftUI view that actually handles it, unlike with the previous solution.
+
+<img width="671" src="/pictures/swiftui-responder-chain/dynamic-forwarding-diagram.png" />
+{:.center .no-border}
 
 ### Conclusion
 
