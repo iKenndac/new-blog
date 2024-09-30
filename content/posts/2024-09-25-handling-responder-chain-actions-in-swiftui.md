@@ -17,7 +17,7 @@ We're currently in the process of bringing my indie company's main app, [Cascabl
 *An early build of Cascable for Mac, an iOS app ported to the Mac with Catalyst.*
 {:.center .no-border}
 
-Cascable isn't a particularly huge app in terms of lines of code (around 90,000 lines of Swift and 57,000 lines of Objective-C), but it _is_ getting pretty large in terms of _time_. Cascable 1.0 shipped in 2015 and has evolved from there, travelling through various iOS UI trends — starting in the era of Storyboards and visual editing, through autolayout's [visual format language](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage.html), the expanded autolayout APIs for expressing constraints in code, and finally into SwiftUI.
+Cascable isn't a particularly huge app in terms of lines of code (around 90,000 lines of Swift and 57,000 lines of Objective-C), but it _is_ getting pretty large in terms of _time_. Cascable 1.0 shipped in 2015 and has evolved from there, travelling through various iOS UI trends — starting in the era of Storyboards and visual editing, through autolayout's [visual format language](https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage.html), the expanded auto layout APIs for expressing constraints in code, and finally into SwiftUI.
 
 We're not in any particular hurry to throw away and rebuild our perfectly working UI code in favour of SwiftUI, instead preferring to build new UI with the tool most appropriate with the task at hand, and modifying existing UI components in whatever they were originally built in.
 
@@ -29,7 +29,7 @@ And that's where we find ourselves today.
 
 Part of the Mac work is building out a robust set of menus and keyboard shortcuts. We're using the "traditional" approach for this — building out the menus with action-based items that pieces of UI can choose to handle.
 
-This blog post is going to use the specific example of applying a star rating to images. There multiple places in the app the user might want to apply a rating to an image — in the image grid, in the single image viewer, and in a separate window/screen dedicated to viewing images.
+This blog post is going to use the specific example of applying a star rating to images. There are multiple places in the app the user might want to apply a rating to an image — in the image grid, in the single image viewer, and in a separate window/screen dedicated to viewing images.
 
 <img width="441" src="/pictures/swiftui-responder-chain/rating-menu.png" />
 
@@ -210,6 +210,8 @@ Again, in diagram form. While the diagram is more complicated the one above, we 
 
 <img width="671" src="/pictures/swiftui-responder-chain/dynamic-forwarding-diagram.png" />
 {:.center .no-border}
+
+One thing to note is that this approach undoes all of the optimisations that the Objective-C runtime has around message dispatch, plus the runtime has to construct the `NSInvocation` object that's used during the redirect. This does, as you might imagine, slow down message delivery significantly. However, since we're not in a performance sensitive section of code (it's not like the user will be triggering hundreds of menu items per second), it's alright here. There *are* other ways of achieving the same result without the performance penalty, which I may explore in a future post.
 
 ### Conclusion
 
