@@ -9,9 +9,9 @@ categories:
 - Programming
 ---
 
-I've been shipping apps to the App Store for well over fifteen years now. Statistically speaking, this post was an inevitability.
+I've been shipping apps to the App Store for well over fifteen years now, and although there are App Review horror stories aplenty, I've always hoped I'd never be in a position to write one myself. Fifteen years *isn't* a bad run, at least.
 
-Don't worry! Another post chock-full of technical snippets and stories from the app's development over the past year is coming very soon, and will be a lot more positive than this one. I'm *really* proud of what we shipped.
+Another post chock-full of technical snippets and stories from the app's development over the past year is coming very soon, and will be a lot more positive than this one. I'm *really* proud of what we shipped, and this App Review experience doesn't change any of that.
 
 Alright, let's dive in. They say a picture says a thousand words, so how about a picture of some words. Get those scrollin' thumbs ready!
 
@@ -71,7 +71,7 @@ Alright, so it's a great feature. Why was App Review so upset?
 
 Part of why this ordeal was, well, an *ordeal* is that I was never actually explicitly got a straight answer on that. But we'll get to that.
 
-For an app to be on the iOS or Mac App Store, it has to be sandboxed. In its default configuration, the sandbox *completely* segregates an app from the outside world and other parts of the system. If you want to communicate outside the sandbox, you need to declare **entitlements**, which are specific doors in the sandbox that let you communicate with the outside world in that entitlement's manner.
+For an app to be on the iOS or Mac App Store, it has to be sandboxed. In its default configuration, the sandbox *completely* isolates an app from the outside world and other parts of the system. If you want to communicate outside the sandbox, you need to declare **entitlements**, which are specific doors in the sandbox that let you communicate with the outside world in that entitlement's manner.
 
 As some basic examples:
 
@@ -166,7 +166,7 @@ In all of the "live" conversations I've had with actual Apple employees (three s
 
 This happened often enough that it goes beyond a simple oversight by an individual reviewer. Either they can't see the provided information, or they're not aware that it's there.
 
-<strong>Update after I wrote this but before I published it:</strong> I received a final follow-up call and I was told that for now, the advice is to duplicate entitlement information into the "Review Notes" field. There seem to be no straight answers to be found anywhere about whether app review can see these additional fields, even internally.
+<strong>Update after I wrote this but before I published it:</strong> I received a final follow-up call and I was told that for now, the advice is to duplicate entitlement information into the "Review Notes" field. There seem to be no straight answers to be found anywhere about whether App Review can see these additional fields, even internally.
 
 Entitlement information is critical information to perform a review of an app. If App Review can't actually see this information in Mac submissions, this is a serious failure of the tooling for this process. If the reviewers can't see the information, how can they possibly review the app properly?
 
@@ -223,7 +223,7 @@ However, I can't run a business on inferring from indirect statements and readin
 
 #### Failure #4: There Are Frustratingly Few Technical People in App Review
 
-Now. I *will* grant that Apple Events are a fairly low-level technology. It's also a very old one — when looking up documentation for Apple Events to give to app review to show it's a public Apple technology, I found [a document](https://developer.apple.com/library/archive/documentation/mac/pdf/Interapplication_Communication/Intro_to_Apple_Events.pdf) with this diagram in it:
+Now. I *will* grant that Apple Events are a fairly low-level technology. It's also a very old one — when looking up documentation for Apple Events to give to App Review to show it's a public Apple technology, I found [a document](https://developer.apple.com/library/archive/documentation/mac/pdf/Interapplication_Communication/Intro_to_Apple_Events.pdf) with this diagram in it:
 
 <img width="374" src="/pictures/cascable-studio-app-review/apple-events.png" />
 {:.center}
@@ -246,7 +246,7 @@ It's a shame, too — this release was the result of more than a year of work an
 
 Now, I'm not one of those people that's morally opposed to app review as a concept (as long as there are alternative distribution options, which is the case on the Mac, at least), but it *has* to function correctly.
 
-I'm not even that upset about some of the rejections I got during this process. When app review works well, the back-and-forth is fine. If we ignore the larger chaos here and look just at the rejection on December 11th: 
+I'm not even that upset about some of the rejections I got during this process. When App Review works well, the back-and-forth is fine. If we ignore the larger chaos here and look just at the rejection on December 11th: 
 
 <table>
     <tr><td><strong>9:23 am</strong></td><td> Rejected needing information on why we use Bluetooth. </td></tr>
@@ -278,7 +278,8 @@ I do try to make an effort not to complain *all* the time, so let's find some po
 
 This particular little snippet from a community I'm in made me laugh a lot, so I thought I'd include it here (with permission):
 
-(screenshot pending said permission)
+<img width="437" src="/pictures/cascable-studio-app-review/slack-friends.png" />
+{:.center}
 
 **#2**: Connecting with an App Review staff member in the App Review labs was a godsend. They didn't work directly on reviewing apps so it's not like they could just go in and approve the app, but they were able to see things I couldn't and ask questions internally that I couldn't. Getting this additional context — and someone on the inside able to shout for me — at least kept hope alive when my "official" communication from App Review was so devoid of… well, anything. When they didn't know an answer to a question they promised to find out and follow up with me, and they did so every time. They did an *excellent* job given the restrictions they had (i.e., not having a giant "Approve" lever they could pull).
 
@@ -291,9 +292,9 @@ So, what now? While we do have the feature approved and in the App Store now, th
 
 #### Cascable Studio
 
-It's likely that, even though the app is approved now, I'll pull the Apple Event stuff out and into a separate downloadable component that's outside of app review's purview. I'd like to integrate Cascable Studio with more and more apps in the future, and I very much don't want to go through this argument again any time soon.
+It's likely that, even though the app is approved now, I'll pull the Apple Event stuff out and into a separate downloadable component that's outside of App Review's purview. I'd like to integrate Cascable Studio with more and more apps in the future, and I very much don't want to go through this argument again any time soon.
 
-This solution is perfectly achievable with sandboxing intact and without any funny business that'd affect app review, but it *is* a worse experience for the user and a lot more effort on our part. It sucks for everyone, but it's better than doing this every time — or even having the shadow of this *maybe* happening again on every submission.
+This solution is perfectly achievable with sandboxing intact and without any funny business that'd affect App Review, but it *is* a worse experience for the user and a lot more effort on our part. It sucks for everyone, but it's better than doing this every time — or even having the shadow of this *maybe* happening again on every submission.
 
 #### Our Other Apps
 
