@@ -131,7 +131,7 @@ We usually submit major updates well in advance of the planned launch date, beca
     <tr><td><strong>December 11th </strong></td><td> Rejected pending information for why we use the Bluetooth entitlement. My reply is… snippy. </td></tr>
     <tr><td><strong>December 11th </strong></td><td> Approved! </td></tr>
     <tr><td><strong>December 13th </strong></td><td> I receive a follow-up call from the staff member I met in the lab. We chatted about the past few weeks and I gave some feedback to hopefully pass along. There's still one outstanding question on whether App Review can see some details in the submission form. </td></tr>
-    <tr><td><strong>December 16th </strong></td><td> I receive a follow-up call from the staff member I met in the lab. We chat a bit more about that outstanding question an conclude the "incident ticket", as it were. </td></tr>
+    <tr><td><strong>December 16th </strong></td><td> I receive a follow-up call from the staff member I met in the lab. We chat a bit more about that outstanding question and conclude the "incident ticket", as it were. </td></tr>
 </table>
 
 Yikes.
@@ -225,13 +225,13 @@ If we boil this down, this message says:
 
 I got the reply:
 
-> We advise advise submitting a revised binary with your suggested changes for review.
+> We advise submitting a revised binary with your suggested changes for review.
 
 Would it kill them to give a straight answer? I get that they don't want to put anything in writing because people like me publish blog posts like this one putting their words out for the entire world to see, but I really can't possibly see how "If you take away this entitlement, these other ones are OK in your particular use case" is a damaging statement to make.
 
 That information — that the Apple Events entitlement should be OK without the other one — *did* appear to be present internally almost from the beginning. It was implied on the call I received on November 25th, and if you read between the lines in that rejection above on December 10th it's kinda-sorta there too.
 
-However, I can't run a business on inferring from indirect statements and reading between the lines. This process sits between my business and its revenue, and I need to be sure where we stand. I appreciate that they can't pre-approve an app idea, but when we're three weeks into a back-and-forth and we're talking about a very specific feature in a very specific app submission, "we advise advise submitting a revised binary with your suggested changes for review" is kinda horseshit. So I get to spend engineering hours implementing something to find out if I'm reading between the lines correctly? Yuck.
+However, I can't run a business on inferring from indirect statements and reading between the lines. This process sits between my business and its revenue, and I need to be sure where we stand. I appreciate that they can't pre-approve an app idea, but when we're three weeks into a back-and-forth and we're talking about a very specific feature in a very specific app submission, "we advise submitting a revised binary with your suggested changes for review" is kinda horseshit. So I get to spend engineering hours implementing something to find out if I'm reading between the lines correctly? Yuck.
 
 ---
 
