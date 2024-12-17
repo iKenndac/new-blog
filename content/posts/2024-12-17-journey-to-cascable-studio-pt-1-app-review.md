@@ -24,6 +24,8 @@ We're at version 7.0 now, and the iOS version of this app has been on the App St
 
 **A feature that'd already been approved and on the App Store since 2019 in a different app of ours.**
 
+---
+
 ### Contents
 
 <ul>
@@ -40,6 +42,8 @@ We're at version 7.0 now, and the iOS version of this app has been on the App St
 <li><a href="#silver-linings">Silver Linings</a></li>
 <li><a href="#ramifications-for-the-future">Ramifications for the Future</a></li>
 </ul>
+
+---
 
 ### The Troublesome Feature
 
@@ -64,6 +68,8 @@ However, where this feature gets *really* magic — and *really* into what makes
 Forgive the sales pitch, but I *love* this feature and it's why I *love* the Mac. This interoperability is a core part of the Mac experience and has been since at *least* the 1990s — well before Mac OS X.
 
 This deep love of this sort of thing is why I fought so hard for this feature.
+
+---
 
 ### A Core Part of the Mac Experience Meets the Mac App Store
 
@@ -93,6 +99,8 @@ This is a screenshot of what the relevant entitlements look like in Xcode:
 
 <img width="800" src="/pictures/cascable-studio-app-review/entitlements-plist.png" />
 {:.center}
+
+---
 
 ### Coming Off The Rails
 
@@ -128,6 +136,8 @@ We usually submit major updates well in advance of the planned launch date, beca
 
 Yikes.
 
+---
+
 #### Failure #1: Escalation Is Difficult and Slow
 
 When you get rejected by App Review, you'll get a message about why and the ability to reply in text form. Sometimes, rejections are simply requests for information, but there's always the ability to reply — even if the rejection *wasn't* asking for information, a review can sometimes be turned around without re-submitting if you "Um, actually…" them if they got something wrong.
@@ -142,6 +152,7 @@ Unfortunately, this was Monday on the week of Thanksgiving, and I was told that 
 
 Even ignoring the bad timing of Thanksgiving (and the fact that it seems the entire department shuts down for a whole week?), that's a week between asking for an escalation and getting it. That's a *long* time of nothing.
 
+---
 
 #### Failure #2: App Review Appears To Be Missing Critical Information for Mac Submissions
 
@@ -170,6 +181,7 @@ This happened often enough that it goes beyond a simple oversight by an individu
 
 Entitlement information is critical information to perform a review of an app. If App Review can't actually see this information in Mac submissions, this is a serious failure of the tooling for this process. If the reviewers can't see the information, how can they possibly review the app properly?
 
+---
 
 #### Failure #3: Rejection Communication is Often Missing Actionable Information
 
@@ -221,6 +233,8 @@ That information — that the Apple Events entitlement should be OK without the 
 
 However, I can't run a business on inferring from indirect statements and reading between the lines. This process sits between my business and its revenue, and I need to be sure where we stand. I appreciate that they can't pre-approve an app idea, but when we're three weeks into a back-and-forth and we're talking about a very specific feature in a very specific app submission, "we advise advise submitting a revised binary with your suggested changes for review" is kinda horseshit. So I get to spend engineering hours implementing something to find out if I'm reading between the lines correctly? Yuck.
 
+---
+
 #### Failure #4: There Are Frustratingly Few Technical People in App Review
 
 Now. I *will* grant that Apple Events are a fairly low-level technology. It's also a very old one — when looking up documentation for Apple Events to give to App Review to show it's a public Apple technology, I found [a document](https://developer.apple.com/library/archive/documentation/mac/pdf/Interapplication_Communication/Intro_to_Apple_Events.pdf) with this diagram in it:
@@ -237,6 +251,8 @@ Anyway, I must've explained what Apple Events are to three separate people throu
 {:.center}
 
 I do understand that they don't need to hire programmers to reject apps for bad screenshots or whatever, but if App Review can't understand the technologies at play when they're reviewing apps, how can they possibly review the app properly?
+
+---
 
 ### One Week Later: My Thoughts
 
@@ -268,6 +284,8 @@ What isn't OK is:
 
 This *has* to be better. A lot of it points to a department that has to deal with millions of app developers and submissions without the resources to do so well when things fall out of the "optimised path" like this did. Of course, that defence immediately falls apart when you notice that Apple is one of the richest companies on the planet (not that you can throw buckets of money at every problem to make it disappear, but still).
 
+---
+
 ### Silver Linings
 
 I do try to make an effort not to complain *all* the time, so let's find some positives:
@@ -285,6 +303,8 @@ This particular little snippet from a community I'm in made me laugh a lot, so I
 
 Hopefully these App Review labs (which are listed [here on the Apple developer site](https://developer.apple.com/events/view/upcoming-events) - search for "App Review") are a continuing and consistent thing, because they offer a much-needed lifeline.
 
+
+---
 
 ### Ramifications for the Future
 
