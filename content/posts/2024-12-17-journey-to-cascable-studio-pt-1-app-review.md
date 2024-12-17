@@ -203,7 +203,7 @@ If we boil this down, this message says:
 > 
 > You wrote: 
 > 
-> "We found that the app may not use the following entitlements: [list of Apple Events entitlements]"
+> "We found that the app may not use the following entitlements: (list of Apple Events entitlements)"
 > 
 > Then you wrote:
 > 
