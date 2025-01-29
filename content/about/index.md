@@ -1,6 +1,7 @@
 ---
 title: "About Me"
 tags: ['in_menu']
+menu_sort_hint: 1
 ---
 
 Hello! My name is Daniel Kennett, and this is my website. 

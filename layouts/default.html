@@ -57,7 +57,16 @@
           <nav id="nav">
             <ul>
               <% 
-                items = items_with_tag('in_menu').sort_by {|item| item[:title]}
+                items = items_with_tag('in_menu').sort {|x,y|
+                    x_sort_hint = x[:'menu_sort_hint'].nil? ? 0 : x[:'menu_sort_hint']
+                    y_sort_hint = y[:'menu_sort_hint'].nil? ? 0 : y[:'menu_sort_hint']
+                
+                    if x_sort_hint == y_sort_hint
+                        x[:'title'].downcase <=> y[:'title'].downcase
+                    else
+                        x_sort_hint <=> y_sort_hint
+                    end
+                }
                 items.each do |item|
               %>
                 <li><a href="<%= item.path %>"><%= item[:title] %></a></li>
