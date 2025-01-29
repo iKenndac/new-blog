@@ -1,5 +1,5 @@
 ---
-title: "More About Me"
+title: "About Me"
 tags: ['in_menu']
 ---
 
@@ -10,11 +10,9 @@ Hello! My name is Daniel Kennett, and this is my website.
 
 Before we get started, here's some tidbits about me to break the ice:
 
-- I program things for a living and for fun. Normally it's on Apple platforms, but I've been known to dabble in C#. You can find my public code [over on GitHub](http://github.com/ikenndac), and a list of the apps I've made on the [Apps page of this site](/apps/).
+- I program things for a living and for fun. Normally it's on Apple platforms, but I've been known to dabble in C#. You can find my public code [over on GitHub](http://github.com/ikenndac), and the apps my indie company ships are at the [Cascable website](https://cascable.se/).
 
 - I love cars, and firmly subscribe to a few automotive beliefs:
-
-    - The *one true way* is an engine in the front, drive at the back and a nice manual gearbox in between. Mid-engined is also acceptable.
 
     - The correct number of trackdays per year is between two and four.
 

@@ -1,6 +1,5 @@
 ---
 title: "My Apps"
-tags: ['in_menu']
 ---
 
 I write and maintain a number of applications, open-source frameworks and hacky side-projects, all of which can be found here.
