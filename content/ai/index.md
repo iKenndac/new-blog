@@ -1,6 +1,7 @@
 ---
 title: "AI Policy"
 tags: ['in_menu']
+excerpt: "Everything on this website that's written in my voice (i.e., I'm not quoting someone or something else) has been done so without the use of generative AI (ChatGPT, Gemini, Copilot, etc) at any point in the process."
 menu_sort_hint: 2
 ---
 
