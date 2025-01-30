@@ -3,7 +3,7 @@ kind: article
 author: "Daniel Kennett"
 layout: post
 title: "Reviewing Every Pain au Chocolat in Guillestre"
-created_at: 2025-01-19 20:00:00 +0100
+created_at: 2025-01-29 20:00:00 +0100
 custom_og_image_path: "/pictures/pains-au-chocolat/pain-la-guillestrine.jpg"
 excerpt: "The most important thing about visiting France is finding the best pastries. I'm particularly fond of the pain au chocolat, and Guillestre (like any French village) has multiple options to choose from. Since they must be earned, I don't want to waste my time with anything but the best pain au chocolat the village has to offer!"
 categories:
