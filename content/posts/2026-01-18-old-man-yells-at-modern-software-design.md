@@ -2,7 +2,7 @@
 kind: article
 author: "Daniel Kennett"
 layout: post
-title: "A Lament for Aperture — The App We'll Never Get Over Losing"
+title: "A Lament For Aperture, The App We'll Never Get Over Losing"
 created_at: 2026-01-18 19:00:00 +0100
 excerpt: "I'm an old Mac-head at heart, and I've been using Macs since the mid 1990s (the first Mac I used was an LC II with System 7.1 installed on it). I don't tend to think that the computing experience was better in the olden days — sure, there's a thing to be said about the simplicity of older software, but most of my fondness for those days is nostalgia. An exception to that, however, is Apple's Aperture."
 categories:
@@ -39,11 +39,11 @@ So, I dug out the 'ol Trashcan Mac Pro I [lovingly reviewed here on this very bl
 
 ---
 
-### So, *Why* Is Aperture So Special?
+### So, Why *Is* Aperture So Special?
 
-If you're not familiar with Aperture, it's an app for organising, managing, editing, and exporting images. If you're familiar with Apple's Photos app, it's that. But for professionals! I'm going to try my best to keep the grumpy rants about it going away at bay, and instead showcase its brilliance. Aperture is a *complex* app — its PDF user manual is over 900 pages long — so to keep this manageable I'll focus on one particular aspect of it via two sentences from said manual.
+If you're not familiar with Aperture, it's an app for organising, managing, editing, and exporting images. If you're familiar with Apple's Photos app, it's that. But for professionals! I'm going to try my best to keep the grumpy rants about it going away at bay, and instead showcase its brilliance. Aperture is a *complex* app — its PDF user manual is over 900 pages long — so to keep this manageable I'll focus on one particular aspect of it via two short excerpts from said manual.
 
-Two sentences that hide an *astonishing* amount of engineering effort.
+Two excerpts that hide an *astonishing* amount of engineering effort.
 
 Let's look at our first excerpt:
 
