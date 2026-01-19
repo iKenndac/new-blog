@@ -11,11 +11,11 @@ categories:
 
 I'm an old Mac-head at heart, and I've been using Macs since the mid 1990s (the first Mac I used was an LC II with System 7.1 installed on it). I don't tend to *genuinely* think that the computing experience was better in the olden days — sure, there's a thing to be said about the simplicity of older software, but most of my fondness for those days is nostalgia. 
 
-For example, I have wonderful memories of finally getting a copy of [ClarisWorks](https://en.wikipedia.org/wiki/AppleWorks#AppleWorks_and_ClarisWorks_(Macintosh_and_Windows,_1991–2004)) and being able to do pixel-based image editing, which sparked a wonderful childhood "career" of tinkering with icons and various other bits and bobs in ResEdit.
+For example, I have wonderful memories of finally getting a copy of [ClarisWorks](https://en.wikipedia.org/wiki/AppleWorks#AppleWorks_and_ClarisWorks_(Macintosh_and_Windows,_1991–2004)) and being able to do pixel-based image editing, which sparked a wonderful childhood "career" of tinkering with icons and various other bits and bobs with that and ResEdit. The things you get do before code signing!
 
-However, I'm not going to sit here and tell you with a straight face that ClarisWorks on System 7 in the 1990s was better than using the myriad of tools we have available to us today. It's nostalgia for a simpler time — both in computing, and in my life.
+However, I'm not going to sit here and say with a straight face that ClarisWorks on System 7 in the 1990s was better than using the myriad of tools we have available to us today. It's nostalgia for a simpler time — both in computing, and in my life.
 
-An exception to that, however, is Apple's [Aperture](https://en.wikipedia.org/wiki/Aperture_(software)). I'm *still* grumpy that Apple discontinued it back in 2015, and I'm not alone. Start spending time in the online photography sphere and you'll start to notice a small but undeniable undercurrent of lament of its loss to this day. A comment thread underneath an article about Adobe hiking their subscription prices because they added AI to it… mostly complaining, but search and you'll find it: "I miss Aperture."
+An exception to that, however, is Apple's [Aperture](https://en.wikipedia.org/wiki/Aperture_(software)). I'm *still* grumpy that Apple discontinued it back in 2015, and I'm not alone. Start spending time in the online photography sphere and you'll start to notice a small but undeniable undercurrent of lament of its loss to this day. Find an article about Adobe hiking their subscription prices because they added AI for some reason, and amongst the complaining in the comments you'll invariably find it: *"I miss Aperture."*
 
 <img width="256" src="/pictures/aperture/aperture-icon.png" /> \\
 *Aperture's icon.*
@@ -31,7 +31,7 @@ A couple of things have happened recently that spurred me to actually write all 
 *When I took this screenshot, the first reply to the post was "I miss Aperture. \<long digital sigh\>".*
 {:.center}
 
-So, I dug out the 'ol Trashcan Mac Pro I [lovingly reviewed here on this very blog](https://ikennd.ac/blog/2014/07/mac-pro-review-developer-edition/) over eleven years ago and fired up Aperture to document *why* it was so special.
+So, I dug out the 'ol Trashcan Mac Pro I [lovingly reviewed here on this very blog](https://ikennd.ac/blog/2014/07/mac-pro-review-developer-edition/) over eleven years ago and fired up Aperture to document — at least partially — just *why* it was so special.
 
 <img width="600" src="/pictures/aperture/stack-o-macs.jpg" /> \\
 *The Mac Studio is a perfectly cromulent computer, but it just doesn't have the **verve** of the classics, you know?*
@@ -41,7 +41,7 @@ So, I dug out the 'ol Trashcan Mac Pro I [lovingly reviewed here on this very bl
 
 ### So, Why *Is* Aperture So Special?
 
-If you're not familiar with Aperture, it's an app for organising, managing, editing, and exporting images. If you're familiar with Apple's Photos app, it's that. But for professionals! I'm going to try my best to keep the grumpy rants about it going away at bay, and instead showcase its brilliance. Aperture is a *complex* app — its PDF user manual is over 900 pages long — so to keep this manageable I'll focus on one particular aspect of it via two short excerpts from said manual.
+If you're not familiar with Aperture, it's an app for organising, managing, editing, and exporting images. If you're familiar with Apple's Photos app, it's that. But for professionals! Aperture is a *complex* app — its PDF user manual is over 900 pages long — so to keep this manageable I'll focus on one particular aspect of it via two short excerpts from said manual.
 
 Two excerpts that hide an *astonishing* amount of engineering effort.
 
@@ -49,9 +49,9 @@ Let's look at our first excerpt:
 
 > To work efficiently in Aperture, you can use floating windows of controls called *heads-up displays (HUDs)* to modify images.
 
-This little sentence *extremely* succinctly describes how Aperture is different to most other software of its nature — it comes to *you*. Most software has you go to *it* to do things.
+This little sentence *extremely* succinctly describes how Aperture is different to most other software of its nature — *it* comes to *you*. Most software has *you* go to *it*.
 
-To understand what I mean, let's look at Photos. My brain works pretty spatially — I remember *where* I took a photo more than when. So, I pan around the map in Photos to find the cool photo of my car in the Alps that I want to edit and send to my friend. Here it is:
+To understand what I mean, let's look at the Photos app. My brain works pretty spatially — I remember *where* I took a photo more than when. So, I pan around the map in Photos to find the cool photo of my car in the Alps that I want to edit and send to my friend. Here it is:
 
 <img width="800" src="/pictures/aperture/photos1.png" />
 {:.center .no-border}
@@ -73,7 +73,7 @@ I click "Edit" in the top right of the window to switch into Photos' editing mod
 
 I perform my edits, then click "Done" to get back to the fullscreen viewer. Then I click "Back" to get back to the list of images. Then "Back" again, and I'm finally back at my map. Hooray! Oh wait, I forgot to export it…
 
-This sort of design is common in apps like Photos, especially in "shoebox" apps[^1]. Every feature is in its own place, and if you want to use that feature you need to pick up your thing (in this case, an image) and take it over to where the feature is. In this example, the journey from the map to the editor is through a separate list of images, the fullscreen viewer, then finally to the editor.
+This sort of design is common in apps like Photos, and especially in "shoebox" apps[^1]. Every feature is in its own place, and if you want to use that feature you need to pick up your thing (in this case, a photo) and take it over to where the feature is. In this example, the journey from the map to the editor is through a separate list of images, the fullscreen viewer, then finally to the editor.
 
 [^1]: "Shoebox" apps are apps that *contain* the content you use with them, as opposed to document-based apps which work with content you manage as a user. It's an extremely common design nowadays, but less so back then — early pioneers of the shoebox app were iPhoto, iMovie, etc.
 
@@ -81,11 +81,11 @@ In contrast, Aperture comes to *you*. As a reminder:
 
 > To work efficiently in Aperture, you can use floating windows of controls called *heads-up displays (HUDs)* to modify images.
 
-When Aperture says, this, it *really* means it. If you can select an image, you can edit it right where you are with that HUD.
+When Aperture says this, it *really* means it. If you can select an image, you can edit it right where you are with that HUD.
 
-Aperture's map (which by some miracle still works eleven years after it was discontinued) doesn't show the images *on* the map, but rather underneath it. It's less pretty, but combines the first two full-window views in the Photos example — the map on top, and the images in the visible map area underneath. Clicking a pin refines the selection of images.
+Aperture's map (which by some miracle still works eleven years after it was discontinued) doesn't show the images *on* the map, but rather underneath it. It's less pretty, but combines the first two steps of the journey in the Photos example — the map on top, and the images in the visible map area underneath. Clicking a pin refines the selection of images.
 
-Alight, let's find another photo of my car in the Alps.
+Alight, let's find another photo of my car in the Alps:
 
 <img width="800" src="/pictures/aperture/aperture1.png" />
 {:.center .no-border}
@@ -95,7 +95,7 @@ A Volvo stuck in the snow is less awesome than the previous photo, but oh well. 
 <img width="800" src="/pictures/aperture/aperture2.png" />
 {:.center .no-border}
 
-That was *incredibly* easy, and I didn't leave the map once. I need to export it now… and, of course, I can do that from right here on the map.
+That was *incredibly* easy, and I didn't even leave the map! I need to export it now… and, of course, I can do that from right here on the map too.
 
 <img width="800" src="/pictures/aperture/aperture3.png" />
 {:.center .no-border}
@@ -122,7 +122,7 @@ Oh, right! `H`, drag slider, done. Right on the book page.
 
 It's hard to overstate quite how revolutionary and smooth this flow is until you *had it for multiple years* before having it taken away. *Nothing* on the market — even over a decade later — is *this good* at meeting you where you are and not interrupting your flow.
 
-Especially that book example. My Lord. When Aperture was discontinued (well, when it stopped working) I moved over to Adobe Lightroom (now Lightroom Classic) which had separate *modules* for management, editing, and books — switching modules was *such* a slow and clunky processes, I swear nearly threw my computer out the window trying to colour match photos on a book page.
+Especially that book example. My Lord. When Aperture was discontinued (well, when it stopped working properly after an OS update or two) I moved over to Adobe Lightroom (now Lightroom Classic) which had separate *modules* for file management, editing, and books — switching modules was *such* a slow and clunky processes, I swear nearly threw my computer out the window trying to colour match photos on a book page.
 
 *It's OK, Daniel, you got rid of Lightroom years ago. It can't hurt you any more!*
 
@@ -159,7 +159,7 @@ It'd be easy to think this is just a screen zoom, or at least a window into a bi
 <img width="800" src="/pictures/aperture/loupe2.png" />
 {:.center .no-border}
 
-There's no *way* you'd keep a full-resolution image in memory for every thumbnail on screen, so this is another extremely impressive technical feat. Remember, this is over a decade ago, and Aperture's system requirements were a Mac with 2GB of RAM. A *single* 20MP image will consume somewhere in the region of 90-120MB of RAM[^3] once you're starting to display it.
+There's no *way* you'd keep a full-resolution image in memory for every thumbnail on screen, so this is another extremely impressive technical feat. Remember, this is over a decade ago, and Aperture's system requirements were a Mac with 2GB of RAM. Keeping a whole 20 megapixel image in memory will consume somewhere in the region of 90-120MB[^3] once you're starting to display it.
 
 [^3]: Maths: 20 million pixels at 12-16 bits per channel. Doesn't include overheads of getting from the encoded RAW to a GPU-ready pixel buffer.
 
@@ -180,13 +180,25 @@ From a software development perspective, it would be *insane* to have those page
 
 ### Conclusion
 
-We can take digs at modern software for a thousand reasons. macOS Tahoe marks a low point in the Mac's recent history. Bloated web-based apps embed almost an entire operating system within them (Slack, another easy target, is over 500MB), and feel slower than the computers we were using twenty years ago. The unique strengths of the various computing platforms we have access to get watered down as companies chase staffing efficiency in cross-platform deployments that hit the lowest common denominator, again in the pursuit of efficiency.
+These days, technological marvels in computing — if you'll forgive a gross generalisation — tend to be very flashy. Liquid Glass is a great example of that — it's very impressive what can be done with the engineering talent and computing power we have available to us today, and the effect *is* cool. However, my browser's UI refracting the webpage I'm reading as it scrolls by doesn't really *do* anything except look cool… when it isn't making things less readable.
 
-It's easy to dismiss these as the ramblings of the computing elders, since on average — as I mentioned a the top of this post — the computing experience *is* orders of magnitude better than it was back then.
+ <img width="800" src="/pictures/aperture/carplay.png" style="border-radius: 24px;" /> \\
+ *Notice how the Liquid Glass refraction effect makes it look — at first glance, at least — like we'll be making a sharp right after we turn left? Thanks, Liquid Glass!*
+ {:.center .no-border}
 
-Occasionally, however, something like Aperture comes along as a shining example of what can be done with the operating systems and hardware we have — we *had* over a decade ago — if you put a good amount of care and engineering talent in. It was incredible engineering effort shaped into genuinely unique and useful tools. It's one thing to build cool technology to edit and view images no matter where in an app you are, but it's another thing completely to mould that into something so seamless and logical that your users don't even notice that it's happening.
+Generative AI is another technology that falls into this "flashy" camp, but kinda at the other end of the scale. BEHOLD THE AI, FOR IT IS PRODUCING CONTENT. Very useful, very impressive, and is transforming a lot of industries. Just… ignore the wider societal and environmental concerns AS THE AI IS PRODUCING A FUNNY POEM. 
 
-Then, it gets taken away — with a final, cruel twist of the knife from Apple: "You can use the Photos app as a replacement!" — and everyone was grumpy forever.
+It's easy to dismiss criticisms of these kinds of technologies as the ramblings of an old man, since on average — as I mentioned a the top of this post — the computing experience *is* orders of magnitude better than it was back then.
+
+However, when it gets to the point where we as humans need to use our computers as tools to get stuff done, I think we *have* stagnated over the past few years. In preparation for this post I was excited to fire up Aperture and experience it again, but after less than ten minutes of using it I was getting grumpy — here I am, sitting at a thirteen-year old computer, and I'm flying through my photos faster than I ever do on modern machines. *Why* is this not possible now?
+
+Aperture's technical brilliance is remarkable in how *quiet* it is. There's no BEHOLD RAINBOW SPARKLE ANIMATIONS WHILE THE AI MAKES AUNT JANICE LOOK LIKE AN ANTHROPOMORPHISED CARROT, just an understated dedication to making the tool you're using work *for* you in exactly the way *you* want to work. 
+
+It's the kind of monumental engineering effort that the user is unlikely to ever notice, simply because of how obvious it is — if I want to zoom in to this photo, I point at it with the zoom thing. How else *would* it work?
+
+And *that* is why Aperture was so special. It was powered by some of the most impressive technology around at the time, but you'd never even know it because you were too busy *getting shit done*.
+
+And then, it was taken away — with a final, cruel twist of the knife from Apple: "You can use the Photos app as a replacement!" — and everyone was grumpy forever.
 
 ---
 
