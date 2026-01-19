@@ -4,6 +4,7 @@ author: "Daniel Kennett"
 layout: post
 title: "A Lament For Aperture, The App We'll Never Get Over Losing"
 created_at: 2026-01-19 20:30:00 +0100
+custom_og_image_path: "/pictures/aperture/aperture2.png"
 excerpt: "I'm an old Mac-head at heart, and I've been using Macs since the mid 1990s (the first Mac I used was an LC II with System 7.1 installed on it). I don't tend to think that the computing experience was better in the olden days — sure, there's a thing to be said about the simplicity of older software, but most of my fondness for those days is nostalgia. An exception to that, however, is Apple's Aperture."
 categories:
 - General
