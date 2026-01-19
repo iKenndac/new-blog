@@ -3,7 +3,7 @@ kind: article
 author: "Daniel Kennett"
 layout: post
 title: "A Lament For Aperture, The App We'll Never Get Over Losing"
-created_at: 2026-01-18 19:00:00 +0100
+created_at: 2026-01-19 20:30:00 +0100
 excerpt: "I'm an old Mac-head at heart, and I've been using Macs since the mid 1990s (the first Mac I used was an LC II with System 7.1 installed on it). I don't tend to think that the computing experience was better in the olden days — sure, there's a thing to be said about the simplicity of older software, but most of my fondness for those days is nostalgia. An exception to that, however, is Apple's Aperture."
 categories:
 - General
@@ -188,13 +188,13 @@ These days, technological marvels in computing — if you'll forgive a gross gen
 
 Generative AI is another technology that falls into this "flashy" camp, but kinda at the other end of the scale. BEHOLD THE AI, FOR IT IS PRODUCING CONTENT. Very useful, very impressive, and is transforming a lot of industries. Just… ignore the wider societal and environmental concerns AS THE AI IS PRODUCING A FUNNY POEM. 
 
-It's easy to dismiss criticisms of these kinds of technologies as the ramblings of an old man, since on average — as I mentioned a the top of this post — the computing experience *is* orders of magnitude better than it was back then.
+It's easy to dismiss criticisms of these kinds of technologies as the ramblings of an old man, since on average — as I mentioned at the top of this post — the computing experience *is* orders of magnitude better than it was back then.
 
-However, when it gets to the point where we as humans need to use our computers as tools to get stuff done, I think we *have* stagnated over the past few years. In preparation for this post I was excited to fire up Aperture and experience it again, but after less than ten minutes of using it I was getting grumpy — here I am, sitting at a thirteen-year old computer, and I'm flying through my photos faster than I ever do on modern machines. *Why* is this not possible now?
+However, when it gets to the point where we as humans need to use our computers as tools to get stuff done, I think we *have* stagnated over the past few years. When preparing for this post I was excited to fire up Aperture and experience it again, but after less than ten minutes of using it I was getting grumpy — here I am, sitting at a thirteen-year old computer, and I'm flying through my photos faster than I ever do on modern machines. *Why* is this not possible now?
 
 Aperture's technical brilliance is remarkable in how *quiet* it is. There's no BEHOLD RAINBOW SPARKLE ANIMATIONS WHILE THE AI MAKES AUNT JANICE LOOK LIKE AN ANTHROPOMORPHISED CARROT, just an understated dedication to making the tool you're using work *for* you in exactly the way *you* want to work. 
 
-It's the kind of monumental engineering effort that the user is unlikely to ever notice, simply because of how obvious it is — if I want to zoom in to this photo, I point at it with the zoom thing. How else *would* it work?
+It's the kind of monumental engineering effort that the user is unlikely to ever notice, simply because of how obvious it is to use — if I want to zoom in to this photo, I point at it with the zoom thing. Duh. Sure, it's a tiny thumbnail inside a small thumbnail of a page in a book… but how *else* would it work?
 
 And *that* is why Aperture was so special. It was powered by some of the most impressive technology around at the time, but you'd never even know it because you were too busy *getting shit done*.
 
