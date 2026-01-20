@@ -12,7 +12,7 @@ categories:
 
 I'm an old Mac-head at heart, and I've been using Macs since the mid 1990s (the first Mac I used was an LC II with System 7.1 installed on it). I don't tend to *genuinely* think that the computing experience was better in the olden days — sure, there's a thing to be said about the simplicity of older software, but most of my fondness for those days is nostalgia. 
 
-For example, I have wonderful memories of finally getting a copy of [ClarisWorks](https://en.wikipedia.org/wiki/AppleWorks#AppleWorks_and_ClarisWorks_(Macintosh_and_Windows,_1991–2004)) and being able to do pixel-based image editing, which sparked a wonderful childhood "career" of tinkering with icons and various other bits and bobs with that and ResEdit. The things you get do before code signing!
+For example, I have wonderful memories of finally getting a copy of [ClarisWorks](https://en.wikipedia.org/wiki/AppleWorks#AppleWorks_and_ClarisWorks_(Macintosh_and_Windows,_1991–2004)) and being able to do pixel-based image editing, which sparked a wonderful childhood "career" of tinkering with icons and various other bits and bobs with that and ResEdit. The things you could do before code signing!
 
 However, I'm not going to sit here and say with a straight face that ClarisWorks on System 7 in the 1990s was better than using the myriad of tools we have available to us today. It's nostalgia for a simpler time — both in computing, and in my life.
 
@@ -116,7 +116,7 @@ It'd be nice to have them consistent with each other on the page, but matching t
 Oh, right! `H`, drag slider, done. Right on the book page.
 
 <p>
-<video width="674" height="622" autoplay loop style="border-radius: 10px;" class="center">
+<video width="674" autoplay loop playsinline muted style="border-radius: 10px;" class="center">
   <source src="/pictures/aperture/bookedit.mp4" type="video/mp4">
 </video>
 </p>
