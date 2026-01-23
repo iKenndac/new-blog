@@ -82,6 +82,16 @@ div.header a.personal-link:visited {
 	color: black;
 }
 
+@media (prefers-color-scheme: dark) {
+	div.header a.personal-link {
+		color: white;
+	}
+	
+	div.header a.personal-link:visited {
+		color: white;
+	}
+}
+
 div.header p {
 	margin-top: 4px;
 }
