@@ -6,16 +6,16 @@
 		<description></description>
 		<language>en</language>
 		<item>
-			<title>23</title>
+			<title>26</title>
 			<sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
 			<sparkle:fullReleaseNotesLink>https://github.com/iKenndac/Keyhole/releases</sparkle:fullReleaseNotesLink>
-			<pubDate>Fri, 23 Jan 2026 15:00:00 +0100</pubDate>
-			<enclosure url="https://github.com/iKenndac/Keyhole/releases/download/1.0/Keyhole.zip" 
+			<pubDate>Fri, 23 Jan 2026 17:00:00 +0100</pubDate>
+			<enclosure url="https://github.com/iKenndac/Keyhole/releases/download/1.0.1/Keyhole.zip" 
 					   type="application/octet-stream" 
-			           length="10262078" 
-					   sparkle:version="23"
-					   sparkle:shortVersionString="1.0"
-					   sparkle:edSignature="xQ1RBu61FftuZCg7IZ1EjpAQYX0qmrfXceJP19I3ViyNicK3aJ3v4t+gvbktZ7q+QpJqNEHJp/tE7AVJW+u7DQ=="
+			           length="10263373" 
+					   sparkle:version="26"
+					   sparkle:shortVersionString="1.0.1"
+					   sparkle:edSignature="xeRYM8wvA87BZp0YZf3WS5Vpt1r2t/OP91M1xFWeCgEXZesUMC6T4LdUhB8+pYQ1TLwaUX6qXGk6tvIWubVpDw=="
 			/>
 		</item>
 	</channel>
