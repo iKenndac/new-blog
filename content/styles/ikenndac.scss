@@ -262,11 +262,26 @@ div.footnotes::before {
 	}
 }
 
+#header #nav b, strong {
+	color: white;
+}
+
 .container {
 	width: 50em;
 }
 
+@media screen and (min-width: 1201px) {
+	#header #nav li.hide-on-desktop {
+		display: none;
+	}
+}
+
 @media screen and (max-width: 1200px) {
+	
+	body {
+		background-color: $color-accent-bg;
+	}
+	
     #header {
         position: relative;
     }
@@ -311,6 +326,16 @@ div.footnotes::before {
 
 	#header #nav li.hide-on-mobile {
 		display: none;
+	}
+	
+	#header #nav li.stack-on-mobile {
+		display: block;
+		width: 100%;
+		margin: auto;
+		margin-top: 16px;
+		padding-top: 15px;
+		border-top: solid $size-border-width $color-header-border;
+		border-left: none;
 	}
 }
 

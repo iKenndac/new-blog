@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<title>Daniel Kennett - Keyhole</title>
+	<meta name="description" content="Take control of your Mac's media keys!">
+	<meta property="og:title" content="Daniel Kennett - Keyhole" />
+	<meta property="og:description" content="Take control of your Mac's media keys!" />
+	<meta property="og:image" content="http://ikennd.ac/keyhold/keyhole-og.png" />
+	<meta property="og:image:secure_url" content="https://ikennd.ac/keyhold/keyhole-og.png" />
+	<meta property="og:type" content="website" />
+	<meta name="viewport" content="initial-scale=1, width=device-width">
+	<link rel="stylesheet" href="reset.css" />
+	<link rel="stylesheet" href="keyhole.css" />
+</head>
+<body>
+
+<div class="header">
+<picture>
+	<source srcset="keyhole-light.png" media="(prefers-color-scheme: light)" alt="Keyhole's icon" />
+	<source srcset="keyhole-dark.png" media="(prefers-color-scheme: dark)" alt="Keyhole's icon" />
+	<img src="keyhole-light.png" alt="Keyhole's icon" width="256" />
+</picture>
+
+<h2>Keyhole</h2>
+<h3>by <a class="personal-link" href="https://ikennd.ac/">Daniel Kennett</a></h3>
+
+<p>Icon by <a href="https://matthewskiles.com">Matthew Skiles</a></p>
+
+<a class="download" href="https://github.com/iKenndac/Keyhole/releases/latest/download/Keyhole.zip">Download</a>
+<p class="subtitle">Requires macOS 15 or higher.</p>
+</div>
+<div class="content">
+<p>Have you ever been annoyed by your Mac's media keys triggering a random video in your web browser, doing something else weird, or by them doing… nothing? Even though your music player is <em>right there</em>?</p>
+
+<p>Me too! And so Keyhole was born.</p>
+	
+<p>Keyhole is modern, free, open-source app to keep your media keys under control — simply choose which media player you'd like your media keys to control, and… well, that's it. Your media keys will control that app. Simple!</p>
+
+<p>Keyhole currently supports Spotify and the Music app built into your Mac. Want more? Join in over at the <a href="https://github.com/iKenndac/Keyhole">project's GitHub repository</a>.</p>
+
+<picture>
+	<source srcset="screenshot.png" media="(prefers-color-scheme: light)" alt="Keyhole's settings UI" />
+	<source srcset="screenshot-dark.png" media="(prefers-color-scheme: dark)" alt="Keyhole's settings UI" />
+	<img class="main-screenshot" src="screenshot.png" alt="Keyhole's settings UI" width="384" />
+</picture>
+<p class="image-annotation">Keyhole's main settings UI.</p>
+
+<hr />
+
+<h3>FAQs &amp; Instructions</h3>
+
+<h4>What are Keyhole's system requirements?</h4>
+<p>Keyhole requires an Intel or Apple Silicon Mac running macOS 15 (Sequoia) or higher. The app is native on both Intel and Apple Silicon, and is fully up-to-date with modern Mac security practices — it's code signed, notarised, and sandboxed.</p>
+
+<h4>What if I have an older operating system?</h4>
+<p>I recommend using <a href="https://github.com/quentinlesceller/macmediakeyforwarder">MacMediaKeyForwarder</a> on older operating systems. In fact, it's what I was using until it stopped working properly on macOS Tahoe.</p>
+
+<h4>How much does Keyhole cost?</h4>
+<p>Keyhole is free and open-source.</p>
+
+<h4>How does Keyhole work?</h4>
+<p>Keyhole works by, basically, handling the media keys <em>first</em> before anything else has a chance to. It then, based on your settings, sends commands directly to your chosen media player.</p>
+
+<h4>What permissions does Keyhole need?</h4>
+<p>In order to work, Keyhole needs some permissions from macOS. It needs the Accessibility permission to be able to receive keypresses from the media keys, and it needs permission to automate the app(s) you want to control. Keyhole will let you know if any permissions are missing, and will walk you through getting them granted.</p>
+<p>When you first launch Keyhole, you'll be shown a full overview of the needed permissions as well as instructions on how to grant them. You can get back to that at any time by clicking the settings icon in Keyhole's settings panel, then choosing "Show Permission Doctor…".</p>
+
+<picture>
+	<source srcset="permisson-doctor.png" media="(prefers-color-scheme: light)" alt="Keyhole's permission doctor UI" />
+	<source srcset="permission-doctor-dark.png" media="(prefers-color-scheme: dark)" alt="Keyhole's permission doctor UI" />
+	<img class="screenshot-with-macos-shadow" src="permisson-doctor.png" alt="Keyhole's permission doctor UI" width="712" />
+</picture>
+
+<h4>How do I <em>know</em> that it's working?</h4>
+<p>If you click Keyhole's icon in the menu bar to show the settings panel, you should see a symbol corresponding to the key you pressed briefly appear at the top. If you see that symbol, the Accessibility permission has been granted to Keyhole and the app is working properly.</p>
+
+<picture>
+	<source srcset="with-key-indicator.png" media="(prefers-color-scheme: light)" alt="Keyhole's settings UI with the key indicator presentUI" />
+	<source srcset="with-key-indicator-dark.png" media="(prefers-color-scheme: dark)" alt="Keyhole's settings UI with the key indicator present" />
+	<img class="main-screenshot" src="with-key-indicator.png" alt="Keyhole's settings UI with the key indicator present" width="384" />
+</picture>
+
+<h4>How do I ask for support for a new media player, or give other feedback?</h4>
+<p>Head over to <a href="https://github.com/iKenndac/Keyhole">Keyhole's GitHub repository</a> and read the information there.</p>
+
+<h4>How do I get in touch with you directly?</h4>
+<p>The best place to do that is probably on Mastodon — I'm <a href="https://mastodon.social/@iKenndac">@iKenndac@mastodon.social</a> over there.</p>
+</div>
+<div class="footer">
+	<p><a href="https://ikennd.ac/">&copy; 2026 Daniel Kennett</a></p>
+</div>
+</body>
+</html>
+

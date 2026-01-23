@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+	<channel>
+		<title>Keyhole</title>
+		<link></link>
+		<description></description>
+		<language>en</language>
+		<item>
+			<title>23</title>
+			<sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+			<sparkle:fullReleaseNotesLink>https://github.com/iKenndac/Keyhole/releases</sparkle:fullReleaseNotesLink>
+			<pubDate>Fri, 23 Jan 2026 15:00:00 +0100</pubDate>
+			<enclosure url="https://github.com/iKenndac/Keyhole/releases/download/1.0/Keyhole.zip" 
+					   type="application/octet-stream" 
+			           length="10262078" 
+					   sparkle:version="23"
+					   sparkle:shortVersionString="1.0"
+					   sparkle:edSignature="xQ1RBu61FftuZCg7IZ1EjpAQYX0qmrfXceJP19I3ViyNicK3aJ3v4t+gvbktZ7q+QpJqNEHJp/tE7AVJW+u7DQ=="
+			/>
+		</item>
+	</channel>
+</rss>

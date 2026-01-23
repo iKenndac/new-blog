@@ -32,6 +32,14 @@ compile '/fonts/*/' do
   #Skip
 end
 
+compile '/keyhole/' do
+  #Skip
+end
+
+compile '/keyhole/*/**' do
+  #Skip
+end
+
 compile '/feed/*/' do
   filter :erb
 end
@@ -43,6 +51,8 @@ end
 compile '*' do
   if item[:extension] == 'css'
     # don’t filter stylesheets
+  elsif item[:extension] == 'xml'
+    # or xml
   elsif item[:extension] == 'md' || item[:extension] == 'markdown'
     filter :kramdown
     layout 'page'
@@ -80,6 +90,9 @@ route '*' do
   if item[:extension] == 'css'
     # Write item with identifier /foo/ to /foo.css
     item.identifier.chop + '.css'
+  elsif item[:extension] == 'xml'
+    # Write item with identifier /foo/ to /foo.xml
+  item.identifier.chop + '.xml'
   elsif item[:extension] == 'scss'
     # Skip!
   elsif item.binary?

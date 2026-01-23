@@ -216,7 +216,7 @@ A few months later, the official discontinuation announcement happened. I have n
 ### Further Reading
 
 - **[Aperture: Senior QA (2004-2005) by Chris Hynes](https://substack.techreflect.org/p/aperture-senior-qa-2004-2005)** \\
-While the *result* was amazing, the development process was… perhaps less so. This is a great read about Aperture's development.
+While the *result* was amazing, the development process was… perhaps less so. This is an interesting read about Aperture's development.
 
 - **[It's hard to justify Tahoe icons by Nikita Prokopov](https://tonsky.me/blog/tahoe-icons/)** \\
 A *great* look on why (amongst *many* other reasons) macOS Tahoe is being raked through the coals at the moment.
