@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Keyhole 1.1.1</title>
+</head>
+
+<style>
+	:root {
+		color-scheme: light dark;
+		--body-text-color: #282829;
+		--secondary-text-color: #666666;
+		--border-start-color: #ffffff;
+		--border-end-color: #f5f5f5;
+		--header-bottom-border-color: #d2d2d2;
+		--header-shadow-color: #f2f2f2;
+		--header-shadow-inner-color: #fbfbfb;
+	}
+	
+	@media (prefers-color-scheme: dark) {
+		:root {
+			--body-text-color: #eeeeee;
+			--secondary-text-color: #cccccc;
+			--border-start-color: #666666;
+			--border-end-color: #444444;
+			--header-bottom-border-color: #111111;
+			--header-shadow-color: #111111;
+			--header-shadow-inner-color: #111111;
+		}
+	}
+
+	html,
+	body {
+		padding  : 0;
+		margin   : 0;
+		color    : var(--body-text-color);
+		font     : 13px/20px "Helvetica Neue", Arial;
+		height   : 100%;
+		position : relative;
+	}
+
+	* {
+		-webkit-box-sizing : border-box;
+		box-sizing         : border-box;
+	}
+
+	body {
+		padding  : 0;
+		overflow : auto
+	}
+
+	.dm-rn-head-title,
+	.dm-rn-head-title-fixed {
+		background          : -webkit-linear-gradient(top, var(--border-start-color), var(--border-end-color));
+		background          : -moz-linear-gradient(top, #fff, #f5f5f5);
+		background          : linear-gradient(to bottom, var(--border-start-color), var(--border-end-color));
+		-ms-filter          : progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f5f5f5', GradientType=0);
+		filter              : progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f5f5f5', GradientType=0);
+		min-height          : 20px;
+		line-height         : 20px;
+		border-bottom       : 1px solid var(--header-bottom-border-color);
+		color               : var(--body-text-color);
+		font-weight         : 600;
+		background-repeat   : no-repeat;
+		background-position : 0 center;
+		padding             : 10px 20px 10px 20px;
+		margin              : 0;
+		width               : 100%;
+		-webkit-box-shadow  : 0 1px 1px var(--header-shadow-color), inset 0 -1px 0 var(--header-shadow-inner-color);
+		box-shadow          : 0 1px 1px var(--header-shadow-color), inset 0 -1px 0 var(--header-shadow-color);
+	}
+
+	.dm-rn-head-title-fixed {
+		top         : 0;
+		width       : 100%;
+		margin-left : 0px;
+		position    : fixed;
+	}
+
+	.dm-rn-head-title span,
+	.dm-rn-head-title-fixed span {
+		color : var(--secondary-text-color);
+	}
+
+	hr {
+		height     : 1px;
+		background : #d6d6d6;
+		border     : 0;
+		overflow   : hidden;
+		margin     : 30px 0;
+	}
+
+	.dm-rn-content {
+		padding : 10px 20px 20px 20px;
+	}
+
+</style>
+
+<body>
+
+<div class="dm-rn-head-title-fixed">Keyhole <span>1.1.1</span></div>
+<div class="dm-rn-head-title">Keyhole <span>1.1.1</span></div>
+
+<div class="dm-rn-content">
+
+<strong>Improvements</strong>
+
+<ul><li>Added support for <a href="https://radiccio.music/">Radiccio</a>.</li></ul>
+
+</div>
+
+</body>
+</html>
