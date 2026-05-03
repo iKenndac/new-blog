@@ -6,17 +6,17 @@
 		<description></description>
 		<language>en</language>
 		<item>
-			<title>44</title>
+			<title>51</title>
 			<sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-			<sparkle:releaseNotesLink>https://ikennd.ac/keyhole/updates/44.html</sparkle:releaseNotesLink>
+			<sparkle:releaseNotesLink>https://ikennd.ac/keyhole/updates/51.html</sparkle:releaseNotesLink>
 			<sparkle:fullReleaseNotesLink>https://github.com/iKenndac/Keyhole/releases</sparkle:fullReleaseNotesLink>
-			<pubDate>Mon, 09 Feb 2026 17:10:00 +0100</pubDate>
-			<enclosure url="https://github.com/iKenndac/Keyhole/releases/download/1.1.1/Keyhole.zip" 
+			<pubDate>Sun, 03 May 2026 14:00:00 +0200</pubDate>
+			<enclosure url="https://github.com/iKenndac/Keyhole/releases/download/1.2/Keyhole.zip" 
 					   type="application/octet-stream" 
-			           length="10311964" 
-					   sparkle:version="44"
-					   sparkle:shortVersionString="1.1.1"
-					   sparkle:edSignature="IaXsbqEyml7yloMfmpkRmTpQKtq4YXUW4AXzYrLcuaxu8Ovp3jy1kHbQLnlUs2Y7qgcGIOJ5y3oBzdte7+MFAg=="
+			           length="10353674" 
+					   sparkle:version="51"
+					   sparkle:shortVersionString="1.2"
+					   sparkle:edSignature="n4VSX31ApL0L3DKY0Ie6mzZ7OKSPZoAAwXVERH7IKxSWcAe1+8g4Syc4sFCdlA8ZFovPtFj+QMCCzeUWMExwAw=="
 			/>
 		</item>
 	</channel>
