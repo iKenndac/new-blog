@@ -51,6 +51,8 @@ end
 compile '*' do
   if item[:extension] == 'css'
     # don’t filter stylesheets
+  elsif item[:extension] == 'js'
+    # or javascript
   elsif item[:extension] == 'xml'
     # or xml
   elsif item[:extension] == 'md' || item[:extension] == 'markdown'
@@ -94,6 +96,9 @@ route '*' do
   if item[:extension] == 'css'
     # Write item with identifier /foo/ to /foo.css
     item.identifier.chop + '.css'
+  elsif item[:extension] == 'js'
+    # Write item with identifier /foo/ to /foo.js
+    item.identifier.chop + '.js'
   elsif item[:extension] == 'xml'
     # Write item with identifier /foo/ to /foo.xml
   item.identifier.chop + '.xml'

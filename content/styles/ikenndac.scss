@@ -54,6 +54,31 @@ li.archive-post {
 	font-size: 1.5em;
 }
 
+.encrypted-content {
+	overflow-wrap: break-word;
+}
+
+input[type="submit"] {
+	background-color: $color-accent-bg;
+}
+
+.decrypt-input-form {
+	text-align: center;
+}
+
+.decrypt-input-form input[type="text"] {
+	display: inline;
+	width: 80%;
+}
+
+@media screen and (max-width: 960px) {
+	.decrypt-input-form input[type="text"] {
+		display: inline;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
+
 article p > a {
 	border-bottom: none;
 	color: inherit;
