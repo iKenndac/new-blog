@@ -3,7 +3,7 @@ kind: article
 author: "Daniel Kennett"
 layout: post
 title: "Technology That Brings Me Joy"
-created_at: 2026-11-09 15:00:00 +0100
+created_at: 2026-11-09 16:00:00 +0100
 custom_og_image_path: "/pictures/tech-that-brings-me-joy/walkman.jpg"
 excerpt: "I've long-considered doing a 'Real Setup Tour' sort of post, eschewing the impossibly clean, tidy, cable-less desks you tend to see in those for a more, er, realistic showing of the work setup I have here. However, once you shovel your way through the iPod parts, cables, and failed 3D printing prototypes I have on my desk, I don't really have anything that interesting to show. However, as time inexorably turns me into an old man, I feel like I've been getting better at buying things that bring me joy in a long-term way that the fleeting happiness of a slightly faster iPhone can't begin to match — several of these items are multiple years old, yet they make me smile every time I use them. That, I think, has the potential to be something interesting to share."
 categories:
@@ -254,7 +254,7 @@ I actually have two 3D printers — a Bambu Lab P1S (a normal printer) and a Bam
 
 Similarly to the guitars, this makes the list less because of the bike *itself* (although also like the guitars, I do love my bike and am very protective of it), but more about the journeys it takes me on. I've struggled with fitness and mental health here and there over the years, and going off road, out in the countryside, helps with both in absolute spades.
 
-I've had a lot of meaningful moments on a mountain bike. Between summiting an actual mountain for the first time after a [really bad time dealing with my sense of self](/blog/2023/01/identity-crisis/), or going on a five-hour, take-a-meal-with-you ride up a different mountain to my Mother's final resting place which you can *barely* get to with a 4x4, or — on the other side of the emotional coin — the sheer joy of the silliness of riding around the Nürburgring on one, or completing a mountain biking race (first in my age category!), mountain biking is a very joyful (and sometimes cathartic) pastime for me.
+I've had a lot of meaningful moments on a mountain bike. Between summiting an actual mountain for the first time after a [really bad time dealing with my sense of self](/blog/2023/01/identity-crisis/), or going on a five-hour, take-a-meal-with-you ride up a different mountain to my Mother's final resting place which you can *barely* get to with a 4x4, or — on the other side of the emotional coin — the sheer joy of the silliness of riding around the Nürburgring on one, or completing a mountain biking race (placing first in my age category!), mountain biking is a very joyful (and sometimes cathartic) pastime for me.
 
 <img src="/pictures/tech-that-brings-me-joy/combechauvre.jpg"> \\
 *My Mother's final resting place is **extremely** difficult to get to by car.*
